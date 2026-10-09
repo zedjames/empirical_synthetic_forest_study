@@ -1,10 +1,10 @@
 # Public artifact status and scope
 
-## Current state: metadata and provenance landing published; scientific source under disclosure review
+## Current state: private scientific replay certified; public source release not yet uploaded
 
 This repository currently provides a public and citable landing page, manuscript identifier, source-data retrieval references, methodological evidence map, and the review contract for the future executable source package. **A full independent scientific reproduction is not yet possible from this repository alone.**
 
-The private research repository remains private. The HFD-05 and HFD-06 isolated scientific packages exist in a separately controlled research environment. Their recorded internal test passes are evidence of internal verification, not proof that a public reader has reproduced them.
+The private research repository remains private. The HFD-05 and HFD-06 isolated scientific packages exist in a separately controlled research environment. The private scientific reproducibility record has been independently certified: 24/24 exact ARM scientific stages, 69/69 evidence checksums, and closure of all three historical mismatch investigations. See [scientific verification](SCIENTIFIC_VERIFICATION.md). This does not yet establish reproduction by a public reader from the source and evidence packages.
 
 ## Scientific export requirements
 
