@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "For the scientific findings cite the Paper V DOI. When a separately frozen computational artifact is available, cite its public commit or release as well."
+title: "Prospective Health under Declared Specifications: An Auditable Empirical-Synthetic Forest Measurement Study"
+authors:
+  - family-names: James
+    given-names: Zed
+url: "https://github.com/zedjames/empirical_synthetic_forest_study"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23268987"
+    description: "Paper DOI; not a DOI for the executable source artifact"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: James
+      given-names: Zed
+  title: "Prospective Health under Declared Specifications: An Auditable Empirical-Synthetic Forest Measurement Study"
+  year: 2026
+  doi: "10.5281/zenodo.23268987"

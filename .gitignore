@@ -1,0 +1,23 @@
+# External research data are retrieved and verified; never committed
+**/.cache/
+**/.inputs/
+data/raw/
+data/cache/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+*.zip
+*.tar
+*.tar.gz
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.p12

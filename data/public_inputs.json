@@ -1,0 +1,31 @@
+{
+  "description": "Four publisher-hosted HF253 input files from the independently reviewed Paper V release candidate; retrieve, verify, and keep out of git.",
+  "source_dataset": "HF253 v6",
+  "dataset_doi": "10.6073/pasta/818789a882a318c1d7f3fc43a2289e12",
+  "sources": [
+    {
+      "id": "HF253-E0",
+      "sha256": "1f788262ff77ba5bb24394d6674914962cd393438680c16e9d6eecba3be864cb",
+      "url": "https://harvardforest1.fas.harvard.edu/data/p25/hf253/hf253-05-stems-2014.csv",
+      "original_target": "research/health_formally_defined/harvard_forest/HFD01/.cache/HF253-E0.1f788262ff77ba5b.csv"
+    },
+    {
+      "id": "HF253-E1",
+      "sha256": "bb48448b8a2cd920fcac7df21a352a0c70174652f11d76423b03770a565ce2e7",
+      "url": "https://harvardforest1.fas.harvard.edu/data/p25/hf253/hf253-06-stems-2019.csv",
+      "original_target": "research/health_formally_defined/harvard_forest/HFD01/.cache/HF253-E1.bb48448b8a2cd920.csv"
+    },
+    {
+      "id": "HF253-trees-2014",
+      "sha256": "ebe5932c1d41b12377a08b849b00d04f7b65581c1cb27f4d00a8519648a12bc7",
+      "url": "https://harvardforest.fas.harvard.edu/data/p25/hf253/hf253-04-trees-2014.csv",
+      "original_target": "research/health_formally_defined/harvard_forest/HFD03/.inputs/hf253-04-trees-2014.csv"
+    },
+    {
+      "id": "HF253-species-codes",
+      "sha256": "cd18a6a72e6434cfa70830d6fdbc70549307a3b54119a96475e3cf4a12a3fa5e",
+      "url": "https://harvardforest.fas.harvard.edu/data/p25/hf253/hf253-02-species-codes.csv",
+      "original_target": "research/health_formally_defined/harvard_forest/HFD03/.inputs/hf253-02-species-codes.csv"
+    }
+  ]
+}
