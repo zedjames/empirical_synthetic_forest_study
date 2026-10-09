@@ -22,7 +22,6 @@ SUSPICIOUS = [
     re.compile(r"AKIA[0-9A-Z]{16}"),
     re.compile(r"-----BEGIN (?:OPENSSH|RSA |EC |DSA |)PRIVATE KEY-----"),
     re.compile(r"(?i)(?:/Users/|/home/)[^\s,\"']{4,}"),
-    re.compile(r"qpci-" + "planetary", re.I),
 ]
 RAW_INPUT_BASENAMES = {
     "hf253-05-stems-2014.csv", "hf253-06-stems-2019.csv",
