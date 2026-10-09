@@ -12,11 +12,11 @@ The source export is **deny-by-default**. It may include only explicitly authori
 
 The authorized release should provide: exact source modules and configuration, environment pin, seed/config manifests, independent numerical checkers, source input URLs and SHA-256 hashes, published numeric outputs and their checksums, and an independently runnable package for principal results.
 
-The intended source candidates were previously internally audited. Their inclusion inventories mark authored scientific code **not authorized for source redistribution pending owner decisions on license and disclosure**. That status remains controlling until the explicit source-review gate is completed. CC0 permissions for externally published field data do not license private research software.
+The repository's [licensing policy](../LICENSE.md) now follows the RMMO split: **CC BY-NC-ND 4.0** for manuscripts, documentation, figures and original derived tables; **PolyForm Noncommercial 1.0.0** for published project-authored executable code and workflow helpers. The intended source candidates were previously internally audited. Their inclusion inventories mark private authored scientific code **not authorized for source redistribution pending file-level owner disclosure decisions**. Selecting the public license does not override that status. The explicit file-review gate remains controlling. CC0 permissions for externally published field data do not license private research software.
 
 ## Release gates
 
-1. Owner approves the public file allowlist, software license and exclusions.
+1. Owner approves the public file allowlist, use of the documented PolyForm Noncommercial 1.0.0 terms for the approved scientific source, and exclusions.
 2. Static checks reject credentials, private research paths, unreviewed private dependencies and disallowed files. This is an additional safeguard, not a replacement for human review.
 3. A clean-room replay operates using only the intended public artifact and documented external public inputs.
 4. Public release contents and hashes are independently checked against the audited manifest.

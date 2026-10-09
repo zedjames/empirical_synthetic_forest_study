@@ -21,6 +21,7 @@ Selected results include identification limits for census-derived recruitment, p
 ## Navigate
 
 - [Citation and manuscript identity](CITATION.cff)
+- [Licensing by material type](LICENSE.md)
 - [Reproducibility contract](docs/REPRODUCIBILITY.md)
 - [Public-source provenance and licenses](docs/DATA_SOURCES.md)
 - [Scientific evidence index](docs/EVIDENCE_MAP.md)
@@ -29,6 +30,6 @@ Selected results include identification limits for census-derived recruitment, p
 
 ## Licensing
 
-The **paper** identifies a CC BY-NC-ND 4.0 license. An independently reviewed license for the *scientific executable source* will accompany the authorized code release. The paper's license must not be assumed to authorize redistribution or adaptation of third-party data, scientific software, or private research files.
+As in the public RMMO research series, [LICENSE.md](LICENSE.md) specifies **CC BY-NC-ND 4.0** for the manuscript, documentation, figures, and original derived result tables, and **PolyForm Noncommercial 1.0.0** for released paper-specific executable scientific code and repository build/audit helpers. Third-party materials retain their own terms. Publication of private scientific files is still contingent on explicit file-level disclosure approval and a clean isolated replay.
 
 Cite the **paper DOI** above for the scientific findings. A persistent artifact version/commit should be cited separately after the executable scientific package is released and verified.
