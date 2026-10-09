@@ -1,0 +1,9 @@
+{
+ "id":"HFD05-LOCAL-EXTREME-PRECISION-001",
+ "selection":"From complete primary_surface.csv, for R3 and R4 independently identify the global maximum local absolute target-capacity delta. Sort attaining semantic rows lexicographically by scenario,horizon,alpha,beta,tau,query,rho,theta. In that order, select first8 distinct physical(state,parameter replicate,model variant,scenario) units attaining the maximum, in original array order. Retain the first attaining semantic row per unit. This is adverse targeted diagnosis, not a representative sample or favorable pruning.",
+ "prefixes":[256,1024,4096],"chunk":256,
+ "comparisons":["ORIGINAL","INDIVIDUAL_ORIGINAL_GAMMA","INDIVIDUAL_CORRECTED_GAMMA"],
+ "state_and_parameter_randomness":"Original frozen primary seeds; controlled individual_state(0,state), no refit",
+ "future_randomness":"Independent new corrected_future(100,selection_index,chunk), shared initial identity but state-dependent consumption explicitly non-pathwise coupling",
+ "uncertainty":"Single Wilson95 per Health constraint. A conservative marginal difference bracket can use two97.5 intervals for TWO distinct laws, not two redundant Q2 constraints. No uniform state-space robustness or ecological attribution claim."
+}

@@ -1,0 +1,11 @@
+{
+  "fitted_distribution_sha256": "2fb9617f1bdd5fa940542a14b78a3fa00783493d9b66d561409f3a04b1da731f",
+  "full_Health_validation": false,
+  "individual_events_generated": 5656018944,
+  "marginal_independence_not_assumed": true,
+  "no_external_refit": true,
+  "public_forecast": false,
+  "replicates": 262144,
+  "scope": "STRICT matched2021 adult survivors, cumulative2024, fixed3year July anniversary",
+  "status": "COMPLETE"
+}

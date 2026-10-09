@@ -1,0 +1,13 @@
+{
+  "artifact_manifest_sha256": "aaa55f8714c91d1291e5a0ea26332245ddf50eeab625fbd7ebde8ac4f778e991",
+  "exit_code": 1,
+  "observed_runtime_seconds": 623.25631975,
+  "private_raw_or_git_used": false,
+  "public_inputs_sha256": "6f6b8ff8383548623375261f8fc25d52e94db00441b16f7ce7c4d1f9eb62de7b",
+  "scientific_sources_package_only": true,
+  "source_sha256": "94519475f9f4ef04b7233fc69a40aaa46580e96b57efb379b3607d2cb2905ac6",
+  "stage": "oracle",
+  "status": "FAIL",
+  "stderr": "Traceback (most recent call last):\n  File \"review_package/research/health_formally_defined/harvard_forest/HFD05/release/candidate/hfd05_runner.py\", line 116, in <module>\n    else:tier3(a.stage)\n  File \"review_package/research/health_formally_defined/harvard_forest/HFD05/release/candidate/hfd05_runner.py\", line 101, in tier3\n    import h05_oracle as a;a.generate();a.analyze()\n  File \"review_package/research/health_formally_defined/harvard_forest/HFD05/release/candidate/research/health_formally_defined/harvard_forest/HFD05/scripts/h05_oracle.py\", line 67, in analyze\n    h.guard(\"oracle\");from h04_analysis import score,signed_region\n  File \"review_package/research/health_formally_defined/harvard_forest/HFD05/release/candidate/hfd05_runner.py\", line 30, in phase_guard\n    audit();record=json.loads((FIVE/'provenance'/(phase+'_registration.json')).read_text())\n  File \"review_package/research/health_formally_defined/harvard_forest/HFD05/release/candidate/hfd05_runner.py\", line 19, in audit\n    raise ValueError('Unlisted export '+name)\nValueError: Unlisted export research/health_formally_defined/harvard_forest/HFD05/corrected_pipeline/reference_counts_partial.csv\n",
+  "stdout": "Original oracle world 0 of 81\nOriginal oracle world 3 of 81\nOriginal oracle world 6 of 81\nOriginal oracle world 9 of 81\nOriginal oracle world 12 of 81\nOriginal oracle world 15 of 81\nOriginal oracle world 18 of 81\nOriginal oracle world 21 of 81\nOriginal oracle world 24 of 81\nOriginal oracle world 27 of 81\nOriginal oracle world 30 of 81\nOriginal oracle world 33 of 81\nOriginal oracle world 36 of 81\nOriginal oracle world 39 of 81\nOriginal oracle world 42 of 81\nOriginal oracle world 45 of 81\nOriginal oracle world 48 of 81\nOriginal oracle world 51 of 81\nOriginal oracle world 54 of 81\nOriginal oracle world 57 of 81\nOriginal oracle world 60 of 81\nOriginal oracle world 63 of 81\nOriginal oracle world 66 of 81\nOriginal oracle world 69 of 81\nOriginal oracle world 72 of 81\nOriginal oracle world 75 of 81\nOriginal oracle world 78 of 81\n"
+}

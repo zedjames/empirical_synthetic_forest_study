@@ -1,0 +1,4 @@
+state,scenario,variant,horizon,beta,rho,theta,K,coarse_present,fine_present,coarse_nv,fine_nv,coarse_nr,fine_nr,coarse_Health,fine_Health,coarse_status,fine_status,change_class,viable_change,reserve_change,coarse_reserve_given_viable,fine_reserve_given_viable,explanation,original_change_class_is_causal
+8,D3,gamma_growth,5,0.4,0.5,0.75,256,True,True,256,189,256,189,True,False,TRUE,MC_UNRESOLVED,COMBINED,-0.26171875,-0.26171875,1.0,1.0,CONTINUATION_DRIVEN,False
+8,D3,gamma_growth,5,0.4,0.5,0.9,256,True,True,256,189,256,189,True,False,TRUE,FALSE,COMBINED,-0.26171875,-0.26171875,1.0,1.0,CONTINUATION_DRIVEN,False
+8,D3,normal_growth,5,0.4,0.5,0.9,256,True,True,256,198,256,198,True,False,TRUE,FALSE,COMBINED,-0.2265625,-0.2265625,1.0,1.0,CONTINUATION_DRIVEN,False

@@ -1,0 +1,65 @@
+[
+  {
+    "ARM_actual_sha256": "0c4df035902e9b38695bc426b9345594d0556df74a7834591a7ab1e11d43b5f5",
+    "frozen_sha256": "0c4df035902e9b38695bc426b9345594d0556df74a7834591a7ab1e11d43b5f5",
+    "path": "research/health_formally_defined/harvard_forest/HFD06/checks/predictive.json",
+    "prior_Intel_sha256": "5455cd330ee9189b6d1a6b278c7a94d546445489c0671a2ec5e883b7e154626c",
+    "verdict": "EXACT"
+  },
+  {
+    "ARM_actual_sha256": "547e7e8d6b95ff7dd412df7168aaf92790288e3e0c23028e781da3e80560365e",
+    "frozen_sha256": "547e7e8d6b95ff7dd412df7168aaf92790288e3e0c23028e781da3e80560365e",
+    "path": "research/health_formally_defined/harvard_forest/HFD06/checks/predictive_independent.csv",
+    "prior_Intel_sha256": "8f3a047a3bc7ab961e65a384b959939ec7884c06ac313c71cd9c2f00b50abace",
+    "verdict": "EXACT"
+  },
+  {
+    "ARM_actual_sha256": "027c1c1e083891765755f18498eb768298d7dfb2ebb433e823b44ee3b31f7042",
+    "frozen_sha256": "027c1c1e083891765755f18498eb768298d7dfb2ebb433e823b44ee3b31f7042",
+    "path": "research/health_formally_defined/harvard_forest/HFD06/checks/predictive_pmf_direct.csv",
+    "prior_Intel_sha256": "5b688843eb32aa4cf7a645f0d6497dbac4b9210ea17b68ee1cbf68ff5fcbfd83",
+    "verdict": "EXACT"
+  },
+  {
+    "ARM_actual_sha256": "3e9e9df5c913f345a5b8869e1451f572e7f86ee508e301b1edc2a78f403eb2bc",
+    "frozen_sha256": "3e9e9df5c913f345a5b8869e1451f572e7f86ee508e301b1edc2a78f403eb2bc",
+    "path": "research/health_formally_defined/harvard_forest/HFD06/checks/rare_tail_precision.csv",
+    "prior_Intel_sha256": "ff725fd6643a23b63b8916fd301ad4d031dd704983469ee263a77a3ad53c377a",
+    "verdict": "EXACT"
+  },
+  {
+    "ARM_actual_sha256": "486e4e33259f89c24d27a206698c5ae7573b7f70efafe1541beee8293a2147dc",
+    "frozen_sha256": "486e4e33259f89c24d27a206698c5ae7573b7f70efafe1541beee8293a2147dc",
+    "path": "research/health_formally_defined/harvard_forest/HFD06/mortality/cell_census.csv",
+    "prior_Intel_sha256": "e339b58e2af97c55182529deba395701a8beb28e62cc3a1df2cc7cf9112447a8",
+    "verdict": "EXACT"
+  },
+  {
+    "ARM_actual_sha256": "584399f65c6ea8765c840231b0d3a975824ed8c9a88f73eb083c7a969d3d4c32",
+    "frozen_sha256": "584399f65c6ea8765c840231b0d3a975824ed8c9a88f73eb083c7a969d3d4c32",
+    "path": "research/health_formally_defined/harvard_forest/HFD06/mortality/final_predictive_summary.csv",
+    "prior_Intel_sha256": "c51e12f417ca799ffc1ab45449beaeda5a06a4e6a2d3db8db606c5ff5e8fd96a",
+    "verdict": "EXACT"
+  },
+  {
+    "ARM_actual_sha256": "3404eaf5fc955e848542e309dbc9498856e7bee5fd5a2e8bf40eb352f6d7ee94",
+    "frozen_sha256": "3404eaf5fc955e848542e309dbc9498856e7bee5fd5a2e8bf40eb352f6d7ee94",
+    "path": "research/health_formally_defined/harvard_forest/HFD06/mortality/predictive_pmf.csv",
+    "prior_Intel_sha256": "07dbeef12daa19874631800401cf6d81d98c6e3868bc4bcb26f04528f62a7013",
+    "verdict": "EXACT"
+  },
+  {
+    "ARM_actual_sha256": "7e453ec377feda951d1b23225e365e745eaaa57e95dc49774e1f8e5b02b83a67",
+    "frozen_sha256": "7e453ec377feda951d1b23225e365e745eaaa57e95dc49774e1f8e5b02b83a67",
+    "path": "research/health_formally_defined/harvard_forest/HFD06/mortality/predictive_summary.csv",
+    "prior_Intel_sha256": "9f41483ba5859884615dbcd5d036ff2d27cf1a2ca1f3a242c07e758f9e4e2a00",
+    "verdict": "EXACT"
+  },
+  {
+    "ARM_actual_sha256": "d5ff6b176c042f5de7e0cc9d130ed14753a3f65c9e1885c405d1ddfc2fadb3a8",
+    "frozen_sha256": "d5ff6b176c042f5de7e0cc9d130ed14753a3f65c9e1885c405d1ddfc2fadb3a8",
+    "path": "research/health_formally_defined/harvard_forest/HFD06/mortality/variance_decomposition.csv",
+    "prior_Intel_sha256": "7ce6179bdb78b92a9856a2ce4705e085f36a1cefec9ed95680caffc86c14fc53",
+    "verdict": "EXACT"
+  }
+]

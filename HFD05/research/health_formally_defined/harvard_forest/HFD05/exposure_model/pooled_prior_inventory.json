@@ -1,0 +1,10 @@
+{
+  "corrected_fit_same": true,
+  "max": 9.486652977412732,
+  "mean": 7.812158091544051,
+  "min": 5.25119780971937,
+  "n": 69158,
+  "operation": "Approximate pooled prior center only; original individual-duration likelihood retained",
+  "pooled_hazard": 0.032561855727693545,
+  "variance": 0.10685395176722698
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "actual_header": [
+      "StemTag",
+      "year",
+      "status",
+      "CP",
+      "PercCI",
+      "PercCL",
+      "lean",
+      "FAD",
+      "wound",
+      "canker",
+      "rot",
+      "Lianas",
+      "DWR",
+      "Notes"
+    ],
+    "biological_scores_computed": false,
+    "dataset": "HF453",
+    "explicit_aliases": {
+      "lean": "Lean"
+    },
+    "field_support": {
+      "status": {
+        "": 1,
+        "A": 41499,
+        "AU": 42904,
+        "DC": 14994,
+        "DN": 903,
+        "DS": 22931
+      },
+      "year": {
+        "2021": 30808,
+        "2022": 30808,
+        "2023": 30808,
+        "2024": 30808
+      }
+    },
+    "first_outcome_inspection_after_protocol_commit": "35c4c384ad",
+    "model_fitting": false,
+    "name": "hf453-01-tree-census-2021-2024.csv",
+    "parser_amendments": [
+      "Lossless byte mapping",
+      "Exact metadata header aliases"
+    ],
+    "rows": 123232,
+    "schema": [
+      "StemTag",
+      "year",
+      "status",
+      "CP",
+      "PercCI",
+      "PercCL",
+      "Lean",
+      "FAD",
+      "wound",
+      "canker",
+      "rot",
+      "Lianas",
+      "DWR",
+      "Notes"
+    ],
+    "source_sha256": "0b5fd6072fc5a5b5a315dca4609e3023a85430e5e24a96a2cfa3307a0d431e74"
+  },
+  {
+    "actual_header": [
+      "taxonCode",
+      "latin",
+      "genus",
+      "species",
+      "family",
+      "authority",
+      "IDLevel",
+      "synonyms"
+    ],
+    "biological_scores_computed": false,
+    "dataset": "HF355",
+    "explicit_aliases": {},
+    "field_support": {},
+    "first_outcome_inspection_after_protocol_commit": "35c4c384ad",
+    "model_fitting": false,
+    "name": "hf355-01-taxa-codes.csv",
+    "parser_amendments": [
+      "Lossless byte mapping",
+      "Exact metadata header aliases"
+    ],
+    "rows": 84,
+    "schema": [
+      "taxonCode",
+      "latin",
+      "genus",
+      "species",
+      "family",
+      "authority",
+      "IDLevel",
+      "synonyms"
+    ],
+    "source_sha256": "6abd27dde805267ab50509baea970f67f166ff01c0cbc140e21b6bbe5caf2b21"
+  },
+  {
+    "actual_header": [
+      "coordinate",
+      "color",
+      "tag",
+      "taxonCode",
+      "yrFirstObs",
+      "trueRecrt",
+      "seedlingID",
+      "flag",
+      "status",
+      "otherTagInfo",
+      "yearOfOb",
+      "alive",
+      "collector",
+      "height",
+      "date",
+      "sampled",
+      "notes"
+    ],
+    "biological_scores_computed": false,
+    "dataset": "HF355",
+    "explicit_aliases": {},
+    "field_support": {
+      "alive": {
+        "MISS": 1205,
+        "N": 8367,
+        "NA": 14684,
+        "Y": 11739
+      },
+      "flag": {
+        "0": 34850,
+        "1": 1145
+      },
+      "sampled": {
+        "0": 14654,
+        "1": 21341
+      },
+      "status": {
+        "ID": 5,
+        "IH": 25,
+        "VA": 14900,
+        "VG": 5,
+        "VI": 21060
+      },
+      "trueRecrt": {
+        "0": 11345,
+        "1": 24650
+      }
+    },
+    "first_outcome_inspection_after_protocol_commit": "35c4c384ad",
+    "model_fitting": false,
+    "name": "hf355-02-seedlings.csv",
+    "parser_amendments": [
+      "Lossless byte mapping",
+      "Exact metadata header aliases"
+    ],
+    "rows": 35995,
+    "schema": [
+      "coordinate",
+      "color",
+      "tag",
+      "taxonCode",
+      "yrFirstObs",
+      "trueRecrt",
+      "seedlingID",
+      "flag",
+      "status",
+      "otherTagInfo",
+      "yearOfOb",
+      "alive",
+      "collector",
+      "height",
+      "date",
+      "sampled",
+      "notes"
+    ],
+    "source_sha256": "86d67d17652022cb0e5bd26640f3e683d719d8656270c80ff2b5de63c07e1e0c"
+  },
+  {
+    "actual_header": [
+      "file_name",
+      "year",
+      "analysis_date_time",
+      "acquisition_date_time",
+      "plot",
+      "included_individuals",
+      "gap_fraction",
+      "openness",
+      "ppfd_directoverperday_mj_m2day",
+      "ppfd_diffuseoverperday_mj_m2day",
+      "ppfd_totaloverperday_mj_m2day",
+      "ppfd_directunderperday_mj_m2day",
+      "ppfd_diffuseunderperday_mj_m2day",
+      "ppfd_totalunderperday_mj_m2day",
+      "comments"
+    ],
+    "biological_scores_computed": false,
+    "dataset": "HF355",
+    "explicit_aliases": {
+      "acquisition_date_time": "datetime"
+    },
+    "field_support": {
+      "year": {
+        "2017": 50,
+        "2018": 178
+      }
+    },
+    "first_outcome_inspection_after_protocol_commit": "35c4c384ad",
+    "model_fitting": false,
+    "name": "hf355-05-canopy.csv",
+    "parser_amendments": [
+      "Lossless byte mapping",
+      "Exact metadata header aliases"
+    ],
+    "rows": 228,
+    "schema": [
+      "file_name",
+      "year",
+      "analysis_date_time",
+      "datetime",
+      "plot",
+      "included_individuals",
+      "gap_fraction",
+      "openness",
+      "ppfd_directoverperday_mj_m2day",
+      "ppfd_diffuseoverperday_mj_m2day",
+      "ppfd_totaloverperday_mj_m2day",
+      "ppfd_directunderperday_mj_m2day",
+      "ppfd_diffuseunderperday_mj_m2day",
+      "ppfd_totalunderperday_mj_m2day",
+      "comments"
+    ],
+    "source_sha256": "8b41ba965973345214f9c4b1c3ecff92bd75785f4f3c67ace4974025fa81e3f3"
+  }
+]

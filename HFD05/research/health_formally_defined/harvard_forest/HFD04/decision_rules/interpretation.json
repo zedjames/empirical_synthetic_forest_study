@@ -1,0 +1,11 @@
+{
+  "historical_interior_unresolved": 3984,
+  "historical_unresolved_total": 963976,
+  "inclusive_finite_rule": true,
+  "renormalized_successes": false,
+  "source": "Immutable HFD03 missingness banks",
+  "strict_MC_rule": true,
+  "theta0": "Adequacy algebraic; Health present-dependent",
+  "theta1": "Finite bank all success may be TRUE; continuous-law massone never certified by all-success sample",
+  "version": "HFD04-derived-status-v1"
+}

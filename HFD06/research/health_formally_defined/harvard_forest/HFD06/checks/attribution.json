@@ -1,0 +1,8 @@
+{
+  "archived_cohort_sizes_checked": true,
+  "candidates_checked": 8192,
+  "exact_reconciliation": true,
+  "overlapping_causes_checked": true,
+  "scalar_independent": true,
+  "status": "PASS"
+}

@@ -1,0 +1,107 @@
+{
+  "HFD05": {
+    "actual_Intel_frozen_identity_verified": false,
+    "actual_final_bank_sha256": "da4e0bef3dd68671cafcddaa28dd3b1ae0fed9472d40c37f9ef8b3c983f7dd20",
+    "entry_components_equal": true,
+    "expected_ARM_frozen_identity_verified": true,
+    "expected_final_bank_sha256": "7602c0876e8a74fcc5a9cac5ea374760b3cba621dc03463a14ee8bf081dad0f2",
+    "first_divergence": {
+      "absolute_difference": 6.938893903907228e-18,
+      "actual_byte": 184,
+      "actual_dtype": "<f8",
+      "actual_hex": "0x1.9b169a93bc5b8p-5",
+      "actual_sha256": "74ce6788feb79a76d7cf21afceb6aaa7b317bd70b5cf874337e6565fa0074522",
+      "actual_shape": [
+        64
+      ],
+      "actual_value": 0.05018167677725266,
+      "domain": "parameters",
+      "expected_byte": 183,
+      "expected_dtype": "<f8",
+      "expected_hex": "0x1.9b169a93bc5b7p-5",
+      "expected_sha256": "a53f22e99eac2ac74c3f44e7af8ccde1e08b595f3a651e8f4d5aa2a238e8143d",
+      "expected_shape": [
+        64
+      ],
+      "expected_value": 0.05018167677725265,
+      "first_byte_offset": 0,
+      "index": [
+        0
+      ],
+      "operation": "normal",
+      "record": 64,
+      "rng_after_states_equal": true,
+      "rng_before_states_equal": true,
+      "type": "Scientific call result"
+    },
+    "lawfulness_equal": true,
+    "model_identity_equal": true,
+    "mortality_components_equal": true,
+    "package": "HFD05",
+    "seed_identities_equal": true,
+    "source_configuration_identities_equal": true,
+    "state_identity_equal": true,
+    "trace_record_counts": [
+      87,
+      87
+    ]
+  },
+  "HFD06": {
+    "actual_Intel_frozen_identity_verified": false,
+    "actual_posterior_difference": {
+      "actual": 8.141065720573483e-155,
+      "actual_bytes": "6506fb06f176f11f",
+      "actual_hex": "0x1.176f106fb0665p-512",
+      "flat_byte_offset": 1176,
+      "frozen": 8.141065720573481e-155,
+      "frozen_bytes": "6406fb06f176f11f",
+      "frozen_hex": "0x1.176f106fb0664p-512",
+      "index": [
+        0,
+        147
+      ]
+    },
+    "core_identity_equal": true,
+    "expected_ARM_frozen_identity_verified": true,
+    "expected_frozen_posterior_match": true,
+    "first_divergence": {
+      "absolute_difference": 3.469446951953614e-18,
+      "actual_byte": 111,
+      "actual_dtype": "<f8",
+      "actual_hex": "-0x1.b427bf043cb6fp-6",
+      "actual_sha256": "a0ed699c4815608649cc6157392f07cd5552822d40f11314a46b6ff2703e8717",
+      "actual_shape": [
+        256,
+        1264
+      ],
+      "actual_value": -0.026620804347611434,
+      "domain": null,
+      "expected_byte": 110,
+      "expected_dtype": "<f8",
+      "expected_hex": "-0x1.b427bf043cb6ep-6",
+      "expected_sha256": "e496b8e160f1a6a3dfee019e1b3a1d872a612d9dba211fd9fd88b763c29a27f5",
+      "expected_shape": [
+        256,
+        1264
+      ],
+      "expected_value": -0.02662080434761143,
+      "first_byte_offset": 10808,
+      "index": [
+        1,
+        87
+      ],
+      "operation": "numpy.expm1",
+      "record": 2,
+      "rng_after_states_equal": true,
+      "rng_before_states_equal": true,
+      "type": "Scientific call result"
+    },
+    "input_identities_equal": true,
+    "package": "HFD06",
+    "source_configuration_identities_equal": true,
+    "trace_record_counts": [
+      302,
+      302
+    ]
+  }
+}

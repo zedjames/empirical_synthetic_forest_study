@@ -1,0 +1,17 @@
+{
+  "caption": "Diagnostic membership and latent-fate ranges are not posteriors. Complete five-family surfaces retain margin/Realizes/provenance and local upper tails.",
+  "data": "figures/data/H05-8.csv",
+  "data_sha256": "846ce8618a4d9a69245a2aeec48a83d3818f8c285fc1bb00653062e68f3d8909",
+  "ecological_population_inference": false,
+  "id": "H05-8",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "All preregistered16 states and3x3 diagnostic ranges, D0/D3 and both queries",
+  "sources": {
+    "entry_missingness/boundary_conditioned_missingness.csv": "51150a7810b7f8500284f9b9c43ad00b0b63cb9ee05c4eefce14769feebcb48f",
+    "entry_missingness/diagnostic_tipping.csv": "e77147fb752a800be1ba6ba3f80a54b1a7ce7d37cfed5a972d8f6147cf13c625"
+  },
+  "svg_sha256": "2e08bb459d75103b17a77a2d0a8af1045b0296d4f61827bb8d7c8bd57e818d10",
+  "title": "Entry and unknown-fate diagnostic tipping",
+  "units": "Finite-design Health fraction at theta0.75"
+}

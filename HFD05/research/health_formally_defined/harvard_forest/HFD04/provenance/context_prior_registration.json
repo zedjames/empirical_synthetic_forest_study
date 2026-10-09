@@ -1,0 +1,18 @@
+{
+  "id": "HFD04-CONTEXT-PRIOR-001",
+  "original_scientific_registration": {
+    "config/pilot.json": "de043cc2c8d439e41bce5365e37ec3cb87e2804f9a05c902797e07fc0a4d8de3",
+    "config/pilot_v2.json": "66da45c72941bb5bf075da6a037a084c34ba22c4ff78aaad937427ba2c39f0a2",
+    "config/protocol.json": "c19659beac08335032a1478969ae19263a722624179e1ceacae8dd21eef04bf4",
+    "config/world_design.json": "c2275f0bc3316d204146fad5b33d3cc0b215c54ed0cdbbc6275d07aa6cdd9a14"
+  },
+  "outcome_selection": false,
+  "phase": "REGISTERED_BEFORE_SUPPLEMENT_OUTCOMES",
+  "prior_counts": 81,
+  "sources": {
+    "config/context_prior_audit.json": "71f5928544970fdad85a8ad1464015e6fdf9f35120660f339ea5dd8c81ad998b",
+    "config/world_design.json": "c2275f0bc3316d204146fad5b33d3cc0b215c54ed0cdbbc6275d07aa6cdd9a14",
+    "scripts/h04_context_prior_audit.py": "d3e7d54384ca4bab9129938c7297fe1dffe607ad68d16770c711aa4ba630b6fb",
+    "scripts/h04_context_prior_estimator.py": "95652ab2c4f49cc3d3e7e0d1bf12c70ca66226622c253807812741a4f1eca914"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "aligned_failure_vector": null,
+  "diagnostic_designs": 41,
+  "entries_causes": [
+    "ENTRY_IDENTIFICATION",
+    "SAMPLING_FRAME",
+    "OBSERVATION_DEFINITION",
+    "MODEL_STRUCTURE",
+    "TEMPORAL_ALIGNMENT",
+    "UNRESOLVED"
+  ],
+  "frozen_comparison": [
+    {
+      "data": {
+        "D0_five_year_primary_mean": {
+          "cumulative_deaths": 15274.036727905273,
+          "cumulative_threshold_entries": 9073.932037353516
+        },
+        "adjustments_from_check": false,
+        "comparison": "Different coverage, raw-status interpretation and elapsed-time baseline prevent direct score or validation",
+        "dead_stems_since_2020_over": 11800,
+        "exposed_before_design": true,
+        "hemlock_dead_since_2020_almost": 5000,
+        "hemlock_dead_since_initial_2014_over": 8000,
+        "measurements_over": 70000,
+        "new_threshold_stems_approximately": 5000,
+        "primary_result_sha256": "f9ee54a5f2ad26c4a1d5a4c5948d0fe2479700a01c753347498912ba240fd190",
+        "retrospective_validation": "NOT_CLAIMED",
+        "source_id": "HF-third-census-news",
+        "source_sha256": "ede3730368bfa8d9744e4e850cfae8a3c161cdec564153c7ef3643a375dbffdc",
+        "status": "EXPOSURE_AWARE_EXTERNAL_CONSISTENCY_CHECK",
+        "training_used": false
+      },
+      "path": "validation/e2_external_check.json",
+      "sha256": "3f78352cfb057f3f6175801ab890b81e95012c296bc26f6df89dffa49c145817"
+    }
+  ],
+  "frozen_d0": {
+    "all_deaths_median": 15296,
+    "entries_median": 9073,
+    "hemlock_deaths_median": 2421
+  },
+  "frozen_original_comparison_csv": {
+    "path": "HFD02S/validation/e2_model_comparison.csv",
+    "rows": [
+      {
+        "comparison_status": "EXPOSURE_AWARE_EXTERNAL_CONSISTENCY_CHECK_NOT_VALIDATION",
+        "duration_years": "5",
+        "high": "17659",
+        "low": "12553.75",
+        "mean": "15274.036727905273",
+        "median": "15296",
+        "method_id": "same_frozen_kernel_prefix_with_mortality_trace",
+        "provenance_class": "SIMULATED",
+        "quantity": "cumulative_all_stem_deaths",
+        "scenario": "D0",
+        "source_id": "6b1fb4cff2149a58"
+      },
+      {
+        "comparison_status": "EXPOSURE_AWARE_EXTERNAL_CONSISTENCY_CHECK_NOT_VALIDATION",
+        "duration_years": "5",
+        "high": "9498",
+        "low": "8654",
+        "mean": "9073.932037353516",
+        "median": "9073",
+        "method_id": "same_frozen_kernel_prefix_with_mortality_trace",
+        "provenance_class": "SIMULATED",
+        "quantity": "cumulative_threshold_entries",
+        "scenario": "D0",
+        "source_id": "6b1fb4cff2149a58"
+      },
+      {
+        "comparison_status": "EXPOSURE_AWARE_EXTERNAL_CONSISTENCY_CHECK_NOT_VALIDATION",
+        "duration_years": "5",
+        "high": "2679",
+        "low": "2154",
+        "mean": "2419.2972259521484",
+        "median": "2421",
+        "method_id": "same_frozen_kernel_prefix_with_mortality_trace",
+        "provenance_class": "SIMULATED",
+        "quantity": "cumulative_hemlock_deaths",
+        "scenario": "D0",
+        "source_id": "6b1fb4cff2149a58"
+      }
+    ],
+    "sha256": "61534052d366648cc043a5c6005a320a91b12a90e0945ffc55fc010698995e54"
+  },
+  "hemlock_causes": [
+    "SCENARIO",
+    "PARAMETER",
+    "MODEL_STRUCTURE",
+    "STATE_RECONSTRUCTION",
+    "TEMPORAL_ALIGNMENT",
+    "UNRESOLVED"
+  ],
+  "original_replaced": false,
+  "parameter_selection": false,
+  "public_scope": "Approximate all-stem death lower bound, newly recorded stems, approximate hemlock dead since2020; date, frame, size and identity scope not harmonized.",
+  "residual_policy": "No exact signed residual is licensed. Anchors locate diagnostic magnitude, not validation targets.",
+  "resolution_limit": "Splitting sizes cannot create species hazard absent from size-independent kernel; juvenile threshold changes, not a new individual ecological model."
+}

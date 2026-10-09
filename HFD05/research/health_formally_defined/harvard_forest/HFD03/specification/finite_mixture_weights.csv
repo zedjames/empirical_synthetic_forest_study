@@ -1,0 +1,5 @@
+study,states,parameters,models,K,outer_units,history_weight
+HFD02S frozen,256,2,2,64,1024,1/(1024*64)
+"HFD03 missingness, per family/scenario",128,1,2,256,256,1/(256*256)
+"HFD03 MC inner panel, per scenario",16,2,2,1024,64,1/(64*1024)
+"HFD03 MC outer maximum, per scenario",1024,2,2,64,4096,1/(4096*64)

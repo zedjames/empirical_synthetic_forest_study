@@ -1,0 +1,422 @@
+{
+  "DOI_created": false,
+  "cache_or_private_Lean_included": false,
+  "deny_by_default": true,
+  "files": {
+    "Public_Inputs.json": {
+      "bytes": 1672,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "6f6b8ff8383548623375261f8fc25d52e94db00441b16f7ce7c4d1f9eb62de7b",
+      "source_transformed": false
+    },
+    "README.md": {
+      "bytes": 1962,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "3309b0e753faff71ea49e8202f978f1091cb3bc653491603897d1e997eff4b7b",
+      "source_transformed": false
+    },
+    "hfd06_runner.py": {
+      "bytes": 3979,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "02eea22d5ddd89104d53d74b95d4f07a27a08240882f6a118a08d1fc8a7c45b9",
+      "source_transformed": false
+    },
+    "requirements.txt": {
+      "bytes": 13,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "5e7cb66d2a3374454132a5ff73596f40061357a52fe40d3f100840077d8cc547",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/config/design.json": {
+      "bytes": 6981,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "6fae1f319ed1507b8b455c3d52f3764ee9f1e409f111970327d83b4c7fea5e9e",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/models/demography.py": {
+      "bytes": 9133,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "d22e9cd6f4627ea15dc6b86afbc6cf00a5a28543d46203aed73136bb40749ea6",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/models/fitted_parameters.json": {
+      "bytes": 481392,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "2fb9617f1bdd5fa940542a14b78a3fa00783493d9b66d561409f3a04b1da731f",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/provenance/random_seed_registry.json": {
+      "bytes": 768,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "1eb9107971beb14d79058df3f58e03bc95e3d7930ab653862494685879c67865",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/contracts.py": {
+      "bytes": 3386,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "4360a07a8560b7fd195f0f9d9d0c28ab543532bb98b8ca5413822bb87a11ec91",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/empirical.py": {
+      "bytes": 10749,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "aff15984bea02225f9286af3cac6042bb366aa35fdb342605383af24766583cd",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/estimator.py": {
+      "bytes": 3408,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "30e093cb111cf77fb660f83e1cc0ff0fe287edd5da7d19e49e75e48959e8db07",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/config/protocol.json": {
+      "bytes": 6486,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "de7f3568b1942f9ba664e689126cef428508afa487a6f6cc9a9b3b629ac15fb2",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/identity_inputs.json": {
+      "bytes": 1302,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "048f86c4cbe1c057ee1dc2f2ab245bc8901260b69e13a8dab228e49f6eb73422",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_common.py": {
+      "bytes": 9019,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "40902302921fe66176fe2f5b6c029650c3666376fd5380225b12d25befe35d49",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/config/pilot.json": {
+      "bytes": 1030,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "de043cc2c8d439e41bce5365e37ec3cb87e2804f9a05c902797e07fc0a4d8de3",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_common.py": {
+      "bytes": 6609,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "79178d84a5469a352ad3d47f58c8f887e241726b1c07aac1f1086bc0f8b2c6b1",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/config/protocol.json": {
+      "bytes": 1624,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/corrected_pipeline/local_extreme_selection.csv": {
+      "bytes": 305,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "36016a9ca3394fa360b8a736e0c7a61687c0e2fde71651058d12b500588b79e5",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/corrected_pipeline/local_precision.csv": {
+      "bytes": 4096,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "8cde07e4401c03b0df4433bff85e3a592a7528b5f4da97fc9c475a87df545eb9",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/external_sources/HF453/mortality_predictions.csv": {
+      "bytes": 104438794,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "4b34ace9e80b39152cc87fdb9341a74043f0c65e5a3976ff9f747a2853b9221e",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/external_sources/HF453/mortality_scores.csv": {
+      "bytes": 95696,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "2dbcdf575fdd1c6d8a203102192933cfbc0172214b3a33101c85accdedc40bb3",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/external_sources/HF453/tag_crosswalk.csv": {
+      "bytes": 2912095,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "86faf3686351ea90669f3f32b65e196d881a3d26d9bb1de0d3fc981bb4d52722",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/scripts/h05_common.py": {
+      "bytes": 3766,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "a0a972d86ee2670f945440e9d1d3df28405778fac0e72ca1312e55fa8b5e67fe",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/scripts/h05_exposure.py": {
+      "bytes": 13280,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "73c4bd3cf59ab71de402a61f01c67c549be0be4d3429c5d42e09a16567702103",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/scripts/h05_exposure_coupled.py": {
+      "bytes": 6385,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "afeb4bc80796c8feef03049893c5332db992b6737fd7f13438630106f221d6ab",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD05/scripts/h05_growth.py": {
+      "bytes": 2548,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "3a2f0a87ddd6cbb09995103df83721f99af975cd961698c4564296be53554612",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/README.md": {
+      "bytes": 891,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "9f6f81f1d1c5ad47267713df1454d9705a7967e3617d67d1c67b35ad95f62edb",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/attribution/cohort_threshold_crossings.csv": {
+      "bytes": 8867,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "3f9b219f910c0fb730e9c63310367b77314e77ec31b755addd142903de6017a7",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/attribution/origins.csv": {
+      "bytes": 196,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "0a416a3a770866b21b43c18563db2696affb7d85fa09d66b6e84677372009c6d",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/attribution/overlapping_causes.csv": {
+      "bytes": 543,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "321826abeaf6ec8849238f0d0571b32f8d099d2e9278d15a06fb04dcfc18e42c",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/attribution/partition.csv": {
+      "bytes": 380,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "304bacc4d0e7b9149a25c41a7c0b0c8daea94ffe2a65f5a26b4a7f381c488c82",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/attribution/path_archive.npz": {
+      "bytes": 5064454,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "d7b84633712df0f992c2eff50097a1835fa6e3c498be7a85475d3c19123b969b",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/attribution/paths.csv": {
+      "bytes": 1008876,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "0a42093746a3c7ce3a186f6c14be8cc7cd9313c940388108f7d658917d48f93c",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/attribution/replay.json": {
+      "bytes": 5865,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "2b96cda0d154c865ea4b78c402f33b486ff9c45bbadb02b24b194ea8beeceb4d",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/checks/attribution.json": {
+      "bytes": 194,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "227f543d2fad5ec076e156feaac2f9b00aafcae37704b3b7c5375c3235041fdf",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/checks/hostile_controls.json": {
+      "bytes": 1818,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "d9f5f5e028b6349a8e21b9b0f1f30b01ed97fa18da03d46941da2836b4bdbb0c",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/checks/predictive.json": {
+      "bytes": 573,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "0c4df035902e9b38695bc426b9345594d0556df74a7834591a7ab1e11d43b5f5",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/checks/predictive_independent.csv": {
+      "bytes": 873,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "547e7e8d6b95ff7dd412df7168aaf92790288e3e0c23028e781da3e80560365e",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/checks/predictive_pmf_direct.csv": {
+      "bytes": 966347,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "027c1c1e083891765755f18498eb768298d7dfb2ebb433e823b44ee3b31f7042",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/checks/rare_tail_precision.csv": {
+      "bytes": 568,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "3e9e9df5c913f345a5b8869e1451f572e7f86ee508e301b1edc2a78f403eb2bc",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/checks/rare_tail_precision.json": {
+      "bytes": 194,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "6bf35cb1ceecd5998cb2ba1d7e62473a223a43fcb4ee803bf679dd29b93cd42b",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/config/protocol.json": {
+      "bytes": 1902,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "e0e41372781a2e631481eb9eb64308e7f1396e55b78791ef585597b26cdf7cde",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/manuscript/Manuscript.md": {
+      "bytes": 13850,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "d8623f99e5db420c6267ac9fd1d16680d6f8a562305c92374170ace2dcd2a1b2",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/manuscript/Methods.md": {
+      "bytes": 28249,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "61788d752eb098ca6c6db7bb667f426417fbad2d5d1a87e656efc0b3b2ab54af",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/cell_census.csv": {
+      "bytes": 3948,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "486e4e33259f89c24d27a206698c5ae7573b7f70efafe1541beee8293a2147dc",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/completion.json": {
+      "bytes": 427,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "18df0e01fb54f4e3d035d3063690bb979df4c37ea4e703e97d3a2aca2fa119cc",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/final_predictive_summary.csv": {
+      "bytes": 1446,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "584399f65c6ea8765c840231b0d3a975824ed8c9a88f73eb083c7a969d3d4c32",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/individual_event_digests.csv": {
+      "bytes": 37320,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "5eade4bb69158ba06a73ef2c61538259f5e6cf3c301ea9cf7fffc75e3520993b",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/matched_risk_set.csv": {
+      "bytes": 1079840,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "3b1cb2c8d79c341fc04baa79544f4248f3d8cdd66f1e63295b813ec8f800183b",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/predictive_histogram.csv": {
+      "bytes": 20332,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "930bb09904529d8c5930fbbf18f60d07c4993349b5019c26fbff6377a7a5bdf7",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/predictive_pmf.csv": {
+      "bytes": 1112497,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "3404eaf5fc955e848542e309dbc9498856e7bee5fd5a2e8bf40eb352f6d7ee94",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/predictive_replicates.csv": {
+      "bytes": 5069947,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "df1b14fc2b19e7ac6513275791c4e006b5448d32b297909c06255a0d40b3bdd4",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/predictive_summary.csv": {
+      "bytes": 1221,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "7e453ec377feda951d1b23225e365e745eaaa57e95dc49774e1f8e5b02b83a67",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/replicate_archive.npz": {
+      "bytes": 19255472,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "cf8a4e22fad02cf3b5c17bad14c3543eee609233f815af4f0bb991910fc434d6",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/mortality/variance_decomposition.csv": {
+      "bytes": 560,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "d5ff6b176c042f5de7e0cc9d130ed14753a3f65c9e1885c405d1ddfc2fadb3a8",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/provenance/attribution_preexecution_failure.json": {
+      "bytes": 471,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "eb05349c8d33906e98ff8e7e441131d580eaaa5c416173f686e9ad3a70ab5fb9",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/provenance/export_preparation_failure.json": {
+      "bytes": 435,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "fa17033b84fee07dd4da4d2e58c96b0d06d81e950fc67b93b44848626751c52f",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/provenance/rare_tail_amendment.json": {
+      "bytes": 624,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "fba9131849e9037264c820cf2728665478a05c47e4fb5ff3521c904c20f34cee",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/provenance/registration.json": {
+      "bytes": 237294,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "8b853b58810d18ebd780d8452835dcc0fd37733043b1458d7ed8f6d4fe129b38",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/reports/Closure.md": {
+      "bytes": 5282,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "13a8429074f7befb0d2ed62f439a9f87a8299774478a8f6a116f7640828b92ab",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/scripts/h06_artifact_runner.py": {
+      "bytes": 3979,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "02eea22d5ddd89104d53d74b95d4f07a27a08240882f6a118a08d1fc8a7c45b9",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/scripts/h06_attribution.py": {
+      "bytes": 7438,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "7e410e5e1131c1c20845263f743e9741c2ee6e6784f422b8b4b50aa0a31eae7a",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/scripts/h06_checks.py": {
+      "bytes": 7127,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "5d80c79767b6a02ad921a2c6c68226eaef7c6e73f395d6c06b799025c592c8cf",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/scripts/h06_common.py": {
+      "bytes": 4451,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "8e33ff85397fd44838383b7a74f46122d4a9b39381f782f0852167ecdd829846",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/scripts/h06_independent.py": {
+      "bytes": 13137,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "362e9db34479d937e314d4541b6d8f18344f7ebbfd8780d8d48b83fb1206a2d5",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/scripts/h06_mortality.py": {
+      "bytes": 9571,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "46a1457d5a8a14122972c508fb8138381f2bde70f8b0086168a7daca9dcd380d",
+      "source_transformed": false
+    },
+    "research/health_formally_defined/harvard_forest/HFD06/scripts/h06_precision.py": {
+      "bytes": 3011,
+      "redistribution": "NOT_AUTHORIZED_PENDING_DISCLOSURE_AND_LICENSE_APPROVAL",
+      "sha256": "70772c403d932dd5010598bd8464dbe0f33b720dab59edd34ce64995d844bfcc",
+      "source_transformed": false
+    }
+  },
+  "input_retrieval": "Exactly four preexisting public HF253 census/identity sources; all hashes enforced",
+  "license": "No source redistribution license granted. Publisher CC0 attribution/terms inventory included. Owner approval required.",
+  "operational_adapter": "Canonical public input paths only; absent private ancestry is attested, not reproduced",
+  "package_bytes": 142006948,
+  "private_Git_history_locally_verified": false,
+  "publicly_published": false,
+  "raw_inputs_included": false,
+  "scientific_sources_byte_preserved": true,
+  "scientific_workstreams": [
+    "terminal_failure_attribution",
+    "shared_hazard_mortality"
+  ],
+  "status": "LOCAL_DISCLOSURE_AND_LICENSE_REVIEW_ONLY"
+}

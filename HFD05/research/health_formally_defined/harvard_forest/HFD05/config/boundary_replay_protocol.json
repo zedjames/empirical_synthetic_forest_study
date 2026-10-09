@@ -1,0 +1,13 @@
+{
+  "id":"HFD05-CORRECTED-REFERENCE-CROSSMATRIX-001",
+  "design":"Complete original81 boundary and324 historical worlds; all three suites; all four current32-draw contexts",
+  "boundary_reference_prefixes":[4096,16384],
+  "historical_reference_paths":4096,
+  "boundary_chunk":1024,
+  "randomness":"Original truth and estimator identities, paired by physical world and draw; no pilot or external outcomes",
+  "query":"Single Wilson95 Q1 nv or Q2 nr with inclusive finite counts; current original reference reclassified separately, historical emissions untouched",
+  "exposure_factor":"INAPPLICABLE: strict synthetic packets contain no individual dates. R3=R1 and R4=R2, not a test of individual-time reconstruction",
+  "crossmatrix":["ORIGINAL_PRED_ORIGINAL_REF","CORRECTED_PRED_ORIGINAL_REF","ORIGINAL_PRED_CORRECTED_REF","CORRECTED_PRED_CORRECTED_REF"],
+  "selection":"All cells retained; certified-reference scores and unresolved-reference ambiguity distinguished; original65536 remains separately addressable and corrected65536 NOT_REEVALUATED",
+  "output":"Additive counts/checkpoint files; no overwrite original worlds, dynamics or truths"
+}

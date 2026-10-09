@@ -1,0 +1,217 @@
+{
+  "actual_replay": true,
+  "exact_public_raw_inputs_reused_read_only": true,
+  "fresh_download": false,
+  "input_sources": [
+    {
+      "id": "HF253-E0",
+      "license": "CC0-1.0",
+      "sha256": "1f788262ff77ba5bb24394d6674914962cd393438680c16e9d6eecba3be864cb"
+    },
+    {
+      "id": "HF253-E1",
+      "license": "CC0-1.0",
+      "sha256": "bb48448b8a2cd920fcac7df21a352a0c70174652f11d76423b03770a565ce2e7"
+    },
+    {
+      "id": "hf253-04-trees-2014.csv",
+      "license": "CC0-1.0",
+      "sha256": "ebe5932c1d41b12377a08b849b00d04f7b65581c1cb27f4d00a8519648a12bc7"
+    },
+    {
+      "id": "hf253-02-species-codes.csv",
+      "license": "CC0-1.0",
+      "sha256": "cd18a6a72e6434cfa70830d6fdbc70549307a3b54119a96475e3cf4a12a3fa5e"
+    }
+  ],
+  "private_scientific_modules_imported": false,
+  "qualification": "Externally obtained public HF253 bytes reused via read-only symlinks; no new network retrieval. PrivateGit historical identity not independently reconstructed.",
+  "raw_cache_copied": false,
+  "replayed_artifact_manifest_sha256": "c6da3fec6f5f0f7186138daa0ccd59a4177c2f8758aaa1fe301a97e90d0f9c52",
+  "scientific_outputs": [
+    {
+      "path": "boundary_validation/truth_prefixes.csv",
+      "sha256": "c4d8ba90858ea8001f94545506effbde1848c2ab6474e92f4e00ea77a701e654",
+      "stage": "truth",
+      "status": "PASS"
+    },
+    {
+      "path": "boundary_validation/pre_estimator_census.json",
+      "sha256": "65ab66a097700438527418e64e18c3f78ba2cf42cb31150c1e78de0a8f03ee51",
+      "stage": "truth",
+      "status": "PASS"
+    },
+    {
+      "path": "provenance/truth_bank_manifest.json",
+      "sha256": "d8fdfddd30f19ca4482d8dac4b7bc30ebf84e53267b180c45cf3e1ebd940599d",
+      "stage": "truth",
+      "status": "PASS"
+    },
+    {
+      "path": "context_ablation/estimator_draws.csv",
+      "sha256": "9c31623066c63496d0bbb5964040953eb69997a83cc6c452dda5b2086d96102f",
+      "stage": "estimate",
+      "status": "PASS"
+    },
+    {
+      "path": "provenance/estimator_information.json",
+      "sha256": "140b67e894ff1a7ffbd9ffef55f4f3b1e03b40044fc374e15f79ef8a2cf38b89",
+      "stage": "estimate",
+      "status": "PASS"
+    },
+    {
+      "path": "juvenile_boundary/observed_groups.csv",
+      "sha256": "3331ae6412eece9614ffff7a5f077f6ce886ac095b7bfddad4443bb83f51a6cd",
+      "stage": "juvenile",
+      "status": "PASS"
+    },
+    {
+      "path": "juvenile_boundary/measurement_error.csv",
+      "sha256": "c2531ddfedb0d2de5657e227916f4582e62beaf6a4dbc903ec4103af4bb3a834",
+      "stage": "juvenile",
+      "status": "PASS"
+    },
+    {
+      "path": "juvenile_boundary/masking.csv",
+      "sha256": "06cad905ebf186c96199f325302fc439fe252dee110a34769818a47b220012f7",
+      "stage": "juvenile",
+      "status": "PASS"
+    },
+    {
+      "path": "juvenile_boundary/visible_size_profiles.csv",
+      "sha256": "bba4f1e4b178d83a01a6e2b259aa7e5321d864180d009910d29b50e003fb2307",
+      "stage": "juvenile",
+      "status": "PASS"
+    },
+    {
+      "path": "juvenile_boundary/initial_projection.csv",
+      "sha256": "a7166294f6610d808af4a36c6e83167838bac33f19b3ade71b3f101d13048157",
+      "stage": "juvenile",
+      "status": "PASS"
+    },
+    {
+      "path": "juvenile_boundary/propagation.csv",
+      "sha256": "bd403dd25d74c72eab6ae7f43ee3315e5b6e684f6044b24acfa4f75377959aa0",
+      "stage": "juvenile",
+      "status": "PASS"
+    },
+    {
+      "path": "juvenile_boundary/empirical_support.json",
+      "sha256": "a3e0ea5168d6087bec6868169ca95c681c1922fd007aa5e34cdafe2ec43b6eb3",
+      "stage": "juvenile",
+      "status": "PASS"
+    },
+    {
+      "path": "effective_count/posteriors.csv",
+      "sha256": "b0239292fce3bad0495eefd04f2bd8ed33ad187e5880159419a8f07dd20a647d",
+      "stage": "cap",
+      "status": "PASS"
+    },
+    {
+      "path": "effective_count/origin_states.csv",
+      "sha256": "dc4adba6be2ea1b1bde5933b3df54f0d88b327b5ae15fe1f9de21b2b45c37767",
+      "stage": "cap",
+      "status": "PASS"
+    },
+    {
+      "path": "effective_count/propagation.csv",
+      "sha256": "4d6d9f34861a8a8de0b87e0f2a404a43930dbe682e7e5ed3c847fb55e5449209",
+      "stage": "cap",
+      "status": "PASS"
+    },
+    {
+      "path": "effective_count/masking_calibration.csv",
+      "sha256": "16a11abf99518905c797854c1523f00a3996abcd22b72d014cab18aba6aa1ca6",
+      "stage": "cap",
+      "status": "PASS"
+    },
+    {
+      "path": "effective_count/fit_contract.json",
+      "sha256": "88c16b53fa0a007cf00b015e1801c136429839e8c40a5e3908c34cae0dec114d",
+      "stage": "cap",
+      "status": "PASS"
+    },
+    {
+      "path": "boundary_validation/performance.csv",
+      "sha256": "c1110e10afa49751e811e05adf6ba9249f6fc0c8a36c406523ea79529bd15268",
+      "stage": "analysis",
+      "status": "PASS"
+    },
+    {
+      "path": "context_ablation/comparison.csv",
+      "sha256": "b5351616dde51c5f36492a4011a4849d2907422dc552595e828f118653336d47",
+      "stage": "analysis",
+      "status": "PASS"
+    },
+    {
+      "path": "boundary_validation/signed_margin_scores.csv",
+      "sha256": "f6288af70dc3e7a9526b3c86eda1beb8c5ffb44da0dbc87772cf312bd6bd8a6f",
+      "stage": "analysis",
+      "status": "PASS"
+    },
+    {
+      "path": "boundary_validation/absolute_margin_scores.csv",
+      "sha256": "69c114f9d2bff56ae1c57306f0afeaed2c5bb7534d38483511ee7317ea9cf346",
+      "stage": "analysis",
+      "status": "PASS"
+    },
+    {
+      "path": "boundary_validation/failure_scores.csv",
+      "sha256": "3c52b2bb85112c72fdc959d82349067e3675d87ec96fe9275371582be10c1f24",
+      "stage": "analysis",
+      "status": "PASS"
+    },
+    {
+      "path": "boundary_validation/primary_discrimination.json",
+      "sha256": "166170cd8553953db982d8cf08cd6aad0abc189b505a6dbb389cbd449ac64582",
+      "stage": "analysis",
+      "status": "PASS"
+    }
+  ],
+  "scientific_sources": {
+    "research/health_formally_defined/harvard_forest/HFD02S/config/design.json": "6fae1f319ed1507b8b455c3d52f3764ee9f1e409f111970327d83b4c7fea5e9e",
+    "research/health_formally_defined/harvard_forest/HFD02S/config/freeze.json": "6abf05acc8134e8b7163a992779d8f9ac3c5cf9fe2fee8fad07ebb0295028fa4",
+    "research/health_formally_defined/harvard_forest/HFD02S/config/future_protocol.json": "d3b14053d7a109c216f3f6e7b73253c1e914d3e4fc84c24adfb7f7f1cdb88ddc",
+    "research/health_formally_defined/harvard_forest/HFD02S/models/demography.py": "d22e9cd6f4627ea15dc6b86afbc6cf00a5a28543d46203aed73136bb40749ea6",
+    "research/health_formally_defined/harvard_forest/HFD02S/models/fitted_parameters.json": "2fb9617f1bdd5fa940542a14b78a3fa00783493d9b66d561409f3a04b1da731f",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/contracts.py": "4360a07a8560b7fd195f0f9d9d0c28ab543532bb98b8ca5413822bb87a11ec91",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/controls.py": "0117b4fdaa5c81b2cacd5aca4c29475534da9a5cf2770af391cc07d79bedf138",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/empirical.py": "aff15984bea02225f9286af3cac6042bb366aa35fdb342605383af24766583cd",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/external.py": "a5c73675eeb25f46de4425a1f7309c7604d3b0724a9e4b44787c15f660c4899d",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/pipeline.py": "d824edfae7a6aa0c0ffa77db8f2075bcc1bd4f02fc332ce5025a96b492a8e17a",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/e2_external_check.json": "3f78352cfb057f3f6175801ab890b81e95012c296bc26f6df89dffa49c145817",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/estimator.py": "30e093cb111cf77fb660f83e1cc0ff0fe287edd5da7d19e49e75e48959e8db07",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/observation_packets.json": "cdc3856208f27cf58a881caad211af67bf5a074d2d5f91efd525b2acd16964c4",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/public_anchor.json": "e558722e7e584329e05d81d654f7898bc32093601aeac3bb6117a383693df430",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/reference_world.json": "84dc9e1afe55642ea0273d9c49235d07547a00370feeedb4a70cc18b48342795",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/worlds.py": "8f2cde11ec5be46dc2fdb08ad57f5b3885f60a80e3e0cc082353d22f9b2a1c1e",
+    "research/health_formally_defined/harvard_forest/HFD03/config/protocol.json": "de7f3568b1942f9ba664e689126cef428508afa487a6f6cc9a9b3b629ac15fb2",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_calibration.py": "9541e087073061b3c1371ade3c0c82208e6330fcca10d2dea408731503755b93",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_common.py": "40902302921fe66176fe2f5b6c029650c3666376fd5380225b12d25befe35d49",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_diagnostics.py": "a7e827264746e85023e6693f59414bec6f13d7c0aab7a14f8ddbe735cb91add4",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_entry.py": "b8c1e10f33a4d793f8182cd15bbdc0ae04d70ee189ee4e18af93b8569234b6bc",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_freeze.py": "295585d562a6b91c81ea2d5d4aab82876d00ae3e3575abc64404a3699c663c2e",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_governance.py": "ee06cdbc114aed366350d4c0241f11e570bfb67a3f2055c4fe70a7f2bf149ad9",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_interval_recount.py": "b5d84fa47f1707c5814f079051453eb222b7902c915168bf166dd9f330cd8798",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_mc.py": "fa305cecaf3c5f3863c12c2798668ecbe9305e57b45d73d2a41586daa024938f",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_missingness.py": "7013cea6bebcb3faaf4e1c81d6a50fe5ec86634e774216591fbb28a6a3468507",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_reports.py": "556e989f99b5a05e82736e53314fbe8c18c4a17e8076557c1079859f2614d732",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_synthetic.py": "bd0db4988e611071e62a9309e9abe2b7561f5018b1110912261cbdfe5dd84708",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/identity_inputs.py": "68be887bf3ffaf4b503cc4e11aa7c054de60fddf1374ffd1ccc82e45c5870c1d",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/run_hfd03.py": "2464c004fc223934aabe0b1844b73c6f8baa5398058cac42ca9d9fa5eb42eb2d",
+    "research/health_formally_defined/harvard_forest/HFD04/config/pilot.json": "de043cc2c8d439e41bce5365e37ec3cb87e2804f9a05c902797e07fc0a4d8de3",
+    "research/health_formally_defined/harvard_forest/HFD04/config/pilot_v2.json": "66da45c72941bb5bf075da6a037a084c34ba22c4ff78aaad937427ba2c39f0a2",
+    "research/health_formally_defined/harvard_forest/HFD04/config/protocol.json": "c19659beac08335032a1478969ae19263a722624179e1ceacae8dd21eef04bf4",
+    "research/health_formally_defined/harvard_forest/HFD04/config/world_design.json": "c2275f0bc3316d204146fad5b33d3cc0b215c54ed0cdbbc6275d07aa6cdd9a14",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_analysis.py": "46b91fe517e72a7bff0874629a08c22cac9bb63cafc2105ac1ac2fe593ecb25c",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_boundary.py": "d407b8234ae5dd5305fe303689df13ae8f4c278a5d013452b0c95e458c3960f1",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_cap.py": "0854607df9fc98a895244c81b8c2a70b7558a90de74ee7e97815bc43a9e458d0",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_common.py": "79178d84a5469a352ad3d47f58c8f887e241726b1c07aac1f1086bc0f8b2c6b1",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_estimator.py": "33d44105d210933d0ede7c37579063091dd425fde364279b8b5c753117c10e2d",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_juvenile.py": "8791eeaf8bd9a5902da3603f5ceca812b69b673f9c7c978fef994982b94b52be",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_pilot.py": "99290dd7a6805ccbf89f79c912ca616ebefcaa242cea05e846129e50ec8fb91a",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_pilot_v2.py": "d9ee4c0d2fe1b106425ff1eefde14ff7592e7041b8f8c68b3f0e0fef1f6b49fa"
+  },
+  "source_environment": "Isolated package-only module paths, pinned Python3.9.6/NumPy2.0.2",
+  "status": "PASS"
+}

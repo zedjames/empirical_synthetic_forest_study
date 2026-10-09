@@ -1,0 +1,10 @@
+{
+  "E00_oracle_inputs": false,
+  "engine_source_sha256": "a7e5b858f33e803beeaa49a5e68975d3a6ccace80d1e0c68590b9a15a2c97d1c",
+  "full_roster_retained": true,
+  "misspecification_removed_by_oracles": false,
+  "original_E00_all_2592_counts_reproduced": true,
+  "status": "STRICT_ROLE_INTERFACES",
+  "truth_reference": "Original fixed 65536-path bank; finite and kernel-status identities separate",
+  "world_imports_in_engine": false
+}

@@ -1,0 +1,17 @@
+{
+  "caption": "Supplying parameters alone can worsen loss. Both-oracle residual includes future MC and, in other suites, predictive misspecification; no additive causal partition.",
+  "data": "figures/data/H05-5.csv",
+  "data_sha256": "2aa50c86b6915fec17f8b2a74fcae00aacdef59b06b615bdd72fc65f6959f604",
+  "ecological_population_inference": false,
+  "id": "H05-5",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "Nominal suite, original max references; both queries and all four roles",
+  "sources": {
+    "oracle_attribution/interactions.csv": "5c1f7ba2bcd2505af36c7afb73957d5660863cd5c1d0b6490c6c2ece4405139d",
+    "oracle_attribution/near_boundary_scores.csv": "85d4f4d56f44a1292ed673b74e9e7809a1873e64fbb09af0fbb9dd38560a4582"
+  },
+  "svg_sha256": "7e538dda2188439b9cfa151e3f06c2715b3cf6ff336d4b10caf4004b93945d65",
+  "title": "Four oracle interfaces: nonadditive error attribution",
+  "units": "Constructed present near-boundary target-mass MAE"
+}

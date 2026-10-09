@@ -1,0 +1,21 @@
+{
+  "all_worlds_retained": true,
+  "boundary": "Truth Health is finite 4096-path reference, with its own MC status; not exact infinite-law oracle",
+  "id": "HF-SYNTH-DISC-001",
+  "truth_census": {
+    "correct": {
+      "negative": 255,
+      "positive": 69
+    },
+    "entry_lognormal_annual_sd_1.2": {
+      "negative": 256,
+      "positive": 68
+    },
+    "hemlock_extra_hazard_0.12": {
+      "negative": 285,
+      "positive": 39
+    }
+  },
+  "truth_census_sha256": "9821201688373db22c035f85e045a17d8984fbe18ea26a05189365290d5cd95e",
+  "worlds": 324
+}

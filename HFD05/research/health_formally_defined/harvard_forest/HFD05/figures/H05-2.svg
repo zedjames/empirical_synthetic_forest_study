@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="1005" viewBox="0 0 1050 1005">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="32" font-family="sans-serif" font-size="21">Reached Gamma shape-floor moment defect</text>
+<text x="24" y="58" font-family="sans-serif" font-size="13">Number of ancestral-cell/scenario laws</text>
+<text x="24" y="107" font-family="sans-serif" font-size="13">HFD02S_PRIMARY material mean laws</text>
+<rect x="430" y="90" width="81.290" height="22" fill="#35708c"/>
+<text x="865" y="107" font-family="sans-serif" font-size="13">12</text>
+<text x="24" y="152" font-family="sans-serif" font-size="13">HFD03_MISSINGNESS_B0_B4_SHARED_FUTURE_PARAMETERS material mean laws</text>
+<rect x="430" y="135" width="54.194" height="22" fill="#35708c"/>
+<text x="865" y="152" font-family="sans-serif" font-size="13">8</text>
+<text x="24" y="197" font-family="sans-serif" font-size="13">HFD03_ORIGINAL_OBSERVATION_ESTIMATOR material mean laws</text>
+<rect x="430" y="180" width="420.000" height="22" fill="#35708c"/>
+<text x="865" y="197" font-family="sans-serif" font-size="13">62</text>
+<text x="24" y="242" font-family="sans-serif" font-size="13">HFD03_SYNTHETIC_TRUTH material mean laws</text>
+<rect x="430" y="225" width="0.000" height="22" fill="#35708c"/>
+<text x="865" y="242" font-family="sans-serif" font-size="13">0</text>
+<text x="24" y="287" font-family="sans-serif" font-size="13">HFD04_BOUNDARY_TRUTH material mean laws</text>
+<rect x="430" y="270" width="0.000" height="22" fill="#35708c"/>
+<text x="865" y="287" font-family="sans-serif" font-size="13">0</text>
+<text x="24" y="332" font-family="sans-serif" font-size="13">HFD04_CAP_100 material mean laws</text>
+<rect x="430" y="315" width="0.000" height="22" fill="#35708c"/>
+<text x="865" y="332" font-family="sans-serif" font-size="13">0</text>
+<text x="24" y="377" font-family="sans-serif" font-size="13">HFD04_CAP_200 material mean laws</text>
+<rect x="430" y="360" width="0.000" height="22" fill="#35708c"/>
+<text x="865" y="377" font-family="sans-serif" font-size="13">0</text>
+<text x="24" y="422" font-family="sans-serif" font-size="13">HFD04_CAP_50 material mean laws</text>
+<rect x="430" y="405" width="0.000" height="22" fill="#35708c"/>
+<text x="865" y="422" font-family="sans-serif" font-size="13">0</text>
+<text x="24" y="467" font-family="sans-serif" font-size="13">HFD04_CAP_500 material mean laws</text>
+<rect x="430" y="450" width="0.000" height="22" fill="#35708c"/>
+<text x="865" y="467" font-family="sans-serif" font-size="13">0</text>
+<text x="24" y="512" font-family="sans-serif" font-size="13">HFD04_ESTIMATOR_HFD03_B0_full material mean laws</text>
+<rect x="430" y="495" width="243.871" height="22" fill="#35708c"/>
+<text x="865" y="512" font-family="sans-serif" font-size="13">36</text>
+<text x="24" y="557" font-family="sans-serif" font-size="13">HFD04_ESTIMATOR_HFD03_B1_coarsened material mean laws</text>
+<rect x="430" y="540" width="162.581" height="22" fill="#35708c"/>
+<text x="865" y="557" font-family="sans-serif" font-size="13">24</text>
+<text x="24" y="602" font-family="sans-serif" font-size="13">HFD04_ESTIMATOR_HFD03_B2_unknown material mean laws</text>
+<rect x="430" y="585" width="176.129" height="22" fill="#35708c"/>
+<text x="865" y="602" font-family="sans-serif" font-size="13">26</text>
+<text x="24" y="647" font-family="sans-serif" font-size="13">HFD04_ESTIMATOR_HFD03_B3_label_only material mean laws</text>
+<rect x="430" y="630" width="243.871" height="22" fill="#35708c"/>
+<text x="865" y="647" font-family="sans-serif" font-size="13">36</text>
+<text x="24" y="692" font-family="sans-serif" font-size="13">HFD04_ESTIMATOR_boundary_B0_full material mean laws</text>
+<rect x="430" y="675" width="67.742" height="22" fill="#35708c"/>
+<text x="865" y="692" font-family="sans-serif" font-size="13">10</text>
+<text x="24" y="737" font-family="sans-serif" font-size="13">HFD04_ESTIMATOR_boundary_B1_coarsened material mean laws</text>
+<rect x="430" y="720" width="40.645" height="22" fill="#35708c"/>
+<text x="865" y="737" font-family="sans-serif" font-size="13">6</text>
+<text x="24" y="782" font-family="sans-serif" font-size="13">HFD04_ESTIMATOR_boundary_B2_unknown material mean laws</text>
+<rect x="430" y="765" width="33.871" height="22" fill="#35708c"/>
+<text x="865" y="782" font-family="sans-serif" font-size="13">5</text>
+<text x="24" y="827" font-family="sans-serif" font-size="13">HFD04_ESTIMATOR_boundary_B3_label_only material mean laws</text>
+<rect x="430" y="810" width="67.742" height="22" fill="#35708c"/>
+<text x="865" y="827" font-family="sans-serif" font-size="13">10</text>
+<text x="24" y="872" font-family="sans-serif" font-size="13">HFD04_PRIOR_RECONCILED_ESTIMATOR material mean laws</text>
+<rect x="430" y="855" width="54.194" height="22" fill="#35708c"/>
+<text x="865" y="872" font-family="sans-serif" font-size="13">8</text>
+<text x="24" y="917" font-family="sans-serif" font-size="13">HFD04_REPRESENTATION_COARSE_AND_ENRICHED material mean laws</text>
+<rect x="430" y="900" width="0.000" height="22" fill="#35708c"/>
+<text x="865" y="917" font-family="sans-serif" font-size="13">0</text>
+<text x="24" y="990" font-family="sans-serif" font-size="11">H05-2: source-qualified descriptive plot; see caption and data</text></svg>

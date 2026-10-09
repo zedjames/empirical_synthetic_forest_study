@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+         xmlns:xs="https://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd"
+         system="hfr"
+         scope="system"
+         packageId="knb-lter-hfr.355.4">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF355">
+      <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/6c4f69748959fff364ecf89fc293922f</alternateIdentifier>
+      <title>Seedling Survey of the CTFS-ForestGEO Plot at Harvard Forest since 2017</title>
+      <creator>
+         <individualName>
+            <givenName>Sydne</givenName>
+            <surName>Record</surName>
+         </individualName>
+         <userId directory="https://orcid.org">https://orcid.org/0000-0001-7293-2155</userId>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>John</givenName>
+            <surName>Grady</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Fiona</givenName>
+            <surName>Jevon</surName>
+         </individualName>
+         <userId directory="https://orcid.org">https://orcid.org/0000-0002-3586-7566</userId>
+         <role>Researcher</role>
+      </associatedParty>
+      <pubDate>2024</pubDate>
+      <language>English</language>
+      <abstract>
+         <section>
+            <title/>
+            <para>Within a species, trees can vary in size by many orders of magnitude, from tiny seedlings to multi-ton adults. This intraspecific variation in tree size has important consequences for forest structure and function, as it governs patterns of tree abundance, growth rate and energy flux. Recent theoretical models make predictions about size-energy patterns of forests but available evidence indicates deviation from predictions for the smallest and largest trees. The goal of this project is to examine seedling and canopy tree demography at Harvard Forest and explore their theoretical implications. We will link early remote sensing data from the National Ecological Observatory Network (NEON) with boots-on-the-ground measurements at Harvard Forest plots. We will also fit demographic models of the trees of this forest in transition.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>aboveground biomass</keyword>
+         <keyword>abundance</keyword>
+         <keyword>canopy cover</keyword>
+         <keyword>community composition</keyword>
+         <keyword>demography</keyword>
+         <keyword>forest dynamics</keyword>
+         <keyword>seedlings</keyword>
+         <keyword>trees</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>primary production</keyword>
+         <keyword>populations</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public under Creative Commons CC0 1.0 (No Rights Reserved). Please keep the dataset creators informed of any plans to use the dataset. Consultation with the original investigators is strongly encouraged. Publications and data products that make use of the dataset should include proper acknowledgement.</para>
+         </section>
+      </intellectualRights>
+      <licensed>
+         <licenseName>Creative Commons Zero v1.0 Universal</licenseName>
+         <url>https://spdx.org/licenses/CC0-1.0.html</url>
+         <identifier>CC0-1.0</identifier>
+      </licensed>
+      <distribution>
+         <online>
+            <url function="information">https://harvardforest.fas.harvard.edu/exist/apps/datasets/showData.html?id=hf355</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest). Coordinates based on WGS84 datum.</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.18</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.18</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.54</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.54</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>340</altitudeMinimum>
+                  <altitudeMaximum>368</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2017</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2023</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+         <taxonomicCoverage>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Acer</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>pensylvanicum</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>rubrum</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Amelanchier</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>alnifolia</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>arborea</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Betula</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>alleghaniensis</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>lenta</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>papyrifera</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>sp.</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Fagus</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>grandifolia</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Gaultheria</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>procumbens</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Hamamelis</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>virginiana</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Kalmia</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>latifolia</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Nyssa</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>sylvatica</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Picea</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>abies</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>rubens</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Pinus</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>strobus</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Prunus</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>serotina</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Quercus</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>rubra</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>velutina</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Rhododendron</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>prinophyllum</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Sorbus</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>americana</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Tsuga</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>canadensis</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Vaccinium</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>angustifolium</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>corymbosum</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>sp.</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Viburnum</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>cassinoides</taxonRankValue>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>lantanoides</taxonRankValue>
+               </taxonomicClassification>
+            </taxonomicClassification>
+         </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>ongoing</para>
+         </description>
+      </maintenance>
+      <contact scope="document">
+         <positionName>Information Manager</positionName>
+         <organizationName>Harvard Forest</organizationName>
+         <address scope="document">
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>hf-im@lists.fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher scope="document">
+         <organizationName>Harvard Forest</organizationName>
+         <address scope="document">
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>https://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <title/>
+                  <para>Throughout the MegaPlot, 1m x 1m plots were set up, 81 plots (transects including plots 0101-0124, 1101-1124, 2101-2124 and 3101-3124) were set at 20 m intervals along transects running 460 m from location markers across the MegaPlot in a N-S orientation. Plots were named based on their proximity to markers previous placed within the MegaPlot at 20 m intervals. At the time the study commenced, most of the MegaPlot was represented by low-light conditions in the understory. To capture seedling responses to light variability, an additional 53 plots were selected from a stratified random sample of plots representing four light categories (Clark and Clark 1992). Each individual below 1 cm diameter at breast height was measured for height (length of the largest stem in multiple stemmed individuals) down to the nearest half-centimeter increment, tagged and subsequently identified down to the lowest possible taxonomic unit. In the case where one individual had multiple stems of notable size, ramets were counted as distinct individuals if and only if, the stem or stolon was buried under the ground. Individuals that were large enough, had their diameters measured at two different angles at the base of the stem to the nearest hundredth of a millimeter (smaller individuals would be easily damaged by the calipers).</para>
+                  <para>To convert height estimates into estimates of mass and basal diameter, ~15 individuals of the most prevalent species were harvested (removed from the ground at the base of the stem) from the Simes tract over the entire range of sizes that were observed within the MegaPlot (less than 1cm DBH). Once harvested, their height and basal diameter were determined (same methods were used as described above) and each plant was weighed to the nearest hundredth of a gram. Subsequently, these individuals were dried in a heating oven at 60 °C for a minimum of 72 hours, after which they were weighed to the nearest hundredth of a gram again to determine their dry biomass. </para>
+                  <para>To convert DBH measurements from the MegaPlot census to basal diameter for proper comparison with the seedling data, ~15 individuals of the most common species were non-destructively measured at both breast height (1.3 m) where possible and the plant’s base, to a minimum of the nearest 20th of an inch (measurements are converted into mm in the data file).</para>
+                  <para>Additionally, hemispherical canopy photos were taken for each plot (about 0.5 m above the plot) and analyzed for canopy openness using WinSCANOPY software. In the case where there were larger saplings covering much of the plot, individual photos were taken for the larger individuals at their crown level, in addition to the representative photo for the plot. Canopy photos were taken with a SONY ILCE-6000 ILCE-6000 v3.20 with settings provided by Regent Instruments Inc. in conjunction with WinSCANOPY software. Photos were taken on a self-leveling device and tripod such that the top of the camera was perpendicular to magnetic north. Most photos were taken on a cloudy day or within 3 hours of sunrise or sunset as to minimize glare from the sun, photos with glare were identified and removed manually from the dataset prior to submission. The WinSCANOPY software was used to conduct the analysis. Threshold settings for pixel classification was set to automatic, and all other settings were left untouched. </para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <project>
+         <title>Harvard Forest Long-Term Ecological Research</title>
+         <personnel>
+            <organizationName>Harvard Forest</organizationName>
+            <address>
+               <deliveryPoint>324 North Main Street</deliveryPoint>
+               <city>Petersham</city>
+               <administrativeArea>MA</administrativeArea>
+               <postalCode>01366</postalCode>
+               <country>USA</country>
+            </address>
+            <phone phonetype="voice">(978) 724-3302</phone>
+            <phone phonetype="fax">(978) 724-3595</phone>
+            <onlineUrl>https://harvardforest.fas.harvard.edu</onlineUrl>
+            <userId directory="https://ror.org">https://ror.org/059cpzx98</userId>
+            <role>pointOfContact</role>
+         </personnel>
+         <abstract>The Harvard Forest Long-Term Ecological Research (LTER) program examines ecological dynamics in the New England region resulting from natural disturbances, environmental change, and human impacts.</abstract>
+         <funding>National Science Foundation LTER grants: DEB-8811764, DEB-9411975, DEB-0080592, DEB-0620443, DEB-1237491, DEB-1832210.</funding>
+      </project>
+      <dataTable id="hf355-01">
+         <entityName>hf355-01-taxa-codes.csv</entityName>
+         <entityDescription>taxonomic table</entityDescription>
+         <physical>
+            <objectName>hf355-01-taxa-codes.csv</objectName>
+            <size unit="byte">5722</size>
+            <authentication method="MD5">da9cab95c1ae1f1c033f9a16865b1f3f</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">https://harvardforest.fas.harvard.edu/data/p35/hf355/hf355-01-taxa-codes.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute>
+               <attributeName>taxonCode</attributeName>
+               <attributeDefinition>taxon code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>taxon code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>latin</attributeName>
+               <attributeDefinition>full scientific binomial name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>full scientific binomial name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>             
+            <attribute>
+               <attributeName>genus</attributeName>
+               <attributeDefinition>genus name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>genus name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>species</attributeName>
+               <attributeDefinition>species name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>species name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>family</attributeName>
+               <attributeDefinition>scientific family</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>scientific family</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>authority</attributeName>
+               <attributeDefinition>authority for the identification, currently set to NA for all taxa</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>authority for the identification, currently set to NA for all taxa</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>IDLevel</attributeName>
+               <attributeDefinition>whether a TaxonCode can be ascribed to a single species or may represent multiple species. Based off Orwig et al., 2022.</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>multiple</code>
+                              <definition>multiple species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>species</code>
+                              <definition>single species</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>synonyms</attributeName>
+               <attributeDefinition>Latin name synonyms of the listed Latin name</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Latin name synonyms of the listed Latin name</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>             
+         </attributeList>
+         <numberOfRecords>84</numberOfRecords>
+      </dataTable>      
+      <dataTable id="hf355-02">
+         <entityName>hf355-02-seedlings.csv</entityName>
+         <entityDescription>seedling survey</entityDescription>
+         <physical>
+            <objectName>hf355-02-seedlings.csv</objectName>
+            <size unit="byte">3201879</size>
+            <authentication method="MD5">c715a0c935fc614dda81ca489551427a</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">https://harvardforest.fas.harvard.edu/data/p35/hf355/hf355-02-seedlings.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute>
+               <attributeName>coordinate</attributeName>
+               <attributeDefinition>code denoting the 1m x 1m plot of the seedling. Can be used to link other data such as canopy photos and gps coordinates to individual locations. Coordinates are based on the quadrats used in the ForestGEO survey (e.g. Coordinate 0101 is near marker 0101).</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot location in MegaPlot</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>color</attributeName>
+               <attributeDefinition>tag color</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>BLU</code>
+                              <definition>blue tag</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>GRN</code>
+                              <definition>green tag</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ORG</code>
+                              <definition>orange tag</definition>
+                           </codeDefinition>                           
+                           <codeDefinition>
+                              <code>RED</code>
+                              <definition>red tag</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>UNT</code>
+                              <definition>untagged, used to denote seedlings without a tag likely due to being killed by accident during the first observations</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>WHT</code>
+                              <definition>white tag</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>YLW</code>
+                              <definition>yellow tag</definition>
+                           </codeDefinition>                           
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>tag</attributeName>
+               <attributeDefinition>tag number (UT means the individual was not tagged)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>tag number</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>taxonCode</attributeName>
+               <attributeDefinition>code for taxon assigned to the seedling ID. See hf355-01-taxa-codes.csv for definitions</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>code for taxon assigned to the seedling ID</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+             <attribute>
+                <attributeName>yrFirstObs</attributeName>
+                <attributeDefinition>year that the seedling is first observed or recorded. Note that this does not necessarily correspond to the year it germinated. </attributeDefinition>
+                <measurementScale>
+                   <dateTime>
+                      <formatString>YYYY</formatString>
+                   </dateTime>
+                </measurementScale>
+                <missingValueCode>
+                   <code>NA</code>
+                   <codeExplanation>missing value</codeExplanation>
+                </missingValueCode>
+             </attribute>
+            <attribute>
+               <attributeName>trueRecrt</attributeName>
+               <attributeDefinition>whether or not the seedling is interpreted as being a “true recruit”. All seedlings first recorded in 2017 were recorded as 0 since this was the first year of the census. All subsequent years when an untagged seedling was encountered were set to 1 unless observations suggested otherwise (e.g. unexpected degree of secondary growth lacking cotyledons etc.).</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>false</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>true</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>seedlingID</attributeName>
+               <attributeDefinition>unique code used to identify seedling</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>unique code used to identify seedling</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>flag</attributeName>
+               <attributeDefinition>whether or not the seedling needs to be inspected more closely upon next survey. Used to flag possible misidentifications, unusual data situations, etc. </attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>false</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>true</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>status</attributeName>
+               <attributeDefinition>current status of the seedling</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>ID</code>
+                              <definition>Invalid Data, seedlings outside of the plot or otherwise should be excluded from any analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>IH</code>
+                              <definition>Invalid Herbaceous, previously tagged seedlings that upon a revisit are believed to be herbaceous and should be excluded from analysis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VA</code>
+                              <definition>Valid Active, seedlings that are actively in the survey and are still being searched for in the field</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VG</code>
+                              <definition>Valid Graduated, seedlings that have survived to be greater than 1cm DBH, no longer active in the census</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VI</code>
+                              <definition>Valid Inactive, seedlings that are no longer actively searched for in the field survey, due to being missing for more than 3 years, or the seedling’s tag has been removed upon death.</definition>
+                           </codeDefinition>                           
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>otherTagInfo</attributeName>
+               <attributeDefinition>currently set to NA for all observations, meant for future expansion to include more tag information as different types of tags are introduced to the survey</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>other tag info</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>            
+            <attribute>
+               <attributeName>yearOfOb</attributeName>
+               <attributeDefinition>year of observation</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>alive</attributeName>
+               <attributeDefinition>status of the individual</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>MISS</code>
+                              <definition>seedling was not found at plot (tag not encountered when plot surveyed). Quality warning: in 2022, MISS values not distinguished from NA</definition>
+                           </codeDefinition>                           
+                           <codeDefinition>
+                              <code>N</code>
+                              <definition>dead</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>NA</code>
+                              <definition>missing data, also used in years before the seedling was first observed</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Y</code>
+                              <definition>alive</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>collector</attributeName>
+               <attributeDefinition>initials of data collector</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>initials of data collector</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>            
+            <attribute>
+               <attributeName>height</attributeName>
+               <attributeDefinition>height of seedling</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>natural</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>date</attributeName>
+               <attributeDefinition>date of observation</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>            
+            <attribute>
+               <attributeName>sampled</attributeName>
+               <attributeDefinition>whether or not the seedling was sampled (or an attempt to sample was made) during that yearOfOb</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>seedling not sampled, and no attempt was made to sample it that year (e.g., seedling exited the census or was before the first observation of the seedling).</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>True, seedling was sampled (or an attempt was made if not found)</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>notes</attributeName>
+               <attributeDefinition>notes and comments about the seedling made in the field or made during data cleaning</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>notes</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>35995</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf355-03">
+         <entityName>hf355-03-regressions.csv</entityName>
+         <entityDescription>mass regressions</entityDescription>
+         <physical>
+            <objectName>hf355-03-regressions.csv</objectName>
+            <size unit="byte">28747</size>
+            <authentication method="MD5">0b030363115ce4982878951d99401735</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">https://harvardforest.fas.harvard.edu/data/p35/hf355/hf355-03-regressions.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1618847205669">
+               <attributeName>genus</attributeName>
+               <attributeDefinition>specimen genus</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>specimen genus</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205680">
+               <attributeName>species</attributeName>
+               <attributeDefinition>specimen species</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>specimen species</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205681">
+               <attributeName>binomial</attributeName>
+               <attributeDefinition>Latin binomial</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Latin binomial</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205682">
+               <attributeName>year</attributeName>
+               <attributeDefinition>year of collection</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                     <dateTimePrecision>1 year</dateTimePrecision>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205683">
+               <attributeName>date</attributeName>
+               <attributeDefinition>date of collection</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimePrecision>1 day</dateTimePrecision>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205684">
+               <attributeName>location_collected</attributeName>
+               <attributeDefinition>where specimen was collected (either off of the ForestGEO MegaPlot or at the Simes Tract of Harvard Forest)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>where specimen was collected</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205685">
+               <attributeName>identifying_code</attributeName>
+               <attributeDefinition>context specific identifying code of individual. Individuals measured in
+      2018 were harvested and thus this value was not recorded</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>context specific identifying code of individual</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205686">
+               <attributeName>basal_diameter1_mm</attributeName>
+               <attributeDefinition>first basal diameter measurement</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205687">
+               <attributeName>basal_diameter2_mm</attributeName>
+               <attributeDefinition>second basal diameter measurement</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205688">
+               <attributeName>avg_basal_diam_mm</attributeName>
+               <attributeDefinition>midpoint of basal_diameter1_mm and
+      basal_diameter2_mm</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205689">
+               <attributeName>diameter_mm</attributeName>
+               <attributeDefinition>diameter at 1.2 m</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205690">
+               <attributeName>height_mm</attributeName>
+               <attributeDefinition>height</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>natural</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205691">
+               <attributeName>wetmass_g</attributeName>
+               <attributeDefinition>mass after collection</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205692">
+               <attributeName>drymass_g</attributeName>
+               <attributeDefinition>mass after drying</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205693">
+               <attributeName>collectors</attributeName>
+               <attributeDefinition>initials of who collected the data</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>initials of who collected the data</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847205694">
+               <attributeName>notes</attributeName>
+               <attributeDefinition>notes made by the collectors</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>notes made by the collectors</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>287</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf355-04">
+         <entityName>hf355-04-diameters.csv</entityName>
+         <entityDescription>basal diameters and dbh</entityDescription>
+         <physical>
+            <objectName>hf355-04-diameters.csv</objectName>
+            <size unit="byte">12226</size>
+            <authentication method="MD5">7217a68d69c21a9ac625c7caa312ccfe</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">https://harvardforest.fas.harvard.edu/data/p35/hf355/hf355-04-diameters.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1618847774805">
+               <attributeName>genus</attributeName>
+               <attributeDefinition>specimen genus</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>specimen genus</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774809">
+               <attributeName>species</attributeName>
+               <attributeDefinition>specimen species</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>specimen species</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774810">
+               <attributeName>binomial</attributeName>
+               <attributeDefinition>Latin binomial</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Latin binomial</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774811">
+               <attributeName>date</attributeName>
+               <attributeDefinition>date of sample collection</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774812">
+               <attributeName>basal_diameter1_mm</attributeName>
+               <attributeDefinition>first basal diameter measurement</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774813">
+               <attributeName>basal_diameter2_mm</attributeName>
+               <attributeDefinition>second basal diameter measurement</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774814">
+               <attributeName>avg_basal_diam_mm</attributeName>
+               <attributeDefinition>midpoint of basal_diameter1_mm and
+      basal_diameter2_mm</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774815">
+               <attributeName>dbh1_mm</attributeName>
+               <attributeDefinition>first diameter measured at 1.3 m</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774816">
+               <attributeName>dbh2_mm</attributeName>
+               <attributeDefinition>second diameter measured at 1.3 m</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774817">
+               <attributeName>avg_dbh_mm</attributeName>
+               <attributeDefinition>midpoint of dbh1_mm and dbh2_mm</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774819">
+               <attributeName>collectors</attributeName>
+               <attributeDefinition>initials of who collected the data (NR – Nia Riggins, JMR – Marcos
+      Rodriguez)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>initials of data collectors</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618847774820">
+               <attributeName>notes</attributeName>
+               <attributeDefinition>notes made by the collectors</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Notes made by the collectors</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>135</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf355-05">
+         <entityName>hf355-05-canopy.csv</entityName>
+         <entityDescription>canopy photograph data</entityDescription>
+         <physical>
+            <objectName>hf355-05-canopy.csv</objectName>
+            <size unit="byte">31971</size>
+            <authentication method="MD5">bd0618792745b14997af42d07d60f7c4</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">https://harvardforest.fas.harvard.edu/data/p35/hf355/hf355-05-canopy.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1618848576348">
+               <attributeName>file_name</attributeName>
+               <attributeDefinition>name of the image file</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>name of the image file</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576350">
+               <attributeName>year</attributeName>
+               <attributeDefinition>year in which the photo was taken</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                     <dateTimePrecision>1 year</dateTimePrecision>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576349">
+               <attributeName>analysis_date_time</attributeName>
+               <attributeDefinition>time and date that the image was analyzed</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>time and date that the image was analyzed</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576351">
+               <attributeName>datetime</attributeName>
+               <attributeDefinition>date and time that the image was acquired</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DDThh:mm:ss</formatString>
+                     <dateTimePrecision>1 second</dateTimePrecision>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576352">
+               <attributeName>plot</attributeName>
+               <attributeDefinition>plot number which the photo represents</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number which the photo represents</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576353">
+               <attributeName>included_individuals</attributeName>
+               <attributeDefinition>individuals that the light measurements correspond to (see
+      methods)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>individuals that the light measurements correspond to (see
+          methods)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576355">
+               <attributeName>gap_fraction</attributeName>
+               <attributeDefinition>proportion of open pixels, unweighted based on
+      location</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576356">
+               <attributeName>openness</attributeName>
+               <attributeDefinition>proportion of open pixels, weighted by location in photo (directly above
+      pixels are weighted more)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576357">
+               <attributeName>ppfd_directoverperday_mj_m2day</attributeName>
+               <attributeDefinition>measurement of direct solar radiation experienced by the
+      canopy</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>megajoulePerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576358">
+               <attributeName>ppfd_diffuseoverperday_mj_m2day</attributeName>
+               <attributeDefinition>measurement of direct solar radiation experienced by the
+      canopy</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>megajoulePerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576359">
+               <attributeName>ppfd_totaloverperday_mj_m2day</attributeName>
+               <attributeDefinition>measurement of all solar radiation experienced by the
+      canopy</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>megajoulePerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576369">
+               <attributeName>ppfd_directunderperday_mj_m2day</attributeName>
+               <attributeDefinition>measurement of direct solar radiation experienced by the
+      plot</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>megajoulePerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576370">
+               <attributeName>ppfd_diffuseunderperday_mj_m2day</attributeName>
+               <attributeDefinition>measurement of indirect solar radiation experienced by the
+      plot</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>megajoulePerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576379">
+               <attributeName>ppfd_totalunderperday_mj_m2day</attributeName>
+               <attributeDefinition>measurement of all solar radiation experienced by the
+      plot</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>megajoulePerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1618848576384">
+               <attributeName>comments</attributeName>
+               <attributeDefinition>comments made by data processor</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>comments made by data processor</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>228</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <researchTopic>community</researchTopic>
+            <studyType>long-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Harvard Forest CTFS-ForestGEO Mapped Forest Plot since 2014">https://harvardforest.fas.harvard.edu/exist/apps/datasets/showData.html?id=hf253</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>

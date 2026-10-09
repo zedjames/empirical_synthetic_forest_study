@@ -1,0 +1,21 @@
+{
+  "archived_metadata": "HFD01/manifests/artifact_manifest.json",
+  "exposed_external_source": "HF-third-census-news from immutable HFD01 manifest; never training",
+  "new_identity_sources": {
+    "HF253-species-codes": "identity_inputs.json:sources[1]",
+    "HF253-trees2014": "identity_inputs.json:sources[0]"
+  },
+  "new_method_sources": {
+    "HF-SYNTH-DISC-001": "config/protocol.json:synthetic",
+    "HFD03-B0-B4": "config/protocol.json:missingness",
+    "HFD03-diagnostic-grid": "config/protocol.json:diagnostics",
+    "HFD03-entry-assumptions": "config/protocol.json:entry_audit",
+    "HFD03-mask-protocol": "config/protocol.json:calibration",
+    "HFD03-paired-maximum-banks": "config/protocol.json:monte_carlo"
+  },
+  "primary_observed": [
+    "HF253-E0",
+    "HF253-E1"
+  ],
+  "scientific_prior": "HFD02S config/design.json and immutable empirical fit"
+}

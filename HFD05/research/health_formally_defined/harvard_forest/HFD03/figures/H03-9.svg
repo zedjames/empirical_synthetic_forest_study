@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="290" viewBox="0 0 920 290">
+<rect width="100%" height="100%" fill="#faf8f3"/>
+<text x="24" y="30" font-family="sans-serif" font-size="18">Origin state: measured ancestry versus imputed ancestry</text>
+<text x="24" y="54" font-family="sans-serif" font-size="12">Green measured-ancestry/date-projected; rust imputed-ancestry. ALL2020 origin fields remain IMPUTED.</text>
+<text x="24" y="90" font-family="sans-serif" font-size="11">B0</text>
+<rect x="300" y="76" width="558.8424" height="8" fill="#587c59"/>
+<rect x="300" y="86" width="21.0004" height="8" fill="#b56848"/>
+<text x="866" y="90" font-family="sans-serif" font-size="10">0.964</text>
+<text x="24" y="124" font-family="sans-serif" font-size="11">B1</text>
+<rect x="300" y="110" width="558.3489" height="8" fill="#587c59"/>
+<rect x="300" y="120" width="21.4939" height="8" fill="#b56848"/>
+<text x="866" y="124" font-family="sans-serif" font-size="10">0.963</text>
+<text x="24" y="158" font-family="sans-serif" font-size="11">B2</text>
+<rect x="300" y="144" width="558.1584" height="8" fill="#587c59"/>
+<rect x="300" y="154" width="21.6844" height="8" fill="#b56848"/>
+<text x="866" y="158" font-family="sans-serif" font-size="10">0.963</text>
+<text x="24" y="192" font-family="sans-serif" font-size="11">B3</text>
+<rect x="300" y="178" width="560.0000" height="8" fill="#587c59"/>
+<rect x="300" y="188" width="19.8428" height="8" fill="#b56848"/>
+<text x="866" y="192" font-family="sans-serif" font-size="10">0.966</text>
+<text x="24" y="226" font-family="sans-serif" font-size="11">B4</text>
+<rect x="300" y="212" width="559.9260" height="8" fill="#587c59"/>
+<rect x="300" y="222" width="19.9168" height="8" fill="#b56848"/>
+<text x="866" y="226" font-family="sans-serif" font-size="10">0.966</text>
+</svg>

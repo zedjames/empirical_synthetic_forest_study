@@ -1,0 +1,7 @@
+{
+  "cells": 256,
+  "health_changes": 0,
+  "max_abs_reserve_delta": 0.0,
+  "max_abs_viable_delta": 0.0,
+  "scope": "Fixed matched subset, not full original primary surface; all 256 registered horizon cells retained"
+}

@@ -1,0 +1,9 @@
+{
+  "R1_finite_exactly_preserved": true,
+  "all_original_corrected_references_addressable": true,
+  "finite_design_weights": "Equal declared state/parameter/model units; no ecological posterior interpretation",
+  "original_finite_surface_reproduced": true,
+  "query_cells_per_variant": 6480,
+  "rows": 32400,
+  "variants": 5
+}

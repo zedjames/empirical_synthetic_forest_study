@@ -8,9 +8,25 @@ This repository is the public companion for a measurement-science study using Ha
 
 ## Publication status
 
-**Private scientific reproducibility verification is complete (24/24 ARM stages and 69/69 evidence checksums).** The public scientific source and evidence release is being prepared. Until uploaded, the public repository remains a documentation/provenance companion and does not independently reproduce the science. See [Release status](docs/RELEASE_STATUS.md) before interpreting the presence of a file as evidence of a completed reproducibility release.
+**The reviewed computational artifact is published as [v1.0.0](https://github.com/zedjames/empirical_synthetic_forest_study/releases/tag/v1.0.0).** Original scientific verification confirmed 24/24 ARM stages, 69/69 evidence checksums, and all nine formerly divergent predictive outputs. The public source contains every scientific Python module and the bounded configurations, documentation and reference results; the two frozen release ZIPs contain the complete evidence needed for reproduction. See [Release status](docs/RELEASE_STATUS.md) and [verification records](verification/scientific-verification.json).
 
-The underlying research repository remains private. This public repository will contain only a reviewed, explicitly allowlisted scientific export. No private Git history, unrelated formal code, confidential files, credentials, or cached raw census datasets will be copied.
+The underlying research repository remains private. This repository contains only the reviewed scientific export and public documentation. No private Git history, unrelated formal code, confidential files, credentials, or cached raw census datasets are included.
+
+## Reproduce the artifact
+
+Download the two complete ZIPs and their checksums from [v1.0.0](https://github.com/zedjames/empirical_synthetic_forest_study/releases/tag/v1.0.0):
+
+```bash
+gh release download v1.0.0 --repo zedjames/empirical_synthetic_forest_study \
+  --dir downloaded --pattern 'PaperV_*.zip' --pattern SHA256SUMS
+python3 scripts/verify_release_assets.py downloaded
+unzip downloaded/PaperV_HFD05_v1.0.0.zip -d hfd05-run
+unzip downloaded/PaperV_HFD06_v1.0.0.zip -d hfd06-run
+```
+
+Run the [full reproduction commands](docs/REPRODUCIBILITY.md) from the separate extracted package roots. The exact-byte reference environment is native ARM64, Darwin 27.0.0, Python 3.9.6 and NumPy 2.0.2. Other platforms can differ numerically; Intel exact-byte identity is not claimed. Public publisher inputs are retrieved by the package runners and checked against fixed hashes. No private repository is required.
+
+The Git source directories `HFD05/` and `HFD06/` retain files up to 1 MiB. They are a browseable source and reference snapshot, not complete execution directories: 35 larger evidence files are intentionally provided only inside the two ZIPs. [SOURCE_INVENTORY.json](SOURCE_INVENTORY.json) records the full partition; [source review](verification/source-review.json) records all 536 candidate-file dispositions and resolution of the 98 review flags.
 
 ## The scientific claim
 
@@ -32,6 +48,6 @@ Selected results include identification limits for census-derived recruitment, p
 
 ## Licensing
 
-As in the public RMMO research series, [LICENSE.md](LICENSE.md) specifies **CC BY-NC-ND 4.0** for the manuscript, documentation, figures, and original derived result tables, and **PolyForm Noncommercial 1.0.0** for released paper-specific executable scientific code and repository build/audit helpers. Third-party materials retain their own terms. The verified scientific export must pass final source-disclosure checks and a clean public-only replay at release.
+As in the public RMMO research series, [LICENSE.md](LICENSE.md) specifies **CC BY-NC-ND 4.0** for the manuscript, documentation, figures, and original derived result tables, and **PolyForm Noncommercial 1.0.0** for released paper-specific executable scientific code and repository build/audit helpers. These terms apply to the reviewed source and the two unchanged release ZIPs; third-party materials retain their own terms. [Third-party notices](THIRD_PARTY_NOTICES.md) preserve the publisher attribution and CC0 exceptions.
 
-Cite the **paper DOI** above for the scientific findings. A persistent artifact version/commit should be cited separately after the executable scientific package is released and verified.
+Cite the **paper DOI** above for the scientific findings, and cite the computational artifact's `v1.0.0` tag and public commit separately for the released implementation.

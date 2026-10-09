@@ -1,0 +1,92 @@
+{
+  "config": {
+    "B0": {
+      "implementation": "unchanged HFD02S reconstruct",
+      "mnar_sd": 0.45,
+      "wet_sd": 0.7
+    },
+    "B1": {
+      "implementation": "MAR-like deterministic observed-cell hazard shifts",
+      "mnar_sd": 0,
+      "size_log_shift": [
+        0.1,
+        0,
+        0,
+        -0.1
+      ],
+      "stratum_log_shift": [
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "taxon_log_shift": [
+        0.1,
+        0,
+        -0.1,
+        0
+      ],
+      "wet_sd": 0
+    },
+    "B2": {
+      "mnar_sd": 0.15,
+      "wet_sd": 0.25
+    },
+    "B3": {
+      "mnar_sd": 0.9,
+      "wet_sd": 1.1
+    },
+    "B4": {
+      "mnar_sd": 0.3,
+      "wet_log_shift_mean": 0.25,
+      "wet_sd": 1.2
+    },
+    "coupling": "Same seed per state/future unit across mechanisms; variable-consumption RNG prevents claim of exact common-uniform coupling",
+    "future_draws": 256,
+    "horizons": [
+      5,
+      10,
+      20
+    ],
+    "model_variants": [
+      "gamma_growth",
+      "normal_growth"
+    ],
+    "parameter_draws_per_state": 1,
+    "state_draws": 128
+  },
+  "phase_metric": "Disagreement across paired conditional Health cells; also paired continuous mass changes",
+  "results": {
+    "B0": {
+      "conditional_units": 256,
+      "mean_mass_change": 0.0,
+      "phase_cells": 4860,
+      "point_disagreement": 0.0
+    },
+    "B1": {
+      "conditional_units": 256,
+      "mean_mass_change": -0.002888149581849575,
+      "phase_cells": 4860,
+      "point_disagreement": 0.030302372685185184
+    },
+    "B2": {
+      "conditional_units": 256,
+      "mean_mass_change": 0.00040040191379375756,
+      "phase_cells": 4860,
+      "point_disagreement": 0.016823398919753086
+    },
+    "B3": {
+      "conditional_units": 256,
+      "mean_mass_change": -0.002597290789708495,
+      "phase_cells": 4860,
+      "point_disagreement": 0.015720646862139916
+    },
+    "B4": {
+      "conditional_units": 256,
+      "mean_mass_change": -0.004838967230170965,
+      "phase_cells": 4860,
+      "point_disagreement": 0.017827289094650207
+    }
+  },
+  "unresolved_policy": "Bracket from conditional TRUE/FALSE/MC_UNRESOLVED; point labels descriptive only"
+}

@@ -1,0 +1,8 @@
+{
+  "complete_conditions": 4,
+  "loss_contrasts": "Signed nonadditive contrasts; model misspecification and finite future MC remain in E11",
+  "paired_world_rows": 8928,
+  "reference_alteration": false,
+  "status": "EXECUTED_ORIGINAL_ROSTER",
+  "worlds": 81
+}

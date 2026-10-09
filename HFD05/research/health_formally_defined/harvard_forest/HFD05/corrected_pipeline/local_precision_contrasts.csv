@@ -1,0 +1,13 @@
+selection_index,K,comparison,mass_delta,difference_lower,difference_upper,finite_health_changed,original_status,new_status,targeted_not_representative,interval_scope
+0,256,INDIVIDUAL_ORIGINAL_GAMMA,0.95703125,0.8946570095608818,0.9825658268517531,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+0,256,INDIVIDUAL_CORRECTED_GAMMA,0.95703125,0.8946570095608818,0.9825658268517531,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+0,1024,INDIVIDUAL_ORIGINAL_GAMMA,0.9619140625,0.9382640078304462,0.9761716301012836,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+0,1024,INDIVIDUAL_CORRECTED_GAMMA,0.9619140625,0.9382640078304462,0.9761716301012836,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+0,4096,INDIVIDUAL_ORIGINAL_GAMMA,0.9560546875,0.9449471348922754,0.9648198446122842,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+0,4096,INDIVIDUAL_CORRECTED_GAMMA,0.9560546875,0.9449471348922754,0.9648198446122842,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+1,256,INDIVIDUAL_ORIGINAL_GAMMA,0.953125,0.8889695730333156,0.9805911293531452,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+1,256,INDIVIDUAL_CORRECTED_GAMMA,0.953125,0.8889695730333156,0.9805911293531452,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+1,1024,INDIVIDUAL_ORIGINAL_GAMMA,0.958984375,0.9344089750046994,0.9741958944866291,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+1,1024,INDIVIDUAL_CORRECTED_GAMMA,0.958984375,0.9344089750046994,0.9741958944866291,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+1,4096,INDIVIDUAL_ORIGINAL_GAMMA,0.958740234375,0.947877567634389,0.967253925857543,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"
+1,4096,INDIVIDUAL_CORRECTED_GAMMA,0.958740234375,0.947877567634389,0.967253925857543,False,TRUE,TRUE,True,"Conservative two-distinct-law marginal MC bracket, not general ecological robustness"

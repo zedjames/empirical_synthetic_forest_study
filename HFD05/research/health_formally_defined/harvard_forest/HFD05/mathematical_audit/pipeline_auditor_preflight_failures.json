@@ -1,0 +1,9 @@
+{
+ "status":"AUDITOR_ONLY_PREFLIGHT_FAILURES_CORRECTED",
+ "production_source_or_outcomes_changed":false,
+ "failures":[
+  {"cause":"Independent count-form Wilson implementation did not force the all-success upper endpoint to exact1. Floating roundoff could make it below1 and incorrectly mark theta1 FALSE.","correction":"Apply mathematical endpoints count0=>lower0 and countK=>upper1 explicitly, independently of production probability-form implementation. Full independent audit rerun."},
+  {"cause":"Initial expected cap table size confused Q2-only count census6144 with fullQ1+Q2 original12288.","correction":"Reconstruct full declared grid cardinality4caps*16states*4scenarios*2models*2horizons*2rho*2queries*3theta=12288; five correction variants yield61440. No source/table rows pruned."}
+ ],
+ "subsequent_independent_audit":"pipeline_independent_audit.json"
+}

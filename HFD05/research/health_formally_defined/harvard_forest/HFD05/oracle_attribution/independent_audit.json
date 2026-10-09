@@ -1,0 +1,10 @@
+{
+  "all_worlds": 81,
+  "complete_factorial_cells": 2232,
+  "forced_additivity": false,
+  "oracle_draw_query_prefix_rows": 34176,
+  "original_E00_draws_exact": 2592,
+  "source_sha256": "f8c7ee938d4309586ba4563b1c6ae709332b6c7a536da959abd3aa91f39d6452",
+  "status": "PASS",
+  "strict_role_hostile_rejections": 3
+}

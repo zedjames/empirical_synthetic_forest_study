@@ -1,0 +1,114 @@
+{
+  "cache": {
+    "all_prefix_counts_recomputed": true,
+    "archived_banks_checked": 243,
+    "first_chunk_every_world_suite_replayed": false,
+    "full_65536_kernel_replay_executed": false
+  },
+  "hostile_controls": [
+    {
+      "id": "HC-01",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-02",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-03",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-04",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-05",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-06",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-07",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-08",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-08b",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-09",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-10",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-11",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-12",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-13",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-14",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-15",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-16",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-17",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-18",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-19",
+      "status": "PASS"
+    },
+    {
+      "id": "HC-20",
+      "status": "PASS"
+    }
+  ],
+  "portable": {
+    "estimator_draws": 51840,
+    "historical_unresolved": 963976,
+    "isolated_replay_outputs": [
+      23,
+      5
+    ],
+    "performance_cells": 9720,
+    "supplemental": {
+      "draws": 2592,
+      "performance_cells": 486,
+      "roster_prior_exact": true
+    },
+    "truth_cells": 1458,
+    "worlds": 81
+  },
+  "private_history": "Frozen source identities independently checked in the owned private repository; public fixture does not replay privateGit",
+  "public_scope": "Isolated full packaged scientific replay PASS: 23 original plus 5 supplemental byte-exact outputs; exact externally retrieved public raw bytes reused read-only; no fresh download",
+  "status": "PASS",
+  "verifier_sha256": "1a55b0adcb6381574f030101ad0248770ba287850673c9d55d6d0b7ac8e54862"
+}

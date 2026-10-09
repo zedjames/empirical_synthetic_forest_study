@@ -1,0 +1,13 @@
+{
+  "id": "HFD05-EXPOSURE-001",
+  "origin": "Original configured origin; no observed date substituted or invented",
+  "groups": ["measured_alive", "unresolved_fate", "alive_missing_size"],
+  "individual_law": "Conditional independent Bernoulli with exp(-shared_cohort_hazard*actual_record_exposure); unresolved fate retains shared MNAR and wet-proxy shifts. B1 cell-specific shifts affect unresolved component only, not association branches.",
+  "carrier": "Reaggregate 64 ancestral cohorts using exact integer survivor counts and survivor-weighted squared projected component diameter. Component baseline RMS and shared measurement/prior-size noise retained; only per-record exposure replaces its pooled mean. No invented wet positions or individual baseline diameters.",
+  "association": "Unchanged two-branch unresolved-identity law, using existing individual dates",
+  "fit": "Original per-record hazard likelihood and pooled-hazard prior center retained and separately audited. No external outcome fitting.",
+  "inventory": {"hazard_quantiles": [0.05,0.5,0.95], "shared_log_shift_values": [-1,0,1], "exposure_quantiles": [0,0.05,0.5,0.95,1], "DP": "First nonempty cohort in each component, at most first 20 sorted stem IDs", "large_moment": {"max_individuals":500,"draws":32768,"block":1024,"hazard":0.12,"mean_se_multiple":8,"variance_se_multiple":8}},
+  "state_comparison": {"primary_draws":256,"missingness_draws":128,"missingness_families":["B0","B1","B2","B3","B4"],"coupling":"Same registered draw identities and parameter/shift consumption; changed Bernoulli consumption means no exact common-uniform pairing claim", "outputs":["N","BA","J","taxon","E0_sector_proxy","component_provenance"], "summaries":"All draws, absolute local maximum and q95; averages alone cannot establish robustness"},
+  "future_comparisons": "Deferred to separately frozen R0-R4 factorial after mathematical and reconstruction audits; no downstream inference before this phase completes",
+  "selection": "All recorded components and all preregistered draw/family cells retained; absent or invalid dates are explicit obstruction, never imputed as observations"
+}

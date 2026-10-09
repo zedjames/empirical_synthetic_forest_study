@@ -1,0 +1,9 @@
+{
+  "implementation":"scripts/h05_oracle_audit.py uncertainty",
+  "exit_code":1,
+  "failure":"ValueError: need at least one array to concatenate",
+  "cause":"Empty fixed original hemlock/Q2 PRESENT-near stratum",
+  "uncertainty_outputs_emitted":false,
+  "original_science_affected":false,
+  "action":"Retain failed implementation and register explicit empty-stratum-safe second implementation; never fabricate a reference roster"
+}

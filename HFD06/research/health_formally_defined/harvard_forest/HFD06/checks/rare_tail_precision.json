@@ -1,0 +1,7 @@
+{
+  "both_independent_positive_routes": true,
+  "new_hazards_or_events_sampled": false,
+  "original_FFT_and_sampler_outputs_preserved": true,
+  "status": "PASS",
+  "tolerance_relative": 1e-09
+}

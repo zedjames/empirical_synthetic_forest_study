@@ -1,0 +1,13 @@
+result,family,semantic_cells,cells_with_present_near_reversals,maximum_near_reversal_units,maximum_all_reversal_units,maximum_local_capacity_delta,scope
+R2,B1,972,42,8,60,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R2,B2,972,42,6,40,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R2,B3,972,36,4,30,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R2,B4,972,30,4,42,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R3,B1,972,24,10,63,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R3,B2,972,24,7,39,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R3,B3,972,39,5,30,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R3,B4,972,42,5,42,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R4,B1,972,24,10,63,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R4,B2,972,24,7,39,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R4,B3,972,39,5,30,1.0,Conditional finite design; no uniform state-space or causal ecology claim
+R4,B4,972,42,5,42,1.0,Conditional finite design; no uniform state-space or causal ecology claim

@@ -1,0 +1,3 @@
+world,index,scenario,true_ba,estimated_ba,ba_low,ba_high,ba_covered,true_juveniles,estimated_juveniles,juvenile_covered,true_viable_mass,estimated_viable_mass,viable_low,viable_high,viable_covered,true_health,estimated_health_fraction,brier,failure_provenance
+HF-SYNTH-REF-001,0,D0,1572.8360979036547,1559.8782189512785,1542.3900686242966,1579.9751473024394,True,55972.0,59687.0625,True,1.0,1.0,1.0,1.0,True,False,0.0,0.0,SIMULATED-world-and-observation / IMPUTED-estimator
+HF-SYNTH-REF-001,0,D3,1572.8360979036547,1559.8782189512785,1542.3900686242966,1579.9751473024394,True,55972.0,59687.0625,True,0.0,0.142822265625,0.0,1.0,True,False,0.0,0.0,SIMULATED-world-and-observation / IMPUTED-estimator

@@ -1,0 +1,15 @@
+{
+  "caption": "Full/coarse/unknown/label-only paired405 worlds; category/query/cohort labels retained in CSV;32-draw current baseline.",
+  "data": "figures/H04-3.csv",
+  "data_sha256": "7fbf25b6caddca047fb639671ee6067cbd5d41df890f42202d4fe0cd4ec8993f",
+  "figure": "figures/H04-3.svg",
+  "figure_sha256": "64acd7e866596fa011574e0cacf7cfbbfa9c17a3966ddd99dc2a1f8ae4d3af88",
+  "generator": "scripts/h04_reports.py",
+  "generator_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+  "id": "H04-3",
+  "inputs": {
+    "context_ablation/comparison.csv": "b5351616dde51c5f36492a4011a4849d2907422dc552595e828f118653336d47"
+  },
+  "run_id": "c19659beac083350",
+  "title": "Context information changes decision performance"
+}

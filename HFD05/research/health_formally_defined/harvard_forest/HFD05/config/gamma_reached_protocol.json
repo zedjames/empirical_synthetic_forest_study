@@ -1,0 +1,12 @@
+{
+  "id": "HFD05-GAMMA-REACHED-002",
+  "selection_basis": "All original primary parameter identities with a reached positive shape-floor branch in the completed source-based census; not selected by capacity or Health outcome",
+  "parameter_identities": [305,386,509],
+  "paths":16384,
+  "horizons":[1,5,10,20],
+  "scenarios":["D0","D1","D2","D3"],
+  "semantics":{"alpha":0.75,"beta":0.4,"tau":2,"rho":1,"theta":0.75},
+  "seed_namespace":"gamma_impact with supplement discriminator 2",
+  "coupling":"Same original state/params, shared seed, same shape arrays in reached families; scale correction changes Gamma sizes but consumes same variates. Growth does not alter death/entry draw inputs.",
+  "status":"Initial fixed 8-state panel preserved. This registered supplement localizes impact in every reached primary parameter identity without claiming population-level robustness."
+}

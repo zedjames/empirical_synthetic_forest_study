@@ -1,0 +1,18 @@
+{
+  "caption": "Stage counts have DISTINCT denominators; do not sum or interpret as a causal error partition. Full metadata identifies measured/reconstructed/model/MC roles.",
+  "data": "figures/H04-8.csv",
+  "data_sha256": "7765961f00a9e283e09e2c5e6aebf6b06a8e871b607601a5da9b0208aa68b28c",
+  "figure": "figures/H04-8.svg",
+  "figure_sha256": "9d1768cecf438ea084caef3cfa39a9d4d9a04c8736e136461bdc24ffb573b158",
+  "generator": "scripts/h04_reports.py",
+  "generator_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+  "id": "H04-8",
+  "inputs": {
+    "boundary_validation/truth_prefixes.csv": "c4d8ba90858ea8001f94545506effbde1848c2ab6474e92f4e00ea77a701e654",
+    "context_ablation/comparison.csv": "b5351616dde51c5f36492a4011a4849d2907422dc552595e828f118653336d47",
+    "decision_rules/versioned_resolution.csv": "98ca14a73b0c6036981eadf8d21aa95e8e3cc6b74eb25222cca643e7878be117",
+    "juvenile_boundary/observed_groups.csv": "3331ae6412eece9614ffff7a5f077f6ce886ac095b7bfddad4443bb83f51a6cd"
+  },
+  "run_id": "c19659beac083350",
+  "title": "End-to-end decision provenance"
+}

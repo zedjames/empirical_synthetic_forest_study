@@ -1,0 +1,2 @@
+seedlingID,coordinate,taxonCode,VG_visit_rows,first_recorded_VG_year,first_recorded_VG_date,recorded_at_initial_visit,postbaseline_graduation_interval_identified,whole_plot_entry_identified,interpretation
+0509.0-2017-000-BLU-036-000,509,BETUXX,5,2017,2017-09-02,True,False,False,"Repeated graduation attribute; first observed already graduated, transition date left-censored"

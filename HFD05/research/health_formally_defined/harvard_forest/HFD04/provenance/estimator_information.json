@@ -1,0 +1,14 @@
+{
+  "comparison_precision": "HFD0432 draws; historical HFD0364. Paired current B0 controls resolution change.",
+  "exact_levels_in_coarse": false,
+  "exact_levels_in_unknown": false,
+  "identity_used_only_as_random_nonce": true,
+  "label_only_has_no_state": true,
+  "packet_fields": [
+    "counts",
+    "diameters_cm",
+    "observation_probabilities"
+  ],
+  "true_params_transmitted": false,
+  "truth_module_not_imported": true
+}

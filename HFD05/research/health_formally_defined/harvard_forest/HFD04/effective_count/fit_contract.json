@@ -1,0 +1,16 @@
+{
+  "E2_used_in_fit": false,
+  "cap_grid": [
+    50,
+    100,
+    200,
+    500
+  ],
+  "cap_selected": false,
+  "growth_se": "max(.02, observedSD)/sqrt(min(max(n_growth,1),cap))",
+  "hazard_grid_points": 256,
+  "parameter_entry_shape": "min(entrants+1,cap); positive pseudo-exposure1/6",
+  "prior": "Beta annual survival32, Jacobian included; unequal observed durations; likelihood min(1,cap/n)",
+  "reference": 200,
+  "shared_module_mutation": false
+}

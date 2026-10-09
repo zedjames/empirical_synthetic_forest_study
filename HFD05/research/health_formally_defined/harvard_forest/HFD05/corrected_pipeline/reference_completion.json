@@ -1,0 +1,13 @@
+{
+  "boundary_worlds": 81,
+  "corrected65536": "NOT_REEVALUATED",
+  "corrected_boundary_K": [
+    4096,
+    16384
+  ],
+  "corrected_historical_K": 4096,
+  "historical_worlds": 324,
+  "source_sha256": "6ecb4315f3c9cc6cd5326fb9d53a9b952f85e9568f8e8fff7b24a367a6842c47",
+  "status": "COMPLETE",
+  "suites": 3
+}

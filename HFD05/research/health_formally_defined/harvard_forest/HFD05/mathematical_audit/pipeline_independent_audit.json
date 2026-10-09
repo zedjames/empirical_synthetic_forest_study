@@ -1,0 +1,13 @@
+{
+  "all_crossmatrix_pairs_complete": true,
+  "all_selected_grids_retained": true,
+  "context_count_pairs_changed": 0,
+  "context_rows": 207360,
+  "crossmatrix_rows": 46656,
+  "missingness_conditional_counts": 18662400,
+  "missingness_rows": 121500,
+  "reference_count_pairs_changed": 0,
+  "reference_rows": 6318,
+  "source_sha256": "3ba6aefb7a7d689fa0619981cbb32c8352ec148f8ceed01116eadc72e5badb6b",
+  "status": "PASS"
+}

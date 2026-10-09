@@ -1,0 +1,11 @@
+{
+  "actual_historical_call_cells": 64,
+  "conditional_exposure_cells": 606,
+  "controlled_state_draws": 896,
+  "exact_DP_distributions": 3,
+  "gamma_moment_cells": 120,
+  "individual_dated_records": 98018,
+  "scope": "Mathematics and specified finite audits; downstream factorial, oracle, external scoring and final closure remain separate requirements",
+  "source_sha256": "df09b09f494ba9cbb728c26b819191e0b0b3bc221161edeee209a068126d8a7b",
+  "status": "PASS"
+}

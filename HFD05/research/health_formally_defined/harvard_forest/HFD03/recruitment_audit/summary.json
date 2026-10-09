@@ -1,0 +1,32 @@
+{
+  "annual_candidate_rates": {
+    "high": 1165.3333333333333,
+    "low": 0.0,
+    "reference": 578.2333333333332
+  },
+  "caution": "Low bound can be zero: no E0 prior-coded root establishes entry. Bounds do not cover unmeasured-region entrants.",
+  "certain_entry_count": 0,
+  "class_census": {
+    "IDENTITY_OR_TAGGING_AMBIGUITY": 2,
+    "POSSIBLE_E0_MISS": 4,
+    "POSSIBLE_THRESHOLD_ENTRY": 6888,
+    "UNRESOLVED": 98
+  },
+  "e0_parent_status": {
+    "ABSENT": 5631,
+    "alive": 1337,
+    "dead": 24
+  },
+  "e0_tree_table_rows": 83813,
+  "e1_tree_table": "Unavailable in published HF253 v6; E1 plant-level grouping is DERIVED",
+  "interpretation": "Declared sensitivity memberships, not empirically calibrated class probabilities",
+  "measured_living_candidates": 6992,
+  "reference_weights": {
+    "CERTAIN_OR_HIGH_CONFIDENCE_THRESHOLD_ENTRY": 1,
+    "IDENTITY_OR_TAGGING_AMBIGUITY": 0.25,
+    "POSSIBLE_E0_MISS": 0.1,
+    "POSSIBLE_THRESHOLD_ENTRY": 0.5,
+    "SAMPLING_FRAME_DIFFERENCE": 0,
+    "UNRESOLVED": 0.25
+  }
+}

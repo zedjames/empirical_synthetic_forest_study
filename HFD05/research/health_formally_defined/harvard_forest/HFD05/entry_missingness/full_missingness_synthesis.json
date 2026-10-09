@@ -1,0 +1,11 @@
+{
+  "all_corrected_results": 3,
+  "all_semantic_cells_retained": true,
+  "conditional_default_rows": 92160,
+  "families": 5,
+  "no_uniform_robustness_claim": true,
+  "origin_provenance": "IMPUTED, anchored to dated measured/imputed components; no observed2020 origin",
+  "posterior_interpretation": false,
+  "status": "COMPLETE",
+  "taxon_and_proxy_strata": "exposure_model/controlled_stratum_comparison.csv"
+}

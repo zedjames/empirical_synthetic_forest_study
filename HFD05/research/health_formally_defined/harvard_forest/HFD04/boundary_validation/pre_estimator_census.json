@@ -1,0 +1,8 @@
+{
+  "all_worlds_retained": true,
+  "estimator_started": false,
+  "max_truth_paths": 65536,
+  "pilot_streams_reused": false,
+  "truth_census_sha256": "c4d8ba90858ea8001f94545506effbde1848c2ab6474e92f4e00ea77a701e654",
+  "worlds": 81
+}

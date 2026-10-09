@@ -1,0 +1,13 @@
+{
+  "artifact_manifest_sha256": "1bfd69221fd010e4047790655d856afcabac397f2852ca807f885654ed5240e8",
+  "exit_code": 0,
+  "observed_runtime_seconds": 4.323301167,
+  "private_raw_or_git_used": false,
+  "public_inputs_sha256": "6f6b8ff8383548623375261f8fc25d52e94db00441b16f7ce7c4d1f9eb62de7b",
+  "scientific_sources_package_only": true,
+  "source_sha256": "86542476207bddd54e0eacd93acd7e82bb7958fb7c02adf2cc00b488cd63f5c4",
+  "stage": "oracle-analysis",
+  "status": "PASS",
+  "stderr": "",
+  "stdout": "Original oracle scored 8928 paired world/query/suite cells\n{\"status\": \"PASS\", \"tier\": 3, \"stage\": \"oracle-analysis\", \"private_raw_or_git_used\": false}\n{\"observed_runtime_seconds\": 4.149864709}\n"
+}

@@ -1,0 +1,98 @@
+{
+  "cache": true,
+  "full_replay": true,
+  "hostile_controls": [
+    {
+      "control": "HC-01 frozen mutation",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-02 E2 tuning",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-03 heldout truth",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-04 mask outcome conditioning",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-05 truth class selection",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-06 latent world packet",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-06b hidden truth stream",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-07 suite pooling",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-08 scenario posterior",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-09 semantic posterior",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-10 success renormalization",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-11 preferred Boolean stopping",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-12 unresolved forced",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-13 all new IDs recruitment",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-14 proxy geography",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-15 bookkeeping lawfulness",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    },
+    {
+      "control": "HC-16 redundant information",
+      "rejection": "Active adversarial input rejected",
+      "status": "PASS"
+    }
+  ],
+  "output_count": 75,
+  "portable": true,
+  "protocol_sha256": "de7f3568b1942f9ba664e689126cef428508afa487a6f6cc9a9b3b629ac15fb2",
+  "scope": "Computational/provenance closure, not operational ecological authorization",
+  "source_preservation": "133 frozen tracked artifacts; cache audit also checks original final raw archive",
+  "status": "PASS",
+  "verifier_sha256": "c62f80604c963e3e1b58dbc197eca955ba8ad4b931397e5f088f217c14ea9d39"
+}

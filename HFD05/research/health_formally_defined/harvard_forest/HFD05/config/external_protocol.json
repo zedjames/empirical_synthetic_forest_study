@@ -1,0 +1,40 @@
+{
+  "id": "HFD05-EXTERNAL-COMPONENT-001",
+  "phase": "REGISTER_BEFORE_EXTERNAL_OBSERVATION_OUTCOMES_OPENED",
+  "metadata_read_before_protocol": true,
+  "sources": {
+    "HF453": {"version": 1, "DOI": "10.6073/pasta/0bc6f43d7406c9c01e84a3dd4ed65193", "metadata": "https://harvardforest1.fas.harvard.edu/data/eml/hf453.xml", "page": "https://harvardforest1.fas.harvard.edu/exist/apps/datasets/showData.html?id=HF453", "tables": ["hf453-01"], "license": "CC0-1.0"},
+    "HF355": {"version": 4, "DOI": "10.6073/pasta/6c4f69748959fff364ecf89fc293922f", "metadata": "https://harvardforest1.fas.harvard.edu/data/eml/hf355.xml", "page": "https://harvardforest1.fas.harvard.edu/exist/apps/datasets/showData.html?id=HF355", "tables": ["hf355-01", "hf355-02", "hf355-05"], "license": "CC0-1.0"}
+  },
+  "model_selection": "Original frozen HF253 E0-E1 hazard grid/posterior only; Gamma and exposure corrections do not refit hazards. No external outcome used to choose a model, hazard, cap, alignment rule, or correction.",
+  "HF453": {
+    "risk_set": "Recorded A/AU in July 2021; unique confirmed HF253 E0-E1 stem/tree/species association, alive E0, E1 observed DBH at least10. Unlinked or ambiguous units retained in exclusion ledger, not imputed.",
+    "identity": "Exact recorded StemTag to HF253 stem.tag or documented composite tag+stem.tag; raw strings retained. Pure integer tag labels additionally compared after leading-zero normalization. Accept only one consistent linked stem across candidate keys. Collisions never broken by outcome, species or mortality prediction.",
+    "alive": ["A", "AU"], "secure_dead": ["DC", "DS"], "unresolved": ["DN"],
+    "duplicate_policy": "Exact duplicate rows collapse with provenance; nonidentical same-tag/year rows exclude affected identity from primary scoring.",
+    "reversal_policy": "A securely dead DC/DS followed by A/AU is an inconsistent history excluded from primary scores, separately inventoried. DN alone never establishes biological death.",
+    "targets": ["baseline2021 cumulative endpoint2022", "baseline2021 cumulative endpoint2023", "baseline2021 cumulative endpoint2024", "consecutive-observed-alive annual risks"],
+    "time": "Raw year supplies July precision only. Primary annual exposure is the recorded year difference, an explicitly declared anniversary approximation. Sensitivity spans July1-to-July31 endpoint combinations; no fabricated exact observation date.",
+    "prediction": "Sum_h frozen posterior_c(h)*exp(-h*duration), with c from original E0 ancestor cell. Conditional2021-to2024 test, left-truncated to observed2021 survivors; no 2020-to2021 claim.",
+    "status_sensitivity": ["strict DC/DS only; DN excluded", "DN counted as survey-defined mortality", "DN treated as surviving for endpoint ambiguity bound"],
+    "strata": ["year", "four taxa", "hemlock versus others", "original stratum/protocol proxy", "E1 DBH10-30 versus at least30", "baseline recorded damage indicator"],
+    "scores": ["counts/risk denominators", "survival calibration", "Brier", "log score with probabilities clipped only for numeric evaluation1e-15", "observed/predicted event counts", "record-level residuals"],
+    "uncertainty": "1000 whole-spatial-cluster bootstrap replicates preserving complete histories of linked stems within original HF253 quadrat. Also report stem-history bootstrap sensitivity. Missing quadrat gets explicit stratum cluster, never invented positions. Conditional descriptive uncertainty, not unbiased ecological population inference."
+  },
+  "HF355": {
+    "unit": "Recorded seedlingID within recorded1m2 subplot; no whole-plot expansion",
+    "invalid": ["ID", "IH"], "active": "VA", "graduated": "VG", "inactive": "VI",
+    "alive": "Y", "dead": "N", "missing": ["MISS", "NA", ""],
+    "support": "Only sampled=1, observed dated Y/N visits enter primary adjacent-visit survival; all missing visits and undated records inventoried. Graduation is field-defined above1cm, not entry to whole-plot1-10cm carrier.",
+    "identity": "Repeated seedlingID retained; inconsistent coordinate/taxon or nonidentical duplicate visit excludes affected identity from primary transitions, retained in ledger. Taxon-code table supplies documented botanical crosswalk only.",
+    "recruitment": "Tabulate first-recorded trueRecrt by cohort year, excluding baseline2017 from post-baseline recruitment fractions. Field interpretation, not germination timestamp or whole-plot biological threshold-entry identity.",
+    "outcomes": ["first-observation recruitment interpretation", "dated adjacent-visit survival", "first recorded graduation and exposure interval", "taxon/subplot transition summaries", "explicit bridge nonidentifiability"],
+    "model_comparison": "No fitted seedling-specific hazard exists in original model. Report matched-support descriptive transitions and only explicitly declared four-taxon hazard extrapolation as sensitivity, never primary validation of the below1cm process.",
+    "uncertainty": "1000 subplot-cluster bootstrap replicates retaining all repeated seedling visits; exact record count/exclusion reconciliation"
+  },
+  "independence": "Later external observations evaluate frozen earlier-fit component laws retrospectively; no claim of publicly timestamped prospective issuance or full Health validation.",
+  "all_adverse_results_retained": true,
+  "support_matrix_before_scores": true,
+  "no_ecological_causal_death_attribution": true,
+  "obstruction": "Record-level counts/reasons if linkage/support fails; no substitute data invented"
+}

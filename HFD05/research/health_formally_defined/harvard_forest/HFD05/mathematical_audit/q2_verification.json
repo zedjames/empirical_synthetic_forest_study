@@ -1,0 +1,19 @@
+{
+  "archived_count_cells": 75449,
+  "corrected_intervals": "SINGLE_RESERVE_WILSON95",
+  "health_definition_changed": false,
+  "old_point_labels_preserved": true,
+  "primary": {
+    "all_finite_identical": true,
+    "original_primary_query_cells": 4320,
+    "source_bank_sha256": "0f6597045b6428b8cdf22ee8a9c4402deb6f6b56cea80648bb9eac6a5b9fba0a"
+  },
+  "raw_boundary_subset_banks": 243,
+  "status": "PASS",
+  "tests": {
+    "all_pass": true,
+    "integer_truth_tables": 65440,
+    "scope": "Finite fixtures accompany general nonnegative measure proof, not replace it",
+    "weighted_truth_tables": 6912
+  }
+}

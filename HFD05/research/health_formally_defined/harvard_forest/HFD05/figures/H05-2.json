@@ -1,0 +1,16 @@
+{
+  "caption": "Actual-call branch census; rare reached branches have material moment errors even where finite Health is unchanged. Zero and denominator-floor counts remain in the source table.",
+  "data": "figures/data/H05-2.csv",
+  "data_sha256": "b8e6da69d3e753ec3cef6985f9abacddb3e33482ffaa1f78b70727fa10f9df10",
+  "ecological_population_inference": false,
+  "id": "H05-2",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "All confirmatory parameter families",
+  "sources": {
+    "gamma_growth/branch_summary.csv": "e458dda1a51d8e46040afb8ff5f9ba6503468b1790d661e2e2de2576c815163d"
+  },
+  "svg_sha256": "a333346fc367a288618fa4ccbb32ab4be87212ee63b529d04210939b6f0d9528",
+  "title": "Reached Gamma shape-floor moment defect",
+  "units": "Number of ancestral-cell/scenario laws"
+}

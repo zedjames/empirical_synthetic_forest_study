@@ -1,0 +1,15 @@
+{
+  "count_cells": 75449,
+  "interval_formula": "Independently evaluated count-form Wilson95",
+  "point_labels": "EXACTLY_PRESERVED",
+  "source": "38e4675b6c236cd700606d7c9df25f3c3875b22971b650811564f784b1d2cb2b",
+  "status": "PASS",
+  "transitions": {
+    "FALSE -> FALSE": 2888394,
+    "MC_UNRESOLVED -> FALSE": 158,
+    "MC_UNRESOLVED -> MC_UNRESOLVED": 160589,
+    "MC_UNRESOLVED -> TRUE": 213,
+    "TRUE -> TRUE": 1163195
+  },
+  "weighted_evaluations": 4212549
+}

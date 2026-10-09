@@ -1,0 +1,3 @@
+assignment,prior_stem_state,later_record,earlier_record,observation_equal,biological_entry
+A_THRESHOLD_CROSSING,"Below detection threshold, unrecorded",Same fixed live tagged size/date/identity record,No recorded stem,True,True
+B_EARLIER_UNRECORDED_STEM,Already eligible but missed in earlier frame,Same fixed live tagged size/date/identity record,No recorded stem,True,False

@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "name": "hf253-04-trees-2014.csv",
+      "url": "https://harvardforest.fas.harvard.edu/data/p25/hf253/hf253-04-trees-2014.csv",
+      "bytes": 9699549,
+      "publisher_md5": "53bd19e300a99c0677a265a5ac58f9a6",
+      "sha256": "ebe5932c1d41b12377a08b849b00d04f7b65581c1cb27f4d00a8519648a12bc7",
+      "rows": 83813,
+      "provenance": "OBSERVED",
+      "retrieval_date": "2026-10-07",
+      "metadata_anchor": "HFD01 HF253-EML 4469f4b3f1950612",
+      "permission": "Public Harvard Forest research archive; attribution required"
+    },
+    {
+      "name": "hf253-02-species-codes.csv",
+      "url": "https://harvardforest.fas.harvard.edu/data/p25/hf253/hf253-02-species-codes.csv",
+      "bytes": 5740,
+      "publisher_md5": "8ab6408dd633a821508e26e9beae1337",
+      "sha256": "cd18a6a72e6434cfa70830d6fdbc70549307a3b54119a96475e3cf4a12a3fa5e",
+      "rows": 59,
+      "provenance": "OBSERVED",
+      "retrieval_date": "2026-10-07",
+      "metadata_anchor": "HFD01 HF253-EML 4469f4b3f1950612",
+      "permission": "Public Harvard Forest research archive; attribution required"
+    }
+  ],
+  "unavailable": "No E1 tree table listed in HF253 version 6; E1 tree grouping is DERIVED",
+  "licensing_metadata": "Read-only frozen HF253 EML; no new whole-plant death inference"
+}

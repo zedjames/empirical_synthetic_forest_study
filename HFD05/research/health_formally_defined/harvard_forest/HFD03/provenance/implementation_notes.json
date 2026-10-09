@@ -1,0 +1,14 @@
+{
+  "changes": [
+    "B1 vector hazard shifts enter the ordinary unknown-cohort binomial because old scalar logging cannot serialize vectors; 31 identity branches unchanged.",
+    "Added annualized growth-error reporting by affine transformation of existing heldout DBH predictions; no model, seed, mask or outcome altered.",
+    "Supplemental deterministic MC state-provenance replay covers all1024 outer states; no numerical study rerun or change.",
+    "Ancillary E1 AGB/measurement identifiers removed from masked fitting files even though the unchanged fitter never reads them; predictions unchanged.",
+    "Added aggregate predictive intervals, readable cohort labels and matched observed-BA scoring population; no latent missing DBH promoted to truth.",
+    "Read-only RNG trace adds measured-ancestry count/juvenile decomposition without consuming or changing random draws; coordinate recovery never licenses current BA.",
+    "Endpoint projection now applies the frozen parameter sampler's [0,.7] clipping to traced raw growth draws; fixes adapter fidelity, not a new parameter or favorable tuning.",
+    "After full model replay, Wilson exact boundary identities L(0,K)=0 and U(K,K)=1 enforced against IEEE roundoff; saved-count interval recount changes no forecast, mass, point Health or parameter.",
+    "No statistical parameter changes after observing outcomes."
+  ],
+  "protocol_unchanged": true
+}

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="960">
+<rect width="100%" height="100%" fill="#faf8f3"/>
+<text x="24" y="28" font-family="sans-serif" font-size="17">Full-grid MC resolution: family / threshold</text>
+<text x="24" y="53" font-family="sans-serif" font-size="12">Green TRUE, gray FALSE, rust MC_UNRESOLVED. Equal finite query-design counts, not ecological frequencies.</text>
+<text x="24" y="95" font-family="sans-serif" font-size="12">B0 / theta0</text>
+<rect x="270.0000" y="80" width="157.8443" height="20" fill="#587c59"><title>TRUE: 70137 / 248832</title></rect>
+<rect x="427.8443" y="80" width="105.0000" height="20" fill="#aaa"><title>FALSE: 46656 / 248832</title></rect>
+<rect x="532.8443" y="80" width="297.1557" height="20" fill="#b56848"><title>MC_UNRESOLVED: 132039 / 248832</title></rect>
+<text x="24" y="129" font-family="sans-serif" font-size="12">B0 / theta0.5</text>
+<rect x="270.0000" y="114" width="151.3831" height="20" fill="#587c59"><title>TRUE: 67266 / 248832</title></rect>
+<rect x="421.3831" y="114" width="407.9958" height="20" fill="#aaa"><title>FALSE: 181290 / 248832</title></rect>
+<rect x="829.3789" y="114" width="0.6211" height="20" fill="#b56848"><title>MC_UNRESOLVED: 276 / 248832</title></rect>
+<text x="24" y="163" font-family="sans-serif" font-size="12">B0 / theta0.75</text>
+<rect x="270.0000" y="148" width="150.4176" height="20" fill="#587c59"><title>TRUE: 66837 / 248832</title></rect>
+<rect x="420.4176" y="148" width="409.1908" height="20" fill="#aaa"><title>FALSE: 181821 / 248832</title></rect>
+<rect x="829.6084" y="148" width="0.3916" height="20" fill="#b56848"><title>MC_UNRESOLVED: 174 / 248832</title></rect>
+<text x="24" y="197" font-family="sans-serif" font-size="12">B0 / theta0.9</text>
+<rect x="270.0000" y="182" width="149.7762" height="20" fill="#587c59"><title>TRUE: 66552 / 248832</title></rect>
+<rect x="419.7762" y="182" width="409.7782" height="20" fill="#aaa"><title>FALSE: 182082 / 248832</title></rect>
+<rect x="829.5544" y="182" width="0.4456" height="20" fill="#b56848"><title>MC_UNRESOLVED: 198 / 248832</title></rect>
+<text x="24" y="231" font-family="sans-serif" font-size="12">B0 / theta1</text>
+<rect x="270.0000" y="216" width="0.0000" height="20" fill="#587c59"><title>TRUE: 0 / 248832</title></rect>
+<rect x="270.0000" y="216" width="411.6258" height="20" fill="#aaa"><title>FALSE: 182903 / 248832</title></rect>
+<rect x="681.6258" y="216" width="148.3742" height="20" fill="#b56848"><title>MC_UNRESOLVED: 65929 / 248832</title></rect>
+<text x="24" y="265" font-family="sans-serif" font-size="12">B1 / theta0</text>
+<rect x="270.0000" y="250" width="156.2442" height="20" fill="#587c59"><title>TRUE: 69426 / 248832</title></rect>
+<rect x="426.2442" y="250" width="147.2917" height="20" fill="#aaa"><title>FALSE: 65448 / 248832</title></rect>
+<rect x="573.5359" y="250" width="256.4641" height="20" fill="#b56848"><title>MC_UNRESOLVED: 113958 / 248832</title></rect>
+<text x="24" y="299" font-family="sans-serif" font-size="12">B1 / theta0.5</text>
+<rect x="270.0000" y="284" width="149.7695" height="20" fill="#587c59"><title>TRUE: 66549 / 248832</title></rect>
+<rect x="419.7695" y="284" width="409.4676" height="20" fill="#aaa"><title>FALSE: 181944 / 248832</title></rect>
+<rect x="829.2371" y="284" width="0.7629" height="20" fill="#b56848"><title>MC_UNRESOLVED: 339 / 248832</title></rect>
+<text x="24" y="333" font-family="sans-serif" font-size="12">B1 / theta0.75</text>
+<rect x="270.0000" y="318" width="148.8310" height="20" fill="#587c59"><title>TRUE: 66132 / 248832</title></rect>
+<rect x="418.8310" y="318" width="410.6964" height="20" fill="#aaa"><title>FALSE: 182490 / 248832</title></rect>
+<rect x="829.5274" y="318" width="0.4726" height="20" fill="#b56848"><title>MC_UNRESOLVED: 210 / 248832</title></rect>
+<text x="24" y="367" font-family="sans-serif" font-size="12">B1 / theta0.9</text>
+<rect x="270.0000" y="352" width="148.0073" height="20" fill="#587c59"><title>TRUE: 65766 / 248832</title></rect>
+<rect x="418.0073" y="352" width="411.3108" height="20" fill="#aaa"><title>FALSE: 182763 / 248832</title></rect>
+<rect x="829.3181" y="352" width="0.6819" height="20" fill="#b56848"><title>MC_UNRESOLVED: 303 / 248832</title></rect>
+<text x="24" y="401" font-family="sans-serif" font-size="12">B1 / theta1</text>
+<rect x="270.0000" y="386" width="0.0000" height="20" fill="#587c59"><title>TRUE: 0 / 248832</title></rect>
+<rect x="270.0000" y="386" width="412.7421" height="20" fill="#aaa"><title>FALSE: 183399 / 248832</title></rect>
+<rect x="682.7421" y="386" width="147.2579" height="20" fill="#b56848"><title>MC_UNRESOLVED: 65433 / 248832</title></rect>
+<text x="24" y="435" font-family="sans-serif" font-size="12">B2 / theta0</text>
+<rect x="270.0000" y="420" width="157.0544" height="20" fill="#587c59"><title>TRUE: 69786 / 248832</title></rect>
+<rect x="427.0544" y="420" width="106.4583" height="20" fill="#aaa"><title>FALSE: 47304 / 248832</title></rect>
+<rect x="533.5127" y="420" width="296.4873" height="20" fill="#b56848"><title>MC_UNRESOLVED: 131742 / 248832</title></rect>
+<text x="24" y="469" font-family="sans-serif" font-size="12">B2 / theta0.5</text>
+<rect x="270.0000" y="454" width="150.7350" height="20" fill="#587c59"><title>TRUE: 66978 / 248832</title></rect>
+<rect x="420.7350" y="454" width="408.5899" height="20" fill="#aaa"><title>FALSE: 181554 / 248832</title></rect>
+<rect x="829.3248" y="454" width="0.6752" height="20" fill="#b56848"><title>MC_UNRESOLVED: 300 / 248832</title></rect>
+<text x="24" y="503" font-family="sans-serif" font-size="12">B2 / theta0.75</text>
+<rect x="270.0000" y="488" width="149.6480" height="20" fill="#587c59"><title>TRUE: 66495 / 248832</title></rect>
+<rect x="419.6480" y="488" width="409.8524" height="20" fill="#aaa"><title>FALSE: 182115 / 248832</title></rect>
+<rect x="829.5004" y="488" width="0.4996" height="20" fill="#b56848"><title>MC_UNRESOLVED: 222 / 248832</title></rect>
+<text x="24" y="537" font-family="sans-serif" font-size="12">B2 / theta0.9</text>
+<rect x="270.0000" y="522" width="148.7973" height="20" fill="#587c59"><title>TRUE: 66117 / 248832</title></rect>
+<rect x="418.7973" y="522" width="410.6289" height="20" fill="#aaa"><title>FALSE: 182460 / 248832</title></rect>
+<rect x="829.4261" y="522" width="0.5739" height="20" fill="#b56848"><title>MC_UNRESOLVED: 255 / 248832</title></rect>
+<text x="24" y="571" font-family="sans-serif" font-size="12">B2 / theta1</text>
+<rect x="270.0000" y="556" width="0.0000" height="20" fill="#587c59"><title>TRUE: 0 / 248832</title></rect>
+<rect x="270.0000" y="556" width="411.9994" height="20" fill="#aaa"><title>FALSE: 183069 / 248832</title></rect>
+<rect x="681.9994" y="556" width="148.0006" height="20" fill="#b56848"><title>MC_UNRESOLVED: 65763 / 248832</title></rect>
+<text x="24" y="605" font-family="sans-serif" font-size="12">B3 / theta0</text>
+<rect x="270.0000" y="590" width="159.1339" height="20" fill="#587c59"><title>TRUE: 70710 / 248832</title></rect>
+<rect x="429.1339" y="590" width="111.8056" height="20" fill="#aaa"><title>FALSE: 49680 / 248832</title></rect>
+<rect x="540.9394" y="590" width="289.0606" height="20" fill="#b56848"><title>MC_UNRESOLVED: 128442 / 248832</title></rect>
+<text x="24" y="639" font-family="sans-serif" font-size="12">B3 / theta0.5</text>
+<rect x="270.0000" y="624" width="152.1663" height="20" fill="#587c59"><title>TRUE: 67614 / 248832</title></rect>
+<rect x="422.1663" y="624" width="407.2868" height="20" fill="#aaa"><title>FALSE: 180975 / 248832</title></rect>
+<rect x="829.4531" y="624" width="0.5469" height="20" fill="#b56848"><title>MC_UNRESOLVED: 243 / 248832</title></rect>
+<text x="24" y="673" font-family="sans-serif" font-size="12">B3 / theta0.75</text>
+<rect x="270.0000" y="658" width="151.1626" height="20" fill="#587c59"><title>TRUE: 67168 / 248832</title></rect>
+<rect x="421.1626" y="658" width="408.3333" height="20" fill="#aaa"><title>FALSE: 181440 / 248832</title></rect>
+<rect x="829.4959" y="658" width="0.5041" height="20" fill="#b56848"><title>MC_UNRESOLVED: 224 / 248832</title></rect>
+<text x="24" y="707" font-family="sans-serif" font-size="12">B3 / theta0.9</text>
+<rect x="270.0000" y="692" width="149.8032" height="20" fill="#587c59"><title>TRUE: 66564 / 248832</title></rect>
+<rect x="419.8032" y="692" width="409.3326" height="20" fill="#aaa"><title>FALSE: 181884 / 248832</title></rect>
+<rect x="829.1358" y="692" width="0.8642" height="20" fill="#b56848"><title>MC_UNRESOLVED: 384 / 248832</title></rect>
+<text x="24" y="741" font-family="sans-serif" font-size="12">B3 / theta1</text>
+<rect x="270.0000" y="726" width="0.0000" height="20" fill="#587c59"><title>TRUE: 0 / 248832</title></rect>
+<rect x="270.0000" y="726" width="411.9589" height="20" fill="#aaa"><title>FALSE: 183051 / 248832</title></rect>
+<rect x="681.9589" y="726" width="148.0411" height="20" fill="#b56848"><title>MC_UNRESOLVED: 65781 / 248832</title></rect>
+<text x="24" y="775" font-family="sans-serif" font-size="12">B4 / theta0</text>
+<rect x="270.0000" y="760" width="158.3169" height="20" fill="#587c59"><title>TRUE: 70347 / 248832</title></rect>
+<rect x="428.3169" y="760" width="119.0972" height="20" fill="#aaa"><title>FALSE: 52920 / 248832</title></rect>
+<rect x="547.4142" y="760" width="282.5858" height="20" fill="#b56848"><title>MC_UNRESOLVED: 125565 / 248832</title></rect>
+<text x="24" y="809" font-family="sans-serif" font-size="12">B4 / theta0.5</text>
+<rect x="270.0000" y="794" width="151.3899" height="20" fill="#587c59"><title>TRUE: 67269 / 248832</title></rect>
+<rect x="421.3899" y="794" width="408.1173" height="20" fill="#aaa"><title>FALSE: 181344 / 248832</title></rect>
+<rect x="829.5071" y="794" width="0.4929" height="20" fill="#b56848"><title>MC_UNRESOLVED: 219 / 248832</title></rect>
+<text x="24" y="843" font-family="sans-serif" font-size="12">B4 / theta0.75</text>
+<rect x="270.0000" y="828" width="150.5977" height="20" fill="#587c59"><title>TRUE: 66917 / 248832</title></rect>
+<rect x="420.5977" y="828" width="408.9815" height="20" fill="#aaa"><title>FALSE: 181728 / 248832</title></rect>
+<rect x="829.5792" y="828" width="0.4208" height="20" fill="#b56848"><title>MC_UNRESOLVED: 187 / 248832</title></rect>
+<text x="24" y="877" font-family="sans-serif" font-size="12">B4 / theta0.9</text>
+<rect x="270.0000" y="862" width="149.3779" height="20" fill="#587c59"><title>TRUE: 66375 / 248832</title></rect>
+<rect x="419.3779" y="862" width="409.6094" height="20" fill="#aaa"><title>FALSE: 182007 / 248832</title></rect>
+<rect x="828.9873" y="862" width="1.0127" height="20" fill="#b56848"><title>MC_UNRESOLVED: 450 / 248832</title></rect>
+<text x="24" y="911" font-family="sans-serif" font-size="12">B4 / theta1</text>
+<rect x="270.0000" y="896" width="0.0000" height="20" fill="#587c59"><title>TRUE: 0 / 248832</title></rect>
+<rect x="270.0000" y="896" width="412.9514" height="20" fill="#aaa"><title>FALSE: 183492 / 248832</title></rect>
+<rect x="682.9514" y="896" width="147.0486" height="20" fill="#b56848"><title>MC_UNRESOLVED: 65340 / 248832</title></rect>
+</svg>

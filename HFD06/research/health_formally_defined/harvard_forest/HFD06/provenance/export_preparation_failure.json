@@ -1,0 +1,7 @@
+{
+  "status": "PRESERVED_OPERATIONAL_PREPARATION_FAILURE",
+  "error": "Initial exporter attempted to include its own privacy-check code, whose forbidden path literals triggered its leak guard",
+  "correction": "Exclude export/replay orchestration from the minimal scientific artifact; neither is needed for public replay",
+  "archive_or_isolated_science_emitted_before_correction": false,
+  "scientific_source_or_law_changed": false
+}

@@ -1,0 +1,9 @@
+{
+  "checked_aggregation": "Unoptimized einsum, independently checked scalar fsum",
+  "checked_rows": 39,
+  "law_seeds_and_records_unchanged": true,
+  "max_interval_endpoint_discrepancy": 0,
+  "original_preserved": true,
+  "original_sha256": "e0060c998fd914f4def10034bfa4597d34cfc420e08b08f093b2d4c1a9433f12",
+  "status": "PASS"
+}

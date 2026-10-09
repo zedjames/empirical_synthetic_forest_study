@@ -1,0 +1,153 @@
+{
+  "alignment": "Actual E1 date retained as known campaign covariate. Frozen reconstruct first at 2020 origin; secondary tagged-endpoint projection of same unknown-fate kernel uses actual exposure and E0-cell RMS DBH. No claim that 2018 truth is observed 2020 state.",
+  "eligible": 66284,
+  "masking_config_sha256": "de7f3568b1942f9ba664e689126cef428508afa487a6f6cc9a9b3b629ac15fb2",
+  "no_growth_outlier_truth_removal": true,
+  "primary_truth": "Secure stem-level fate, not whole-tree death",
+  "runs": [
+    {
+      "fit_growth_n": 45269,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 59169,
+      "fitted_pooled_hazard": 0.033612810206303086,
+      "heldout": 9989,
+      "mask": "M0",
+      "origin_ba_median": 1511.773245120526,
+      "origin_count_median": 89799.0,
+      "replicate": 0,
+      "sanitized_visible_sha256": "cab325f2390d8a642fccc41e160471c4be0da2a446d468f733783ee8add67388"
+    },
+    {
+      "fit_growth_n": 45207,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 59128,
+      "fitted_pooled_hazard": 0.03368991790275475,
+      "heldout": 10030,
+      "mask": "M0",
+      "origin_ba_median": 1511.5338955329494,
+      "origin_count_median": 88558.5,
+      "replicate": 1,
+      "sanitized_visible_sha256": "19fe4597efdfcbba7aa92c82af216092c187fa5fe4f81d0ee83366d495b41da3"
+    },
+    {
+      "fit_growth_n": 45444,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 59319,
+      "fitted_pooled_hazard": 0.03347442210219269,
+      "heldout": 9839,
+      "mask": "M0",
+      "origin_ba_median": 1503.9549801842122,
+      "origin_count_median": 88243.5,
+      "replicate": 2,
+      "sanitized_visible_sha256": "42106049c8091301702e466eb85d693e4af42a911bbf91cc4ce450b45ffc0d32"
+    },
+    {
+      "fit_growth_n": 42894,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 56022,
+      "fitted_pooled_hazard": 0.033513642827648314,
+      "heldout": 13136,
+      "mask": "M1",
+      "origin_ba_median": 1514.0539694915083,
+      "origin_count_median": 87887.5,
+      "replicate": 0,
+      "sanitized_visible_sha256": "cc6db8fc469c1045820d77b1359426936792139dd44fccdf70c4e4739aa6c225"
+    },
+    {
+      "fit_growth_n": 42973,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 56046,
+      "fitted_pooled_hazard": 0.03336068578969373,
+      "heldout": 13112,
+      "mask": "M1",
+      "origin_ba_median": 1502.29698257874,
+      "origin_count_median": 88377.5,
+      "replicate": 1,
+      "sanitized_visible_sha256": "de1529f6f644343f8f8322051b0c90eb330e11f8d7814f6a7d8a4c3b5516ab79"
+    },
+    {
+      "fit_growth_n": 42921,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 56043,
+      "fitted_pooled_hazard": 0.033492867727259505,
+      "heldout": 13115,
+      "mask": "M1",
+      "origin_ba_median": 1503.7673585006405,
+      "origin_count_median": 88651.0,
+      "replicate": 2,
+      "sanitized_visible_sha256": "5abeec1b911792e0853dbe1da2dc60c9f900030526a6a1c26587701e95fee66e"
+    },
+    {
+      "fit_growth_n": 44076,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 57632,
+      "fitted_pooled_hazard": 0.03367161334689629,
+      "heldout": 11526,
+      "mask": "M2",
+      "origin_ba_median": 1495.5957312767569,
+      "origin_count_median": 87686.5,
+      "replicate": 0,
+      "sanitized_visible_sha256": "9ea4e5afe28bfd96410a14687db5fad70436dfd2d47e3cd5eaf75dec87653d76"
+    },
+    {
+      "fit_growth_n": 43862,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 57405,
+      "fitted_pooled_hazard": 0.03375472653319052,
+      "heldout": 11753,
+      "mask": "M2",
+      "origin_ba_median": 1502.6322960378761,
+      "origin_count_median": 86286.5,
+      "replicate": 1,
+      "sanitized_visible_sha256": "ce6d831147634824b141054e945c6c33b1a20dad6afe243cfcc0c4745a3388b3"
+    },
+    {
+      "fit_growth_n": 43961,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 57443,
+      "fitted_pooled_hazard": 0.03357330876814489,
+      "heldout": 11715,
+      "mask": "M2",
+      "origin_ba_median": 1490.4054467723752,
+      "origin_count_median": 87207.0,
+      "replicate": 2,
+      "sanitized_visible_sha256": "ecd2692ab1c8a6ea7381e9fe9b97599713be9b7fde8532e53ce3571a1a66c5f7"
+    },
+    {
+      "fit_growth_n": 46924,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 61027,
+      "fitted_pooled_hazard": 0.032969762523027385,
+      "heldout": 8131,
+      "mask": "M3",
+      "origin_ba_median": 1513.5129359267262,
+      "origin_count_median": 85111.0,
+      "replicate": 0,
+      "sanitized_visible_sha256": "93bb53a04d09ba902fe0d9b844f33fe8de33e7cac4905a30e67dc89e9c5b873d"
+    },
+    {
+      "fit_growth_n": 46904,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 61007,
+      "fitted_pooled_hazard": 0.03297874281712393,
+      "heldout": 8151,
+      "mask": "M3",
+      "origin_ba_median": 1513.0857511381887,
+      "origin_count_median": 87689.0,
+      "replicate": 1,
+      "sanitized_visible_sha256": "2a7b6a6ef9167fd41a15827abbbb6c24d6b6a002039ce376cc7ff9374e88394c"
+    },
+    {
+      "fit_growth_n": 46896,
+      "fit_interface": "Frozen read_core -> fit -> reconstruct; truth fields physically removed",
+      "fit_survival_n": 61040,
+      "fitted_pooled_hazard": 0.03307836814273967,
+      "heldout": 8118,
+      "mask": "M3",
+      "origin_ba_median": 1509.2583735795895,
+      "origin_count_median": 86934.5,
+      "replicate": 2,
+      "sanitized_visible_sha256": "c87dc5219138d84ff0ef537326b20438b7b9eac623b3692c428dec8eef0ddfe9"
+    }
+  ]
+}

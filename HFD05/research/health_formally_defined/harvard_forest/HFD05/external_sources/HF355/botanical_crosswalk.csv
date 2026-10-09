@@ -1,0 +1,85 @@
+HF355_taxonCode,HF355_latin,HF253_code,HF253_latin,documented_botanical_match,reason,original_taxon_group,model_below1cm_hazard_identified
+ABIEBA,Abies balsamea,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+ACERPE,Acer pennsylvanicum,acerpe,Acer pennsylvanicum,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+ACERPL,Acer platanoides,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+ACERRU,Acer rubrum,acerru,Acer rubrum,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,1,False
+ACERSA,Acer saccharum,acersa,Acer saccharum,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,1,False
+ACERXX,Acer spp.,acerxx,Acer unknown,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+ALNUIN,Alnus incana,alnuin,Alnus incana,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,2,False
+AMELLA,Amelanchier laevis,amella,Amelanchier laevis,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+AMELXX,Amelanchier spp.,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+ARONME,Aronia melanocarpa,aronme,Aronia melanocarpa,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+BETUAL,Betula alleghaniensis,betual,Betula alleghaniensis,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,1,False
+BETULE,Betula lenta,betule,Betula lenta,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,1,False
+BETUPA,Betula papyrifera,betupa,Betula papyrifera,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,1,False
+BETUPO,Betula populifolia,betupo,Betula populifolia,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+BETUXX,Betula spp.,betuxx,Betula unknown,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+CARPCA,Carpinus caroliniana,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+CASTDE,Castanea dentata,castde,Castanea dentata,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+CELAOR,Celastrus orbiculatus,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+COMPPE,Comptonia peregrina,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+CRATXX,Crataegus spp.,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+FAGUGR,Fagus grandifolia,fagugr,Fagus grandifolia,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,1,False
+FRANAL,Frangula alnus,franal,Frangula alnus,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+FRAXAM,Fraxinus americana,fraxam,Fraxinus americana,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+FRAXNI,Fraxinus nigra,fraxni,Fraxinus nigra,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+HAMAVI,Hamamelis virginiana,hamavi,Hamamelis virginiana,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,2,False
+ILEXLA,Ilex laevigata,ilexla,Ilex laevigata,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+ILEXMU,Ilex mucratana,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+ILEXVE,Ilex verticillata,ilexve,Ilex verticillata,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,2,False
+JUNICO,Juniperus communis,junico,Juniperus communis,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+KALMLA,Kalmia latifolia,kalmla,Kalmia latifolia,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,2,False
+LARILA,Larix laricina,larila,Larix laricina,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+LINDBE,Lindera benzoin,lindbe,Lindera benzoin,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+LIQUST,Liquidambar styraciflua,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+LYONLI,Lyonia ligustrina,lyonli,Lyonia ligustrina,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,2,False
+NYSSSY,Nyssa sylvatica,nysssy,Nyssa sylvatica,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+OSTRVI,Ostrya virginiana,ostrvi,Ostrya virginiana,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+PARTQU,Parthenocissus quinquefolia,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+PICEAB,Picea abies,piceab,Picea abies,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+PICEGL,Picea glauca,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+PICEMA,Picea mariana,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+PICERU,Picea rubens,piceru,Picea rubens,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+PICEXX,Picea spp.,picexx,Picea unknown,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+PINURE,Pinus resinosa,pinure,Pinus resinosa,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+PINUST,Pinus strobus,pinust,Pinus strobus,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,1,False
+PINUXX,Pinus spp.,pinuxx,Pinus unknown,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+POPUGR,Populus grandidentata,popugr,Populus grandidentata,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+POPUTR,Populus tremuloides,poputr,Populus tremuloides,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+PRUNPE,Prunus pennsylvanicum,prunpe,Prunus pennsylvanicum,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+PRUNSE,Prunus serotina,prunse,Prunus serotina,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+PRUNXX,Prunus spp.,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+QUERAL,Quercus alba,queral,Quercus alba,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+QUERRU,Quercus rubra,querru,Quercus rubra,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,1,False
+QUERVE,Quercus velutina,querve,Quercus velutina,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+QUERXX,Quercus spp.,querxx,Quercus unknown,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+RHODPR,Rhododendron prinophyllum,rhodpr,Rhododendron prinophyllum,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+RHUSGL,Rhus glabra,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+RHUSTY,Rhus typhina,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+ROSAXX,Rosa spp.,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+RUBUXX,Rubus spp.,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+SALIXX,Salix spp.,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+SAMBRA,Sambucus racemosa,sambra,Sambucus racemosa,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+SORBAM,Sorbus americana,sorbam,Sorbus americana,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+SORBAU,Sorbus aucuparia,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+SORBDE,Sorbus decora,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+SORBXX,Sorbus spp.,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+SPIRAL,Spiraea alba,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+SPIRTO,Spiraea tomentosa,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+TOXIRA,Toxicodendron radicans,toxira,Toxicodendron radicans,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+TOXIVE,Toxicodendron vernix,toxive,Toxicodendron vernix,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+TSUGCA,Tsuga canadensis,tsugca,Tsuga canadensis,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,0,False
+ULMUAM,Ulmus americana,ulmuam,Ulmus americana,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+UNKNAN,Unknown angiosperm,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+UNKNCO,Unidentified conifer,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+UNKNXX,Unidentified unknown,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+VACCAN,Vaccinium angustifolium,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+VACCCO,Vaccinium corymbosum,vaccco,Vaccinium corymbosum,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,2,False
+VACCXX,Vaccinium unknown,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+VIBUAC,Viburnum acerfolium,vibuac,Viburnum acerfolium,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+VIBULA,Viburnum latanoides,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+VIBUDE,Viburnum dentatum,vibude,Viburnum dentatum,True,DOCUMENTED_CODE_AND_BOTANICAL_MATCH,3,False
+VIBUNU,Viburnum nudum,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+VITIXX,Vitis spp.,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+AMELAL,Amelanchier alnifolia,,,False,NO_EXACT_DOCUMENTED_MATCH,,False
+ILEXXX,Ilex spp.,,,False,NO_EXACT_DOCUMENTED_MATCH,,False

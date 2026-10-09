@@ -1,0 +1,41 @@
+{
+  "actual_response": [
+    {
+      "J": 0,
+      "Q2": false,
+      "present": false
+    },
+    {
+      "J": 50,
+      "Q2": true,
+      "present": true
+    }
+  ],
+  "coarse": {
+    "BA": 0.7853981633974483,
+    "RMS_d": 10,
+    "n": 100
+  },
+  "conclusion": "Same RMS/count/BA does not determine Realizes or Q2; explicit numerical witness, not a conservative dynamics theorem",
+  "exact_second_moment": 100,
+  "fine_A": {
+    "J": 0,
+    "d": [
+      10
+    ],
+    "n": [
+      100
+    ]
+  },
+  "fine_B": {
+    "J": 50,
+    "d": [
+      9,
+      10.908712114635714
+    ],
+    "n": [
+      50,
+      50
+    ]
+  }
+}

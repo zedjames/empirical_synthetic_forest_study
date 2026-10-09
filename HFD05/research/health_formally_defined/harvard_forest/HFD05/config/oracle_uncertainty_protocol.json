@@ -1,0 +1,11 @@
+{
+  "id":"HFD05-ORACLE-UNCERTAINTY-001",
+  "parent":"Original oracle_protocol.json fixed before oracle outcomes; this source operationalizes its declared design-conditional uncertainty without changing any world, forecast, reference or score",
+  "near_boundary":"Original primary PRESENT and abs(query margin)<=0.1; all uncertified references retained separately",
+  "classification_intervals":"Pointwise Wilson95, conditional on certified constructed-world roster; undefined absent class remains blank",
+  "paired_contrasts":"1000 paired-world bootstrap replicates stratified by original world family, all families/counts fixed; state/parameter/interaction mean loss contrasts, no additive causal attribution",
+  "random_stream":"bootstrap(100,query_index,suite_index,prefix_index,subset_index)",
+  "error_sources":"Future-only seed panel versus held inference/packet; observation-only versus held inference/future; inference-only versus held packet/future. Differences remain finite diagnostic contrast, not an ecological variance partition.",
+  "hostile_role_test":"E00 rejects OracleState and/or OracleParameters even with numerically identical payload",
+  "scope":"Design-conditional constructed experiments, not independent ecological sampling. Original three paired suites never counted as three independent worlds. No new design selection or refit."
+}

@@ -1,0 +1,19 @@
+design,family,metric,n,mean_delta,q95_abs_delta,max_abs_delta,scope
+HFD02S_PRIMARY,B0,N,256,62.48828125,4088.0,8083.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD02S_PRIMARY,B0,BA,256,0.8719022794993183,18.98066346456403,28.267447824496912,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD02S_PRIMARY,B0,J,256,60.6015625,4074.0,8042.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B0,N,128,-32.2734375,4468.749999999998,5246.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B0,BA,128,-1.330894048710336,21.34599039721711,33.25793502442252,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B0,J,128,-32.1875,4455.199999999998,5217.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B1,N,128,-169.5234375,4635.449999999999,6451.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B1,BA,128,-1.2138489456774249,19.380846379515702,30.233041004324605,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B1,J,128,-169.5,4646.549999999999,6467.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B2,N,128,-211.40625,4513.3499999999985,6421.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B2,BA,128,-1.0160117475981938,18.697844156055176,32.05702268405071,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B2,J,128,-212.0390625,4529.149999999998,6437.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B3,N,128,64.375,3623.549999999993,7880.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B3,BA,128,-1.367124436293917,19.466214618398837,37.378940351404026,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B3,J,128,65.4375,3677.6499999999924,7862.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B4,N,128,-127.515625,4296.649999999994,8018.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B4,BA,128,-1.474578702149925,19.152542505210707,27.04602436773871,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim
+HFD03_MISSINGNESS,B4,J,128,-128.1328125,4308.249999999994,8033.0,Coupled-index reconstruction distributions; no exact common-uniform individual-path claim

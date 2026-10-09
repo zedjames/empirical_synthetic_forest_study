@@ -1,0 +1,8 @@
+{
+  "id":"HFD05-EXTERNAL-SCHEMA-002",
+  "discovery":"Strict preregistered metadata-schema parser rejected the canonical CSV header before emitting support counts or scores.",
+  "aliases":{"hf453-01":{"lean":"Lean"},"hf355-05":{"acquisition_date_time":"datetime"}},
+  "support":"Lean is a case-only field spelling discrepancy. HF355 metadata defines datetime as the image acquisition date/time, matching the canonical header acquisition_date_time. Neither field changes an outcome, eligibility rule, model fit, or primary target.",
+  "policy":"Exact allowlisted aliases only; original header and source bytes preserved. All other field discrepancies rejected. No silent case normalization or relaxed acceptance of arbitrary new schema.",
+  "scientific_protocol":"All original independent-validation rules remain unchanged; only explicit source-to-metadata header mapping is added. No biological scores preceded this amendment."
+}

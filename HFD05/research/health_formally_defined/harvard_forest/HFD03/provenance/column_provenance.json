@@ -1,0 +1,4985 @@
+{
+  "e2_failure_localization/response_surfaces.csv": {
+    "comparison_status": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "design_id": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "duration_years": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "entries_p05": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "entries_p95": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "entry": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "entry_factor": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "general_hazard_factor": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "hemlock_extra_hazard": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "hemlock_p05": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "hemlock_p95": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "initial_ba_error_max": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "predicted_all_deaths": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "predicted_ancestral_hemlock_deaths": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "predicted_entries": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "predicted_juveniles": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "public_all_deaths_lower_bound": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "public_entries_approx": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "public_hemlock_approx": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "resolution": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    },
+    "wet_count_factor": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "untuned-factor-surface",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HF-third-census-news",
+        "HFD03-diagnostic-grid"
+      ]
+    }
+  },
+  "figures/H03-1.csv": {
+    "E0_size_class": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "aggregate_size_truth_excluded": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_covered_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_covered_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_covered_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_error": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_lower_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_lower_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_lower_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_prediction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_truth": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_upper_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_upper_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_upper_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "ba_width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "brier": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "coverage_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "coverage_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "coverage_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "dbh_bias": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "dbh_mae": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "dbh_n": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "dbh_rmse": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "deaths": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "growth_bias": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "growth_mae": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "growth_rmse": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "growth_width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "growth_width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "growth_width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_covered_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_covered_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_covered_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_error": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_lower_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_lower_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_lower_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_truth": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_upper_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_upper_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_upper_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "juvenile_width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_covered_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_covered_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_covered_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_error": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_lower_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_lower_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_lower_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_prediction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_truth": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_upper_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_upper_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_upper_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "living_width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "log_score": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "mask": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "n": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "replicate": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "stratum": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "subgroup": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "taxon_group": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    }
+  },
+  "figures/H03-2.csv": {
+    "conditional_units": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "family": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "mean_mass_change": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "phase_cells": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "point_disagreement": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    }
+  },
+  "figures/H03-3.csv": {
+    "category": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "n": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "reference_weight": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    }
+  },
+  "figures/H03-4.csv": {
+    "comparison_status": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "design_id": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "duration_years": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "entries_p05": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "entries_p95": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "entry": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "entry_factor": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "general_hazard_factor": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "hemlock_extra_hazard": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "hemlock_p05": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "hemlock_p95": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "initial_ba_error_max": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "predicted_all_deaths": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "predicted_ancestral_hemlock_deaths": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "predicted_entries": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "predicted_juveniles": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "public_all_deaths_lower_bound": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "public_entries_approx": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "public_hemlock_approx": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "resolution": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "wet_count_factor": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    }
+  },
+  "figures/H03-5.csv": {
+    "estimate_health_probability": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "estimate_lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "estimate_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "estimate_reserve": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "estimate_upper": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "pressure_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "recovery_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "regeneration_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "replicate": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "structure_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "suite": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "truth_health": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "truth_lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "truth_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "truth_mc_status": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "truth_present": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "truth_reserve": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "truth_upper": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "world": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    }
+  },
+  "figures/H03-6.csv": {
+    "balanced_accuracy": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "brier": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "nominal90_mass_coverage": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "suite": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "viable_mass_mae": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    }
+  },
+  "figures/H03-7.csv": {
+    "max_half_width": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "resolution": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "study": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "unresolved_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    }
+  },
+  "figures/H03-8.csv": {
+    "FALSE": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "K": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "MC_UNRESOLVED": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "TRUE": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "family": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "theta": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    }
+  },
+  "figures/H03-9.csv": {
+    "directly_observed_origin_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "family": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "imputed_ancestry_ba_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "observed_anchored_ba_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "observed_anchored_count_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    },
+    "observed_anchored_juvenile_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "derived-reader-visualization",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-committed-outcomes"
+      ]
+    }
+  },
+  "missingness/phase_surface.csv": {
+    "alpha": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "beta": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "false_units": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "family": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "horizon": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "paired_health_disagreement": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "paired_mass_change": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "point_health_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "query": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "reserve_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "resolved_health_lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "resolved_health_upper": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "rho": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "scenario": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "state_provenance_link": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "tau": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "theta": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "true_units": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "unresolved_units": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "viable_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "viable_p05": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "viable_p95": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "weight_interpretation": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    }
+  },
+  "missingness/state_distribution.csv": {
+    "basal_area": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "count": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "family": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "juveniles": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "state": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    },
+    "wet_count": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "unconditional-full-pipeline",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-fit",
+        "HFD03-B0-B4"
+      ]
+    }
+  },
+  "monte_carlo/full_grid_threshold_resolution.csv": {
+    "MC_UNRESOLVED": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "conditional_units": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "theta": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    }
+  },
+  "monte_carlo/inner_resolution.csv": {
+    "K": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "horizon": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "max_half_width": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "model": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "parameter": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "present": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "provenance_link": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "query": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "reserve_count": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "reserve_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "rho": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "scenario": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "state": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "status": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "theta": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "upper": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "viable_count": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "viable_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    }
+  },
+  "monte_carlo/outer_resolution.csv": {
+    "K": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "N_X": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "health_fraction_lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "health_fraction_upper": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "horizon": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "outer_units": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "point_health_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "query": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "rho": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "scenario": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "state_block_health_se": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "state_block_mass_se": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "theta": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "unresolved_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "viable_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    },
+    "weighting": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "Wilson-and-state-block-prefix",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD03-paired-maximum-banks"
+      ]
+    }
+  },
+  "provenance/headline_health_links.csv": {
+    "K": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "N_X": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "health_fraction_lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "health_fraction_upper": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "horizon": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "interpretation": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "outer_units": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "point_health_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "provenance_link": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "query": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "rho": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "scenario": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "state_block_health_se": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "state_block_mass_se": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "state_prefix": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "theta": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "unresolved_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "viable_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "weighting": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    }
+  },
+  "provenance/mc_state_contributions.csv": {
+    "basal_area": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "count": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "directly_observed_origin_ba": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "family": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "imputed_ba": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "imputed_count": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "imputed_juveniles": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "juveniles": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchor_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchored_projected_ba": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchored_projected_count": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchored_projected_juveniles": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "origin_provenance": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "recovered_current_origin_ba": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "state": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    }
+  },
+  "provenance/raw_field_support.csv": {
+    "epoch": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "field": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "missing": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "recovered": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "rows": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "unresolved": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    }
+  },
+  "provenance/state_contributions.csv": {
+    "directly_observed_origin_ba": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "family": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "imputed_ba": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "imputed_count": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "imputed_juveniles": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "location_evidence": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchor_count_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchor_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchor_juvenile_fraction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchored_projected_ba": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchored_projected_count": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "observed_anchored_projected_juveniles": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "origin_provenance": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "recovered_current_origin_ba": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    },
+    "state": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "ancestry-and-namespace-ledger",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-protocol"
+      ]
+    }
+  },
+  "reconstruction_validation/aggregate_interval_coverage.csv": {
+    "ba_coverage": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "cohort_intervals": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_coverage": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_coverage": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "mask": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "nominal": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    }
+  },
+  "reconstruction_validation/calibration.csv": {
+    "E0_size_class": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "aggregate_size_truth_excluded": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_covered_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_covered_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_covered_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_error": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_lower_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_lower_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_lower_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_prediction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_truth": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_upper_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_upper_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_upper_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "ba_width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "brier": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "coverage_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "coverage_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "coverage_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "dbh_bias": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "dbh_mae": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "dbh_n": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "dbh_rmse": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "deaths": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "growth_bias": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "growth_mae": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "growth_rmse": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "growth_width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "growth_width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "growth_width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_covered_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_covered_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_covered_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_error": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_lower_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_lower_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_lower_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_truth": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_upper_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_upper_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_upper_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "juvenile_width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_covered_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_covered_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_covered_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_error": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_lower_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_lower_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_lower_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_prediction": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_truth": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_upper_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_upper_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_upper_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "living_width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "log_score": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "mask": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "n": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "replicate": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "stratum": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "subgroup": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "taxon_group": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "width_50": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "width_80": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "width_90": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    }
+  },
+  "reconstruction_validation/coordinate_recovery.csv": {
+    "field": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "mae": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "mask": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "observed_n": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "provenance": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "recovered_n": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "replicate": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    }
+  },
+  "reconstruction_validation/eligible_truth_pool.csv": {
+    "cell": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "coordinate_eligible": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "dbh_eligible": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "fate_eligible": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "provenance": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "secure_death": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "source_id": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "stem_id": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    }
+  },
+  "reconstruction_validation/fate_curve.csv": {
+    "bin_lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "mask": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "n": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "observed": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "predicted": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "replicate": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    }
+  },
+  "reconstruction_validation/mask_assignments.csv": {
+    "mask": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "replicate": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "stem_id": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    }
+  },
+  "reconstruction_validation/taxon_composition.csv": {
+    "mask": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "predicted_share": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "replicate": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "taxon_group": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    },
+    "truth_share": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "leave-observed-out",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HFD03-mask-protocol"
+      ]
+    }
+  },
+  "recruitment_audit/candidate_audit.csv": {
+    "category": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "cell": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "date": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "dbh": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_date": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_dbh": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_gx": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_gy": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_hom": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_latin": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_pom": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_quadrat": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_status": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_parent_taxon": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "e0_tag_matches": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "entry_high": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "entry_low": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "entry_reference": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "gx": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "gy": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "hom": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "pom": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "provenance": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "publisher_latin": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "publisher_synonym": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "quadrat": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "stem_id": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "stem_tag": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "tag": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "taxon": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "tree_id": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "OBSERVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    }
+  },
+  "recruitment_audit/class_census.csv": {
+    "category": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "n": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    },
+    "reference_weight": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "candidate-identity-audit",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "EXTERNALLY_CONSTRAINED",
+      "source_ids": [
+        "HF253-E0",
+        "HF253-E1",
+        "HF253-trees2014",
+        "HF253-species-codes",
+        "HFD03-entry-assumptions"
+      ]
+    }
+  },
+  "specification/editorial_mapping.csv": {
+    "old": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "revised": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    }
+  },
+  "specification/finite_mixture_weights.csv": {
+    "K": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "history_weight": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "models": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "outer_units": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "parameters": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "states": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "study": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    }
+  },
+  "specification/numerical_assumptions.csv": {
+    "parameter": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "scope": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "value": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    }
+  },
+  "specification/scenarios.csv": {
+    "growth_factor": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "hazard_factor": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "hemlock_extra_hazard": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "id": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "label": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "provenance": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "recruitment_factor": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    },
+    "source_evidence": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "exact-config-exposure",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-design",
+        "HFD03-protocol"
+      ]
+    }
+  },
+  "synthetic_validation/performance.csv": {
+    "estimate_health_probability": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "estimate_lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "estimate_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "estimate_reserve": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "estimate_upper": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "pressure_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "recovery_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "regeneration_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "replicate": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "structure_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "suite": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_health": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_mc_status": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_present": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_reserve": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_upper": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "world": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    }
+  },
+  "synthetic_validation/truth_census.csv": {
+    "pressure_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "recovery_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "regeneration_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "replicate": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "structure_level": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "suite": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_health": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_lower": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_mass": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_mc_status": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_present": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_reserve": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "truth_upper": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "SIMULATED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    },
+    "world": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "full-grid-truth-blind-estimation",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HF-SYNTH-DISC-001",
+        "HFD03-observation-operator"
+      ]
+    }
+  },
+  "uncertainty/frozen_finite_design_contrasts.csv": {
+    "conditional_variance": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "noncommensurate-finite-contrast",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-decomposition"
+      ]
+    },
+    "method": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "noncommensurate-finite-contrast",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-decomposition"
+      ]
+    },
+    "metric": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "noncommensurate-finite-contrast",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-decomposition"
+      ]
+    },
+    "source": {
+      "limitation": "Provenance of output column; underlying observation/imputation/simulation graph is retained, not replaced by this class",
+      "method_id": "noncommensurate-finite-contrast",
+      "namespace": "HFD03-derived-study",
+      "provenance_class": "DERIVED",
+      "source_ids": [
+        "HFD02S-frozen-decomposition"
+      ]
+    }
+  }
+}

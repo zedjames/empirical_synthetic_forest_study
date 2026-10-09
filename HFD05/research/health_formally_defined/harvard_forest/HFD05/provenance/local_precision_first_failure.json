@@ -1,0 +1,1 @@
+{"status":"PREFLIGHT_SELECTION_FAILURE","source":"scripts/h05_local_precision.py","message":"Fewer than8 unique extremes; requires explicit selection amendment","selection_or_future_outcomes_emitted":false,"scientific_law_changed":false,"followup":"Retain all available attaining cases, up to originally prescribed8"}

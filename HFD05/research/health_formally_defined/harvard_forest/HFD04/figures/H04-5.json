@@ -1,0 +1,16 @@
+{
+  "caption": "Paired scenario/state/model/horizon with beta.4,rho.5,theta.75; realization, viable mass and Q2 answers retained in linkedCSV. Inferred size profiles, not a new observation or dynamic commutation theorem.",
+  "data": "figures/H04-5.csv",
+  "data_sha256": "9da7d57f6b964b2804c1bb4961100e659b1ed35bc8b1e3a36b57da8a22b4891b",
+  "figure": "figures/H04-5.svg",
+  "figure_sha256": "8beacb86389ac7da4353637ce7308d32110bc623433d0df3b0e0efd97121aafb",
+  "generator": "scripts/h04_reports.py",
+  "generator_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+  "id": "H04-5",
+  "inputs": {
+    "juvenile_boundary/initial_projection.csv": "a7166294f6610d808af4a36c6e83167838bac33f19b3ade71b3f101d13048157",
+    "juvenile_boundary/propagation.csv": "bd403dd25d74c72eab6ae7f43ee3315e5b6e684f6044b24acfa4f75377959aa0"
+  },
+  "run_id": "c19659beac083350",
+  "title": "Representation-dependent viable regenerative reserve"
+}

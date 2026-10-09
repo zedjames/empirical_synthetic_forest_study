@@ -15,4 +15,6 @@ The original independent Intel run exhibited one-ULP floating-point differences.
 
 ## Distribution status
 
-The above results are independently verified **private research evidence**. Public reproduction depends on the complete approved source and evidence assets being released and retrievable, and a fresh check of those public assets. Do not cite a documentation-only commit as the public scientific source release. The private research repository is not part of the public artifact.
+The reviewed source and byte-preserved evidence packages are distributed in [v1.0.0](https://github.com/zedjames/empirical_synthetic_forest_study/releases/tag/v1.0.0). [The public verification record](../verification/scientific-verification.json) records the scientific verdict, exact reference identities and environment; [nine-output verification](../verification/nine-output-verification.json) and [runtime comparison](../verification/runtime-comparison.json) preserve exact output identities and portability limits. Private local paths, full runtime fingerprints and private Git ancestry are not part of these public records.
+
+The scientific replay was completed before publication and is not being repeated or represented as a new public reader's experiment. Downloaded release bytes are checked against the frozen originals. Reproduction uses the public ZIPs and hash-pinned public publisher inputs, without the private research repository. See [full instructions](REPRODUCIBILITY.md).

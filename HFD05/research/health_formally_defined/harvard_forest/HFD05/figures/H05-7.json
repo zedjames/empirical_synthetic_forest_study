@@ -1,0 +1,17 @@
+{
+  "caption": "Repeated actual-date transitions, not fitted adult-model forecasts. No identified bridge to whole-plot1\u201310cm juveniles, germination date or postbaseline graduation date.",
+  "data": "figures/data/H05-7.csv",
+  "data_sha256": "d8575c366d34bd0ec1abd1a5f59a21d4579047240ea803a8328b815ce649d287",
+  "ecological_population_inference": false,
+  "id": "H05-7",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "All and end-year strata; no whole-plot expansion",
+  "sources": {
+    "external_sources/HF355/transition_summary.csv": "e1c9feb50d247b57d376d8aceb5cf3305397312701585df1a2ab4199099053ba",
+    "external_sources/alignment_matrix.csv": "84c507bb5b86143c8416778969f8621332b52c7c249e76070151cc6c1cda2dfe"
+  },
+  "svg_sha256": "75d64cb09589387e174f08e14ffea1770cd0548f7d2b3a3362f69cb80e550cec",
+  "title": "Seedling transitions on their actual observational support",
+  "units": "Descriptive sampled below1cm-subplot survival fraction"
+}

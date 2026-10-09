@@ -1,0 +1,26 @@
+{
+  "anchored_contribution": "Observed-source projected BA is ancestry support, not directly observed 2020 state",
+  "core_classes": [
+    "DERIVED",
+    "EXTERNALLY_CONSTRAINED",
+    "IMPUTED",
+    "LITERATURE_LICENSED",
+    "OBSERVED",
+    "RECOVERED_FROM_PRIOR_OBSERVATION",
+    "SIMULATED"
+  ],
+  "count_support": "Measured-source projected counts versus imputed counts; juvenile source allocation follows final cohort RMS classification",
+  "display_alias": {
+    "DIRECTLY_OBSERVED": "OBSERVED"
+  },
+  "future": "SIMULATED",
+  "headline_links": [
+    "provenance/state_contributions.csv",
+    "provenance/mc_state_contributions.csv"
+  ],
+  "origin2020": "Every date-projected/fate-imputed/size-imputed origin field IMPUTED",
+  "prior_location": "Stable stem/tree coordinates RECOVERED_FROM_PRIOR_OBSERVATION",
+  "raw_current": "Only E1 recorded fields OBSERVED",
+  "recovered_ba": "Zero current BA is licensed merely by recovered root coordinates; location recovery is a separate field-support measure",
+  "thresholds": "EXTERNALLY_CONSTRAINED"
+}

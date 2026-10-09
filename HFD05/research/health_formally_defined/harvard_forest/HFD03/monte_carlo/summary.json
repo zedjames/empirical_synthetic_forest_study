@@ -1,0 +1,62 @@
+{
+  "config": {
+    "K": [
+      64,
+      256,
+      1024
+    ],
+    "adequate_target": "At maximum K, >=90% conditional cells resolved AND max 95% half-width <=0.04; outer selected-surface state-block SE <=0.03 at N=1024. Report MIXED if any target fails.",
+    "alpha": 0.75,
+    "beta": 0.4,
+    "classification": "Present required; TRUE if all lower bounds strictly exceed theta; FALSE if absence or any upper bound strictly below theta; otherwise MC_UNRESOLVED",
+    "horizons": [
+      5,
+      10,
+      20
+    ],
+    "inner_states": 16,
+    "interval": "Wilson score 95% pointwise Q1; Bonferroni two 97.5% Wilson components Q2; approximate binomial coverage, not simultaneous across cells",
+    "optional_extension": null,
+    "outer_K": 64,
+    "outer_N": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "outer_model_variants": [
+      "gamma_growth",
+      "normal_growth"
+    ],
+    "outer_parameter_draws": 2,
+    "prefixes": "Generate fixed maximum bank first; slice paired prefixes. No preferred-Boolean stopping.",
+    "publication_policy": "Headline intervals attach to conditional finite-design units. Aggregate Health is a resolved-fraction bracket, not Health of an averaged state.",
+    "reserve_ratio": [
+      0.5,
+      1
+    ],
+    "scenarios": [
+      "D0",
+      "D3"
+    ],
+    "tau": 2,
+    "theta": [
+      0.5,
+      0.75,
+      0.9
+    ],
+    "theta_endpoints": "Full missingness theta=0/1 reported numerically unresolved when strict MC rule overlaps; deterministic absence still FALSE"
+  },
+  "distinction": "Inner K study on fixed 16-state panel; outer N study uses K64. No claim of N1024 with K1024 everywhere.",
+  "inner_conditional_cells": 10368,
+  "inner_max_half_width": 0.03199888282425384,
+  "inner_resolved_fraction": 1.0,
+  "maximum_K": 1024,
+  "maximum_N": 1024,
+  "optional_4096_extension": "Not executed; no adaptive stopping",
+  "outer_count_sha256": "983be6d3446523ed73b2cfb74b54644f5cede1fea5ca23fe3789212cad9334d7",
+  "outer_max_state_block_health_se": 0.0046513470564417524,
+  "outer_surface_rows": 216,
+  "precision": "ADEQUATE",
+  "systematic_limits": "MC precision is not ecological validity or missingness/model/semantic uncertainty"
+}

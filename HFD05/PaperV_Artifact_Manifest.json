@@ -1,0 +1,1849 @@
+{
+  "DOI_created": false,
+  "adapter_scope": "Private Git/source ancestry audit and canonical raw-data locations only; no scientific model function transformed",
+  "deny_by_default": true,
+  "explicit_inclusion_list": [
+    "Public_Inputs.json",
+    "README.md",
+    "artifact_runner.py",
+    "requirements.txt",
+    "research/health_formally_defined/harvard_forest/HFD02S/config/design.json",
+    "research/health_formally_defined/harvard_forest/HFD02S/config/freeze.json",
+    "research/health_formally_defined/harvard_forest/HFD02S/config/future_protocol.json",
+    "research/health_formally_defined/harvard_forest/HFD02S/models/demography.py",
+    "research/health_formally_defined/harvard_forest/HFD02S/models/fitted_parameters.json",
+    "research/health_formally_defined/harvard_forest/HFD02S/models/in_sample_diagnostics.csv",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/contracts.py",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/controls.py",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/empirical.py",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/external.py",
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/pipeline.py",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/e2_external_check.json",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/e2_model_comparison.csv",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/estimator.py",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/observation_packets.json",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/public_anchor.json",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/reference_recovery.csv",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/reference_world.json",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/world_scores.csv",
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/worlds.py",
+    "research/health_formally_defined/harvard_forest/HFD03/README.md",
+    "research/health_formally_defined/harvard_forest/HFD03/config/protocol.json",
+    "research/health_formally_defined/harvard_forest/HFD03/e2_failure_localization/response_surfaces.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/e2_failure_localization/summary.json",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-1.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-1.svg",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-2.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-2.svg",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-3.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-3.svg",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-4.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-4.svg",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-5.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-5.svg",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-6.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-6.svg",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-7.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-7.svg",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-8.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-8.svg",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-9.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-9.svg",
+    "research/health_formally_defined/harvard_forest/HFD03/figures/README.md",
+    "research/health_formally_defined/harvard_forest/HFD03/generator_diagnostics/README.md",
+    "research/health_formally_defined/harvard_forest/HFD03/missingness/phase_surface.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/missingness/state_distribution.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/missingness/summary.json",
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/full_grid_threshold_resolution.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/inner_resolution.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/outer_resolution.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/outer_sufficient_statistics.npz",
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/summary.json",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/column_provenance.json",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/full_model_replay_manifest.json",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/headline_health_links.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/identity_inputs.json",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/implementation_notes.json",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/interval_boundary_amendment.json",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/mc_state_contributions.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/namespace_rules.json",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/raw_field_support.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/registration.json",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/source_catalog.json",
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/state_contributions.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/aggregate_interval_coverage.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/calibration.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/coordinate_recovery.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/eligible_truth_pool.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/fate_curve.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/mask_assignments.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/summary.json",
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/taxon_composition.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/recruitment_audit/candidate_audit.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/recruitment_audit/class_census.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/recruitment_audit/summary.json",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Balanced_Synthetic_Validation.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Closure.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Design.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Generator_Failure_Localization.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Missingness_Sensitivity.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Misspecification_Validation.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Monte_Carlo_Resolution.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Numerical_Specification.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/PaperV_Revision_Map.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Reconstruction_Calibration.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Recruitment_Audit.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Uncertainty_Interpretation.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Verification.md",
+    "research/health_formally_defined/harvard_forest/HFD03/reports/full_model_replay_receipt.json",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_calibration.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_common.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_diagnostics.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_entry.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_freeze.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_governance.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_interval_recount.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_mc.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_missingness.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_reports.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_synthetic.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/identity_inputs.py",
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/run_hfd03.py",
+    "research/health_formally_defined/harvard_forest/HFD03/specification/editorial_mapping.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/specification/finite_mixture_weights.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/specification/frozen_hfd02s_numeric_design.json",
+    "research/health_formally_defined/harvard_forest/HFD03/specification/numerical_assumptions.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/specification/scenarios.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/estimator.py",
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/performance.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/pre_estimator_census.json",
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/summary.json",
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/truth_census.csv",
+    "research/health_formally_defined/harvard_forest/HFD03/uncertainty/frozen_finite_design_contrasts.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/absolute_margin_scores.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/failure_scores.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/performance.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pilot_design.json",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pilot_probes.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pilot_v2_design.json",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pilot_v2_probes.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pre_estimator_census.json",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/primary_discrimination.json",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/signed_margin_scores.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/truth_prefixes.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/config/context_prior_audit.json",
+    "research/health_formally_defined/harvard_forest/HFD04/config/numerical_methods.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/config/pilot.json",
+    "research/health_formally_defined/harvard_forest/HFD04/config/pilot_v2.json",
+    "research/health_formally_defined/harvard_forest/HFD04/config/protocol.json",
+    "research/health_formally_defined/harvard_forest/HFD04/config/world_design.json",
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/comparison.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/estimator_draws.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/prior_reconciled_comparison.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/prior_reconciled_draws.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/prior_reconciled_performance.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/prior_reconciled_strata.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/decision_rules/hfd03_sufficient_census.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/decision_rules/interpretation.json",
+    "research/health_formally_defined/harvard_forest/HFD04/decision_rules/versioned_resolution.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/comparison.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/fit_contract.json",
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/masking_calibration.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/origin_states.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/posteriors.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/propagation.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1.json",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1.svg",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1b.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1b.json",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1b.svg",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-2.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-2.json",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-2.svg",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-3.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-3.json",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-3.svg",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-4.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-4.json",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-4.svg",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-5.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-5.json",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-5.svg",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-6.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-6.json",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-6.svg",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-7.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-7.json",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-7.svg",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-8.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-8.json",
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-8.svg",
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/changed_case_audit.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/empirical_support.json",
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/initial_projection.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/masking.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/measurement_error.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/observed_groups.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/projection_counterexample.json",
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/propagation.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/visible_size_profiles.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/context_prior_registration.json",
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/estimator_information.json",
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/execution_manifest.json",
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/lightweight_fixture.json",
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/public_full_replay_summary.json",
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/public_supplement_replay_summary.json",
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/registration.json",
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/truth_bank_manifest.json",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Boundary_Stress_Validation.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Closure.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Context_Label_Ablation.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Decision_Resolution.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Effective_Count_Sensitivity.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Juvenile_Threshold_and_Query_Sufficiency.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Numerical_Methods_Contract.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/PaperV_V3_Revision_Map.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Public_Artifact_Readiness.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Verification.md",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/hfd04_contract.json",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/referee_map.csv",
+    "research/health_formally_defined/harvard_forest/HFD04/reports/verification_receipt.json",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/artifact_runner.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_analysis.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_boundary.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_cap.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_certificate.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_common.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_context_prior_audit.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_context_prior_estimator.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_estimator.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_export.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_fixture.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_freeze.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_governance.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_juvenile.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_methods.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_pilot.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_pilot_v2.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_public_replay.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_register.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_replay_evidence.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_reports.py",
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_supplement_analysis.py",
+    "scripts/verify_hfd04_harvard_forest.py"
+  ],
+  "files": {
+    "Public_Inputs.json": {
+      "bytes": 1672,
+      "export_sha256": "6f6b8ff8383548623375261f8fc25d52e94db00441b16f7ce7c4d1f9eb62de7b",
+      "provenance": "PUBLIC_CANONICAL_INPUT_RETRIEVAL",
+      "redistribution": "CC0 metadata"
+    },
+    "README.md": {
+      "bytes": 2428,
+      "export_sha256": "fe27da622d65049242dc845682e9ee9334ab27e7fe89219f60198f04c5ba670e",
+      "provenance": "REPRODUCTION_AND_SCOPE",
+      "redistribution": "Review only"
+    },
+    "artifact_runner.py": {
+      "bytes": 6903,
+      "export_sha256": "e7eb8e4089f7b0756b3a875a6a8c264962177845945a7d3227999646d2fef90a",
+      "original_sha256": "e7eb8e4089f7b0756b3a875a6a8c264962177845945a7d3227999646d2fef90a",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "requirements.txt": {
+      "bytes": 13,
+      "export_sha256": "5e7cb66d2a3374454132a5ff73596f40061357a52fe40d3f100840077d8cc547",
+      "provenance": "PINNED_RUNTIME",
+      "redistribution": "Dependency instruction only"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/config/design.json": {
+      "bytes": 6981,
+      "export_sha256": "6fae1f319ed1507b8b455c3d52f3764ee9f1e409f111970327d83b4c7fea5e9e",
+      "original_sha256": "6fae1f319ed1507b8b455c3d52f3764ee9f1e409f111970327d83b4c7fea5e9e",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/config/freeze.json": {
+      "bytes": 1848,
+      "export_sha256": "6abf05acc8134e8b7163a992779d8f9ac3c5cf9fe2fee8fad07ebb0295028fa4",
+      "original_sha256": "6abf05acc8134e8b7163a992779d8f9ac3c5cf9fe2fee8fad07ebb0295028fa4",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/config/future_protocol.json": {
+      "bytes": 2646,
+      "export_sha256": "d3b14053d7a109c216f3f6e7b73253c1e914d3e4fc84c24adfb7f7f1cdb88ddc",
+      "original_sha256": "d3b14053d7a109c216f3f6e7b73253c1e914d3e4fc84c24adfb7f7f1cdb88ddc",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/models/demography.py": {
+      "bytes": 9133,
+      "export_sha256": "d22e9cd6f4627ea15dc6b86afbc6cf00a5a28543d46203aed73136bb40749ea6",
+      "original_sha256": "d22e9cd6f4627ea15dc6b86afbc6cf00a5a28543d46203aed73136bb40749ea6",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/models/fitted_parameters.json": {
+      "bytes": 481392,
+      "export_sha256": "2fb9617f1bdd5fa940542a14b78a3fa00783493d9b66d561409f3a04b1da731f",
+      "original_sha256": "2fb9617f1bdd5fa940542a14b78a3fa00783493d9b66d561409f3a04b1da731f",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/models/in_sample_diagnostics.csv": {
+      "bytes": 4512,
+      "export_sha256": "b5f1376229d5d169a9c1bb606dd986710c3dddb7cc7effebe62049815d0e7454",
+      "original_sha256": "b5f1376229d5d169a9c1bb606dd986710c3dddb7cc7effebe62049815d0e7454",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/contracts.py": {
+      "bytes": 3386,
+      "export_sha256": "4360a07a8560b7fd195f0f9d9d0c28ab543532bb98b8ca5413822bb87a11ec91",
+      "original_sha256": "4360a07a8560b7fd195f0f9d9d0c28ab543532bb98b8ca5413822bb87a11ec91",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/controls.py": {
+      "bytes": 4298,
+      "export_sha256": "0117b4fdaa5c81b2cacd5aca4c29475534da9a5cf2770af391cc07d79bedf138",
+      "original_sha256": "0117b4fdaa5c81b2cacd5aca4c29475534da9a5cf2770af391cc07d79bedf138",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/empirical.py": {
+      "bytes": 10749,
+      "export_sha256": "aff15984bea02225f9286af3cac6042bb366aa35fdb342605383af24766583cd",
+      "original_sha256": "aff15984bea02225f9286af3cac6042bb366aa35fdb342605383af24766583cd",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/external.py": {
+      "bytes": 1607,
+      "export_sha256": "a5c73675eeb25f46de4425a1f7309c7604d3b0724a9e4b44787c15f660c4899d",
+      "original_sha256": "a5c73675eeb25f46de4425a1f7309c7604d3b0724a9e4b44787c15f660c4899d",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/scripts/pipeline.py": {
+      "bytes": 20390,
+      "export_sha256": "d824edfae7a6aa0c0ffa77db8f2075bcc1bd4f02fc332ce5025a96b492a8e17a",
+      "original_sha256": "d824edfae7a6aa0c0ffa77db8f2075bcc1bd4f02fc332ce5025a96b492a8e17a",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/e2_external_check.json": {
+      "bytes": 887,
+      "export_sha256": "3f78352cfb057f3f6175801ab890b81e95012c296bc26f6df89dffa49c145817",
+      "original_sha256": "3f78352cfb057f3f6175801ab890b81e95012c296bc26f6df89dffa49c145817",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/e2_model_comparison.csv": {
+      "bytes": 706,
+      "export_sha256": "61534052d366648cc043a5c6005a320a91b12a90e0945ffc55fc010698995e54",
+      "original_sha256": "61534052d366648cc043a5c6005a320a91b12a90e0945ffc55fc010698995e54",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/estimator.py": {
+      "bytes": 3408,
+      "export_sha256": "30e093cb111cf77fb660f83e1cc0ff0fe287edd5da7d19e49e75e48959e8db07",
+      "original_sha256": "30e093cb111cf77fb660f83e1cc0ff0fe287edd5da7d19e49e75e48959e8db07",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/observation_packets.json": {
+      "bytes": 106428,
+      "export_sha256": "cdc3856208f27cf58a881caad211af67bf5a074d2d5f91efd525b2acd16964c4",
+      "original_sha256": "cdc3856208f27cf58a881caad211af67bf5a074d2d5f91efd525b2acd16964c4",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/public_anchor.json": {
+      "bytes": 3768,
+      "export_sha256": "e558722e7e584329e05d81d654f7898bc32093601aeac3bb6117a383693df430",
+      "original_sha256": "e558722e7e584329e05d81d654f7898bc32093601aeac3bb6117a383693df430",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/reference_recovery.csv": {
+      "bytes": 699,
+      "export_sha256": "a7d72b8c17efed1fc5bda332cce6918e5a811774a1fe404b542d7038cc988927",
+      "original_sha256": "a7d72b8c17efed1fc5bda332cce6918e5a811774a1fe404b542d7038cc988927",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/reference_world.json": {
+      "bytes": 21054,
+      "export_sha256": "84dc9e1afe55642ea0273d9c49235d07547a00370feeedb4a70cc18b48342795",
+      "original_sha256": "84dc9e1afe55642ea0273d9c49235d07547a00370feeedb4a70cc18b48342795",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/world_scores.csv": {
+      "bytes": 14451,
+      "export_sha256": "c1bee2d9da19debb716d3170e8aadd7a5820a70357459ec0d011d8bd3405175a",
+      "original_sha256": "c1bee2d9da19debb716d3170e8aadd7a5820a70357459ec0d011d8bd3405175a",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD02S/validation/worlds.py": {
+      "bytes": 5842,
+      "export_sha256": "8f2cde11ec5be46dc2fdb08ad57f5b3885f60a80e3e0cc082353d22f9b2a1c1e",
+      "original_sha256": "8f2cde11ec5be46dc2fdb08ad57f5b3885f60a80e3e0cc082353d22f9b2a1c1e",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/README.md": {
+      "bytes": 1526,
+      "export_sha256": "e0290211445fa93ff93dc1e97c7f957bbe7939ca21f10ca0149bc20f03f3d0a5",
+      "original_sha256": "e0290211445fa93ff93dc1e97c7f957bbe7939ca21f10ca0149bc20f03f3d0a5",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/config/protocol.json": {
+      "bytes": 6486,
+      "export_sha256": "de7f3568b1942f9ba664e689126cef428508afa487a6f6cc9a9b3b629ac15fb2",
+      "original_sha256": "de7f3568b1942f9ba664e689126cef428508afa487a6f6cc9a9b3b629ac15fb2",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/e2_failure_localization/response_surfaces.csv": {
+      "bytes": 9039,
+      "export_sha256": "c03237c8b1bab47e2a9589924784d66da267c78c71578033fb0c49179a96f70d",
+      "original_sha256": "c03237c8b1bab47e2a9589924784d66da267c78c71578033fb0c49179a96f70d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/e2_failure_localization/summary.json": {
+      "bytes": 3866,
+      "export_sha256": "9221ed217fd1eb26705ef48d1c32f4a527465cb55f4d23466eb2b39261b69d95",
+      "original_sha256": "9221ed217fd1eb26705ef48d1c32f4a527465cb55f4d23466eb2b39261b69d95",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-1.csv": {
+      "bytes": 525996,
+      "export_sha256": "7405c68e64be775fc5db0da722017ec2d1ed2584170a3f7457488c6c7211684b",
+      "original_sha256": "7405c68e64be775fc5db0da722017ec2d1ed2584170a3f7457488c6c7211684b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-1.svg": {
+      "bytes": 88888,
+      "export_sha256": "0a47bd3f23553d40a35f56bb7f516cf673655b60a5d035e9021ae4892e5a8a6a",
+      "original_sha256": "0a47bd3f23553d40a35f56bb7f516cf673655b60a5d035e9021ae4892e5a8a6a",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-2.csv": {
+      "bytes": 314,
+      "export_sha256": "8f3fed250b43743be153e31f9c40ae87bf962323ab17b7b7a30b93c18c723c1f",
+      "original_sha256": "8f3fed250b43743be153e31f9c40ae87bf962323ab17b7b7a30b93c18c723c1f",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-2.svg": {
+      "bytes": 1466,
+      "export_sha256": "8bd37ec4281cb391b7bd384f608ca2fb58ec826922f27f2e5ea9e38fb6f8b48b",
+      "original_sha256": "8bd37ec4281cb391b7bd384f608ca2fb58ec826922f27f2e5ea9e38fb6f8b48b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-3.csv": {
+      "bytes": 218,
+      "export_sha256": "3c6727298085603a751e1d31738cc5b17eef51e568a0b7d25946a5d01229e764",
+      "original_sha256": "3c6727298085603a751e1d31738cc5b17eef51e568a0b7d25946a5d01229e764",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-3.svg": {
+      "bytes": 1786,
+      "export_sha256": "ace1f4941d89d465234ae2e289e8746e968920f33976d647e8dfbe1d2f2f2c4c",
+      "original_sha256": "ace1f4941d89d465234ae2e289e8746e968920f33976d647e8dfbe1d2f2f2c4c",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-4.csv": {
+      "bytes": 9039,
+      "export_sha256": "c03237c8b1bab47e2a9589924784d66da267c78c71578033fb0c49179a96f70d",
+      "original_sha256": "c03237c8b1bab47e2a9589924784d66da267c78c71578033fb0c49179a96f70d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-4.svg": {
+      "bytes": 5212,
+      "export_sha256": "5029852c2853bbd34321b4910e3764b7b1b83f7dd62377f74c0ee00845cb72d9",
+      "original_sha256": "5029852c2853bbd34321b4910e3764b7b1b83f7dd62377f74c0ee00845cb72d9",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-5.csv": {
+      "bytes": 30974,
+      "export_sha256": "ed297b539661babc20596c91d6104baab0a4e9289dc570223a5595081ee03f77",
+      "original_sha256": "ed297b539661babc20596c91d6104baab0a4e9289dc570223a5595081ee03f77",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-5.svg": {
+      "bytes": 37269,
+      "export_sha256": "a184cfe10769c0ba280aaa1ba4844bcade142173f24c2b6ed756c5f080a3d0f5",
+      "original_sha256": "a184cfe10769c0ba280aaa1ba4844bcade142173f24c2b6ed756c5f080a3d0f5",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-6.csv": {
+      "bytes": 365,
+      "export_sha256": "e1029f924319295fa80dbda08f2460c6ee9ed76e9a6c18b69482cbc8411cf1ac",
+      "original_sha256": "e1029f924319295fa80dbda08f2460c6ee9ed76e9a6c18b69482cbc8411cf1ac",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-6.svg": {
+      "bytes": 1080,
+      "export_sha256": "392e696de50bab3da66131064465d3716209661b553b9e0787aacb0c0685f537",
+      "original_sha256": "392e696de50bab3da66131064465d3716209661b553b9e0787aacb0c0685f537",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-7.csv": {
+      "bytes": 356,
+      "export_sha256": "b07b3b74fc21e725914b48a6688dd479575713b3309e7df1bb49bd16d7793a6b",
+      "original_sha256": "b07b3b74fc21e725914b48a6688dd479575713b3309e7df1bb49bd16d7793a6b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-7.svg": {
+      "bytes": 2559,
+      "export_sha256": "330db2e95983b7845864ce6ee6a5e09258ff9ca0fab7a96d5ae85c005b3cbac4",
+      "original_sha256": "330db2e95983b7845864ce6ee6a5e09258ff9ca0fab7a96d5ae85c005b3cbac4",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-8.csv": {
+      "bytes": 725,
+      "export_sha256": "2913bdbdbf2c1b138814818437bb4f40d1996db60e2cd17a803bf567e5d294d4",
+      "original_sha256": "2913bdbdbf2c1b138814818437bb4f40d1996db60e2cd17a803bf567e5d294d4",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-8.svg": {
+      "bytes": 11098,
+      "export_sha256": "d983526f1f9bba8554c8010c718fde3925c40fd49eb6c020e7ec8065136752db",
+      "original_sha256": "d983526f1f9bba8554c8010c718fde3925c40fd49eb6c020e7ec8065136752db",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-9.csv": {
+      "bytes": 579,
+      "export_sha256": "961db75ce6452249029e8c6f2382fa97390c4deca91cb6edc1e347abda07984e",
+      "original_sha256": "961db75ce6452249029e8c6f2382fa97390c4deca91cb6edc1e347abda07984e",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/H03-9.svg": {
+      "bytes": 1827,
+      "export_sha256": "ca9df34a22b71a69009c10710b1b6f988eda5596336925a76687b6d782eafa77",
+      "original_sha256": "ca9df34a22b71a69009c10710b1b6f988eda5596336925a76687b6d782eafa77",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/figures/README.md": {
+      "bytes": 425,
+      "export_sha256": "b9f1c61e3bfad56e471e7cc07f533af51d72426f633440157911c3590e91b999",
+      "original_sha256": "b9f1c61e3bfad56e471e7cc07f533af51d72426f633440157911c3590e91b999",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/generator_diagnostics/README.md": {
+      "bytes": 1320,
+      "export_sha256": "84420e14edaeb9641eadc8c2ada3d41088f4f28840665ccf1d74cc539057cf0c",
+      "original_sha256": "84420e14edaeb9641eadc8c2ada3d41088f4f28840665ccf1d74cc539057cf0c",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/missingness/phase_surface.csv": {
+      "bytes": 4746899,
+      "export_sha256": "05d16f30d2ee8e52ee5ce35c910878ccd2f3f4cbec25b37951f27675791007a3",
+      "original_sha256": "05d16f30d2ee8e52ee5ce35c910878ccd2f3f4cbec25b37951f27675791007a3",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/missingness/state_distribution.csv": {
+      "bytes": 27459,
+      "export_sha256": "abf287653c29ba87d6a5ff3d052c5b2bca22da4da4797a3fc40b5f34f6102f6b",
+      "original_sha256": "abf287653c29ba87d6a5ff3d052c5b2bca22da4da4797a3fc40b5f34f6102f6b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/missingness/summary.json": {
+      "bytes": 2181,
+      "export_sha256": "decc8f322bd16e37125db13233cb1fe9708417a95986df16d615378b398b5dba",
+      "original_sha256": "decc8f322bd16e37125db13233cb1fe9708417a95986df16d615378b398b5dba",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/full_grid_threshold_resolution.csv": {
+      "bytes": 124,
+      "export_sha256": "859e92fa3ea26aacd409e44a6d6a3a4aa5da7fe52c66f0ab85573c8c781fb670",
+      "original_sha256": "859e92fa3ea26aacd409e44a6d6a3a4aa5da7fe52c66f0ab85573c8c781fb670",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/inner_resolution.csv": {
+      "bytes": 1484810,
+      "export_sha256": "c7703f0fdd4645e21b4e4bfb4934307821067626313c7934847a463ab848a6e3",
+      "original_sha256": "c7703f0fdd4645e21b4e4bfb4934307821067626313c7934847a463ab848a6e3",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/outer_resolution.csv": {
+      "bytes": 37785,
+      "export_sha256": "da9df254152f33f15b87cc56b27254099ad98f4acaba0fca1eddc4becaec6ade",
+      "original_sha256": "da9df254152f33f15b87cc56b27254099ad98f4acaba0fca1eddc4becaec6ade",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/outer_sufficient_statistics.npz": {
+      "bytes": 2175,
+      "export_sha256": "983be6d3446523ed73b2cfb74b54644f5cede1fea5ca23fe3789212cad9334d7",
+      "original_sha256": "983be6d3446523ed73b2cfb74b54644f5cede1fea5ca23fe3789212cad9334d7",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/monte_carlo/summary.json": {
+      "bytes": 2200,
+      "export_sha256": "d0d2505a2d7d5aca5271f07985c2f43ad92642a9c23705b76961b8d4b880a542",
+      "original_sha256": "d0d2505a2d7d5aca5271f07985c2f43ad92642a9c23705b76961b8d4b880a542",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/column_provenance.json": {
+      "bytes": 189335,
+      "export_sha256": "c6b930f88393576bcfccccd31c54bff935002c44643a8d011fe50642e7b0d4e4",
+      "original_sha256": "c6b930f88393576bcfccccd31c54bff935002c44643a8d011fe50642e7b0d4e4",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/full_model_replay_manifest.json": {
+      "bytes": 14503,
+      "export_sha256": "a81f21ba06dab50fbfd2c8f496c419a3d8dce7113488b756e3081aa247b92ec6",
+      "original_sha256": "a81f21ba06dab50fbfd2c8f496c419a3d8dce7113488b756e3081aa247b92ec6",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/headline_health_links.csv": {
+      "bytes": 14458,
+      "export_sha256": "c3074e4954acab461b1c3453d98179da278974362b0e182d6defbcfd08de598a",
+      "original_sha256": "c3074e4954acab461b1c3453d98179da278974362b0e182d6defbcfd08de598a",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/identity_inputs.json": {
+      "bytes": 1302,
+      "export_sha256": "048f86c4cbe1c057ee1dc2f2ab245bc8901260b69e13a8dab228e49f6eb73422",
+      "original_sha256": "048f86c4cbe1c057ee1dc2f2ab245bc8901260b69e13a8dab228e49f6eb73422",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/implementation_notes.json": {
+      "bytes": 1413,
+      "export_sha256": "cc14e91804313e88d4a8052d017ed4b4a3746711011efc7a4188692b2548d8e0",
+      "original_sha256": "cc14e91804313e88d4a8052d017ed4b4a3746711011efc7a4188692b2548d8e0",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/interval_boundary_amendment.json": {
+      "bytes": 2898,
+      "export_sha256": "b8fdfb091e6f39b822e7f3dd8a48f7dc560f5d2b9a91634041928116a62b34dc",
+      "original_sha256": "b8fdfb091e6f39b822e7f3dd8a48f7dc560f5d2b9a91634041928116a62b34dc",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/mc_state_contributions.csv": {
+      "bytes": 135922,
+      "export_sha256": "43d8a82f11da8120474a4437f34a289975d9920b238b60f606fe5875e1175d4f",
+      "original_sha256": "43d8a82f11da8120474a4437f34a289975d9920b238b60f606fe5875e1175d4f",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/namespace_rules.json": {
+      "bytes": 1053,
+      "export_sha256": "64b4f9cd9387021d6030f20b03c5302f38931210f1a021e8296092be5e62202d",
+      "original_sha256": "64b4f9cd9387021d6030f20b03c5302f38931210f1a021e8296092be5e62202d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/raw_field_support.csv": {
+      "bytes": 558,
+      "export_sha256": "9be18c4cd855190e21f14edf1dfeb257db66d2bf40ebce1529f60f3fe5ad8470",
+      "original_sha256": "9be18c4cd855190e21f14edf1dfeb257db66d2bf40ebce1529f60f3fe5ad8470",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/registration.json": {
+      "bytes": 18234,
+      "export_sha256": "3be99fc5b1f721f573f37df21c0ac2ea6e0720a635db031aa94a9b57b8ee0e65",
+      "original_sha256": "3be99fc5b1f721f573f37df21c0ac2ea6e0720a635db031aa94a9b57b8ee0e65",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/source_catalog.json": {
+      "bytes": 867,
+      "export_sha256": "ed64540347f9497e69fbdb06938341453a8b4465be4b3f90b2e41c8a1894dbab",
+      "original_sha256": "ed64540347f9497e69fbdb06938341453a8b4465be4b3f90b2e41c8a1894dbab",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/provenance/state_contributions.csv": {
+      "bytes": 130669,
+      "export_sha256": "15df2ab7d6b681ab92dfa7f22f8fbbf9d013e79e0d8617daf0d72a8bebf7d48a",
+      "original_sha256": "15df2ab7d6b681ab92dfa7f22f8fbbf9d013e79e0d8617daf0d72a8bebf7d48a",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/aggregate_interval_coverage.csv": {
+      "bytes": 743,
+      "export_sha256": "56ae6835906cad1441831e9a5b8b1bc15901926672fff8c93e8b32a700cf7ce6",
+      "original_sha256": "56ae6835906cad1441831e9a5b8b1bc15901926672fff8c93e8b32a700cf7ce6",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/calibration.csv": {
+      "bytes": 525996,
+      "export_sha256": "7405c68e64be775fc5db0da722017ec2d1ed2584170a3f7457488c6c7211684b",
+      "original_sha256": "7405c68e64be775fc5db0da722017ec2d1ed2584170a3f7457488c6c7211684b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/coordinate_recovery.csv": {
+      "bytes": 2567,
+      "export_sha256": "b61341ed01fc7fe28f8808e04f277fdc5a99f4420930f021b3c3cca3e0139b4f",
+      "original_sha256": "b61341ed01fc7fe28f8808e04f277fdc5a99f4420930f021b3c3cca3e0139b4f",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/eligible_truth_pool.csv": {
+      "bytes": 5164848,
+      "export_sha256": "146a84723a7a90c267928ef61344e051684a5b7165e8dcb242b3fcd32ca25cbc",
+      "original_sha256": "146a84723a7a90c267928ef61344e051684a5b7165e8dcb242b3fcd32ca25cbc",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/fate_curve.csv": {
+      "bytes": 5507,
+      "export_sha256": "80dc137cbe865e60305fb3b639bbb85c7528d92f20cfd83b4d82ca0bc8b3c096",
+      "original_sha256": "80dc137cbe865e60305fb3b639bbb85c7528d92f20cfd83b4d82ca0bc8b3c096",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/mask_assignments.csv": {
+      "bytes": 1421685,
+      "export_sha256": "eba0a1fd3be2470b9c1fb16cddca427ef947f6c76e2db5fe7785da4c88062127",
+      "original_sha256": "eba0a1fd3be2470b9c1fb16cddca427ef947f6c76e2db5fe7785da4c88062127",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/summary.json": {
+      "bytes": 6185,
+      "export_sha256": "147013198691a37d308a38aa5cf199751e8d7d984c9df80daf24892476e5a0e7",
+      "original_sha256": "147013198691a37d308a38aa5cf199751e8d7d984c9df80daf24892476e5a0e7",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reconstruction_validation/taxon_composition.csv": {
+      "bytes": 2273,
+      "export_sha256": "b114caa390c09d1a657fb2e7b3a9396393d65a9e9a4abcd834d44af3bb27f23e",
+      "original_sha256": "b114caa390c09d1a657fb2e7b3a9396393d65a9e9a4abcd834d44af3bb27f23e",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/recruitment_audit/candidate_audit.csv": {
+      "bytes": 1987197,
+      "export_sha256": "8210bde78842e9f6eae49efe500758883171eaff9e04bf62fc380d964640fa5d",
+      "original_sha256": "8210bde78842e9f6eae49efe500758883171eaff9e04bf62fc380d964640fa5d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/recruitment_audit/class_census.csv": {
+      "bytes": 218,
+      "export_sha256": "3c6727298085603a751e1d31738cc5b17eef51e568a0b7d25946a5d01229e764",
+      "original_sha256": "3c6727298085603a751e1d31738cc5b17eef51e568a0b7d25946a5d01229e764",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/recruitment_audit/summary.json": {
+      "bytes": 1028,
+      "export_sha256": "afced79e4d9e7b26e888dd3cc469db5c363f804c0a2481bb3d4a8ac98c7aaa8b",
+      "original_sha256": "afced79e4d9e7b26e888dd3cc469db5c363f804c0a2481bb3d4a8ac98c7aaa8b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Balanced_Synthetic_Validation.md": {
+      "bytes": 2876,
+      "export_sha256": "f6d6bcb44021f53ddab4a6c5fe98780f2a791adf3694d7a869f7862c07aa1f9a",
+      "original_sha256": "f6d6bcb44021f53ddab4a6c5fe98780f2a791adf3694d7a869f7862c07aa1f9a",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Closure.md": {
+      "bytes": 1246,
+      "export_sha256": "ce27ceb0920a2ffe64381740dd59889e175e5abdcf8860367777a9820f7230bc",
+      "original_sha256": "ce27ceb0920a2ffe64381740dd59889e175e5abdcf8860367777a9820f7230bc",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Design.md": {
+      "bytes": 1417,
+      "export_sha256": "58929409244608969ee77077168bccbe01ffb2d124e7710f3377ac93ede9eed5",
+      "original_sha256": "58929409244608969ee77077168bccbe01ffb2d124e7710f3377ac93ede9eed5",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Generator_Failure_Localization.md": {
+      "bytes": 2458,
+      "export_sha256": "3b8040ca4ba20c7c4de8b479001d365653b270f61b7ccd0e0296202d1f9f4f2b",
+      "original_sha256": "3b8040ca4ba20c7c4de8b479001d365653b270f61b7ccd0e0296202d1f9f4f2b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Missingness_Sensitivity.md": {
+      "bytes": 2046,
+      "export_sha256": "d866dc0334a08629e0d6e7bb87c542c75f5fb979b40a404df839918cc9e28730",
+      "original_sha256": "d866dc0334a08629e0d6e7bb87c542c75f5fb979b40a404df839918cc9e28730",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Misspecification_Validation.md": {
+      "bytes": 1071,
+      "export_sha256": "9b1692b75315495cadfdaa165fcb0d66b22119893396bd02f34a2707c736181d",
+      "original_sha256": "9b1692b75315495cadfdaa165fcb0d66b22119893396bd02f34a2707c736181d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Monte_Carlo_Resolution.md": {
+      "bytes": 2220,
+      "export_sha256": "92c1b6e15d37ffca0d85e9018a6f90c5a113922153de702e1c158dd041a06b5e",
+      "original_sha256": "92c1b6e15d37ffca0d85e9018a6f90c5a113922153de702e1c158dd041a06b5e",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Numerical_Specification.md": {
+      "bytes": 2774,
+      "export_sha256": "c766b9a81c7e9d575d6f3a8efbe9384b7d077f2697d6d2bdb220ae99345a417f",
+      "original_sha256": "c766b9a81c7e9d575d6f3a8efbe9384b7d077f2697d6d2bdb220ae99345a417f",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/PaperV_Revision_Map.md": {
+      "bytes": 2024,
+      "export_sha256": "cc11303b1dbc9faa65eb5ce2a57eb91064f89a9bf40ccb3bb4ac86e8031d393b",
+      "original_sha256": "cc11303b1dbc9faa65eb5ce2a57eb91064f89a9bf40ccb3bb4ac86e8031d393b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Reconstruction_Calibration.md": {
+      "bytes": 6690,
+      "export_sha256": "78c7ef6b5fd06adccc12637a764b34b6d135df50b82ab1da0d5a418c83d0fa88",
+      "original_sha256": "78c7ef6b5fd06adccc12637a764b34b6d135df50b82ab1da0d5a418c83d0fa88",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Recruitment_Audit.md": {
+      "bytes": 1467,
+      "export_sha256": "b554bc8b8079e95aa1d8969e15a0f78532283c3bbf6ea3b999ddff70c6d27647",
+      "original_sha256": "b554bc8b8079e95aa1d8969e15a0f78532283c3bbf6ea3b999ddff70c6d27647",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Uncertainty_Interpretation.md": {
+      "bytes": 932,
+      "export_sha256": "cc54d4c5a27cb1af7accabfe22101ed907980255250d64aa711b7eb80230ed9d",
+      "original_sha256": "cc54d4c5a27cb1af7accabfe22101ed907980255250d64aa711b7eb80230ed9d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/Verification.md": {
+      "bytes": 410,
+      "export_sha256": "f68fe7a111e4417d14d511940dfd1018aa2fd6bf30b7cade1ae1e0854a702509",
+      "original_sha256": "f68fe7a111e4417d14d511940dfd1018aa2fd6bf30b7cade1ae1e0854a702509",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/reports/full_model_replay_receipt.json": {
+      "bytes": 2850,
+      "export_sha256": "75748cf84b0687306b244b90046176fba466893029225674426ac01b87110020",
+      "original_sha256": "75748cf84b0687306b244b90046176fba466893029225674426ac01b87110020",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_calibration.py": {
+      "bytes": 14698,
+      "export_sha256": "9541e087073061b3c1371ade3c0c82208e6330fcca10d2dea408731503755b93",
+      "original_sha256": "9541e087073061b3c1371ade3c0c82208e6330fcca10d2dea408731503755b93",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_common.py": {
+      "bytes": 9019,
+      "export_sha256": "40902302921fe66176fe2f5b6c029650c3666376fd5380225b12d25befe35d49",
+      "original_sha256": "40902302921fe66176fe2f5b6c029650c3666376fd5380225b12d25befe35d49",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_diagnostics.py": {
+      "bytes": 6782,
+      "export_sha256": "a7e827264746e85023e6693f59414bec6f13d7c0aab7a14f8ddbe735cb91add4",
+      "original_sha256": "a7e827264746e85023e6693f59414bec6f13d7c0aab7a14f8ddbe735cb91add4",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_entry.py": {
+      "bytes": 4758,
+      "export_sha256": "b8c1e10f33a4d793f8182cd15bbdc0ae04d70ee189ee4e18af93b8569234b6bc",
+      "original_sha256": "b8c1e10f33a4d793f8182cd15bbdc0ae04d70ee189ee4e18af93b8569234b6bc",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_freeze.py": {
+      "bytes": 4507,
+      "export_sha256": "295585d562a6b91c81ea2d5d4aab82876d00ae3e3575abc64404a3699c663c2e",
+      "original_sha256": "295585d562a6b91c81ea2d5d4aab82876d00ae3e3575abc64404a3699c663c2e",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_governance.py": {
+      "bytes": 3500,
+      "export_sha256": "ee06cdbc114aed366350d4c0241f11e570bfb67a3f2055c4fe70a7f2bf149ad9",
+      "original_sha256": "ee06cdbc114aed366350d4c0241f11e570bfb67a3f2055c4fe70a7f2bf149ad9",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_interval_recount.py": {
+      "bytes": 6414,
+      "export_sha256": "b5d84fa47f1707c5814f079051453eb222b7902c915168bf166dd9f330cd8798",
+      "original_sha256": "b5d84fa47f1707c5814f079051453eb222b7902c915168bf166dd9f330cd8798",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_mc.py": {
+      "bytes": 7779,
+      "export_sha256": "fa305cecaf3c5f3863c12c2798668ecbe9305e57b45d73d2a41586daa024938f",
+      "original_sha256": "fa305cecaf3c5f3863c12c2798668ecbe9305e57b45d73d2a41586daa024938f",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_missingness.py": {
+      "bytes": 6379,
+      "export_sha256": "7013cea6bebcb3faaf4e1c81d6a50fe5ec86634e774216591fbb28a6a3468507",
+      "original_sha256": "7013cea6bebcb3faaf4e1c81d6a50fe5ec86634e774216591fbb28a6a3468507",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_reports.py": {
+      "bytes": 51624,
+      "export_sha256": "556e989f99b5a05e82736e53314fbe8c18c4a17e8076557c1079859f2614d732",
+      "original_sha256": "556e989f99b5a05e82736e53314fbe8c18c4a17e8076557c1079859f2614d732",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/h03_synthetic.py": {
+      "bytes": 8476,
+      "export_sha256": "bd0db4988e611071e62a9309e9abe2b7561f5018b1110912261cbdfe5dd84708",
+      "original_sha256": "bd0db4988e611071e62a9309e9abe2b7561f5018b1110912261cbdfe5dd84708",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/identity_inputs.py": {
+      "bytes": 2058,
+      "export_sha256": "68be887bf3ffaf4b503cc4e11aa7c054de60fddf1374ffd1ccc82e45c5870c1d",
+      "original_sha256": "68be887bf3ffaf4b503cc4e11aa7c054de60fddf1374ffd1ccc82e45c5870c1d",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/scripts/run_hfd03.py": {
+      "bytes": 2198,
+      "export_sha256": "2464c004fc223934aabe0b1844b73c6f8baa5398058cac42ca9d9fa5eb42eb2d",
+      "original_sha256": "2464c004fc223934aabe0b1844b73c6f8baa5398058cac42ca9d9fa5eb42eb2d",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/specification/editorial_mapping.csv": {
+      "bytes": 790,
+      "export_sha256": "902d17edf59d12d138de91b1f46483e10f03076d982c7154d6ff0f175bc9ca94",
+      "original_sha256": "902d17edf59d12d138de91b1f46483e10f03076d982c7154d6ff0f175bc9ca94",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/specification/finite_mixture_weights.csv": {
+      "bytes": 303,
+      "export_sha256": "9eeed33b176ddc5b1f044c5a64ec63067fba764c1359333db4c7cd96a86e7622",
+      "original_sha256": "9eeed33b176ddc5b1f044c5a64ec63067fba764c1359333db4c7cd96a86e7622",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/specification/frozen_hfd02s_numeric_design.json": {
+      "bytes": 6993,
+      "export_sha256": "f7a4d5d9764c86c88a378ecaf862a5b910cf1ea7da2ed061b500d4ac41b52d2b",
+      "original_sha256": "f7a4d5d9764c86c88a378ecaf862a5b910cf1ea7da2ed061b500d4ac41b52d2b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/specification/numerical_assumptions.csv": {
+      "bytes": 16164,
+      "export_sha256": "c5ef6ed7a6c14be2a268fe6ec59511ba3a947d3c90046f5967ec3f5c232ef54d",
+      "original_sha256": "c5ef6ed7a6c14be2a268fe6ec59511ba3a947d3c90046f5967ec3f5c232ef54d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/specification/scenarios.csv": {
+      "bytes": 442,
+      "export_sha256": "1be7f40b7bbf7e7a8aa655a32eefd057c23b3dfecf31d3459a18684231a08fbd",
+      "original_sha256": "1be7f40b7bbf7e7a8aa655a32eefd057c23b3dfecf31d3459a18684231a08fbd",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/estimator.py": {
+      "bytes": 3160,
+      "export_sha256": "845464e7698256a9a0da698ecab08d8b082c8c043f2ec059062ffc7389f116c0",
+      "original_sha256": "845464e7698256a9a0da698ecab08d8b082c8c043f2ec059062ffc7389f116c0",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/performance.csv": {
+      "bytes": 106627,
+      "export_sha256": "b725002ffe91a15f18d18e0da95e39a4a08dc37eeea3ede803424fb92c16aee1",
+      "original_sha256": "b725002ffe91a15f18d18e0da95e39a4a08dc37eeea3ede803424fb92c16aee1",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/pre_estimator_census.json": {
+      "bytes": 556,
+      "export_sha256": "6e459c7954a45517286770f42d686af81ba6a77308b229f666f1ce9cfa3a2241",
+      "original_sha256": "6e459c7954a45517286770f42d686af81ba6a77308b229f666f1ce9cfa3a2241",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/summary.json": {
+      "bytes": 4045,
+      "export_sha256": "88cab4a47e85e37eb8deb431422cccf9f5c5510f3d09f588da615f5eeff274f1",
+      "original_sha256": "88cab4a47e85e37eb8deb431422cccf9f5c5510f3d09f588da615f5eeff274f1",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/synthetic_validation/truth_census.csv": {
+      "bytes": 84776,
+      "export_sha256": "9821201688373db22c035f85e045a17d8984fbe18ea26a05189365290d5cd95e",
+      "original_sha256": "9821201688373db22c035f85e045a17d8984fbe18ea26a05189365290d5cd95e",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD03/uncertainty/frozen_finite_design_contrasts.csv": {
+      "bytes": 1240,
+      "export_sha256": "486cdd00732b28f0d5e42018c189f94e5f902108c4b4709b86839ccebd594a74",
+      "original_sha256": "486cdd00732b28f0d5e42018c189f94e5f902108c4b4709b86839ccebd594a74",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/absolute_margin_scores.csv": {
+      "bytes": 41149,
+      "export_sha256": "69c114f9d2bff56ae1c57306f0afeaed2c5bb7534d38483511ee7317ea9cf346",
+      "original_sha256": "69c114f9d2bff56ae1c57306f0afeaed2c5bb7534d38483511ee7317ea9cf346",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/failure_scores.csv": {
+      "bytes": 47410,
+      "export_sha256": "3c52b2bb85112c72fdc959d82349067e3675d87ec96fe9275371582be10c1f24",
+      "original_sha256": "3c52b2bb85112c72fdc959d82349067e3675d87ec96fe9275371582be10c1f24",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/performance.csv": {
+      "bytes": 2395714,
+      "export_sha256": "c1110e10afa49751e811e05adf6ba9249f6fc0c8a36c406523ea79529bd15268",
+      "original_sha256": "c1110e10afa49751e811e05adf6ba9249f6fc0c8a36c406523ea79529bd15268",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pilot_design.json": {
+      "bytes": 19597,
+      "export_sha256": "d9fbf4f019273b01d224e5c41f809900878f6fa3790231f98c11b3d6e8359e01",
+      "original_sha256": "d9fbf4f019273b01d224e5c41f809900878f6fa3790231f98c11b3d6e8359e01",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pilot_probes.csv": {
+      "bytes": 38195,
+      "export_sha256": "118cf93e46a539c53a2d0ca94075c168eec0b288813db833928f02c07c9e2152",
+      "original_sha256": "118cf93e46a539c53a2d0ca94075c168eec0b288813db833928f02c07c9e2152",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pilot_v2_design.json": {
+      "bytes": 16751,
+      "export_sha256": "818a58d06e6d0af718cc799514f5c6fecb1b9bb437577a6b545ce3779783d413",
+      "original_sha256": "818a58d06e6d0af718cc799514f5c6fecb1b9bb437577a6b545ce3779783d413",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pilot_v2_probes.csv": {
+      "bytes": 54939,
+      "export_sha256": "fee20474a07ff2db873b705a2d61bee42db56e1c9cea8d14cd4ef6d0429f172e",
+      "original_sha256": "fee20474a07ff2db873b705a2d61bee42db56e1c9cea8d14cd4ef6d0429f172e",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/pre_estimator_census.json": {
+      "bytes": 234,
+      "export_sha256": "65ab66a097700438527418e64e18c3f78ba2cf42cb31150c1e78de0a8f03ee51",
+      "original_sha256": "65ab66a097700438527418e64e18c3f78ba2cf42cb31150c1e78de0a8f03ee51",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/primary_discrimination.json": {
+      "bytes": 1779,
+      "export_sha256": "166170cd8553953db982d8cf08cd6aad0abc189b505a6dbb389cbd449ac64582",
+      "original_sha256": "166170cd8553953db982d8cf08cd6aad0abc189b505a6dbb389cbd449ac64582",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/signed_margin_scores.csv": {
+      "bytes": 73263,
+      "export_sha256": "f6288af70dc3e7a9526b3c86eda1beb8c5ffb44da0dbc87772cf312bd6bd8a6f",
+      "original_sha256": "f6288af70dc3e7a9526b3c86eda1beb8c5ffb44da0dbc87772cf312bd6bd8a6f",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/boundary_validation/truth_prefixes.csv": {
+      "bytes": 277290,
+      "export_sha256": "c4d8ba90858ea8001f94545506effbde1848c2ab6474e92f4e00ea77a701e654",
+      "original_sha256": "c4d8ba90858ea8001f94545506effbde1848c2ab6474e92f4e00ea77a701e654",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/config/context_prior_audit.json": {
+      "bytes": 1153,
+      "export_sha256": "71f5928544970fdad85a8ad1464015e6fdf9f35120660f339ea5dd8c81ad998b",
+      "original_sha256": "71f5928544970fdad85a8ad1464015e6fdf9f35120660f339ea5dd8c81ad998b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/config/numerical_methods.csv": {
+      "bytes": 15126,
+      "export_sha256": "ac776d3c1d35fd664a4eac9c15e2760cb06683a949c42331306787c1462a93f3",
+      "original_sha256": "ac776d3c1d35fd664a4eac9c15e2760cb06683a949c42331306787c1462a93f3",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/config/pilot.json": {
+      "bytes": 1030,
+      "export_sha256": "de043cc2c8d439e41bce5365e37ec3cb87e2804f9a05c902797e07fc0a4d8de3",
+      "original_sha256": "de043cc2c8d439e41bce5365e37ec3cb87e2804f9a05c902797e07fc0a4d8de3",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/config/pilot_v2.json": {
+      "bytes": 525,
+      "export_sha256": "66da45c72941bb5bf075da6a037a084c34ba22c4ff78aaad937427ba2c39f0a2",
+      "original_sha256": "66da45c72941bb5bf075da6a037a084c34ba22c4ff78aaad937427ba2c39f0a2",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/config/protocol.json": {
+      "bytes": 6905,
+      "export_sha256": "c19659beac08335032a1478969ae19263a722624179e1ceacae8dd21eef04bf4",
+      "original_sha256": "c19659beac08335032a1478969ae19263a722624179e1ceacae8dd21eef04bf4",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/config/world_design.json": {
+      "bytes": 20391,
+      "export_sha256": "c2275f0bc3316d204146fad5b33d3cc0b215c54ed0cdbbc6275d07aa6cdd9a14",
+      "original_sha256": "c2275f0bc3316d204146fad5b33d3cc0b215c54ed0cdbbc6275d07aa6cdd9a14",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/comparison.csv": {
+      "bytes": 21225,
+      "export_sha256": "b5351616dde51c5f36492a4011a4849d2907422dc552595e828f118653336d47",
+      "original_sha256": "b5351616dde51c5f36492a4011a4849d2907422dc552595e828f118653336d47",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/estimator_draws.csv": {
+      "bytes": 3205356,
+      "export_sha256": "9c31623066c63496d0bbb5964040953eb69997a83cc6c452dda5b2086d96102f",
+      "original_sha256": "9c31623066c63496d0bbb5964040953eb69997a83cc6c452dda5b2086d96102f",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/prior_reconciled_comparison.csv": {
+      "bytes": 2592,
+      "export_sha256": "74bd4ba7da5719e4d5d52d81494f7c207f5a92e69a67a6ed7903bd8e4ef30064",
+      "original_sha256": "74bd4ba7da5719e4d5d52d81494f7c207f5a92e69a67a6ed7903bd8e4ef30064",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/prior_reconciled_draws.csv": {
+      "bytes": 280428,
+      "export_sha256": "76c29c524a6249208209244ce6e61348e2b9a23d26bc744518d86594f724bab9",
+      "original_sha256": "76c29c524a6249208209244ce6e61348e2b9a23d26bc744518d86594f724bab9",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/prior_reconciled_performance.csv": {
+      "bytes": 139873,
+      "export_sha256": "e608a004c8fb6e9a5d3d4a0f0453567e59631c10f38c52f2ba070b732eec3cdc",
+      "original_sha256": "e608a004c8fb6e9a5d3d4a0f0453567e59631c10f38c52f2ba070b732eec3cdc",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/context_ablation/prior_reconciled_strata.csv": {
+      "bytes": 24603,
+      "export_sha256": "15831836e3404d1d69a58c329d9f594548056a324c01293f3170b0347a4ce476",
+      "original_sha256": "15831836e3404d1d69a58c329d9f594548056a324c01293f3170b0347a4ce476",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/decision_rules/hfd03_sufficient_census.csv": {
+      "bytes": 757184,
+      "export_sha256": "e8508253e5c33820ca7d6bd37f2e6e666383c3e7a0dcc590dc2af5e424451f3c",
+      "original_sha256": "e8508253e5c33820ca7d6bd37f2e6e666383c3e7a0dcc590dc2af5e424451f3c",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/decision_rules/interpretation.json": {
+      "bytes": 442,
+      "export_sha256": "7f948e607a8e701b5c70bfbddb64ee6f1f33a048ba917e18a60a0f9aa5e1e19b",
+      "original_sha256": "7f948e607a8e701b5c70bfbddb64ee6f1f33a048ba917e18a60a0f9aa5e1e19b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/decision_rules/versioned_resolution.csv": {
+      "bytes": 1625,
+      "export_sha256": "98ca14a73b0c6036981eadf8d21aa95e8e3cc6b74eb25222cca643e7878be117",
+      "original_sha256": "98ca14a73b0c6036981eadf8d21aa95e8e3cc6b74eb25222cca643e7878be117",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/comparison.csv": {
+      "bytes": 533,
+      "export_sha256": "caa6cc0326cc91ecfa3477fe5d1fa5a2b5f636e22871427b142cdef0b781de9c",
+      "original_sha256": "caa6cc0326cc91ecfa3477fe5d1fa5a2b5f636e22871427b142cdef0b781de9c",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/fit_contract.json": {
+      "bytes": 452,
+      "export_sha256": "88c16b53fa0a007cf00b015e1801c136429839e8c40a5e3908c34cae0dec114d",
+      "original_sha256": "88c16b53fa0a007cf00b015e1801c136429839e8c40a5e3908c34cae0dec114d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/masking_calibration.csv": {
+      "bytes": 753,
+      "export_sha256": "16a11abf99518905c797854c1523f00a3996abcd22b72d014cab18aba6aa1ca6",
+      "original_sha256": "16a11abf99518905c797854c1523f00a3996abcd22b72d014cab18aba6aa1ca6",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/origin_states.csv": {
+      "bytes": 2375,
+      "export_sha256": "dc4adba6be2ea1b1bde5933b3df54f0d88b327b5ae15fe1f9de21b2b45c37767",
+      "original_sha256": "dc4adba6be2ea1b1bde5933b3df54f0d88b327b5ae15fe1f9de21b2b45c37767",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/posteriors.csv": {
+      "bytes": 47796,
+      "export_sha256": "b0239292fce3bad0495eefd04f2bd8ed33ad187e5880159419a8f07dd20a647d",
+      "original_sha256": "b0239292fce3bad0495eefd04f2bd8ed33ad187e5880159419a8f07dd20a647d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/effective_count/propagation.csv": {
+      "bytes": 759217,
+      "export_sha256": "4d6d9f34861a8a8de0b87e0f2a404a43930dbe682e7e5ed3c847fb55e5449209",
+      "original_sha256": "4d6d9f34861a8a8de0b87e0f2a404a43930dbe682e7e5ed3c847fb55e5449209",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1.csv": {
+      "bytes": 857,
+      "export_sha256": "46ebf49235f8e2f6d8da33d192aa274277395a31aa5d84d0252042d00ed10fb0",
+      "original_sha256": "46ebf49235f8e2f6d8da33d192aa274277395a31aa5d84d0252042d00ed10fb0",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1.json": {
+      "bytes": 889,
+      "export_sha256": "5244039bcce783924bd4b34e3292f97ecad66c504916724656331fc5335f110d",
+      "original_sha256": "5244039bcce783924bd4b34e3292f97ecad66c504916724656331fc5335f110d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1.svg": {
+      "bytes": 3126,
+      "export_sha256": "5a13cc81e2a89e2c140deec9094a1c5ade460f1c9968c3447d7aa5cc0560f1b3",
+      "original_sha256": "5a13cc81e2a89e2c140deec9094a1c5ade460f1c9968c3447d7aa5cc0560f1b3",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1b.csv": {
+      "bytes": 6794,
+      "export_sha256": "090d6cf5599ed40b284cfcd680a212dea4d52b766a55a0a04165d820591d721b",
+      "original_sha256": "090d6cf5599ed40b284cfcd680a212dea4d52b766a55a0a04165d820591d721b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1b.json": {
+      "bytes": 757,
+      "export_sha256": "3f84362e4331424e50964e3bc27696c6092fea999b2bd9684fe05eaada01ec4a",
+      "original_sha256": "3f84362e4331424e50964e3bc27696c6092fea999b2bd9684fe05eaada01ec4a",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-1b.svg": {
+      "bytes": 15883,
+      "export_sha256": "255ff04267cec6ae8b090043e8c6022449103491b294e627b883c4e082e4a25a",
+      "original_sha256": "255ff04267cec6ae8b090043e8c6022449103491b294e627b883c4e082e4a25a",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-2.csv": {
+      "bytes": 1939,
+      "export_sha256": "663a31481201193cf85f2006c000423821012310786a2cc4adee37c60dacbfe1",
+      "original_sha256": "663a31481201193cf85f2006c000423821012310786a2cc4adee37c60dacbfe1",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-2.json": {
+      "bytes": 878,
+      "export_sha256": "7adec458d6bf810611d5bdc18aa42ccd83a870fd24ddc2a9610925670ecd613c",
+      "original_sha256": "7adec458d6bf810611d5bdc18aa42ccd83a870fd24ddc2a9610925670ecd613c",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-2.svg": {
+      "bytes": 3738,
+      "export_sha256": "0595d3ca46ab2cb5bf8c9642a9d9b7bf5d97cdf62ca3c8e8a1352a0d58e22daa",
+      "original_sha256": "0595d3ca46ab2cb5bf8c9642a9d9b7bf5d97cdf62ca3c8e8a1352a0d58e22daa",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-3.csv": {
+      "bytes": 831,
+      "export_sha256": "7fbf25b6caddca047fb639671ee6067cbd5d41df890f42202d4fe0cd4ec8993f",
+      "original_sha256": "7fbf25b6caddca047fb639671ee6067cbd5d41df890f42202d4fe0cd4ec8993f",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-3.json": {
+      "bytes": 743,
+      "export_sha256": "0a59656c68d79d5909bbf5bff806a2b51e2dc4a5304676082a639d5b4fcbd043",
+      "original_sha256": "0a59656c68d79d5909bbf5bff806a2b51e2dc4a5304676082a639d5b4fcbd043",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-3.svg": {
+      "bytes": 3497,
+      "export_sha256": "64acd7e866596fa011574e0cacf7cfbbfa9c17a3966ddd99dc2a1f8ae4d3af88",
+      "original_sha256": "64acd7e866596fa011574e0cacf7cfbbfa9c17a3966ddd99dc2a1f8ae4d3af88",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-4.csv": {
+      "bytes": 7914,
+      "export_sha256": "8377f68476c693b05fd60dca40a3a988e8a9126bd264a90fd6ff0641302da121",
+      "original_sha256": "8377f68476c693b05fd60dca40a3a988e8a9126bd264a90fd6ff0641302da121",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-4.json": {
+      "bytes": 731,
+      "export_sha256": "07c43e289995472e61ad5aa21900f076b1692ee5472eb9134c534783bc5bcacd",
+      "original_sha256": "07c43e289995472e61ad5aa21900f076b1692ee5472eb9134c534783bc5bcacd",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-4.svg": {
+      "bytes": 20172,
+      "export_sha256": "c5f26496805dc05ca9d467f26ce4e4cf78bccbacfd08c206ad850b4479769857",
+      "original_sha256": "c5f26496805dc05ca9d467f26ce4e4cf78bccbacfd08c206ad850b4479769857",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-5.csv": {
+      "bytes": 7574,
+      "export_sha256": "9da7d57f6b964b2804c1bb4961100e659b1ed35bc8b1e3a36b57da8a22b4891b",
+      "original_sha256": "9da7d57f6b964b2804c1bb4961100e659b1ed35bc8b1e3a36b57da8a22b4891b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-5.json": {
+      "bytes": 950,
+      "export_sha256": "d83871785c0e2541a0610afb19394cf1727043d69ae1cced2894bd407feb478c",
+      "original_sha256": "d83871785c0e2541a0610afb19394cf1727043d69ae1cced2894bd407feb478c",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-5.svg": {
+      "bytes": 10568,
+      "export_sha256": "8beacb86389ac7da4353637ce7308d32110bc623433d0df3b0e0efd97121aafb",
+      "original_sha256": "8beacb86389ac7da4353637ce7308d32110bc623433d0df3b0e0efd97121aafb",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-6.csv": {
+      "bytes": 533,
+      "export_sha256": "caa6cc0326cc91ecfa3477fe5d1fa5a2b5f636e22871427b142cdef0b781de9c",
+      "original_sha256": "caa6cc0326cc91ecfa3477fe5d1fa5a2b5f636e22871427b142cdef0b781de9c",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-6.json": {
+      "bytes": 825,
+      "export_sha256": "f7b85f976a647918fc8389521ddd812c48160fa8c69c56ea80c811ba95c06201",
+      "original_sha256": "f7b85f976a647918fc8389521ddd812c48160fa8c69c56ea80c811ba95c06201",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-6.svg": {
+      "bytes": 1844,
+      "export_sha256": "c33b3977cd7be14aa61be85510ea53eb08a6f7a710ba5982f8f4fab75efd62a5",
+      "original_sha256": "c33b3977cd7be14aa61be85510ea53eb08a6f7a710ba5982f8f4fab75efd62a5",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-7.csv": {
+      "bytes": 189,
+      "export_sha256": "2f3e8758e0cb2c09609bad70feaf7f4e70f0543a124f42d920f5597a51d94eb1",
+      "original_sha256": "2f3e8758e0cb2c09609bad70feaf7f4e70f0543a124f42d920f5597a51d94eb1",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-7.json": {
+      "bytes": 747,
+      "export_sha256": "746b9faa5525ca7aaf2c10e7e0133eb08b6caef455dacad828972cd05ae84fd9",
+      "original_sha256": "746b9faa5525ca7aaf2c10e7e0133eb08b6caef455dacad828972cd05ae84fd9",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-7.svg": {
+      "bytes": 1903,
+      "export_sha256": "103276d832e35dc6111ce135895b1730f3c7a781207ce8f1f0d0cf02fbcfd7b6",
+      "original_sha256": "103276d832e35dc6111ce135895b1730f3c7a781207ce8f1f0d0cf02fbcfd7b6",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-8.csv": {
+      "bytes": 446,
+      "export_sha256": "7765961f00a9e283e09e2c5e6aebf6b06a8e871b607601a5da9b0208aa68b28c",
+      "original_sha256": "7765961f00a9e283e09e2c5e6aebf6b06a8e871b607601a5da9b0208aa68b28c",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-8.json": {
+      "bytes": 1105,
+      "export_sha256": "56c4062c33010b4ed61f51db990347114037d2aaa110c2bd36e0ba45e69a69f0",
+      "original_sha256": "56c4062c33010b4ed61f51db990347114037d2aaa110c2bd36e0ba45e69a69f0",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/figures/H04-8.svg": {
+      "bytes": 2575,
+      "export_sha256": "9d1768cecf438ea084caef3cfa39a9d4d9a04c8736e136461bdc24ffb573b158",
+      "original_sha256": "9d1768cecf438ea084caef3cfa39a9d4d9a04c8736e136461bdc24ffb573b158",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/changed_case_audit.csv": {
+      "bytes": 765,
+      "export_sha256": "34477449209fb70456299836e52aa75c15fbf739e3f4b9c37ae6d306b33a819d",
+      "original_sha256": "34477449209fb70456299836e52aa75c15fbf739e3f4b9c37ae6d306b33a819d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/empirical_support.json": {
+      "bytes": 354,
+      "export_sha256": "a3e0ea5168d6087bec6868169ca95c681c1922fd007aa5e34cdafe2ec43b6eb3",
+      "original_sha256": "a3e0ea5168d6087bec6868169ca95c681c1922fd007aa5e34cdafe2ec43b6eb3",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/initial_projection.csv": {
+      "bytes": 2378,
+      "export_sha256": "a7166294f6610d808af4a36c6e83167838bac33f19b3ade71b3f101d13048157",
+      "original_sha256": "a7166294f6610d808af4a36c6e83167838bac33f19b3ade71b3f101d13048157",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/masking.csv": {
+      "bytes": 678,
+      "export_sha256": "06cad905ebf186c96199f325302fc439fe252dee110a34769818a47b220012f7",
+      "original_sha256": "06cad905ebf186c96199f325302fc439fe252dee110a34769818a47b220012f7",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/measurement_error.csv": {
+      "bytes": 27498,
+      "export_sha256": "c2531ddfedb0d2de5657e227916f4582e62beaf6a4dbc903ec4103af4bb3a834",
+      "original_sha256": "c2531ddfedb0d2de5657e227916f4582e62beaf6a4dbc903ec4103af4bb3a834",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/observed_groups.csv": {
+      "bytes": 6182,
+      "export_sha256": "3331ae6412eece9614ffff7a5f077f6ce886ac095b7bfddad4443bb83f51a6cd",
+      "original_sha256": "3331ae6412eece9614ffff7a5f077f6ce886ac095b7bfddad4443bb83f51a6cd",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/projection_counterexample.json": {
+      "bytes": 617,
+      "export_sha256": "795ff10b6219e2d4961415ce8151cf2d8f793a65d1aa0dd5f6fd4bd03a00fc43",
+      "original_sha256": "795ff10b6219e2d4961415ce8151cf2d8f793a65d1aa0dd5f6fd4bd03a00fc43",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/propagation.csv": {
+      "bytes": 132052,
+      "export_sha256": "bd403dd25d74c72eab6ae7f43ee3315e5b6e684f6044b24acfa4f75377959aa0",
+      "original_sha256": "bd403dd25d74c72eab6ae7f43ee3315e5b6e684f6044b24acfa4f75377959aa0",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/juvenile_boundary/visible_size_profiles.csv": {
+      "bytes": 3842,
+      "export_sha256": "bba4f1e4b178d83a01a6e2b259aa7e5321d864180d009910d29b50e003fb2307",
+      "original_sha256": "bba4f1e4b178d83a01a6e2b259aa7e5321d864180d009910d29b50e003fb2307",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/context_prior_registration.json": {
+      "bytes": 1021,
+      "export_sha256": "85c6dcde4126fd57457dbd3ca66db78021820e577cd193e23c2a223dc29e5a63",
+      "original_sha256": "85c6dcde4126fd57457dbd3ca66db78021820e577cd193e23c2a223dc29e5a63",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/estimator_information.json": {
+      "bytes": 430,
+      "export_sha256": "140b67e894ff1a7ffbd9ffef55f4f3b1e03b40044fc374e15f79ef8a2cf38b89",
+      "original_sha256": "140b67e894ff1a7ffbd9ffef55f4f3b1e03b40044fc374e15f79ef8a2cf38b89",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/execution_manifest.json": {
+      "bytes": 49673,
+      "export_sha256": "a091d61f51387138bbc538f51218390f9e03d2e4fe6dfd45d3c8ef4a1cafd282",
+      "original_sha256": "a091d61f51387138bbc538f51218390f9e03d2e4fe6dfd45d3c8ef4a1cafd282",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/lightweight_fixture.json": {
+      "bytes": 518317,
+      "export_sha256": "9281879ea52f1132cdab38f25af7876f1a027c7ed46a5c30101b4028a0e1aec8",
+      "original_sha256": "9281879ea52f1132cdab38f25af7876f1a027c7ed46a5c30101b4028a0e1aec8",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/public_full_replay_summary.json": {
+      "bytes": 12353,
+      "export_sha256": "33f4d4429d4b8c37a0dd4077a6fe3a6313a5ff3669887036bbeca45b9dbaea16",
+      "original_sha256": "33f4d4429d4b8c37a0dd4077a6fe3a6313a5ff3669887036bbeca45b9dbaea16",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/public_supplement_replay_summary.json": {
+      "bytes": 9439,
+      "export_sha256": "eb5bd8daadb603cce138244230d4fbcf9e26fbd3280b8808aa869f9d356a5a17",
+      "original_sha256": "eb5bd8daadb603cce138244230d4fbcf9e26fbd3280b8808aa869f9d356a5a17",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/registration.json": {
+      "bytes": 33584,
+      "export_sha256": "5fd74ba56881631d3720202f118af7913e6d9bcf6cd30bbe00c64fe8f0452ac9",
+      "original_sha256": "5fd74ba56881631d3720202f118af7913e6d9bcf6cd30bbe00c64fe8f0452ac9",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/provenance/truth_bank_manifest.json": {
+      "bytes": 1195614,
+      "export_sha256": "d8fdfddd30f19ca4482d8dac4b7bc30ebf84e53267b180c45cf3e1ebd940599d",
+      "original_sha256": "d8fdfddd30f19ca4482d8dac4b7bc30ebf84e53267b180c45cf3e1ebd940599d",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Boundary_Stress_Validation.md": {
+      "bytes": 2633,
+      "export_sha256": "d33698d97f8044e1f106b6dbe532d0b71acd9f0387fc39c415583e80ebcc8117",
+      "original_sha256": "d33698d97f8044e1f106b6dbe532d0b71acd9f0387fc39c415583e80ebcc8117",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Closure.md": {
+      "bytes": 1210,
+      "export_sha256": "e06f21ca2e8c096ecb6d032268ac96ccb0ff081a3ccc7d4290823a9b3e1ec36b",
+      "original_sha256": "e06f21ca2e8c096ecb6d032268ac96ccb0ff081a3ccc7d4290823a9b3e1ec36b",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Context_Label_Ablation.md": {
+      "bytes": 6255,
+      "export_sha256": "f779ee1bbb6db09e04e68ac5e86a465997573990ff3336eed362e6e382d48e71",
+      "original_sha256": "f779ee1bbb6db09e04e68ac5e86a465997573990ff3336eed362e6e382d48e71",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Decision_Resolution.md": {
+      "bytes": 1209,
+      "export_sha256": "893c889677c4abb0cf51fef8d2f7536279cec5b8e11aee9add7b3c364785e18a",
+      "original_sha256": "893c889677c4abb0cf51fef8d2f7536279cec5b8e11aee9add7b3c364785e18a",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Effective_Count_Sensitivity.md": {
+      "bytes": 2015,
+      "export_sha256": "e34e1d0fbcb15a0b58ef78ce2938c03e9cd5f8a216e046e57c41a86fd9f14978",
+      "original_sha256": "e34e1d0fbcb15a0b58ef78ce2938c03e9cd5f8a216e046e57c41a86fd9f14978",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Juvenile_Threshold_and_Query_Sufficiency.md": {
+      "bytes": 3485,
+      "export_sha256": "acf304c62310887f89f452bad6b1e7fd4261bf2b479954d9b7decfe725449cf8",
+      "original_sha256": "acf304c62310887f89f452bad6b1e7fd4261bf2b479954d9b7decfe725449cf8",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Numerical_Methods_Contract.md": {
+      "bytes": 12047,
+      "export_sha256": "b621f2cb584107e1b5085c5b7da5028824a545e0b4096dbad4aaff718ea51fdc",
+      "original_sha256": "b621f2cb584107e1b5085c5b7da5028824a545e0b4096dbad4aaff718ea51fdc",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/PaperV_V3_Revision_Map.md": {
+      "bytes": 3723,
+      "export_sha256": "b9fd4e3b43975ba3e3af1c9f8bc46be57724393e14d183eadc8b5b19b269ffb6",
+      "original_sha256": "b9fd4e3b43975ba3e3af1c9f8bc46be57724393e14d183eadc8b5b19b269ffb6",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Public_Artifact_Readiness.md": {
+      "bytes": 1650,
+      "export_sha256": "1631e071fe35307ed556f2e99a29fcc7bca9d6e05efbff4b79692394d23382ab",
+      "original_sha256": "1631e071fe35307ed556f2e99a29fcc7bca9d6e05efbff4b79692394d23382ab",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/Verification.md": {
+      "bytes": 1180,
+      "export_sha256": "f95954eeb4a6172d6be18db1db2a2ba78cc170c5d96703540a19db4037de6381",
+      "original_sha256": "f95954eeb4a6172d6be18db1db2a2ba78cc170c5d96703540a19db4037de6381",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/hfd04_contract.json": {
+      "bytes": 3790,
+      "export_sha256": "3c8578830449df0cae352999be5d7e9f5a34d782c81f215cb89b6e510e92a6e7",
+      "original_sha256": "3c8578830449df0cae352999be5d7e9f5a34d782c81f215cb89b6e510e92a6e7",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/referee_map.csv": {
+      "bytes": 2463,
+      "export_sha256": "f085d27a6df6f9be9df76b7c15a0e490df66aa77608f30e9df1230fce1852c83",
+      "original_sha256": "f085d27a6df6f9be9df76b7c15a0e490df66aa77608f30e9df1230fce1852c83",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/reports/verification_receipt.json": {
+      "bytes": 2213,
+      "export_sha256": "d64b4c4b3cd80d3c8ab4ec316e4196f99ed5b1847e713beab5f2d265814ddc86",
+      "original_sha256": "d64b4c4b3cd80d3c8ab4ec316e4196f99ed5b1847e713beab5f2d265814ddc86",
+      "provenance": "PUBLIC_DATA_DERIVED_OR_REGISTERED_PUBLICATION_RECORD",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/artifact_runner.py": {
+      "bytes": 6903,
+      "export_sha256": "e7eb8e4089f7b0756b3a875a6a8c264962177845945a7d3227999646d2fef90a",
+      "original_sha256": "e7eb8e4089f7b0756b3a875a6a8c264962177845945a7d3227999646d2fef90a",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_analysis.py": {
+      "bytes": 10558,
+      "export_sha256": "46b91fe517e72a7bff0874629a08c22cac9bb63cafc2105ac1ac2fe593ecb25c",
+      "original_sha256": "46b91fe517e72a7bff0874629a08c22cac9bb63cafc2105ac1ac2fe593ecb25c",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_boundary.py": {
+      "bytes": 9034,
+      "export_sha256": "d407b8234ae5dd5305fe303689df13ae8f4c278a5d013452b0c95e458c3960f1",
+      "original_sha256": "d407b8234ae5dd5305fe303689df13ae8f4c278a5d013452b0c95e458c3960f1",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_cap.py": {
+      "bytes": 4712,
+      "export_sha256": "0854607df9fc98a895244c81b8c2a70b7558a90de74ee7e97815bc43a9e458d0",
+      "original_sha256": "0854607df9fc98a895244c81b8c2a70b7558a90de74ee7e97815bc43a9e458d0",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_certificate.py": {
+      "bytes": 3324,
+      "export_sha256": "96ff38643d0ce14a94bb828cf5fbfada2f6799580c6971b206e73a281c2542ef",
+      "original_sha256": "96ff38643d0ce14a94bb828cf5fbfada2f6799580c6971b206e73a281c2542ef",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_common.py": {
+      "bytes": 6609,
+      "export_sha256": "79178d84a5469a352ad3d47f58c8f887e241726b1c07aac1f1086bc0f8b2c6b1",
+      "original_sha256": "79178d84a5469a352ad3d47f58c8f887e241726b1c07aac1f1086bc0f8b2c6b1",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_context_prior_audit.py": {
+      "bytes": 3189,
+      "export_sha256": "d3e7d54384ca4bab9129938c7297fe1dffe607ad68d16770c711aa4ba630b6fb",
+      "original_sha256": "d3e7d54384ca4bab9129938c7297fe1dffe607ad68d16770c711aa4ba630b6fb",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_context_prior_estimator.py": {
+      "bytes": 2051,
+      "export_sha256": "95652ab2c4f49cc3d3e7e0d1bf12c70ca66226622c253807812741a4f1eca914",
+      "original_sha256": "95652ab2c4f49cc3d3e7e0d1bf12c70ca66226622c253807812741a4f1eca914",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_estimator.py": {
+      "bytes": 2943,
+      "export_sha256": "33d44105d210933d0ede7c37579063091dd425fde364279b8b5c753117c10e2d",
+      "original_sha256": "33d44105d210933d0ede7c37579063091dd425fde364279b8b5c753117c10e2d",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_export.py": {
+      "bytes": 9674,
+      "export_sha256": "6d160cf689661780e13cd7d10191a05fcaf76f17dfc60f7f385e25675e5435ef",
+      "original_sha256": "6d160cf689661780e13cd7d10191a05fcaf76f17dfc60f7f385e25675e5435ef",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_fixture.py": {
+      "bytes": 1840,
+      "export_sha256": "be3d3725e6dc60030e7a4b03c47773ff98bf983b03cbc36c5946d6aaf544721b",
+      "original_sha256": "be3d3725e6dc60030e7a4b03c47773ff98bf983b03cbc36c5946d6aaf544721b",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_freeze.py": {
+      "bytes": 2083,
+      "export_sha256": "36c554df4f6d34774bb511d96581a82bfdaf639ba3ee2f6039d19a7a251a77cd",
+      "original_sha256": "36c554df4f6d34774bb511d96581a82bfdaf639ba3ee2f6039d19a7a251a77cd",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_governance.py": {
+      "bytes": 2299,
+      "export_sha256": "7f67dc2de680b6e26fd75678653f2856881a55bde7dfbebd574d65a91e2fb144",
+      "original_sha256": "7f67dc2de680b6e26fd75678653f2856881a55bde7dfbebd574d65a91e2fb144",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_juvenile.py": {
+      "bytes": 11996,
+      "export_sha256": "8791eeaf8bd9a5902da3603f5ceca812b69b673f9c7c978fef994982b94b52be",
+      "original_sha256": "8791eeaf8bd9a5902da3603f5ceca812b69b673f9c7c978fef994982b94b52be",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_methods.py": {
+      "bytes": 13118,
+      "export_sha256": "f3650a292cce5019759d12ca37d30ed812b8a604a0890197c6ef3f7b1e312726",
+      "original_sha256": "f3650a292cce5019759d12ca37d30ed812b8a604a0890197c6ef3f7b1e312726",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_pilot.py": {
+      "bytes": 2477,
+      "export_sha256": "99290dd7a6805ccbf89f79c912ca616ebefcaa242cea05e846129e50ec8fb91a",
+      "original_sha256": "99290dd7a6805ccbf89f79c912ca616ebefcaa242cea05e846129e50ec8fb91a",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_pilot_v2.py": {
+      "bytes": 2464,
+      "export_sha256": "d9ee4c0d2fe1b106425ff1eefde14ff7592e7041b8f8c68b3f0e0fef1f6b49fa",
+      "original_sha256": "d9ee4c0d2fe1b106425ff1eefde14ff7592e7041b8f8c68b3f0e0fef1f6b49fa",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_public_replay.py": {
+      "bytes": 4541,
+      "export_sha256": "47f46e5c0e8bb7ed802a5ef4ec88e314dc4251ec9f7e68c4fe65bd9bca7ed191",
+      "original_sha256": "47f46e5c0e8bb7ed802a5ef4ec88e314dc4251ec9f7e68c4fe65bd9bca7ed191",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_register.py": {
+      "bytes": 1650,
+      "export_sha256": "f5c1aa0f7f16dbdfa927c6367810736946d7587ec9a4cd4c9579b2d12ca9a162",
+      "original_sha256": "f5c1aa0f7f16dbdfa927c6367810736946d7587ec9a4cd4c9579b2d12ca9a162",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_replay_evidence.py": {
+      "bytes": 5055,
+      "export_sha256": "0f3cf88507b7d2dcc31847b8ca8d39c3fcbb35a947efcfed2a62366b05075860",
+      "original_sha256": "0f3cf88507b7d2dcc31847b8ca8d39c3fcbb35a947efcfed2a62366b05075860",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_reports.py": {
+      "bytes": 32440,
+      "export_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+      "original_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "research/health_formally_defined/harvard_forest/HFD04/scripts/h04_supplement_analysis.py": {
+      "bytes": 4200,
+      "export_sha256": "c93572f4b1052d99fadc30cd752a4b6edb9ffdc0471a2d35d0cd7830ca37de5d",
+      "original_sha256": "c93572f4b1052d99fadc30cd752a4b6edb9ffdc0471a2d35d0cd7830ca37de5d",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    },
+    "scripts/verify_hfd04_harvard_forest.py": {
+      "bytes": 24701,
+      "export_sha256": "1a55b0adcb6381574f030101ad0248770ba287850673c9d55d6d0b7ac8e54862",
+      "original_sha256": "1a55b0adcb6381574f030101ad0248770ba287850673c9d55d6d0b7ac8e54862",
+      "provenance": "PROJECT_AUTHORED_PUBLICATION_REVIEW_SOURCE",
+      "redistribution": "Owner disclosure/license review pending; no public publication by this tranche"
+    }
+  },
+  "fixture_scope": "Lightweight check; separate full scientific replay summaries retain executed evidence",
+  "public_publication": false,
+  "raw_data_redistributed": false,
+  "runtime": {
+    "numpy": "2.0.2",
+    "python": "3.9.6"
+  },
+  "schema": "PaperV-HFD04-public-candidate-v1",
+  "scientific_registration": "d49041422afb8d8e92e7450b6f2087a243374745",
+  "source_license": "OWNER_REVIEW_REQUIRED_BEFORE_PUBLIC_PUBLICATION",
+  "unrelated_IP_exported": false
+}

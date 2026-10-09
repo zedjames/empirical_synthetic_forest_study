@@ -1,0 +1,30 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="920" height="478"><ns0:svg width="920" height="222" viewBox="0 0 920 222" x="0" y="0">
+<ns0:rect width="100%" height="100%" fill="#faf8f3" />
+<ns0:text x="24" y="30" font-family="sans-serif" font-size="18">Inner paired K: maximum conditional interval half-width</ns0:text>
+<ns0:text x="24" y="54" font-family="sans-serif" font-size="12">Wilson95% Q1 / Bonferroni97.5% Q2; target&lt;=0.04 at maximumK</ns0:text>
+<ns0:text x="24" y="90" font-family="sans-serif" font-size="11">64</ns0:text>
+<ns0:rect x="300" y="76" width="560.0000" height="18" fill="#587c59" />
+<ns0:text x="866" y="90" font-family="sans-serif" font-size="10">0.126</ns0:text>
+<ns0:text x="24" y="124" font-family="sans-serif" font-size="11">256</ns0:text>
+<ns0:rect x="300" y="110" width="280.5626" height="18" fill="#587c59" />
+<ns0:text x="866" y="124" font-family="sans-serif" font-size="10">0.063</ns0:text>
+<ns0:text x="24" y="158" font-family="sans-serif" font-size="11">1024</ns0:text>
+<ns0:rect x="300" y="144" width="142.4526" height="18" fill="#587c59" />
+<ns0:text x="866" y="158" font-family="sans-serif" font-size="10">0.032</ns0:text>
+</ns0:svg><ns0:svg width="920" height="256" viewBox="0 0 920 256" x="0" y="222">
+<ns0:rect width="100%" height="100%" fill="#faf8f3" />
+<ns0:text x="24" y="30" font-family="sans-serif" font-size="18">Outer paired N: maximum state-block Health fraction SE</ns0:text>
+<ns0:text x="24" y="54" font-family="sans-serif" font-size="12">K64 throughout; state-block SE, not inner interval width. Target&lt;=0.03 at N1024.</ns0:text>
+<ns0:text x="24" y="90" font-family="sans-serif" font-size="11">128</ns0:text>
+<ns0:rect x="300" y="76" width="560.0000" height="18" fill="#587c59" />
+<ns0:text x="866" y="90" font-family="sans-serif" font-size="10">0.016</ns0:text>
+<ns0:text x="24" y="124" font-family="sans-serif" font-size="11">256</ns0:text>
+<ns0:rect x="300" y="110" width="346.9877" height="18" fill="#587c59" />
+<ns0:text x="866" y="124" font-family="sans-serif" font-size="10">0.010</ns0:text>
+<ns0:text x="24" y="158" font-family="sans-serif" font-size="11">512</ns0:text>
+<ns0:rect x="300" y="144" width="254.1154" height="18" fill="#587c59" />
+<ns0:text x="866" y="158" font-family="sans-serif" font-size="10">0.007</ns0:text>
+<ns0:text x="24" y="192" font-family="sans-serif" font-size="11">1024</ns0:text>
+<ns0:rect x="300" y="178" width="164.1786" height="18" fill="#587c59" />
+<ns0:text x="866" y="192" font-family="sans-serif" font-size="10">0.005</ns0:text>
+</ns0:svg></ns0:svg>

@@ -1,0 +1,67 @@
+{
+  "accepted_corruption": 0,
+  "active_controls": [
+    {
+      "control": "missing_joint_category",
+      "reason": "Incomplete or duplicated outcome partition",
+      "status": "REJECTED"
+    },
+    {
+      "control": "conditional_candidate_denominator",
+      "reason": "Wrong unconditional candidate denominator",
+      "status": "REJECTED"
+    },
+    {
+      "control": "lost_failure",
+      "reason": "Failure reconciliation incorrect",
+      "status": "REJECTED"
+    },
+    {
+      "control": "lost_overlap",
+      "reason": "Juvenile overlap lost",
+      "status": "REJECTED"
+    },
+    {
+      "control": "independent_marginal_hazard_variance",
+      "reason": "Predictive moment/variance law changed: shared_hazard_variance",
+      "status": "REJECTED"
+    },
+    {
+      "control": "FFT_roundoff_tail",
+      "reason": "Reported rare tail not from positive convolution",
+      "status": "REJECTED"
+    },
+    {
+      "control": "zero_hit_zero_probability",
+      "reason": "Reported rare tail not from positive convolution",
+      "status": "REJECTED"
+    },
+    {
+      "control": "omitted_observed_death",
+      "reason": "Observed mortality altered",
+      "status": "REJECTED"
+    },
+    {
+      "control": "wrong_predictive_interval",
+      "reason": "Wrong central predictive quantiles",
+      "status": "REJECTED"
+    },
+    {
+      "control": "wrong_MC_denominator",
+      "reason": "Predictive replicate denominator changed",
+      "status": "REJECTED"
+    },
+    {
+      "control": "zero_hit_no_uncertainty",
+      "reason": "Zero sampled hits misrepresented as certainty",
+      "status": "REJECTED"
+    },
+    {
+      "control": "missing_nonhemlock",
+      "reason": "Missing predictive group",
+      "status": "REJECTED"
+    }
+  ],
+  "all262144_group_sums_checked": true,
+  "status": "PASS"
+}

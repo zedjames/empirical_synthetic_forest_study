@@ -1,0 +1,16 @@
+{
+  "caption": "Equal64-cell descriptive mean; all caps retained; full downstream contrasts in CSV;200 remains frozen reference.",
+  "data": "figures/H04-6.csv",
+  "data_sha256": "caa6cc0326cc91ecfa3477fe5d1fa5a2b5f636e22871427b142cdef0b781de9c",
+  "figure": "figures/H04-6.svg",
+  "figure_sha256": "c33b3977cd7be14aa61be85510ea53eb08a6f7a710ba5982f8f4fab75efd62a5",
+  "generator": "scripts/h04_reports.py",
+  "generator_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+  "id": "H04-6",
+  "inputs": {
+    "effective_count/comparison.csv": "caa6cc0326cc91ecfa3477fe5d1fa5a2b5f636e22871427b142cdef0b781de9c",
+    "effective_count/posteriors.csv": "b0239292fce3bad0495eefd04f2bd8ed33ad187e5880159419a8f07dd20a647d"
+  },
+  "run_id": "c19659beac083350",
+  "title": "Effective-cap hazard uncertainty"
+}

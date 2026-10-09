@@ -1,0 +1,20 @@
+{
+  "D0_five_year_primary_mean": {
+    "cumulative_deaths": 15274.036727905273,
+    "cumulative_threshold_entries": 9073.932037353516
+  },
+  "adjustments_from_check": false,
+  "comparison": "Different coverage, raw-status interpretation and elapsed-time baseline prevent direct score or validation",
+  "dead_stems_since_2020_over": 11800,
+  "exposed_before_design": true,
+  "hemlock_dead_since_2020_almost": 5000,
+  "hemlock_dead_since_initial_2014_over": 8000,
+  "measurements_over": 70000,
+  "new_threshold_stems_approximately": 5000,
+  "primary_result_sha256": "f9ee54a5f2ad26c4a1d5a4c5948d0fe2479700a01c753347498912ba240fd190",
+  "retrospective_validation": "NOT_CLAIMED",
+  "source_id": "HF-third-census-news",
+  "source_sha256": "ede3730368bfa8d9744e4e850cfae8a3c161cdec564153c7ef3643a375dbffdc",
+  "status": "EXPOSURE_AWARE_EXTERNAL_CONSISTENCY_CHECK",
+  "training_used": false
+}

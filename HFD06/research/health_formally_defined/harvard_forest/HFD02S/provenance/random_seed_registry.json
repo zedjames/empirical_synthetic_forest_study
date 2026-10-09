@@ -1,0 +1,46 @@
+{
+  "registry_version": "HFD02S-seeds-v1",
+  "master_seed": 2026100702,
+  "algorithm": "int.from_bytes(SHA256(JSON([registry_version,master_seed,namespace,indices]))[:8],big); NumPy Generator(PCG64(seed)); independent streams",
+  "namespaces": {
+    "reconstruct": [
+      256
+    ],
+    "parameters": [
+      256,
+      2
+    ],
+    "future": [
+      256,
+      2,
+      2,
+      4
+    ],
+    "world": [
+      32
+    ],
+    "world_observation": [
+      32
+    ],
+    "world_truth_future": [
+      32,
+      2
+    ],
+    "estimate_state": [
+      32,
+      4,
+      64
+    ],
+    "estimate_future": [
+      32,
+      4,
+      64,
+      2
+    ],
+    "synthetic_fixture": [
+      16
+    ]
+  },
+  "reference_world_index": 0,
+  "nondeterministic_entropy_allowed": false
+}

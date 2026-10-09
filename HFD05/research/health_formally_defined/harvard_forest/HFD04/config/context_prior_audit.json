@@ -1,0 +1,41 @@
+{
+  "all_worlds_retained": true,
+  "context_counts": [
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    13,
+    13,
+    13
+  ],
+  "draws": 32,
+  "id": "HFD04-CONTEXT-PRIOR-001",
+  "master_seed": 202610070404,
+  "namespaces": [
+    "cw_state",
+    "cw_params",
+    "cw_future"
+  ],
+  "observation_policy": "Same observation packets, exact labels unavailable, new independent estimator streams",
+  "original_results_preserved": true,
+  "paths": 256,
+  "prior_interpretation": "Experimental-design mixture, NOT ecological frequencies",
+  "prior_source": "Entire frozen world roster with equal1/81 design weights; no truth/accuracy enters choice",
+  "reason": "Boundary roster oversamples pressure2; original uniform9 remains a declared sensitivity, not its marginalworld prior.",
+  "score_policy": "Same Q1/Q2 reference statuses, point classifier>=.5 and metrics; all three truth suites separate",
+  "weights": [
+    0.08641975308641975,
+    0.08641975308641975,
+    0.08641975308641975,
+    0.08641975308641975,
+    0.08641975308641975,
+    0.08641975308641975,
+    0.16049382716049382,
+    0.16049382716049382,
+    0.16049382716049382
+  ],
+  "worlds": 81
+}

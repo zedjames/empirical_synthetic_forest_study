@@ -1,0 +1,9 @@
+{
+  "all_reached_primary_identities": true,
+  "cells": 48,
+  "conditional_moment_defect": "REACHED_MATERIAL_MOMENTS",
+  "health_changes": 0,
+  "max_abs_reserve_delta": 0.0,
+  "max_abs_viable_delta": 0.0,
+  "scope": "Registered all-reached-primary-identity panel; not a full surface or ecological robustness guarantee"
+}

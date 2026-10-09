@@ -1,0 +1,49 @@
+{
+  "all_states_retained": 256,
+  "controlled_exposure_source": "afeb4bc80796c8feef03049893c5332db992b6737fd7f13438630106f221d6ab",
+  "identities": {
+    "R2": {
+      "histories": {
+        "bytes": 264241280,
+        "private_path": ".runs/primary_bad4cebbd6a69ca4/R2_histories.npy",
+        "sha256": "4b72378b7820ba7c06ba9acd11e7d2590d0b200e863d27011f4fdadc3dce505b"
+      },
+      "lawful": {
+        "bytes": 262272,
+        "private_path": ".runs/primary_bad4cebbd6a69ca4/R2_lawful.npy",
+        "sha256": "67b5197c2796e7925a09f53a4329dd8c585ca23b4195fde8e08f49d32ae59c99"
+      }
+    },
+    "R3": {
+      "histories": {
+        "bytes": 264241280,
+        "private_path": ".runs/primary_bad4cebbd6a69ca4/R3_histories.npy",
+        "sha256": "d506c71f74920c2a433b773c48358caa72745b6589f6e6306c1844bb18fa6e26"
+      },
+      "lawful": {
+        "bytes": 262272,
+        "private_path": ".runs/primary_bad4cebbd6a69ca4/R3_lawful.npy",
+        "sha256": "67b5197c2796e7925a09f53a4329dd8c585ca23b4195fde8e08f49d32ae59c99"
+      }
+    },
+    "R4": {
+      "histories": {
+        "bytes": 264241280,
+        "private_path": ".runs/primary_bad4cebbd6a69ca4/R4_histories.npy",
+        "sha256": "f58fdd2be2364cea10837985dc9fa405ee2c1a92f5c6c04e528849d77d267d5a"
+      },
+      "lawful": {
+        "bytes": 262272,
+        "private_path": ".runs/primary_bad4cebbd6a69ca4/R4_lawful.npy",
+        "sha256": "67b5197c2796e7925a09f53a4329dd8c585ca23b4195fde8e08f49d32ae59c99"
+      }
+    }
+  },
+  "model_variants": 2,
+  "old_banks_overwritten": false,
+  "original_reference_identity": "HFD02S_ORIGINAL_GENERATOR",
+  "original_source_archive": "6b1fb4cff2149a58",
+  "parameter_replicates": 2,
+  "scenarios": 4,
+  "source_identity": "HFD05_CORRECTED_GENERATOR"
+}

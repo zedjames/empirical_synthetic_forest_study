@@ -1,0 +1,152 @@
+{
+  "active_rejected_controls": 36,
+  "controls": [
+    {
+      "control": "01_FROZEN_SOURCE_MUTATION",
+      "rejected": true
+    },
+    {
+      "control": "02_Q2_POINT_DISAGREEMENT",
+      "rejected": true
+    },
+    {
+      "control": "03_TWO_INDEPENDENT_Q2_CONSTRAINTS",
+      "rejected": true
+    },
+    {
+      "control": "04_Q2_BONFERRONI_RETENTION",
+      "rejected": true
+    },
+    {
+      "control": "05_UNDETECTED_GAMMA_WRONG_MEAN",
+      "rejected": true
+    },
+    {
+      "control": "06_OMITTED_ZERO_OR_SD_ZERO_BRANCH",
+      "rejected": true
+    },
+    {
+      "control": "07_SOURCE_FORMULA_ACTUAL_CALL_DISAGREEMENT",
+      "rejected": true
+    },
+    {
+      "control": "08_POOLED_EXPOSURE_EXACT",
+      "rejected": true
+    },
+    {
+      "control": "09_UNKNOWN_FATE_AS_DEATH",
+      "rejected": true
+    },
+    {
+      "control": "10_INVENTED_INDIVIDUAL_DATE",
+      "rejected": true
+    },
+    {
+      "control": "11_ORIGINAL_BANK_OVERWRITE",
+      "rejected": true
+    },
+    {
+      "control": "12_SILENT_TRUTH_CHANGE",
+      "rejected": true
+    },
+    {
+      "control": "13_E00_ORACLE_LEAKAGE",
+      "rejected": true
+    },
+    {
+      "control": "14_FORCED_ADDITIVE_ORACLE_PARTITION",
+      "rejected": true
+    },
+    {
+      "control": "15_MC_NOISE_AS_ECOLOGICAL_ATTRIBUTION",
+      "rejected": true
+    },
+    {
+      "control": "16_COLLIDING_TAG_UNIQUE",
+      "rejected": true
+    },
+    {
+      "control": "17_LEFT_TRUNCATION_IGNORED",
+      "rejected": true
+    },
+    {
+      "control": "18_DN_SECURE_DEATH",
+      "rejected": true
+    },
+    {
+      "control": "19_EXTERNAL_OUTCOME_TUNING",
+      "rejected": true
+    },
+    {
+      "control": "20_SEEDLING_WHOLE_PLOT_EXPANSION",
+      "rejected": true
+    },
+    {
+      "control": "21_FIRST_OBSERVATION_GERMINATION_DATE",
+      "rejected": true
+    },
+    {
+      "control": "22_DIAGNOSTIC_MEMBERSHIP_AS_POSTERIOR",
+      "rejected": true
+    },
+    {
+      "control": "23_AVERAGE_AS_GENERAL_ROBUSTNESS",
+      "rejected": true
+    },
+    {
+      "control": "24_CONTEXT_AS_OPTIMAL_INFORMATION_VALUE",
+      "rejected": true
+    },
+    {
+      "control": "25_FINITE_BANK_KERNEL_CERTAINTY",
+      "rejected": true
+    },
+    {
+      "control": "26_SUCCESS_RENORMALIZATION",
+      "rejected": true
+    },
+    {
+      "control": "27_PROJECTION_AS_DYNAMIC_COMMUTATION",
+      "rejected": true
+    },
+    {
+      "control": "28_PUBLIC_PRIVATE_IMPORT",
+      "rejected": true
+    },
+    {
+      "control": "29_UNLICENSED_OR_OUTOFSCOPE_EXPORT",
+      "rejected": true
+    },
+    {
+      "control": "31_ACTUAL_SCRATCH_FILE_MUTATION",
+      "rejected": true
+    },
+    {
+      "control": "30_UNFAVORABLE_OR_UNRESOLVED_PRUNING",
+      "rejected": true
+    },
+    {
+      "control": "32_RESERVE_OUTSIDE_VIABILITY",
+      "rejected": true
+    },
+    {
+      "control": "33_INVALID_CANDIDATE_DENOMINATOR",
+      "rejected": true
+    },
+    {
+      "control": "34_ACTUAL_PUBLIC_SOURCE_BYTE_MUTATION",
+      "rejected": true
+    },
+    {
+      "control": "35_ACTUAL_UNLISTED_PRIVATE_EXPORT",
+      "rejected": true
+    },
+    {
+      "control": "36_ACTUAL_EXPORT_SYMLINK",
+      "rejected": true
+    }
+  ],
+  "live_sources_or_banks_mutated": false,
+  "source_sha256": "493090e8dd9567ddcab80b032707104d183a7210f874b00ea3e396605424f5f1",
+  "status": "PASS"
+}

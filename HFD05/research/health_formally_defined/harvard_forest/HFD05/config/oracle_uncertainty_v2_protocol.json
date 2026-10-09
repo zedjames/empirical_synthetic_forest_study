@@ -1,0 +1,7 @@
+{
+  "id":"HFD05-ORACLE-UNCERTAINTY-002",
+  "parent":"oracle_uncertainty_protocol.json, unchanged forecasts/losses/bootstraps",
+  "discovery":"First implementation correctly encounters empty original hemlock/Q2 PRESENT-near stratum but cannot concatenate an empty bootstrap roster. No uncertainty outputs were emitted; original failed implementation retained.",
+  "correction":"Emit retained n=0, estimate/lower/upper undefined for all three contrast metrics; retain empty score/interval rows. No substituted world, margin, reference, label or fitted value.",
+  "scope":"Only empty-stratum handling changes. Undefined is not zero accuracy or successful classification. All original-world and adverse outcomes remain included."
+}

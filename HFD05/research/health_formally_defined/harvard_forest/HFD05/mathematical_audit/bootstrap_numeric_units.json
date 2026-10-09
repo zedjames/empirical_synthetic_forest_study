@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "BLAS_max_error": 2.2737367544323206e-13,
+      "BLAS_warnings": [
+        "divide by zero encountered in matmul",
+        "overflow encountered in matmul",
+        "invalid value encountered in matmul"
+      ],
+      "columns": 15,
+      "direct_max_error": 2.2737367544323206e-13,
+      "finite_all": true,
+      "replicates": 100,
+      "scalar_reference": "math.fsum"
+    },
+    {
+      "BLAS_max_error": 2.2737367544323206e-12,
+      "BLAS_warnings": [
+        "divide by zero encountered in matmul",
+        "overflow encountered in matmul",
+        "invalid value encountered in matmul"
+      ],
+      "columns": 64,
+      "direct_max_error": 2.2737367544323206e-12,
+      "finite_all": true,
+      "replicates": 100,
+      "scalar_reference": "math.fsum"
+    },
+    {
+      "BLAS_max_error": 1.1641532182693481e-10,
+      "BLAS_warnings": [
+        "divide by zero encountered in matmul",
+        "overflow encountered in matmul",
+        "invalid value encountered in matmul"
+      ],
+      "columns": 1024,
+      "direct_max_error": 1.1641532182693481e-10,
+      "finite_all": true,
+      "replicates": 100,
+      "scalar_reference": "math.fsum"
+    }
+  ],
+  "source_sha256": "f8b365b4ca29bc206ef81ee806686a975b76da8fc88fb0ba277624219e20583c",
+  "status": "PASS",
+  "warning_suppression_used_for_scientific_outputs": false
+}

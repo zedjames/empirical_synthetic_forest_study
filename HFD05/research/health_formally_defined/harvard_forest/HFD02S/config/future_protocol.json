@@ -1,0 +1,35 @@
+{
+  "schema": "HFD02S-future-E2-to-E3-protocol-v1",
+  "frozen_on": "2026-10-07",
+  "status": "FROZEN_SPECIFICATION_NOT_ISSUED_OPERATIONAL_FORECAST",
+  "issuance": "DEFERRED_UNTIL_VERSIONED_E2_TAGGED_RELEASE_AND_MEASUREMENT_GAPS_RESOLVED_BEFORE_ANY_E3_OUTCOME_ACCESS",
+  "baseline": "Use the versioned E2 tagged-stem census at its recorded dates; no public news/tower substitutes",
+  "inputs": "Publish IDs, SHA256, schema/status crosswalk, measurement units, sampled coverage, DBH/POM comparability, association audit and provenance ledger",
+  "reconstruction": "Same 256-draw MNAR/wet-proxy architecture and fixed prior grids; if E2 supports a verified wet mask, register a separate amendment before examining E3",
+  "fit": "Primary E0→E1 model stays frozen. Any E1→E2 refit is a separately archived prospective v2 issuance, never retroactively substituted into HFD02S",
+  "scenarios": "D0,D1,D2,D3 config/design.json with explicit synthetic forcing; observed future environmental scenarios are a separate protocol",
+  "horizons_years": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "carrier_continuation": "R1/C1 all alpha,beta,tau grids in config/design.json; no selection after outcomes",
+  "capacity_queries": "Q1 and Q2 with all theta/rho grids; unconditional failure and unlawful mass retained",
+  "archive": "Before E3: immutable public input/design/code/seed/manifest hashes; all posterior draws and unconditional weighted histories; issuance time and exposure inventory",
+  "outcome_operator": "After E3: use stable stem IDs, actual dates, matching spatial support and measurement-error likelihood. Missingness never equals death; score only observed quantities and explicitly labeled latent estimates",
+  "scores": [
+    "DBH/growth and alive-status predictive log score on interpretable paired records",
+    "basal-area/juvenile-support interval coverage and absolute error on comparable observed support",
+    "entry/death count consistency with sampling, status and elapsed-time alignment",
+    "Brier score only for predeclared observable endpoints, not unobservable full capacity Health"
+  ],
+  "health_limit": "A realized E3 trajectory cannot by itself validate the entire counterfactual capacity law or ontological forest Health",
+  "amendments": "Register reason, code/config hashes, timestamp, prior exposure and new issuance identity before unobserved E3 outcomes; preserve all old outputs and report all semantic-grid results",
+  "prohibited": [
+    "E3 access before issuance",
+    "E2/E3 tuning of HFD02S",
+    "operational Health authorization from this specification",
+    "post hoc scenario/semantic/world selection"
+  ]
+}

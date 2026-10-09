@@ -1,0 +1,8 @@
+source,conditional_variance,method,metric
+imputation_and_measurement_joint,0.00030211560866411996,"Nested conditional variance/finite-grid sensitivity; nonadditive, designs dependent",unconditional viable mass
+parameter,5.473196506500244e-05,"Nested conditional variance/finite-grid sensitivity; nonadditive, designs dependent",unconditional viable mass
+model,5.841255187988281e-06,"Nested conditional variance/finite-grid sensitivity; nonadditive, designs dependent",unconditional viable mass
+scenario,0.24870145320892334,"Nested conditional variance/finite-grid sensitivity; nonadditive, designs dependent",unconditional viable mass
+semantic,0.15414033602942795,"Nested conditional variance/finite-grid sensitivity; nonadditive, designs dependent",unconditional viable mass
+measurement_and_date_projection,4.300763581313755e-06,Reconstruction component BA variance; includes coupled demographic projection; not separable causal attribution,"initial structural ratio, NOT directly comparable to viable-mass variance"
+imputation,2.7187458514974475e-05,Reconstruction component BA variance; includes coupled demographic projection; not separable causal attribution,"initial structural ratio, NOT directly comparable to viable-mass variance"

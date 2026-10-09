@@ -1,0 +1,16 @@
+{
+  "caption": "Conditional on shared hazards, not a marginal independence claim. Finite survivor draws and other provenance remain separate.",
+  "data": "figures/data/H05-3.csv",
+  "data_sha256": "d07c46f67ac3e9684f1fac7cfdd5f21b1bfc95298254e2ac3e0269c719b1b668",
+  "ecological_population_inference": false,
+  "id": "H05-3",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "Every primary/missingness reconstruction draw",
+  "sources": {
+    "exposure_model/controlled_origin_comparison.csv": "b6e2e58ee7ceb7dadaefcd6a1167321c7bfd0f21f1138dc7323872841a9b7559"
+  },
+  "svg_sha256": "17daf4e91151e23edf47f7d282629700fcc13a412f145a4c97b19221d2d9d35b",
+  "title": "Unequal exposure: conditional Jensen gap",
+  "units": "Mean conditional expected extra dated survivors"
+}

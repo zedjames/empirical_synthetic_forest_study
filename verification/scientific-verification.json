@@ -1,0 +1,40 @@
+{
+  "verdict": "SCIENTIFIC_REPRODUCIBILITY_CLOSED",
+  "stages_passed": 24,
+  "regenerated_frozen_member_checks": 9683,
+  "probe_frozen_member_checks": 559,
+  "nine_predictive_outputs_exact": 9,
+  "HFD05_kernel_sha256": "7602c0876e8a74fcc5a9cac5ea374760b3cba621dc03463a14ee8bf081dad0f2",
+  "HFD06_posterior_sha256": "c0f6ffa36625a0813332aa2d62e3b4257a80f1bb74c604a963209f386e3bbaae",
+  "package_identities": {
+    "HFD05": {
+      "manifest_files": 492,
+      "sha256": "45a10000799de1b7974e650d943adc7859428d830ab8e21f123506d92e715738"
+    },
+    "HFD06": {
+      "manifest_files": 67,
+      "sha256": "2a36eeccd582a25db9b08e0fb258ddaaaa346e8dfea7809588cf751d3dcbc272"
+    }
+  },
+  "bootstrap": "EXACTLY_TWO_OPERATIONAL_SUBSTITUTIONS; SCIENCE_AND_SANDBOX_UNCHANGED",
+  "source_preservation": "ALL_FROZEN_MEMBERS_REHASHED",
+  "blockers": {
+    "HFD05_kernel": "CLOSED",
+    "HFD06_nine_predictive_outputs": "CLOSED",
+    "HFD06_posterior": "CLOSED"
+  },
+  "portability": "Exact original ARM environment verified; Intel differences preserved, no cross-platform byte identity or unique hardware/libm rootcause claimed.",
+  "unresolved_scientific_verification_issues": [],
+  "evidence_archive_sha256": "135d06c780aaf3439b49e1946b888c3122f5d491b42b1079366df3a3daadf1ae",
+  "evidence_archive_checksums": 69,
+  "reference_runtime": {
+    "system": "Darwin",
+    "release": "27.0.0",
+    "architecture": "arm64",
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "compiler": "Clang 21.0.0",
+    "byteorder": "little"
+  },
+  "scientific_replay_repeated_for_publication": false
+}

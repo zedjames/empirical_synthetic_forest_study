@@ -1,0 +1,17 @@
+{
+  "caption": "Large local effects persist at higher precision. Adverse selection is not representative. Distinct-law MC brackets, threshold decisions and original states remain in source data; no ecological causal error partition.",
+  "data": "figures/data/H05-10.csv",
+  "data_sha256": "2f8825bdcca61a624a80ee36b1df23e8ac9f8c7ca316955e601964315bbc824d",
+  "ecological_population_inference": false,
+  "id": "H05-10",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "Every available global-max attaining case, all prefixes and both individual-time laws",
+  "sources": {
+    "corrected_pipeline/local_extreme_selection.csv": "36016a9ca3394fa360b8a736e0c7a61687c0e2fde71651058d12b500588b79e5",
+    "corrected_pipeline/local_precision_contrasts.csv": "8e56bb6862114cb65bea185970c61801987fcdd3a646d73104f7cf850d1068fd"
+  },
+  "svg_sha256": "e59d01a0d8b43cd331d0018a0113b3dac75f9f890ef7547e1d1b1ebb624b9615",
+  "title": "Local failure diagnosis: fixed-prefix exposure extremes",
+  "units": "Signed target-capacity change in adverse selected physical cases"
+}

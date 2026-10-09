@@ -1,0 +1,51 @@
+{
+  "HF355": {
+    "eligible_identities": 7193,
+    "raw_rows": 35995,
+    "reasons": {
+      "ALIGNED_SUBPLOT_PROCESS": 7193,
+      "INVALID_IDENTITY_STATUS": 6
+    },
+    "unique_seedling_IDs": 7199,
+    "whole_plot_bridge": false
+  },
+  "HF453": {
+    "eligible_baseline_stems": 21578,
+    "raw_rows": 123232,
+    "reasons": {
+      "ALIGNED": 21578,
+      "E0_NOT_RECORDED_ALIVE": 4156,
+      "E1_ADULT_SIZE_SUPPORT_ABSENT": 3459,
+      "NOT_OBSERVED_ALIVE_BASELINE2021": 1411,
+      "NO_TWO_EPOCH_STABLE_IDENTITY": 4,
+      "PRIOR_SECURE_DEATH_LATER_ALIVE_CONTRADICTION": 4,
+      "SECURE_DEAD_TO_ALIVE_REVERSAL": 5,
+      "TREE_OR_TAXON_ASSOCIATION_CONFLICT": 191
+    },
+    "reversal_tags": 5,
+    "unique_tags": 30808
+  },
+  "exclusion_reasons_may_overlap": true,
+  "flag1": "Metadata inspection request, not automatic death; preserve strata/sensitivity",
+  "lineage": "Frozen earlier-fit model, later independent public component observations; no external scores or fit yet",
+  "record_partition": {
+    "HF355": {
+      "eligible_n": 19708,
+      "excluded_n": 16287,
+      "raw_n": 35995
+    },
+    "HF453": {
+      "eligible_n": 86312,
+      "excluded_n": 36920,
+      "raw_n": 123232
+    }
+  },
+  "scores_computed": false,
+  "sources": {
+    "hf355-01-taxa-codes.csv": "6abd27dde805267ab50509baea970f67f166ff01c0cbc140e21b6bbe5caf2b21",
+    "hf355-02-seedlings.csv": "86d67d17652022cb0e5bd26640f3e683d719d8656270c80ff2b5de63c07e1e0c",
+    "hf355-05-canopy.csv": "8b41ba965973345214f9c4b1c3ecff92bd75785f4f3c67ace4974025fa81e3f3",
+    "hf453-01-tree-census-2021-2024.csv": "0b5fd6072fc5a5b5a315dca4609e3023a85430e5e24a96a2cfa3307a0d431e74"
+  },
+  "status": "SUPPORT_COMMITTED_BEFORE_SCORES"
+}

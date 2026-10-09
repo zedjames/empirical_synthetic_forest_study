@@ -1,0 +1,236 @@
+{
+  "schema": "HFD04-protocol-v1",
+  "actual_execution_start": "d49041422afb8d8e92e7450b6f2087a243374745",
+  "scientific_baselines": {
+    "HFD01": "b02d17bf35329a5b099700d8fe897a99dbf4f7e6",
+    "HFD02S": "4053fa30e0b522b67c6b0e1ea668a85b942f3ae7",
+    "HFD03": "d15bc95d74b62206399ca3817c7200da5845a78f",
+    "HFD03_closure": "0f28602d910d9a8841bf397e9ec842778a13e3f1"
+  },
+  "master_seed": 2026100704,
+  "registration": "All configurations written before confirmatory outcomes. Two separately identified pilots excluded from performance. Registration commit and hash ledger precede execution.",
+  "boundary": {
+    "id": "HF-SYNTH-BOUNDARY-001",
+    "design": "config/world_design.json",
+    "replicates": 1,
+    "all_worlds_retained": true,
+    "truth_K": [
+      4096,
+      16384,
+      65536
+    ],
+    "truth_chunk": 1024,
+    "horizon": 5,
+    "alpha": 0.75,
+    "beta": 0.4,
+    "tau": 2,
+    "theta": 0.75,
+    "reserve_ratio": 0.5,
+    "misspecifications": [
+      "correct",
+      "hemlock_extra_hazard_0.12",
+      "entry_lognormal_annual_sd_1.2"
+    ],
+    "target_masses": [
+      0.675,
+      0.715,
+      0.745,
+      0.755,
+      0.785,
+      0.825
+    ],
+    "signed_margin_edges": [
+      -0.1,
+      -0.05,
+      -0.02,
+      0,
+      0.02,
+      0.05,
+      0.1
+    ],
+    "absolute_margin_edges": [
+      0,
+      0.02,
+      0.05,
+      0.1,
+      1
+    ],
+    "truth_uncertainty": "Wilson95% Q1 and two Bonferroni97.5% Q2 components; fixed maximum paired chunk prefixes, no stopping",
+    "normalization": "Q1 deterministic expected-final-BA normalization adjusts pilot diameter multiplier for independently drawn world parameters using analytic moments. Q2 adjusts pilot juvenile diameter by a normal-moment approximation to expected surviving juvenile count; this is a design approximation, not truth. No final histories or truth mass enter normalization; all worlds retained.",
+    "truth_label": "Exact finite max-bank Health plus separately certified kernel reference status; unresolved reference cases excluded ONLY from certified truth scores and retained in all tables."
+  },
+  "estimator": {
+    "draws": 32,
+    "paths": 256,
+    "dbh_noise_sd": 0.25,
+    "observation_thinning": 0.7,
+    "prior_anchor": "Public frozen E0 counts/RMS; not generated state",
+    "contexts": [
+      "B0_full",
+      "B1_coarsened",
+      "B2_unknown",
+      "B3_label_only"
+    ],
+    "coarse_pressure": [
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "coarse_recovery": [
+      [
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mixture": "Equal conditional weights within coarsened group; equal1/9 unknown context, finite experimental-design mixture not ecological prior",
+    "hazard_anchors": [
+      0.005,
+      0.03,
+      0.12
+    ],
+    "entry_anchors": [
+      0.025,
+      0.008,
+      0.001
+    ],
+    "hazard_log_sd": 0.15,
+    "entry_log_sd": 0.2,
+    "context_worlds": "All81 boundary worlds plus all324 frozen HFD03 worlds reconstructed from their original seeds. HFD0432-draw precision differs from historical64; B0 policy unchanged, paired within-HFD04 attribution only.",
+    "classification": "Health probability >=0.5 point classifier; 5/95% across-design-draw mass intervals descriptive observation/parameter mixtures, not inner-path-only MC. Per-draw kernel statuses and resolved-fraction bracket retained.",
+    "discrimination_gate": "At least8 certified positive and8 certified negative PRESENT boundary cases per primary query and sensitivity/specificity>=0.8; else PARTIAL if both classes exist, NOT_ESTABLISHED otherwise"
+  },
+  "juvenile": {
+    "sigma_D_cm": [
+      0,
+      0.1,
+      0.25,
+      0.5,
+      1
+    ],
+    "perturbation_replicates": 8,
+    "distance_edges_cm": [
+      0,
+      0.1,
+      0.25,
+      0.5,
+      1,
+      2,
+      300
+    ],
+    "mask_families": [
+      "M0",
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "mask_replicate": 0,
+    "states": 16,
+    "paths": 256,
+    "horizons": [
+      5,
+      10
+    ],
+    "scenarios": [
+      "D0",
+      "D3"
+    ],
+    "variants": [
+      "gamma_growth",
+      "normal_growth"
+    ],
+    "size_representation": "Two empirical conditional means (below10/atleast10) per E0-matched cohort, fitted from visible E1 DBH only. Integer split then rescale second moment to original RMS; profiles inferred for reconstructed origin, not new modality.",
+    "profiles": "Observed secure alive DBH; use deterministic fallback0.5 split at0.75/1.25 of RMS for absent group with explicitIMPUTED designation",
+    "projection": "Initial count/BA exact to floating tolerance; juvenile preservation NOT assumed; dynamics not claimed to commute",
+    "semantic_grid": {
+      "alpha": [
+        0.75
+      ],
+      "beta": [
+        0.4,
+        0.8
+      ],
+      "tau": [
+        2
+      ],
+      "rho": [
+        0.5,
+        1
+      ],
+      "theta": [
+        0.5,
+        0.75,
+        0.9
+      ]
+    },
+    "truth_support": "Securely observed E1 dates, not directly observed2020origin"
+  },
+  "effective_count": {
+    "caps": [
+      50,
+      100,
+      200,
+      500
+    ],
+    "reference": 200,
+    "states": 16,
+    "paths": 256,
+    "variants": [
+      "gamma_growth",
+      "normal_growth"
+    ],
+    "scenarios": [
+      "D0",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "horizons": [
+      5,
+      10
+    ],
+    "missingness_interaction": [
+      "B0"
+    ],
+    "calibration_mask": "M0 replicate0 physically sanitized frozen HFD03 visible file",
+    "calibration_draws": 64,
+    "selection": "All cap values reported; no E2 optimization and no preferred cap chosen"
+  },
+  "decisions": {
+    "theta": [
+      0,
+      0.5,
+      0.75,
+      0.9,
+      1
+    ],
+    "finite_inclusive": true,
+    "theta_zero": "Adequacy algebraicTRUE; Health requires present realization",
+    "theta_one": "All-success bank exactfiniteTRUE; kernelMC_UNRESOLVED unless contradiction provesFALSE, never certifiesprobabilityone",
+    "confidence": "Wilson95%Q1, two97.5%Q2 components; pointwise acrossqueries",
+    "strict_certification": true,
+    "old_history_unmodified": true
+  },
+  "release": {
+    "policy": "Deny-by-default exact inclusion list, source-only candidate; no publication/DOI. No private Lean modules/rawdata/auth/caches. External public retrieval separate from lightweight fixture.",
+    "runtime": {
+      "python": "3.9.6",
+      "numpy": "2.0.2"
+    },
+    "license": "Original source IP retained; package is review candidate without grant of public redistribution. HF253 CC0 cited, raw files retrieved externally."
+  },
+  "claims": {
+    "operational": "NOT_AUTHORIZED",
+    "E2_validation": "NOT_CLAIMED",
+    "scenario_prior": null,
+    "semantic_prior": null,
+    "lawful": "model-admissibility realization of Lawful",
+    "health_fraction": "finite-design Health fraction under the declared demonstration specification"
+  }
+}

@@ -1,0 +1,19 @@
+design,family,metric,n,mean_delta,q95_abs_delta,max_abs_delta,scope
+HFD02S_PRIMARY,B0,N,256,26.34375,286.25,471.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD02S_PRIMARY,B0,BA,256,0.02128165379899194,3.360154198401915,5.490832850954803,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD02S_PRIMARY,B0,J,256,24.375,260.75,465.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B0,N,128,15.78125,266.24999999999994,371.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B0,BA,128,0.16712700434139727,3.315242873557098,5.00245758988558,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B0,J,128,12.2578125,267.95,332.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B1,N,128,5.8828125,260.29999999999995,339.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B1,BA,128,0.12537160181034857,2.9998367120554463,4.901166081079509,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B1,J,128,2.8828125,251.89999999999995,342.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B2,N,128,15.765625,283.65,360.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B2,BA,128,0.1132639994097353,3.473341272801769,4.593324470351263,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B2,J,128,13.3984375,290.7999999999999,327.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B3,N,128,-1.40625,232.24999999999994,404.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B3,BA,128,0.22230008122126854,3.210757458601358,5.166930228259162,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B3,J,128,-2.4765625,223.54999999999995,360.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B4,N,128,17.2890625,267.24999999999994,372.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B4,BA,128,0.14577143442499185,3.5380049335030432,4.792740180974079,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics
+HFD03_MISSINGNESS,B4,J,128,13.0078125,263.65,364.0,Other nuisance draws fixed; dated survivor Monte Carlo remains; local extrema are observed finite-bank diagnostics

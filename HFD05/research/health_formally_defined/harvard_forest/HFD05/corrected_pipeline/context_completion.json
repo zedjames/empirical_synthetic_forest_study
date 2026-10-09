@@ -1,0 +1,10 @@
+{
+  "draws": 32,
+  "exposure_factor": "INAPPLICABLE",
+  "oracle_inputs": false,
+  "paths": 256,
+  "policies": 4,
+  "rows": 207360,
+  "status": "COMPLETE",
+  "worlds": 405
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PRESERVED_PREEXECUTION_FAILURE",
+  "original_commit": "c626d4c055",
+  "command": "h06_attribution.py",
+  "exit_code": 1,
+  "error": "SyntaxError: keyword argument repeated: growth at attribution/replay.json constructor",
+  "correction": "Rename string-valued metadata key to growth_law, preserving numeric growth field, RNG, counts and all scientific semantics",
+  "attribution_outcomes_emitted": false,
+  "mortality_protocol_and_source_unchanged": true
+}

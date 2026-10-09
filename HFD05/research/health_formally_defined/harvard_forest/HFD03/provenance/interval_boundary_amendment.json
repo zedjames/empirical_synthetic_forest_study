@@ -1,0 +1,49 @@
+{
+  "impact": "Only interval representation and boundary classifications; no mass, point Health, model, seed, calibration, entry or E2 change",
+  "model_replay_receipt": "reports/full_model_replay_receipt.json",
+  "parameters_and_confidence_rules_unchanged": true,
+  "preferred_boolean_stopping": false,
+  "protocol_sha256": "de7f3568b1942f9ba664e689126cef428508afa487a6f6cc9a9b3b629ac15fb2",
+  "reason": "IEEE roundoff yielded U(K,K)=0.9999999999999999; standard Wilson identity U(K,K)=1 restored, L(0,K)=0 enforced",
+  "selection": false,
+  "sufficient_mass_point_hashes": {
+    "B0": {
+      "mass": "a1ab3647e900785637cbe43d12d851cfad3804592ffd6f9534e0049ee024394e",
+      "point": "46b495dec01374ed60a42696a08a6118ad577e620e27db2b79ef65d7c56a76ae",
+      "reserve": "ba39de0e4c7353e31d3b76586b049c9149a4da3f3532210f362568b7fc6718c2"
+    },
+    "B1": {
+      "mass": "f8a23cbef9b4ca1bf8902fbd40caa65c50ab9f891a046b1366719c7d24834dfd",
+      "point": "a9c754ba4a88c744e769680f1926f493a58f6ea56a8dcad53093beaac2c7b919",
+      "reserve": "d475afbb616996434285ef098cf92734141c15bc5d96b37bfb049d83be5c5a13"
+    },
+    "B2": {
+      "mass": "52218ea90b19baf6f03b3cc1a3d025b27ec1d16b7c16bfd5a84c889cab3b4259",
+      "point": "a5f19947e0bb36ee3a90a22a5b24a61ae2f4c33b585a6e9e06d84a36c58aee9c",
+      "reserve": "f7d638635ec860b4bc34c0ce05f0e93ce54435f4c65e1e7531a8704e286f68e7"
+    },
+    "B3": {
+      "mass": "02d37a0e730bb335d42e53624bb89d0690d23f959071b8d8683f448a816e9954",
+      "point": "0c29410bd0407c4be8af9443ea134d3483be8b5f221ae7bef812a75d93882c1d",
+      "reserve": "72cda49a87427b146e9cb5ef072b40f4e11846b7cca62182c16ff63693ae94ae"
+    },
+    "B4": {
+      "mass": "3f320cbb6d9bb647449c06f8dcdaa0b1bd3f3d0cc0c86f01f66d2dabf95a3f6e",
+      "point": "fa8b8cd4dcad2587c826d71b72da7a9e5152e7df777a531b03a1a64ee45b79d7",
+      "reserve": "3eeec2a7c9947b7eb9b4e458c24de506cd20ec8d6855b8d02cacef8cd958f938"
+    }
+  },
+  "unchanged_non_wilson_function_hashes": {
+    "MechanismRNG": "3b4446ce5474f8b87195f258a54109633ec0cabeada4c711e90d6865c8049076",
+    "TraceRNG": "9eb33ad732c00e4ae65dc02f900293bb556fbce7ee46e98e1746c9d96bcb1eb7",
+    "classify": "2565b74aed360e82245a1bb9537c54e87b285a0f3e4475cd4b937c942e94ad14",
+    "frozen_guard": "00bb3fbd10c6e13d94593be599affb86cbbb3238b4a57897ee7981d442da30a7",
+    "inputs": "81f2b5c743f60963811b80f8b6cb469a2413a6455f49b1d0b7a551f49b6ea346",
+    "phase": "5b4021f6bfc248bdfbeae5c0e200e7b693625b78876ab76541299985a8e18894",
+    "read_csv": "bc588894da20598c95efcf50760aa62fc3b0e737545d168e5c0ce2ba18e46655",
+    "reconstruct": "4d47be88e356aaeda5311bf19f862c5701e7f9b0a6e7dd540241ad2121bb6b89",
+    "rng": "78a7fca930db26389b5f74bbec08f52ad800514d3caf34c8fabaaa6735c77aa9",
+    "write_csv": "8e52562738525f10c4c5b8b181b395fa1029001f02021743e8a6ae0122845a1d",
+    "write_json": "6c8c50630b66e709631ae948e7b3f269d44420ccb937448ee4c5245e127dc600"
+  }
+}

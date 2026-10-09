@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="420" viewBox="0 0 1050 420">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="32" font-family="sans-serif" font-size="21">Independent adult component: retained mortality underprediction</text>
+<text x="24" y="58" font-family="sans-serif" font-size="13">Observed minus predicted mortality, eligible2021 survivor support</text>
+<text x="24" y="107" font-family="sans-serif" font-size="13">2022 HEMLOCK mortality gap</text>
+<rect x="430" y="90" width="91.290" height="22" fill="#35708c"/>
+<text x="865" y="107" font-family="sans-serif" font-size="13">0.0116388</text>
+<text x="24" y="152" font-family="sans-serif" font-size="13">2022 OTHER mortality gap</text>
+<rect x="430" y="135" width="0.237" height="22" fill="#a44130"/>
+<text x="865" y="152" font-family="sans-serif" font-size="13">-3.02081e-05</text>
+<text x="24" y="197" font-family="sans-serif" font-size="13">2023 HEMLOCK mortality gap</text>
+<rect x="430" y="180" width="229.947" height="22" fill="#35708c"/>
+<text x="865" y="197" font-family="sans-serif" font-size="13">0.0293164</text>
+<text x="24" y="242" font-family="sans-serif" font-size="13">2023 OTHER mortality gap</text>
+<rect x="430" y="225" width="18.607" height="22" fill="#35708c"/>
+<text x="865" y="242" font-family="sans-serif" font-size="13">0.00237222</text>
+<text x="24" y="287" font-family="sans-serif" font-size="13">2024 HEMLOCK mortality gap</text>
+<rect x="430" y="270" width="420.000" height="22" fill="#35708c"/>
+<text x="865" y="287" font-family="sans-serif" font-size="13">0.0535467</text>
+<text x="24" y="332" font-family="sans-serif" font-size="13">2024 OTHER mortality gap</text>
+<rect x="430" y="315" width="12.344" height="22" fill="#35708c"/>
+<text x="865" y="332" font-family="sans-serif" font-size="13">0.00157376</text>
+<text x="24" y="405" font-family="sans-serif" font-size="11">H05-6: source-qualified descriptive plot; see caption and data</text></svg>

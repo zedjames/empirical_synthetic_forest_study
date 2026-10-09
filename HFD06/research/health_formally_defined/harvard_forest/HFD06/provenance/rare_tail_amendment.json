@@ -1,0 +1,10 @@
+{
+  "status": "NUMERICAL_PRECISION_CORRECTION_REGISTERED_BEFORE_REFINED_OUTPUT",
+  "observation": "Hemlock fast-FFT tail ~1.1e-15 is at transform roundoff; positive recurrence/direct convolution gives ~4.63e-21",
+  "action": "Preserve all raw FFT and Monte Carlo outputs. Use independent positive recurrence/direct convolution for final distribution and tails; compare another positive loggamma/direct convolution with relative tail tolerance1e-9",
+  "scientific_law_changed": false,
+  "sampler_changed": false,
+  "replicates_added": false,
+  "outcome_aware_numerical_correction": true,
+  "new_ecological_modeling": false
+}

@@ -1,0 +1,16 @@
+{
+  "caption": "Finite-bank Health is exactly preserved; this plot compares pointwise approximate confidence procedures, not ecological performance.",
+  "data": "figures/data/H05-1.csv",
+  "data_sha256": "03524008607ca18811ac52b9f730d1cb09b688760591e609c608ab3a0caf1861",
+  "ecological_population_inference": false,
+  "id": "H05-1",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "All archived count families",
+  "sources": {
+    "q2_correction/resolution_comparison.csv": "93112bacce76cec52cd816e2fb7bb8efb5db44660b4f4153109fa14976849462"
+  },
+  "svg_sha256": "cf1253f8d0f4e92ce94aaddc3c46b35fde82d11d15ae043b40a0f5553733a71f",
+  "title": "Single reserve constraint: numerical resolution",
+  "units": "Count of newly resolved count/query evaluations"
+}

@@ -1,0 +1,154 @@
+{
+  "benchmark": "HF-SYNTH-DISC-001",
+  "correct_and_misspecified_never_pooled": true,
+  "discrimination": "ESTABLISHED",
+  "prior_experiment": "Pressure/recovery labels are observed imposed design contexts; actual rates and state hidden",
+  "results": {
+    "correct": {
+      "balanced_accuracy": 0.9921568627450981,
+      "brier": 0.006293402777777778,
+      "calibration": [
+        {
+          "lower": 0,
+          "n": 248,
+          "predicted": 0.00031502016129032257,
+          "truth": 0.0
+        },
+        {
+          "lower": 0.2,
+          "n": 3,
+          "predicted": 0.234375,
+          "truth": 0.0
+        },
+        {
+          "lower": 0.6,
+          "n": 5,
+          "predicted": 0.68125,
+          "truth": 0.2
+        },
+        {
+          "lower": 0.8,
+          "n": 68,
+          "predicted": 1.0,
+          "truth": 1.0
+        }
+      ],
+      "clustering": "324 independent world states; suites paired on same state, not 972 independent worlds",
+      "confusion": {
+        "FN": 0,
+        "FP": 4,
+        "TN": 251,
+        "TP": 69
+      },
+      "negatives": 255,
+      "nominal90_mass_coverage": 0.9876543209876543,
+      "positives": 69,
+      "sensitivity": 1.0,
+      "specificity": 0.984313725490196,
+      "threshold_adjacent_mae": null,
+      "threshold_adjacent_n": 0,
+      "unresolved_truth_cells": 0,
+      "viable_mass_bias": 0.011253827883873456,
+      "viable_mass_mae": 0.012590949918016976,
+      "worlds": 324
+    },
+    "entry_lognormal_annual_sd_1.2": {
+      "balanced_accuracy": 0.990234375,
+      "brier": 0.007740162037037037,
+      "calibration": [
+        {
+          "lower": 0,
+          "n": 248,
+          "predicted": 0.00031502016129032257,
+          "truth": 0.0
+        },
+        {
+          "lower": 0.2,
+          "n": 3,
+          "predicted": 0.234375,
+          "truth": 0.0
+        },
+        {
+          "lower": 0.6,
+          "n": 5,
+          "predicted": 0.68125,
+          "truth": 0.0
+        },
+        {
+          "lower": 0.8,
+          "n": 68,
+          "predicted": 1.0,
+          "truth": 1.0
+        }
+      ],
+      "clustering": "324 independent world states; suites paired on same state, not 972 independent worlds",
+      "confusion": {
+        "FN": 0,
+        "FP": 5,
+        "TN": 251,
+        "TP": 68
+      },
+      "negatives": 256,
+      "nominal90_mass_coverage": 0.8827160493827161,
+      "positives": 68,
+      "sensitivity": 1.0,
+      "specificity": 0.98046875,
+      "threshold_adjacent_mae": null,
+      "threshold_adjacent_n": 0,
+      "unresolved_truth_cells": 0,
+      "viable_mass_bias": 0.012177643952546295,
+      "viable_mass_mae": 0.014314627941743827,
+      "worlds": 324
+    },
+    "hemlock_extra_hazard_0.12": {
+      "balanced_accuracy": 0.9403508771929825,
+      "brier": 0.09724633487654322,
+      "calibration": [
+        {
+          "lower": 0,
+          "n": 248,
+          "predicted": 0.00031502016129032257,
+          "truth": 0.0
+        },
+        {
+          "lower": 0.2,
+          "n": 3,
+          "predicted": 0.234375,
+          "truth": 0.0
+        },
+        {
+          "lower": 0.6,
+          "n": 5,
+          "predicted": 0.68125,
+          "truth": 0.0
+        },
+        {
+          "lower": 0.8,
+          "n": 68,
+          "predicted": 1.0,
+          "truth": 0.5735294117647058
+        }
+      ],
+      "clustering": "324 independent world states; suites paired on same state, not 972 independent worlds",
+      "confusion": {
+        "FN": 0,
+        "FP": 34,
+        "TN": 251,
+        "TP": 39
+      },
+      "negatives": 285,
+      "nominal90_mass_coverage": 0.8827160493827161,
+      "positives": 39,
+      "sensitivity": 1.0,
+      "specificity": 0.8807017543859649,
+      "threshold_adjacent_mae": null,
+      "threshold_adjacent_n": 0,
+      "unresolved_truth_cells": 0,
+      "viable_mass_bias": 0.10705491054205248,
+      "viable_mass_mae": 0.10705491054205248,
+      "worlds": 324
+    }
+  },
+  "selection": "Full frozen grid, no pruning",
+  "truth_params_in_estimator": false
+}

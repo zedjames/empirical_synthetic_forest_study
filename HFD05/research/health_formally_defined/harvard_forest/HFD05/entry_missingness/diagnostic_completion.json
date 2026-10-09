@@ -1,0 +1,17 @@
+{
+  "all_ranges_retained": true,
+  "entry_weights": [
+    0,
+    0.5,
+    1
+  ],
+  "source_sha256": "6511ae47bcdfdeebd46580300aedcb9a8d8ad86ddbb30d92c5dad7b7159c1e13",
+  "states": 16,
+  "status": "COMPLETE",
+  "unknown_hazard_shifts": [
+    -0.5,
+    0,
+    0.5
+  ],
+  "weights_are_posterior": false
+}

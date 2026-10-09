@@ -1,0 +1,65 @@
+suite,policy,subset,metric,n,lower,upper,scope
+correct,B0_full,ALL_ROSTER,sensitivity,24,0.6414692935030094,0.9332132367136704,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B0_full,ALL_ROSTER,specificity,51,0.34052990209499595,0.6047669578990353,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B0_full,ALL_ROSTER,balanced_accuracy,75,0.5502144607843138,0.7524509803921569,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+correct,B0_full,PRESENT_NEAR_0.1,sensitivity,22,0.6148339256287347,0.9269311541657794,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B0_full,PRESENT_NEAR_0.1,specificity,24,0.14914648196960875,0.49167693664496626,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B0_full,PRESENT_NEAR_0.1,balanced_accuracy,46,0.4242424242424242,0.6647727272727273,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+correct,B1_coarsened,ALL_ROSTER,sensitivity,24,0.5952954674681132,0.9075517464714813,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B1_coarsened,ALL_ROSTER,specificity,51,0.4516533720637157,0.7124560479541906,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B1_coarsened,ALL_ROSTER,balanced_accuracy,75,0.5870098039215687,0.7830882352941176,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+correct,B1_coarsened,PRESENT_NEAR_0.1,sensitivity,22,0.5656004682477829,0.898769600147515,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B1_coarsened,PRESENT_NEAR_0.1,specificity,24,0.09244825352851851,0.40470453253188643,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B1_coarsened,PRESENT_NEAR_0.1,balanced_accuracy,46,0.3728693181818182,0.6193181818181819,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+correct,B2_unknown,ALL_ROSTER,sensitivity,24,0.741511978067893,0.9768411847029564,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B2_unknown,ALL_ROSTER,specificity,51,0.4138470855036882,0.6773248145062598,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B2_unknown,ALL_ROSTER,balanced_accuracy,75,0.6421568627450981,0.8125306372549019,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+correct,B2_unknown,PRESENT_NEAR_0.1,sensitivity,22,0.7218505315839419,0.9747045710090048,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B2_unknown,PRESENT_NEAR_0.1,specificity,24,0.007393456165505796,0.20241806478655927,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B2_unknown,PRESENT_NEAR_0.1,balanced_accuracy,46,0.40667613636363636,0.5416666666666666,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+correct,B3_label_only,ALL_ROSTER,sensitivity,24,0.14914648196960875,0.49167693664496626,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B3_label_only,ALL_ROSTER,specificity,51,0.2532051946626443,0.5097478653114911,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B3_label_only,ALL_ROSTER,balanced_accuracy,75,0.22058823529411764,0.4461090686274509,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+correct,B3_label_only,PRESENT_NEAR_0.1,sensitivity,22,0.16360593181356248,0.5268140225895723,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B3_label_only,PRESENT_NEAR_0.1,specificity,24,0.46706316838131734,0.8202780967270222,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+correct,B3_label_only,PRESENT_NEAR_0.1,balanced_accuracy,46,0.35984848484848486,0.623153409090909,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+hemlock_extra_hazard_0.12,B0_full,ALL_ROSTER,sensitivity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B0_full,ALL_ROSTER,specificity,81,0.2733168425395494,0.4791626610910768,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B0_full,PRESENT_NEAR_0.1,sensitivity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B0_full,PRESENT_NEAR_0.1,specificity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B1_coarsened,ALL_ROSTER,sensitivity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B1_coarsened,ALL_ROSTER,specificity,81,0.3527333268436461,0.5647598410332293,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B1_coarsened,PRESENT_NEAR_0.1,sensitivity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B1_coarsened,PRESENT_NEAR_0.1,specificity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B2_unknown,ALL_ROSTER,sensitivity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B2_unknown,ALL_ROSTER,specificity,81,0.2733168425395494,0.4791626610910768,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B2_unknown,PRESENT_NEAR_0.1,sensitivity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B2_unknown,PRESENT_NEAR_0.1,specificity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B3_label_only,ALL_ROSTER,sensitivity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B3_label_only,ALL_ROSTER,specificity,81,0.3759964161288467,0.5886435129612428,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B3_label_only,PRESENT_NEAR_0.1,sensitivity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+hemlock_extra_hazard_0.12,B3_label_only,PRESENT_NEAR_0.1,specificity,0,,,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B0_full,ALL_ROSTER,sensitivity,18,0.5478541568378739,0.9099907189139831,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B0_full,ALL_ROSTER,specificity,59,0.3061272743518869,0.5506551719996571,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B0_full,ALL_ROSTER,balanced_accuracy,77,0.4810145951035782,0.717984934086629,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+entry_lognormal_annual_sd_1.2,B0_full,PRESENT_NEAR_0.1,sensitivity,17,0.5273820188043503,0.9044495567791988,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B0_full,PRESENT_NEAR_0.1,specificity,25,0.17205190306907994,0.5158973072689776,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B0_full,PRESENT_NEAR_0.1,balanced_accuracy,42,0.40329411764705886,0.6800294117647058,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+entry_lognormal_annual_sd_1.2,B1_coarsened,ALL_ROSTER,sensitivity,18,0.5478541568378739,0.9099907189139831,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B1_coarsened,ALL_ROSTER,specificity,59,0.4165783661010347,0.6629869414814409,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B1_coarsened,ALL_ROSTER,balanced_accuracy,77,0.5404896421845575,0.7712217514124293,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+entry_lognormal_annual_sd_1.2,B1_coarsened,PRESENT_NEAR_0.1,sensitivity,17,0.5273820188043503,0.9044495567791988,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B1_coarsened,PRESENT_NEAR_0.1,specificity,25,0.1428385385095656,0.47576605190361565,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B1_coarsened,PRESENT_NEAR_0.1,balanced_accuracy,42,0.3952647058823529,0.6600294117647059,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+entry_lognormal_annual_sd_1.2,B2_unknown,ALL_ROSTER,sensitivity,18,0.6720023486982121,0.9689804773543875,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B2_unknown,ALL_ROSTER,specificity,59,0.35265876715068556,0.5996020482998292,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B2_unknown,ALL_ROSTER,balanced_accuracy,77,0.5814500941619586,0.775011770244821,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+entry_lognormal_annual_sd_1.2,B2_unknown,PRESENT_NEAR_0.1,sensitivity,17,0.6566364940511413,0.9671202262362073,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B2_unknown,PRESENT_NEAR_0.1,specificity,25,0.007096233501987265,0.19544063736193729,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B2_unknown,PRESENT_NEAR_0.1,balanced_accuracy,42,0.3729411764705883,0.54,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+entry_lognormal_annual_sd_1.2,B3_label_only,ALL_ROSTER,sensitivity,18,0.2455951812700564,0.6628358435795721,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B3_label_only,ALL_ROSTER,specificity,59,0.3370130585185591,0.5834216338989653,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B3_label_only,ALL_ROSTER,balanced_accuracy,77,0.3314147834274953,0.5828860640301318,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes
+entry_lognormal_annual_sd_1.2,B3_label_only,PRESENT_NEAR_0.1,sensitivity,17,0.26165106442409447,0.6903676493999558,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B3_label_only,PRESENT_NEAR_0.1,specificity,25,0.48410269273102247,0.8279480969309202,"POINTWISE_DESIGN_CONDITIONAL_WILSON; finite constructed worlds, not ecological population"
+entry_lognormal_annual_sd_1.2,B3_label_only,PRESENT_NEAR_0.1,balanced_accuracy,42,0.4282352941176471,0.723529411764706,CLASS_STRATIFIED_PARAMETRIC_BOOTSTRAP; conditional on certified constructed-world outcomes

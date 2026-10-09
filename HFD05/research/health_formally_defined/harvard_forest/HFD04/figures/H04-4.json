@@ -1,0 +1,15 @@
+{
+  "caption": "All distance bands/replicates preserved; Gaussian scales are methodological, not estimated instrument distributions.",
+  "data": "figures/H04-4.csv",
+  "data_sha256": "8377f68476c693b05fd60dca40a3a988e8a9126bd264a90fd6ff0641302da121",
+  "figure": "figures/H04-4.svg",
+  "figure_sha256": "c5f26496805dc05ca9d467f26ce4e4cf78bccbacfd08c206ad850b4479769857",
+  "generator": "scripts/h04_reports.py",
+  "generator_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+  "id": "H04-4",
+  "inputs": {
+    "juvenile_boundary/measurement_error.csv": "c2531ddfedb0d2de5657e227916f4582e62beaf6a4dbc903ec4103af4bb3a834"
+  },
+  "run_id": "c19659beac083350",
+  "title": "DBH boundary sensitivity at10cm"
+}

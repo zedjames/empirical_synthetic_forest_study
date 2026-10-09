@@ -1,0 +1,13 @@
+{
+  "artifact_manifest_sha256": "aaa55f8714c91d1291e5a0ea26332245ddf50eeab625fbd7ebde8ac4f778e991",
+  "exit_code": 0,
+  "observed_runtime_seconds": 0.575039334,
+  "private_raw_or_git_used": false,
+  "public_inputs_sha256": "6f6b8ff8383548623375261f8fc25d52e94db00441b16f7ce7c4d1f9eb62de7b",
+  "scientific_sources_package_only": true,
+  "source_sha256": "94519475f9f4ef04b7233fc69a40aaa46580e96b57efb379b3607d2cb2905ac6",
+  "stage": "figures",
+  "status": "PASS",
+  "stderr": "",
+  "stdout": "{\"status\": \"PASS\", \"tier\": 3, \"stage\": \"figures\", \"private_raw_or_git_used\": false}\n{\"observed_runtime_seconds\": 0.448656958}\n"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "HF-SYNTH-BOUNDARY-PILOT-002",
+  "reason": "Pilot001 Q2 count-scaling bracket produced reserve mass one; retained failed design is not confirmatory evidence.",
+  "paths": 2048,
+  "bisection_steps": 16,
+  "Q2_diameter_bracket_cm": [7, 9.99],
+  "Q2_regeneration": 0.9,
+  "Q2_structure": 2,
+  "Q2_pressure": 2,
+  "namespaces": ["pilot_v2_Q1", "pilot_v2_Q2"],
+  "selection": "Full72-cell pilot map, no estimator performance; all final evaluation worlds retained. Q1 higher resolution uses independent pilot streams."
+}

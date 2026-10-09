@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="760" viewBox="0 0 960 760">
+<rect width="960" height="760" fill="white"/>
+<text x="60" y="45" font-family="sans-serif" font-size="24">End-to-end decision provenance</text>
+<rect x="120" y="75" width="700" height="70" rx="8" fill="#eef4f1" stroke="#267078"/>
+<text x="140" y="100" font-family="sans-serif" font-size="18">Measured state — 53611</text>
+<text x="140" y="125" font-family="sans-serif" font-size="13">Eligible E1 support, not failures</text>
+<path d="M470 147 v22 m-5 -6 l5 6 l5 -6" fill="none" stroke="#267078" stroke-width="2"/>
+<rect x="120" y="175" width="700" height="70" rx="8" fill="#eef4f1" stroke="#267078"/>
+<text x="140" y="200" font-family="sans-serif" font-size="18">Representation — 1205</text>
+<text x="140" y="225" font-family="sans-serif" font-size="13">RMS juvenile membership discrepancies</text>
+<path d="M470 247 v22 m-5 -6 l5 6 l5 -6" fill="none" stroke="#267078" stroke-width="2"/>
+<rect x="120" y="275" width="700" height="70" rx="8" fill="#eef4f1" stroke="#267078"/>
+<text x="140" y="300" font-family="sans-serif" font-size="18">Generator — 85</text>
+<text x="140" y="325" font-family="sans-serif" font-size="13">Query-specific controlled false positives; not independent extra worlds</text>
+<path d="M470 347 v22 m-5 -6 l5 6 l5 -6" fill="none" stroke="#267078" stroke-width="2"/>
+<rect x="120" y="375" width="700" height="70" rx="8" fill="#eef4f1" stroke="#267078"/>
+<text x="140" y="400" font-family="sans-serif" font-size="18">Continuation — 6</text>
+<text x="140" y="425" font-family="sans-serif" font-size="13">Target reference-uncertain cells</text>
+<path d="M470 447 v22 m-5 -6 l5 6 l5 -6" fill="none" stroke="#267078" stroke-width="2"/>
+<rect x="120" y="475" width="700" height="70" rx="8" fill="#eef4f1" stroke="#267078"/>
+<text x="140" y="500" font-family="sans-serif" font-size="18">Capacity — 3984</text>
+<text x="140" y="525" font-family="sans-serif" font-size="13">Historical interior unresolved evaluations</text>
+<path d="M470 547 v22 m-5 -6 l5 6 l5 -6" fill="none" stroke="#267078" stroke-width="2"/>
+<rect x="120" y="575" width="700" height="70" rx="8" fill="#eef4f1" stroke="#267078"/>
+<text x="140" y="600" font-family="sans-serif" font-size="18">Adequacy — 0</text>
+<text x="140" y="625" font-family="sans-serif" font-size="13">Inclusive exact predicate; no causal error assigned to arithmetic</text>
+<text x="120" y="710" font-family="sans-serif" font-size="13">Distinct denominators: counts do not sum to a causal error partition.</text></svg>

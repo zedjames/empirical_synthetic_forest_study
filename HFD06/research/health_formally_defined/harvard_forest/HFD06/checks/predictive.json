@@ -1,0 +1,22 @@
+{
+  "complete_predictive_support_checked": true,
+  "fixture": {
+    "PMF_max_error": 3.3306690738754696e-16,
+    "detects_omitted_shared_variance": true,
+    "detects_per_stem_hazard_redraw": true,
+    "individual_patterns": 128,
+    "joint_hazard_cases": 4
+  },
+  "groups": 3,
+  "independent_binomial_replicates_each": 262144,
+  "individual_bitstream_replayed_chunks": [
+    0,
+    1,
+    255,
+    511
+  ],
+  "mean_and_variance_checks": true,
+  "no_refit": true,
+  "numerical_route": "mode-recursion plus positive direct convolution and scalar fsum",
+  "status": "PASS"
+}

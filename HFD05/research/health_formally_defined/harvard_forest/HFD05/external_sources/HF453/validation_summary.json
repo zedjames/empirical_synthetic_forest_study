@@ -1,0 +1,13 @@
+{
+  "DN_primary_death": false,
+  "all_registered_windows_and_schemes": true,
+  "baseline_stems": 21578,
+  "external_outcome_fit": false,
+  "frozen_hazard_model_only": true,
+  "full_Health_validation": false,
+  "left_truncated2021": true,
+  "publicly_issued_prospective": false,
+  "raw_source_sha256": "0b5fd6072fc5a5b5a315dca4609e3023a85430e5e24a96a2cfa3307a0d431e74",
+  "record_predictions": 384128,
+  "status": "PARTIALLY_ALIGNED_AND_SCORED"
+}

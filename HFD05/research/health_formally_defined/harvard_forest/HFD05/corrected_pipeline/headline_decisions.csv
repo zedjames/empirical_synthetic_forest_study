@@ -1,0 +1,16 @@
+headline,result,status,cells,maximum_finite_health_disagreement,maximum_local_capacity_delta,scope,evidence
+primary_finite_health_and_capacity,R1,EXACTLY_PRESERVED,6480,0.0,0.0,"Executed full original grid only, not uniform robustness",corrected_pipeline/primary_surface.csv
+primary_finite_health_and_capacity,R2,EXACTLY_PRESERVED,6480,0.0,0.0,"Executed full original grid only, not uniform robustness",corrected_pipeline/primary_surface.csv
+primary_finite_health_and_capacity,R3,MODIFIED,6480,0.0634765625,0.984375,"Executed full original grid only, not uniform robustness",corrected_pipeline/primary_surface.csv
+primary_finite_health_and_capacity,R4,MODIFIED,6480,0.0634765625,0.984375,"Executed full original grid only, not uniform robustness",corrected_pipeline/primary_surface.csv
+missingness_finite_health_and_capacity,R1,EXACTLY_PRESERVED,24300,0.0,0.0,"Executed full original grid only, not uniform robustness",corrected_pipeline/missingness_surface.csv
+missingness_finite_health_and_capacity,R2,EXACTLY_PRESERVED,24300,0.0,0.0,"Executed full original grid only, not uniform robustness",corrected_pipeline/missingness_surface.csv
+missingness_finite_health_and_capacity,R3,MODIFIED,24300,0.04296875,0.93359375,"Executed full original grid only, not uniform robustness",corrected_pipeline/missingness_surface.csv
+missingness_finite_health_and_capacity,R4,MODIFIED,24300,0.04296875,0.93359375,"Executed full original grid only, not uniform robustness",corrected_pipeline/missingness_surface.csv
+Q2_MATHEMATICAL_EQUIVALENCE,General nonnegative unrenormalized viable measure; reserve subset,EXACTLY_PRESERVED,,,,Source-qualified explicit claim,mathematical_audit/q2_equivalence.md
+Q2_KERNEL_INFERENCE,Single95 reserve constraint replaces two97.5 constraints,SUPERSEDED,,,,Source-qualified explicit claim,q2_correction/resolution_comparison.csv
+GAMMA_GENERATOR_LAW,Reached shape floor changes actual moments,MODIFIED,,,,Source-qualified explicit claim,gamma_growth/branch_summary.csv
+UNKNOWN_ENTRY,6992 candidates do not identify biological mechanisms,EXACTLY_PRESERVED,,,,Source-qualified explicit claim,entry_missingness/entry_identification_matrix.csv
+CORRECTED_MAX_REFERENCE65536,"Original max remains, corrected max not executed",NOT_REEVALUATED,,,,Source-qualified explicit claim,corrected_pipeline/reference_completion.json
+FINE_INDIVIDUAL_EXPOSURE,No empirical individual origin-size profile adapter,NOT_REEVALUATED,,,,Source-qualified explicit claim,corrected_pipeline/representation_completion.json
+EXTERNAL_FULL_HEALTH,Component validation does not identify full Health,NOT_REEVALUATED,,,,Source-qualified explicit claim,external_sources/alignment_matrix.csv

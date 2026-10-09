@@ -1,0 +1,17 @@
+{
+  "caption": "Retrospective left-truncated cohort, no external refit or publicly issued forecast. DN bounds, annual windows, cluster intervals and exclusions remain available.",
+  "data": "figures/data/H05-6.csv",
+  "data_sha256": "5d4aae05ae454a0b076057fe06fca7a7502da0a845d0deca2c5bc57230c25518",
+  "ecological_population_inference": false,
+  "id": "H05-6",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "All cumulative windows, primary secure endpoints, hemlock/other",
+  "sources": {
+    "external_sources/HF453/mortality_scores.csv": "2dbcdf575fdd1c6d8a203102192933cfbc0172214b3a33101c85accdedc40bb3",
+    "external_sources/HF453/risk_denominators.csv": "db37947722bafc2d4f32208053c76a6a566a7cbd64e0f56b8302d9daf1959d9b"
+  },
+  "svg_sha256": "d698f6b81f27917cae68ee96f8858ea8463b9929cfa028528878e35248e24b8a",
+  "title": "Independent adult component: retained mortality underprediction",
+  "units": "Observed minus predicted mortality, eligible2021 survivor support"
+}

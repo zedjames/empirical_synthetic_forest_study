@@ -1,0 +1,30 @@
+{
+  "complete_for": [
+    "HFD02S_PRIMARY",
+    "HFD04_BOUNDARY_TRUTH",
+    "HFD03_SYNTHETIC_TRUTH",
+    "HFD03_MISSINGNESS_B0_B4_SHARED_FUTURE_PARAMETERS",
+    "HFD03_ORIGINAL_OBSERVATION_ESTIMATOR",
+    "HFD04_ESTIMATOR_boundary_B0_full",
+    "HFD04_ESTIMATOR_boundary_B1_coarsened",
+    "HFD04_ESTIMATOR_boundary_B2_unknown",
+    "HFD04_ESTIMATOR_boundary_B3_label_only",
+    "HFD04_ESTIMATOR_HFD03_B0_full",
+    "HFD04_ESTIMATOR_HFD03_B1_coarsened",
+    "HFD04_ESTIMATOR_HFD03_B2_unknown",
+    "HFD04_ESTIMATOR_HFD03_B3_label_only",
+    "HFD04_PRIOR_RECONCILED_ESTIMATOR",
+    "HFD04_CAP_50",
+    "HFD04_CAP_100",
+    "HFD04_CAP_200",
+    "HFD04_CAP_500",
+    "HFD04_REPRESENTATION_COARSE_AND_ENRICHED"
+  ],
+  "count_law_scope": "Cohort-year parameter laws; multiply by recorded path count only for actual simulation calls",
+  "exclusions_status": "Listed growth-parameter families complete; reconstruction/entry Gamma deliberately distinct",
+  "globals_mutated": false,
+  "not_reenumerated": [
+    "Original pilots (excluded from confirmatory outcomes)",
+    "State-reconstruction recruitment Gamma is a distinct entry parameter law, not the audited growth law"
+  ]
+}

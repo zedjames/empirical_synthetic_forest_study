@@ -1,0 +1,5 @@
+id,label,hazard_factor,growth_factor,recruitment_factor,hemlock_extra_hazard,source_evidence,provenance
+D0,reference forcing,1,1,1,0,"['HF253-E0', 'HF253-E1']",EXTERNALLY_CONSTRAINED
+D1,drought-like synthetic stress,1.6,0.65,0.65,0,"['L04', 'L13']",EXTERNALLY_CONSTRAINED
+D2,hemlock-pressure synthetic stress,1,0.85,0.9,0.08,['L06'],EXTERNALLY_CONSTRAINED
+D3,combined synthetic stress,1.8,0.5,0.5,0.08,"['L06', 'L13']",EXTERNALLY_CONSTRAINED

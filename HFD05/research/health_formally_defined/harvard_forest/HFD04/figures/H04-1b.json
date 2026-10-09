@@ -1,0 +1,15 @@
+{
+  "caption": "Q1 viable/Q2 reserve-qualified mass; reference-uncertain cases retained and flagged, not treated as exact stochastic truth.",
+  "data": "figures/H04-1b.csv",
+  "data_sha256": "090d6cf5599ed40b284cfcd680a212dea4d52b766a55a0a04165d820591d721b",
+  "figure": "figures/H04-1b.svg",
+  "figure_sha256": "255ff04267cec6ae8b090043e8c6022449103491b294e627b883c4e082e4a25a",
+  "generator": "scripts/h04_reports.py",
+  "generator_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+  "id": "H04-1b",
+  "inputs": {
+    "boundary_validation/performance.csv": "c1110e10afa49751e811e05adf6ba9249f6fc0c8a36c406523ea79529bd15268"
+  },
+  "run_id": "c19659beac083350",
+  "title": "Estimated versus finite-reference boundary capacity"
+}

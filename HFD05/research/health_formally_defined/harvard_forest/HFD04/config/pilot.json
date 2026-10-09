@@ -1,0 +1,44 @@
+{
+  "id": "HF-SYNTH-BOUNDARY-PILOT-001",
+  "execution_start": "d49041422afb8d8e92e7450b6f2087a243374745",
+  "master_seed": 2026100704,
+  "horizon": 5,
+  "alpha": 0.75,
+  "beta": 0.4,
+  "tau": 2,
+  "theta": 0.75,
+  "reserve_ratio": 0.5,
+  "contexts": [
+    0,
+    1,
+    2
+  ],
+  "targets": [
+    0.675,
+    0.715,
+    0.745,
+    0.755,
+    0.785,
+    0.825
+  ],
+  "paths": 1024,
+  "bisection_steps": 12,
+  "Q1_structure_bracket": [
+    0.55,
+    2.5
+  ],
+  "Q1_regeneration": 0.9,
+  "Q2_regeneration_bracket": [
+    0.4,
+    8
+  ],
+  "Q2_structure": 2,
+  "Q2_pressure": 2,
+  "parameter_policy": "Pilot uses context prior means and fitted growth means. Confirmatory parameters independently sampled from declared prior; deterministic moment normalization calibrated by pilot, never final-bank selection.",
+  "selection": "No confirmatory outcomes exist. All pilot evaluations retained; final whole grid retained even if target density fails.",
+  "namespaces": [
+    "pilot_Q1",
+    "pilot_Q2"
+  ],
+  "estimators_in_pilot": false
+}

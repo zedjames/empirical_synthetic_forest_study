@@ -1,0 +1,11 @@
+{
+  "id": "HFD06-TERMINAL-001",
+  "baseline": "bd736ac34d4ccd343f944577a85424ab63f15720",
+  "master_seed": 2026100806,
+  "runtime": {"python": "3.9.6", "numpy": "2.0.2"},
+  "scientific_workstreams": ["terminal_failure_attribution", "shared_hazard_mortality"],
+  "terminal": {"selection_index": 0, "state": 205, "parameter_rep": 1, "variant_index": 0, "scenario": "D0", "horizon": 1, "alpha": 0.5, "beta": 0.8, "tau": 0, "query": "Q1", "rho": 0.5, "theta": 0.0, "chunks": 16, "chunk_size": 256, "K": 4096, "expected_viable": {"POOLED": 43, "INDIVIDUAL": 3959}, "law": "Original Gamma fixed to isolate reconstruction; replay HFD05 corrected_future(100,0,chunk) unchanged"},
+  "mortality": {"target": "CUMULATIVE", "start_year": 2021, "end_year": 2024, "scheme": "STRICT", "exposure_years": 3, "replicates": 262144, "chunk_size": 512, "groups": ["HEMLOCK", "NONHEMLOCK", "ALL"], "hazard": "existing frozen fitted_parameters.json hazard posterior; independent across cells, shared within cells", "events": "explicit independent uniform per-stem Bernoulli conditional on shared cell hazard; no marginal per-stem hazard redraw", "quantiles": "discrete inverse CDF at .025,.5,.975; empirical inverted_cdf likewise", "tail": "P(D>=observed); empirical frequency with pointwise Wilson95 plus deterministic finite-mixture convolution", "checks": "scalar analytical moments; full independent recurrence/direct convolution; independent binomial-count sampler; explicit small-cell exhaustive event law; same-seed actual-individual replay", "no_outcome_refit": true},
+  "random_domains": ["hazards", "individual_events", "binomial_check", "fixture"],
+  "stop_rule": "Finish exactly the two registered checks, retain all findings, enter numerical results in Paper V, verify and prepare local artifact for disclosure/licensing approval. No new modeling, worlds or validation program. Public release not authorized."
+}

@@ -1,0 +1,17 @@
+{
+  "caption": "Original65,536 references are separately retained; corrected65,536 is not evaluated. Unresolved labels remain in the census, not silently assigned truth.",
+  "data": "figures/data/H05-9.csv",
+  "data_sha256": "dda0fa7b349af4ae7faef1763dfe6bbdaee2af505ba2f993f11b1c13b299f137",
+  "ecological_population_inference": false,
+  "id": "H05-9",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "All four prediction/reference combinations at corrected available prefixes",
+  "sources": {
+    "corrected_pipeline/reference_counts.csv": "58ee081b6e26c844e16d7c79ed204adbc012643793f95c49beb8edb835b3f8b5",
+    "corrected_pipeline/reference_crossmatrix_scores.csv": "a1dfdcab04b14e10d08ff86353fc8bc305537dd52c7e804c41eda89f0f6c0495"
+  },
+  "svg_sha256": "17a993069722f9a3561c25494a66d2719c57022cd191edf4f6b3948e6de60e7d",
+  "title": "Reference precision and decision-boundary uncertainty",
+  "units": "Fraction of near-boundary reference labels unresolved"
+}

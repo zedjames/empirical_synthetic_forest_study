@@ -1,0 +1,7 @@
+latent_class,necessary_observables,identification_obstruction,candidate_census,diagnostic_weights_are_posterior,full_biological_entry_identified
+THRESHOLD_CROSSING,Secure below1cm predecessor matched to above1cm dated successor,Missing E0 stem record cannot distinguish below-threshold from missed eligible stem,6992,False,False
+PREVIOUSLY_UNRECORDED_ELIGIBLE_STEM,Earlier exhaustive frame and linked earlier size or verified omission,A large E1 diameter does not supply missing E0 size,6992,False,False
+NEW_STEM_EXISTING_PLANT,Stable plant association plus dated stem emergence,E1 plant table absent; new stem ID not emergence date,6992,False,False
+IDENTITY_TAG_CHANGE,Resolved old/new tag and plant relation,Candidate collisions and association conflicts retained,6992,False,False
+SAMPLING_FRAME_CHANGE,Comparable frame footprints and documented coverage,No invented locations or completion of unobserved area,6992,False,False
+UNRESOLVED_ENTRY,Additional record resolving competing mechanisms,Observed later live candidate compatible with multiple latent histories,6992,False,False

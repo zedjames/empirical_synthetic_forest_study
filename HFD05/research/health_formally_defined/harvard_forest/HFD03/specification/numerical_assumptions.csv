@@ -1,0 +1,201 @@
+scope,parameter,value
+HFD02S,design.schema_version,"""HFD02S-design-v1"""
+HFD02S,design.claim,"""Harvard-Forest-anchored empirical-synthetic demonstration"""
+HFD02S,design.authorization,"""AUTHORIZED_FOR_EMPIRICAL_SYNTHETIC_DEMONSTRATION"""
+HFD02S,design.planning_baseline,"""b02d17bf35329a5b099700d8fe897a99dbf4f7e6"""
+HFD02S,design.actual_execution_start,"""671aa292f928c51548d6e80e7e605dc3d19c1dab"""
+HFD02S,design.hfd01_input_sha256,"""434cf199ffe18d542c61a53d05dbd0e0bb79115129ad973fbe35eed730fca264"""
+HFD02S,design.training_artifacts,"[""HF253-E0"", ""HF253-E1""]"
+HFD02S,design.excluded_training_sources,"[""HF-third-census-news"", ""E2"", ""AMF-US-Ha1"", ""NEON-HARV""]"
+HFD02S,design.origin,"""2020-01-03"""
+HFD02S,design.ensemble.state_draws,256
+HFD02S,design.ensemble.parameter_draws_per_state,2
+HFD02S,design.ensemble.model_variants,"[""gamma_growth"", ""normal_growth""]"
+HFD02S,design.ensemble.future_draws,64
+HFD02S,design.ensemble.mc_prefixes,"[16, 32, 64]"
+HFD02S,design.ensemble.worlds,32
+HFD02S,design.ensemble.validation_state_draws,64
+HFD02S,design.ensemble.validation_future_draws,64
+HFD02S,design.ensemble.reference_future_draws,2048
+HFD02S,design.ensemble.world_future_draws,1024
+HFD02S,design.groups.taxon_groups,"[""hemlock"", ""other_canopy"", ""shrub"", ""other""]"
+HFD02S,design.groups.size_edges_cm,"[1, 3, 10, 30, 300]"
+HFD02S,design.groups.strata,"[""west"", ""central"", ""east"", ""wet_candidate_proxy""]"
+HFD02S,design.groups.wet_proxy_rule,"""E0 living stem in central third gx with Nov–Mar observation in 2012–2014; contextual proxy, not verified wet mask"""
+HFD02S,design.fit.survival_beta_prior_strength,32
+HFD02S,design.fit.annual_survival_bounds,"[0.5, 0.9995]"
+HFD02S,design.fit.growth_cm_per_year_inclusion,"[-0.1, 1]"
+HFD02S,design.fit.same_pom_tolerance_m,0.05
+HFD02S,design.fit.growth_mean_bounds,"[0, 0.7]"
+HFD02S,design.fit.parameter_effective_sample_cap,200
+HFD02S,design.fit.recruitment_pseudo_count,1
+HFD02S,design.fit.recruitment_exposure_years,6
+HFD02S,design.fit.measurement_dbh_sd_cm,0.1
+HFD02S,design.reconstruction.mnar_log_hazard_shift_sd,0.45
+HFD02S,design.reconstruction.wet_log_hazard_shift_sd,0.7
+HFD02S,design.reconstruction.unseen_recruit_factor_log_sd,0.35
+HFD02S,design.reconstruction.unknown_association_branches,"[""E0_RECORDED_ASSOCIATION"", ""E1_RECORDED_ASSOCIATION""]"
+HFD02S,design.reconstruction.positive_count_prior_shape,16
+HFD02S,design.reconstruction.synthetic_dbh_prior_sd_cm,1
+HFD02S,design.reconstruction.synthetic_measurement_sd_cm,0.25
+HFD02S,design.reconstruction.synthetic_wet_observation_probability,0
+HFD02S,design.reconstruction.source_id,"""HFD02S-frozen-assumptions"""
+HFD02S,design.reconstruction.parameters_provenance,"""EXTERNALLY_CONSTRAINED"""
+HFD02S,design.scenarios,"[{""id"": ""D0"", ""label"": ""reference forcing"", ""hazard_factor"": 1, ""growth_factor"": 1, ""recruitment_factor"": 1, ""hemlock_extra_hazard"": 0, ""source_evidence"": [""HF253-E0"", ""HF253-E1""], ""provenance"": ""EXTERNALLY_CONSTRAINED""}, {""id"": ""D1"", ""label"": ""drought-like synthetic stress"", ""hazard_factor"": 1.6, ""growth_factor"": 0.65, ""recruitment_factor"": 0.65, ""hemlock_extra_hazard"": 0, ""source_evidence"": [""L04"", ""L13""], ""provenance"": ""EXTERNALLY_CONSTRAINED""}, {""id"": ""D2"", ""label"": ""hemlock-pressure synthetic stress"", ""hazard_factor"": 1, ""growth_factor"": 0.85, ""recruitment_factor"": 0.9, ""hemlock_extra_hazard"": 0.08, ""source_evidence"": [""L06""], ""provenance"": ""EXTERNALLY_CONSTRAINED""}, {""id"": ""D3"", ""label"": ""combined synthetic stress"", ""hazard_factor"": 1.8, ""growth_factor"": 0.5, ""recruitment_factor"": 0.5, ""hemlock_extra_hazard"": 0.08, ""source_evidence"": [""L06"", ""L13""], ""provenance"": ""EXTERNALLY_CONSTRAINED""}]"
+HFD02S,design.scenario_class,"""EMPIRICALLY_ANCHORED_SYNTHETIC_SCENARIO"""
+HFD02S,design.horizons_years,"[1, 5, 10, 20]"
+HFD02S,design.semantics.carrier,"""R1"""
+HFD02S,design.semantics.continuation,"""C1"""
+HFD02S,design.semantics.structure,"""Living basal area relative to E0 living basal area"""
+HFD02S,design.semantics.regeneration,"""Living 1–10 cm stem support relative to E0 support; declared proxy, not measured seedling reproductive competence"""
+HFD02S,design.semantics.alpha_grid,"[0.5, 0.75, 1]"
+HFD02S,design.semantics.beta_grid,"[0.1, 0.4, 0.8]"
+HFD02S,design.semantics.recovery_years_grid,"[0, 2, 5]"
+HFD02S,design.semantics.theta_grid,"[0, 0.5, 0.75, 0.9, 1]"
+HFD02S,design.semantics.reserve_ratio_grid,"[0.5, 1]"
+HFD02S,design.semantics.composition_change,"""PERMITTED_WITHIN_GENERIC_FOREST_CARRIER"""
+HFD02S,design.semantics.mortality,"""PERMITTED_IF_DECLARED_STRUCTURE_REGENERATION_CONTRACT_MET"""
+HFD02S,design.semantics.path_rule,"""Endpoint satisfies R1; longest contiguous annual excursion below R1 <= tau; no endpoint-only shortcut"""
+HFD02S,design.semantics.threshold_provenance,"""EXTERNALLY_CONSTRAINED_DEMONSTRATION_GRID_NOT_ECOLOGICALLY_ESTABLISHED"""
+HFD02S,design.queries.Q1,"""Viable unconditional mass >= theta"""
+HFD02S,design.queries.Q2,"""Q1 and unconditional viable-with-final-regenerative-reserve mass >= theta; reserve ratio relative to own starting juvenile support"""
+HFD02S,design.lawfulness.conditioning,"""NONE_PRIMARY; unconditional candidate weights retained"""
+HFD02S,design.lawfulness.identity,"""Unique cohort/ancestral-cell identities linked to immutable tagged-stem ledger; no invented individual wet trees"""
+HFD02S,design.lawfulness.bounds,"""Nonnegative finite counts/diameters, monotone cumulative deaths/recruits, N_next=N_prev-deaths+recruits, DBH 1..300 cm under explicit reflecting/capped kernel; positive time"""
+HFD02S,design.ablation.order,"[""M0"", ""M1"", ""M2"", ""M3""]"
+HFD02S,design.ablation.M0,"""observed/recoverable tagged fields only; partial identifies latent quantities via explicit missing marker"""
+HFD02S,design.ablation.M1,"""reconstructed aggregate structure/juvenile support"""
+HFD02S,design.ablation.M2,"""detailed taxon/size/stratum state and rich response identities/descriptors"""
+HFD02S,design.ablation.M3,"""M2 plus simulated redundant total-density descriptor; test equality, no forced gain"""
+HFD02S,design.ablation.selection,"""Paired world/state/parameter/future seeds; factor projections of same rich representation, not cherry-picked reruns"""
+HFD02S,design.validation.scenario_ids,"[""D0"", ""D3""]"
+HFD02S,design.validation.horizon_years,10
+HFD02S,design.validation.alpha,0.75
+HFD02S,design.validation.beta,0.4
+HFD02S,design.validation.tau,2
+HFD02S,design.validation.theta,0.75
+HFD02S,design.validation.reserve_ratio,1
+HFD02S,design.validation.interval_level,0.9
+HFD02S,design.validation.truth_definition,"""Exactly enumerated finite reference-history bank; approximation to continuous generator acknowledged"""
+HFD02S,design.validation.reference_selection,"""world_index=0 fixed before outcomes; HF-SYNTH-REF-001"""
+HFD02S,design.validation.prior_kind,"""Gamma–Poisson counts and normal DBH; empirical reconstruction anchors supplied independently of world truth"""
+HFD02S,design.validation.strict_truth_isolation,"""Estimator accepts only ObservationPacket and public anchor/model/config; no world truth/trajectory IDs or truth parameters"""
+HFD02S,design.reporting.health_probability_wording,"""Fraction of the declared reconstruction/model/semantic ensemble satisfying the declared Health predicate"""
+HFD02S,design.reporting.operational_assessment,"""NOT_AUTHORIZED"""
+HFD02S,design.reporting.retrospective_e2_validation,"""NOT_CLAIMED"""
+HFD02S,design.reporting.acceptance_or_convergence_threshold,"""NONE_NO_POSTHOC_PASS_TARGET"""
+HFD03,design.schema,"""HFD03-protocol-v1"""
+HFD03,design.planning_scientific_baseline,"""4053fa30e0b522b67c6b0e1ea668a85b942f3ae7"""
+HFD03,design.actual_execution_start,"""638d4770b307be83f0ee8e4e61e5fb4c6d094378"""
+HFD03,design.registration,"""Written before HFD03 outcome comparisons; metadata and identity inventories inspected only"""
+HFD03,design.master_seed,2026100703
+HFD03,design.calibration.replicates,3
+HFD03,design.calibration.draws,256
+HFD03,design.calibration.truth,"""Stable E0/E1 stem and tree ID, unchanged raw taxon, E0 alive; E1 dated alive/A or stem dead with D token, excluding Miss/MT; positive actual interval. DBH and coordinate eligibility separate."""
+HFD03,design.calibration.mask_covariates,"[""E0 taxon"", ""E0 size"", ""E0 stratum"", ""E1 campaign month"", ""observed missing-field pattern""]"
+HFD03,design.calibration.M0,"""p=0.15"""
+HFD03,design.calibration.M1,"""p=0.08+0.08*taxon_group+0.035*E0_size_bin"""
+HFD03,design.calibration.M2,"""p=[0.10,0.16,0.25,0.55][E0_stratum]"""
+HFD03,design.calibration.M3,"""p=clip((0.10+0.65*unresolved_fraction_in_E0_cell)*(1+0.1*(campaign_month%3-1)),0.05,0.8)"""
+HFD03,design.calibration.heldout_fields,"[""df.status"", ""status"", ""codes"", ""dbh"", ""gx"", ""gy"", ""quadrat"", ""hom"", ""pom""]"
+HFD03,design.calibration.target_alignment,"""Actual E1 date retained as known campaign covariate. Frozen reconstruct first at 2020 origin; secondary tagged-endpoint projection of same unknown-fate kernel uses actual exposure and E0-cell RMS DBH. No claim that 2018 truth is observed 2020 state."""
+HFD03,design.calibration.intervals,"[0.5, 0.8, 0.9]"
+HFD03,design.calibration.coverage_pass_gate,null
+HFD03,design.missingness.state_draws,128
+HFD03,design.missingness.future_draws,256
+HFD03,design.missingness.parameter_draws_per_state,1
+HFD03,design.missingness.model_variants,"[""gamma_growth"", ""normal_growth""]"
+HFD03,design.missingness.horizons,"[5, 10, 20]"
+HFD03,design.missingness.B0.mnar_sd,0.45
+HFD03,design.missingness.B0.wet_sd,0.7
+HFD03,design.missingness.B0.implementation,"""unchanged HFD02S reconstruct"""
+HFD03,design.missingness.B1.mnar_sd,0
+HFD03,design.missingness.B1.wet_sd,0
+HFD03,design.missingness.B1.implementation,"""MAR-like deterministic observed-cell hazard shifts"""
+HFD03,design.missingness.B1.taxon_log_shift,"[0.1, 0, -0.1, 0]"
+HFD03,design.missingness.B1.size_log_shift,"[0.1, 0, 0, -0.1]"
+HFD03,design.missingness.B1.stratum_log_shift,"[0, 0, 0, 0.2]"
+HFD03,design.missingness.B2.mnar_sd,0.15
+HFD03,design.missingness.B2.wet_sd,0.25
+HFD03,design.missingness.B3.mnar_sd,0.9
+HFD03,design.missingness.B3.wet_sd,1.1
+HFD03,design.missingness.B4.mnar_sd,0.3
+HFD03,design.missingness.B4.wet_sd,1.2
+HFD03,design.missingness.B4.wet_log_shift_mean,0.25
+HFD03,design.missingness.coupling,"""Same seed per state/future unit across mechanisms; variable-consumption RNG prevents claim of exact common-uniform coupling"""
+HFD03,design.entry_audit.small_dbh_cm,3
+HFD03,design.entry_audit.large_dbh_cm,10
+HFD03,design.entry_audit.exposure_years,6
+HFD03,design.entry_audit.reference_class_weights.CERTAIN_OR_HIGH_CONFIDENCE_THRESHOLD_ENTRY,1
+HFD03,design.entry_audit.reference_class_weights.POSSIBLE_THRESHOLD_ENTRY,0.5
+HFD03,design.entry_audit.reference_class_weights.POSSIBLE_E0_MISS,0.1
+HFD03,design.entry_audit.reference_class_weights.SAMPLING_FRAME_DIFFERENCE,0
+HFD03,design.entry_audit.reference_class_weights.IDENTITY_OR_TAGGING_AMBIGUITY,0.25
+HFD03,design.entry_audit.reference_class_weights.UNRESOLVED,0.25
+HFD03,design.entry_audit.weight_interpretation,"""Declared sensitivity memberships, not empirically calibrated class probabilities"""
+HFD03,design.entry_audit.low,"""Only secure prior-status threshold entries"""
+HFD03,design.entry_audit.high,"""All 6992 measured living candidates as exposure upper bound, not biological assertion"""
+HFD03,design.diagnostics.entry,"[""low"", ""reference"", ""high""]"
+HFD03,design.diagnostics.hemlock_extra_hazard,"[0, 0.04, 0.08, 0.16]"
+HFD03,design.diagnostics.general_hazard_factor,"[0.7, 1, 1.5]"
+HFD03,design.diagnostics.wet_count_factor,"[0.7, 1, 1.3]"
+HFD03,design.diagnostics.duration_years,"[4, 5, 6]"
+HFD03,design.diagnostics.resolution,"[""cohort_rms"", ""two_point_size""]"
+HFD03,design.diagnostics.states,8
+HFD03,design.diagnostics.futures,256
+HFD03,design.diagnostics.joint_axes,"[""entry"", ""hemlock_extra_hazard"", ""general_hazard_factor""]"
+HFD03,design.diagnostics.E2,"""Exposed approximate public aggregates only; no fitting, minimization or corrected primary result"""
+HFD03,design.diagnostics.two_point_size,"""Equal expected count at d/sqrt(1.0625)*[0.75,1.25], preserving expected initial BA; mortality cohort-size independent, juvenile threshold classification can differ"""
+HFD03,design.synthetic.id,"""HF-SYNTH-DISC-001"""
+HFD03,design.synthetic.structure,"[0.55, 0.78, 1.1]"
+HFD03,design.synthetic.regeneration,"[0.2, 0.45, 0.9]"
+HFD03,design.synthetic.pressure_annual_hazard,"[0.005, 0.03, 0.12]"
+HFD03,design.synthetic.recovery_entry_fraction,"[0.025, 0.008, 0.001]"
+HFD03,design.synthetic.replicates_per_cell,4
+HFD03,design.synthetic.selection,"""Full Cartesian grid; every world retained regardless of truth"""
+HFD03,design.synthetic.truth_paths,4096
+HFD03,design.synthetic.estimator_draws,64
+HFD03,design.synthetic.estimator_paths,256
+HFD03,design.synthetic.horizon,5
+HFD03,design.synthetic.alpha,0.75
+HFD03,design.synthetic.beta,0.4
+HFD03,design.synthetic.tau,2
+HFD03,design.synthetic.theta,0.75
+HFD03,design.synthetic.reserve_ratio,0.5
+HFD03,design.synthetic.hazard_prior_log_sd,0.15
+HFD03,design.synthetic.entry_prior_log_sd,0.2
+HFD03,design.synthetic.observation_thinning,0.7
+HFD03,design.synthetic.dbh_noise_sd_cm,0.25
+HFD03,design.synthetic.public_design_covariates,"[""declared pressure level"", ""declared recovery intervention""]"
+HFD03,design.synthetic.prior_state,"""Single public E0 anchor; not truth state or structure/regeneration level"""
+HFD03,design.synthetic.misspecifications,"[""correct"", ""hemlock_extra_hazard_0.12"", ""entry_lognormal_annual_sd_1.2""]"
+HFD03,design.synthetic.near_boundary,0.1
+HFD03,design.synthetic.discrimination_gate,"""Established only if primary has >=50 positive/negative independent worlds, sensitivity and specificity >=0.8; otherwise partial/not established. Correct/misspecified suites never pooled."""
+HFD03,design.monte_carlo.inner_states,16
+HFD03,design.monte_carlo.K,"[64, 256, 1024]"
+HFD03,design.monte_carlo.optional_extension,null
+HFD03,design.monte_carlo.outer_N,"[128, 256, 512, 1024]"
+HFD03,design.monte_carlo.outer_K,64
+HFD03,design.monte_carlo.outer_parameter_draws,2
+HFD03,design.monte_carlo.outer_model_variants,"[""gamma_growth"", ""normal_growth""]"
+HFD03,design.monte_carlo.scenarios,"[""D0"", ""D3""]"
+HFD03,design.monte_carlo.horizons,"[5, 10, 20]"
+HFD03,design.monte_carlo.alpha,0.75
+HFD03,design.monte_carlo.beta,0.4
+HFD03,design.monte_carlo.tau,2
+HFD03,design.monte_carlo.theta,"[0.5, 0.75, 0.9]"
+HFD03,design.monte_carlo.reserve_ratio,"[0.5, 1]"
+HFD03,design.monte_carlo.interval,"""Wilson score 95% pointwise Q1; Bonferroni two 97.5% Wilson components Q2; approximate binomial coverage, not simultaneous across cells"""
+HFD03,design.monte_carlo.classification,"""Present required; TRUE if all lower bounds strictly exceed theta; FALSE if absence or any upper bound strictly below theta; otherwise MC_UNRESOLVED"""
+HFD03,design.monte_carlo.adequate_target,"""At maximum K, >=90% conditional cells resolved AND max 95% half-width <=0.04; outer selected-surface state-block SE <=0.03 at N=1024. Report MIXED if any target fails."""
+HFD03,design.monte_carlo.prefixes,"""Generate fixed maximum bank first; slice paired prefixes. No preferred-Boolean stopping."""
+HFD03,design.monte_carlo.theta_endpoints,"""Full missingness theta=0/1 reported numerically unresolved when strict MC rule overlaps; deterministic absence still FALSE"""
+HFD03,design.monte_carlo.publication_policy,"""Headline intervals attach to conditional finite-design units. Aggregate Health is a resolved-fraction bracket, not Health of an averaged state."""
+HFD03,design.claims.scenario_prior,null
+HFD03,design.claims.semantic_prior,null
+HFD03,design.claims.weighting,"""finite design-mixture"""
+HFD03,design.claims.operational,"""NOT_AUTHORIZED"""
+HFD03,design.claims.E2_validation,"""NOT_CLAIMED"""
+HFD03,design.claims.lawful,"""model-admissibility realization of Lawful"""
+HFD03,design.claims.wet,"""wet-candidate/protocol-proxy"""
+HFD03,design.claims.M3,"""redundant supporting query-sufficiency illustration; no information gain"""

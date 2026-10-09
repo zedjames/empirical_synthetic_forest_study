@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="620" viewBox="0 0 920 620">
+<rect width="100%" height="100%" fill="#faf8f3"/>
+<text x="24" y="30" font-family="sans-serif" font-size="17">E2 diagnostic grid — approximate public anchors, not validation</text>
+<text x="24" y="55" font-family="sans-serif" font-size="12">x: predicted_entries [0,10946.50] — y: predicted_ancestral_hemlock_deaths [0,13768.00]</text>
+<path d="M80 90 V540 H850" fill="none" stroke="#555"/>
+<circle cx="80.000" cy="469.728" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.471" cy="469.728" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="697.033" cy="469.728" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.323" cy="356.076" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.458" cy="262.849" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.323" cy="124.179" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.424" cy="489.686" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.560" cy="438.403" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.593" cy="469.978" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.695" cy="469.525" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="573.322" cy="482.971" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="820.000" cy="456.923" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.593" cy="469.728" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="489.686" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="438.403" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="372.379" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="356.076" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="330.309" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="276.122" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="262.849" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="241.845" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="133.096" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="124.179" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="80.000" cy="110.000" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.235" cy="489.686" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.201" cy="438.403" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.032" cy="372.379" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.235" cy="356.076" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="385.931" cy="330.309" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.404" cy="276.122" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="385.897" cy="262.849" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.201" cy="241.845" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.100" cy="133.096" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.133" cy="124.179" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="386.133" cy="110.000" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.729" cy="372.379" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.458" cy="330.309" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.357" cy="276.122" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.796" cy="241.845" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.222" cy="133.096" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<circle cx="696.762" cy="110.000" r="3" fill="#b56848" opacity="0.65"><title> /  /  /  /  / </title></circle>
+<path d="M418.008 90 V540 M80 383.841 H850" stroke="#326b9c" stroke-dasharray="5,5"/>
+<text x="90" y="580" font-family="sans-serif" font-size="12">Approximate public entries/hemlock anchors; definitions not harmonized</text>
+</svg>

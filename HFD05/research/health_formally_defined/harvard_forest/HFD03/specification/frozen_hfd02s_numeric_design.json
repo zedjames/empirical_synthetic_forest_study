@@ -1,0 +1,236 @@
+{
+  "ablation": {
+    "M0": "observed/recoverable tagged fields only; partial identifies latent quantities via explicit missing marker",
+    "M1": "reconstructed aggregate structure/juvenile support",
+    "M2": "detailed taxon/size/stratum state and rich response identities/descriptors",
+    "M3": "M2 plus simulated redundant total-density descriptor; test equality, no forced gain",
+    "order": [
+      "M0",
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "selection": "Paired world/state/parameter/future seeds; factor projections of same rich representation, not cherry-picked reruns"
+  },
+  "actual_execution_start": "671aa292f928c51548d6e80e7e605dc3d19c1dab",
+  "authorization": "AUTHORIZED_FOR_EMPIRICAL_SYNTHETIC_DEMONSTRATION",
+  "claim": "Harvard-Forest-anchored empirical-synthetic demonstration",
+  "ensemble": {
+    "future_draws": 64,
+    "mc_prefixes": [
+      16,
+      32,
+      64
+    ],
+    "model_variants": [
+      "gamma_growth",
+      "normal_growth"
+    ],
+    "parameter_draws_per_state": 2,
+    "reference_future_draws": 2048,
+    "state_draws": 256,
+    "validation_future_draws": 64,
+    "validation_state_draws": 64,
+    "world_future_draws": 1024,
+    "worlds": 32
+  },
+  "excluded_training_sources": [
+    "HF-third-census-news",
+    "E2",
+    "AMF-US-Ha1",
+    "NEON-HARV"
+  ],
+  "fit": {
+    "annual_survival_bounds": [
+      0.5,
+      0.9995
+    ],
+    "growth_cm_per_year_inclusion": [
+      -0.1,
+      1
+    ],
+    "growth_mean_bounds": [
+      0,
+      0.7
+    ],
+    "measurement_dbh_sd_cm": 0.1,
+    "parameter_effective_sample_cap": 200,
+    "recruitment_exposure_years": 6,
+    "recruitment_pseudo_count": 1,
+    "same_pom_tolerance_m": 0.05,
+    "survival_beta_prior_strength": 32
+  },
+  "groups": {
+    "size_edges_cm": [
+      1,
+      3,
+      10,
+      30,
+      300
+    ],
+    "strata": [
+      "west",
+      "central",
+      "east",
+      "wet_candidate_proxy"
+    ],
+    "taxon_groups": [
+      "hemlock",
+      "other_canopy",
+      "shrub",
+      "other"
+    ],
+    "wet_proxy_rule": "E0 living stem in central third gx with Nov\u2013Mar observation in 2012\u20132014; contextual proxy, not verified wet mask"
+  },
+  "hfd01_input_sha256": "434cf199ffe18d542c61a53d05dbd0e0bb79115129ad973fbe35eed730fca264",
+  "horizons_years": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "lawfulness": {
+    "bounds": "Nonnegative finite counts/diameters, monotone cumulative deaths/recruits, N_next=N_prev-deaths+recruits, DBH 1..300 cm under explicit reflecting/capped kernel; positive time",
+    "conditioning": "NONE_PRIMARY; unconditional candidate weights retained",
+    "identity": "Unique cohort/ancestral-cell identities linked to immutable tagged-stem ledger; no invented individual wet trees"
+  },
+  "origin": "2020-01-03",
+  "planning_baseline": "b02d17bf35329a5b099700d8fe897a99dbf4f7e6",
+  "queries": {
+    "Q1": "Viable unconditional mass >= theta",
+    "Q2": "Q1 and unconditional viable-with-final-regenerative-reserve mass >= theta; reserve ratio relative to own starting juvenile support"
+  },
+  "reconstruction": {
+    "mnar_log_hazard_shift_sd": 0.45,
+    "parameters_provenance": "EXTERNALLY_CONSTRAINED",
+    "positive_count_prior_shape": 16,
+    "source_id": "HFD02S-frozen-assumptions",
+    "synthetic_dbh_prior_sd_cm": 1,
+    "synthetic_measurement_sd_cm": 0.25,
+    "synthetic_wet_observation_probability": 0,
+    "unknown_association_branches": [
+      "E0_RECORDED_ASSOCIATION",
+      "E1_RECORDED_ASSOCIATION"
+    ],
+    "unseen_recruit_factor_log_sd": 0.35,
+    "wet_log_hazard_shift_sd": 0.7
+  },
+  "reporting": {
+    "acceptance_or_convergence_threshold": "NONE_NO_POSTHOC_PASS_TARGET",
+    "health_probability_wording": "Fraction of the declared reconstruction/model/semantic ensemble satisfying the declared Health predicate",
+    "operational_assessment": "NOT_AUTHORIZED",
+    "retrospective_e2_validation": "NOT_CLAIMED"
+  },
+  "scenario_class": "EMPIRICALLY_ANCHORED_SYNTHETIC_SCENARIO",
+  "scenarios": [
+    {
+      "growth_factor": 1,
+      "hazard_factor": 1,
+      "hemlock_extra_hazard": 0,
+      "id": "D0",
+      "label": "reference forcing",
+      "provenance": "EXTERNALLY_CONSTRAINED",
+      "recruitment_factor": 1,
+      "source_evidence": [
+        "HF253-E0",
+        "HF253-E1"
+      ]
+    },
+    {
+      "growth_factor": 0.65,
+      "hazard_factor": 1.6,
+      "hemlock_extra_hazard": 0,
+      "id": "D1",
+      "label": "drought-like synthetic stress",
+      "provenance": "EXTERNALLY_CONSTRAINED",
+      "recruitment_factor": 0.65,
+      "source_evidence": [
+        "L04",
+        "L13"
+      ]
+    },
+    {
+      "growth_factor": 0.85,
+      "hazard_factor": 1,
+      "hemlock_extra_hazard": 0.08,
+      "id": "D2",
+      "label": "hemlock-pressure synthetic stress",
+      "provenance": "EXTERNALLY_CONSTRAINED",
+      "recruitment_factor": 0.9,
+      "source_evidence": [
+        "L06"
+      ]
+    },
+    {
+      "growth_factor": 0.5,
+      "hazard_factor": 1.8,
+      "hemlock_extra_hazard": 0.08,
+      "id": "D3",
+      "label": "combined synthetic stress",
+      "provenance": "EXTERNALLY_CONSTRAINED",
+      "recruitment_factor": 0.5,
+      "source_evidence": [
+        "L06",
+        "L13"
+      ]
+    }
+  ],
+  "schema_version": "HFD02S-design-v1",
+  "semantics": {
+    "alpha_grid": [
+      0.5,
+      0.75,
+      1
+    ],
+    "beta_grid": [
+      0.1,
+      0.4,
+      0.8
+    ],
+    "carrier": "R1",
+    "composition_change": "PERMITTED_WITHIN_GENERIC_FOREST_CARRIER",
+    "continuation": "C1",
+    "mortality": "PERMITTED_IF_DECLARED_STRUCTURE_REGENERATION_CONTRACT_MET",
+    "path_rule": "Endpoint satisfies R1; longest contiguous annual excursion below R1 <= tau; no endpoint-only shortcut",
+    "recovery_years_grid": [
+      0,
+      2,
+      5
+    ],
+    "regeneration": "Living 1\u201310 cm stem support relative to E0 support; declared proxy, not measured seedling reproductive competence",
+    "reserve_ratio_grid": [
+      0.5,
+      1
+    ],
+    "structure": "Living basal area relative to E0 living basal area",
+    "theta_grid": [
+      0,
+      0.5,
+      0.75,
+      0.9,
+      1
+    ],
+    "threshold_provenance": "EXTERNALLY_CONSTRAINED_DEMONSTRATION_GRID_NOT_ECOLOGICALLY_ESTABLISHED"
+  },
+  "training_artifacts": [
+    "HF253-E0",
+    "HF253-E1"
+  ],
+  "validation": {
+    "alpha": 0.75,
+    "beta": 0.4,
+    "horizon_years": 10,
+    "interval_level": 0.9,
+    "prior_kind": "Gamma\u2013Poisson counts and normal DBH; empirical reconstruction anchors supplied independently of world truth",
+    "reference_selection": "world_index=0 fixed before outcomes; HF-SYNTH-REF-001",
+    "reserve_ratio": 1,
+    "scenario_ids": [
+      "D0",
+      "D3"
+    ],
+    "strict_truth_isolation": "Estimator accepts only ObservationPacket and public anchor/model/config; no world truth/trajectory IDs or truth parameters",
+    "tau": 2,
+    "theta": 0.75,
+    "truth_definition": "Exactly enumerated finite reference-history bank; approximation to continuous generator acknowledged"
+  }
+}

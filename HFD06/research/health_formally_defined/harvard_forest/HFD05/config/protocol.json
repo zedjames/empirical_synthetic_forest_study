@@ -1,0 +1,13 @@
+{
+  "id": "HFD05-CORRECTION-001",
+  "actual_execution_start": "86a8ba31f0d0c535dbd4fa7f8865ff676a8f2fcf",
+  "predecessor_baseline": "2b217b36347dab531f3c5e3bd5f85a3e65d0fe67",
+  "master_seed": 2026100805,
+  "runtime": {"python": "3.9.6", "numpy": "2.0.2"},
+  "identities": ["HFD02S_ORIGINAL_GENERATOR", "HFD03_ORIGINAL_VALIDATION", "HFD04_ORIGINAL_BOUNDARY", "HFD05_CORRECTED_GENERATOR", "HFD05_CORRECTED_INFERENCE", "HFD05_EXTERNAL_COMPONENT_VALIDATION"],
+  "registration": "Phase-specific sources/configs frozen and committed before each new phase outcome. Historical outcomes stay historical; new external outcomes unopened until external protocol freeze.",
+  "random_namespaces": ["gamma_moment", "gamma_impact", "exposure_moment", "individual_state", "corrected_future", "oracle_state", "oracle_params", "oracle_future", "oracle_observation", "bootstrap", "external_bootstrap", "tipping_state", "tipping_future", "fixture"],
+  "q2": {"confidence": 0.95, "finite_inclusive": true, "MC_strict": true, "theta0": "algebraic adequacy; present realization required", "theta1": "all-success finite Boolean never certifies kernel probability one", "reserve_mass": "unconditional viable AND reserve-qualified mass", "historical_counts_only": true},
+  "claims": {"operational_health": "NOT_ESTABLISHED", "full_prospective_ecological_validation": "NOT_CLAIMED", "whole_plot_biological_entry": "NOT_ASSUMED", "public_publication": false},
+  "stop_rule": "Close on executed corrections, attribution, actual external support/score or record-level obstruction, verified claims and reproducibility. No favorable result is required."
+}

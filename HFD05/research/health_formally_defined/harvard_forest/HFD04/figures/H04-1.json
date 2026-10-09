@@ -1,0 +1,16 @@
+{
+  "caption": "Signed-margin strata and certified-reference error; uncertain reference truths retained/excluded explicitly from error denominator; Q1/Q2 separate in CSV.",
+  "data": "figures/H04-1.csv",
+  "data_sha256": "46ebf49235f8e2f6d8da33d192aa274277395a31aa5d84d0252042d00ed10fb0",
+  "figure": "figures/H04-1.svg",
+  "figure_sha256": "5a13cc81e2a89e2c140deec9094a1c5ade460f1c9968c3447d7aa5cc0560f1b3",
+  "generator": "scripts/h04_reports.py",
+  "generator_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+  "id": "H04-1",
+  "inputs": {
+    "boundary_validation/performance.csv": "c1110e10afa49751e811e05adf6ba9249f6fc0c8a36c406523ea79529bd15268",
+    "boundary_validation/signed_margin_scores.csv": "f6288af70dc3e7a9526b3c86eda1beb8c5ffb44da0dbc87772cf312bd6bd8a6f"
+  },
+  "run_id": "c19659beac083350",
+  "title": "Health decision error near adequacy"
+}

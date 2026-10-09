@@ -1,0 +1,10 @@
+{
+  "id": "HFD05-EXPOSURE-COUPLING-002",
+  "reason": "Initial registered reconstruction uses variable-consumption RNG and confounds paired deltas with unrelated unseen-entry variation. Retain those outcomes, add a controlled comparison before downstream causal attribution.",
+  "fixed": ["original fitted parameter draw", "original shared MNAR and proxy shifts", "original component measurement/prior-size noise", "original unseen-entry draw", "original identity-association branch and fate draws"],
+  "changed": "Only the three dated component survivor laws and per-record exposure in diameter growth; survivor Bernoulli draws use distinct preregistered individual_state namespace",
+  "original_trace": "Read-only TraceRNG around exact original reconstruct; no global mutation or external outcomes",
+  "design": {"primary_draws":256,"missingness_draws":128,"families":["B0","B1","B2","B3","B4"]},
+  "precision": "Conditional analytic Jensen gaps reported separately. Finite survivor draws remain MC variation; paired differences are not by themselves deterministic bias estimates.",
+  "output_identity": "CONTROLLED_NONFATE_RECONSTRUCTION; original variable-consumption comparison remains accessible"
+}

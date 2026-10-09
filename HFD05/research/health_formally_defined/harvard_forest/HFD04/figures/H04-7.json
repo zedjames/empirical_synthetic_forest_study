@@ -1,0 +1,15 @@
+{
+  "caption": "Versioned HFD03 count-derived status:theta0 algebraic;theta1 not probabilityone; original963976/3984 record untouched.",
+  "data": "figures/H04-7.csv",
+  "data_sha256": "2f3e8758e0cb2c09609bad70feaf7f4e70f0543a124f42d920f5597a51d94eb1",
+  "figure": "figures/H04-7.svg",
+  "figure_sha256": "103276d832e35dc6111ce135895b1730f3c7a781207ce8f1f0d0cf02fbcfd7b6",
+  "generator": "scripts/h04_reports.py",
+  "generator_sha256": "a62b17a43da5683441cbc9dc952561df2ab965bac4b5c4fad9133a7c9938b07f",
+  "id": "H04-7",
+  "inputs": {
+    "decision_rules/versioned_resolution.csv": "98ca14a73b0c6036981eadf8d21aa95e8e3cc6b74eb25222cca643e7878be117"
+  },
+  "run_id": "c19659beac083350",
+  "title": "Exact-bank versus stochastic-kernel decisions"
+}

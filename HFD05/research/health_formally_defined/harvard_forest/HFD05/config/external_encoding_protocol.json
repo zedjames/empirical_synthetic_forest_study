@@ -1,0 +1,8 @@
+{
+  "id":"HFD05-EXTERNAL-ENCODING-001",
+  "discovery":"Canonical HF453 CSV fails strict UTF-8 decoding; source contains non-UTF8 high bytes and mixed-looking note encodings. No biological score or model fit preceded this discovery.",
+  "HF453":"Lossless Latin-1 byte-to-character mapping for CSV parsing, without claiming the supplier's original text encoding. Numerical, identity, year and status fields must be ASCII. Free-text damage notes are not decoded into causal death labels or model predictors.",
+  "HF355":"ASCII source bytes; UTF-8 parsing is identical for declared ASCII fields.",
+  "raw_preservation":"Original bytes, SHA256 and metadata remain unchanged; strict roundtrip encode-decode checks; no replacement-character decoding or rewritten raw CSV",
+  "scientific_protocol":"Eligibility, outcome statuses, strata, target and scoring law unchanged from external_protocol.json; parser amendment only"
+}

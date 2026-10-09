@@ -1,0 +1,26 @@
+component,cell,n,count,PB_probability,pooled_binomial_probability,hazard,selection
+measured_alive,0,20,0,3.2194772409752986e-16,3.2480495534516497e-16,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,1,3.189524812044893e-14,3.2146960933597966e-14,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,2,1.5008446493725348e-12,1.5113004377652805e-12,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,3,4.4601419732492445e-11,4.487343742660038e-11,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,4,9.388038558547805e-10,9.437686554225872e-10,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,5,1.4877764274367177e-08,1.4945237058459586e-08,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,6,1.841900265212509e-07,1.8489709899557294e-07,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,7,1.8241483349781632e-06,1.8299843399340428e-06,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,8,1.4677537434628483e-05,1.471594035741612e-05,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,9,9.689631637709352e-05,9.709883875145665e-05,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,10,0.0005277046947512774,0.0005285596443558075,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,11,0.002375007404934524,0.0023778726780431672,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,12,0.008817970348473588,0.00882545572675577,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,13,0.02686169393982161,0.02687639750472313,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,14,0.0664809582620259,0.06650102518463977,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,15,0.13162151686427745,0.1316362834663663,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,16,0.2035740041133477,0.20356959578731734,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,17,0.23705798447495496,0.23703433798723422,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,18,0.1955241225090681,0.19550023990806253,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,19,0.10184731267766327,0.10183825986072534,0.12,First source-order records; not selected by outcome
+measured_alive,0,20,20,0.025198126655805862,0.025198126655805876,0.12,First source-order records; not selected by outcome
+unresolved_fate,0,1,0,0.677662471567062,0.677662471567062,0.12,First source-order records; not selected by outcome
+unresolved_fate,0,1,1,0.32233752843293795,0.32233752843293795,0.12,First source-order records; not selected by outcome
+alive_missing_size,2,1,0,0.1661350150134514,0.1661350150134514,0.12,First source-order records; not selected by outcome
+alive_missing_size,2,1,1,0.8338649849865486,0.8338649849865486,0.12,First source-order records; not selected by outcome

@@ -1,0 +1,18 @@
+{
+  "caption": "These maxima summarize finite-design changes, not uniform ecological robustness. Continuous local capacity changes are retained in the full tables.",
+  "data": "figures/data/H05-4.csv",
+  "data_sha256": "6723853c378ed003986ff71e1ea9a42d48a80e96c0cfcf2330831c813d2b65c9",
+  "ecological_population_inference": false,
+  "id": "H05-4",
+  "protocol_sha256": "6c5416e9daaa5ec8c5111e445facd2b9a1912bc78d6cd294a624a2e3cc6c1ae5",
+  "result_identity": "HFD05_SOURCE_QUALIFIED_CORRECTION",
+  "selection": "All semantic cells; each correction factor separately",
+  "sources": {
+    "corrected_pipeline/headline_decisions.csv": "e7d4bbc788ea92b2de6b5f97aa6439aa8d8e085efca9a189559e722e9addb013",
+    "corrected_pipeline/missingness_surface.csv": "563876595d9162ed1917cfe8e2a6aac858150ad2fc7baaba0770b0120d8b7b4b",
+    "corrected_pipeline/primary_surface.csv": "7f43fa7a25be735bc327f9cd472d66d884f67ef1ca071132232d205e7ad1d3eb"
+  },
+  "svg_sha256": "af56dff9f5af7810f431d5f4cd95b5336b2d52de0365a25307e4396c44ac7ad9",
+  "title": "Complete correction grids: finite Health changes",
+  "units": "Maximum conditional ensemble disagreement per semantic cell"
+}

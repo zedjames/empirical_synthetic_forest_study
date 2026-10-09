@@ -1,0 +1,14 @@
+{
+  "VG_identities": 1,
+  "adult_predictions": 384128,
+  "all_endpoint_and_score_rows_recomputed": true,
+  "bootstrap_separately_checked": true,
+  "cohorts": 7193,
+  "raw_adult_rows": 123232,
+  "raw_join_and_scores_independent": true,
+  "raw_seedling_rows": 35995,
+  "seedling_reversal_identities": 10,
+  "seedling_transitions": 8840,
+  "source_sha256": "caa3de13ae6f8e8839a2c481000436de9eb8ede9c7695299a9b3818bacd9ff9d",
+  "status": "PASS"
+}

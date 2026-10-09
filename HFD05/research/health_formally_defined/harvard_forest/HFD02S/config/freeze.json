@@ -1,0 +1,26 @@
+{
+  "configs": {
+    "config/design.json": "6fae1f319ed1507b8b455c3d52f3764ee9f1e409f111970327d83b4c7fea5e9e",
+    "config/future_protocol.json": "d3b14053d7a109c216f3f6e7b73253c1e914d3e4fc84c24adfb7f7f1cdb88ddc",
+    "config/requirements.txt": "5e7cb66d2a3374454132a5ff73596f40061357a52fe40d3f100840077d8cc547",
+    "provenance/provenance_schema.json": "6912ba34e1fb67daf6d5e3b07dd4fb79a85b48b0447183cff82506a95d0bdcd7",
+    "provenance/random_seed_registry.json": "1eb9107971beb14d79058df3f58e03bc95e3d7930ab653862494685879c67865",
+    "reconstruction/observed_core_schema.json": "46584389e2ff7c82b4ece9320ef461cc5d4b664212657f0a52ca3a2d36a69268"
+  },
+  "design_canonical_sha256": "5af4ee1ce4cacaf75a54f27cb18a140be582d44e374230941af0078b2e072ad4",
+  "frozen_before_primary_results": true,
+  "no_E2_inputs": true,
+  "schema": "HFD02S-pre-outcome-freeze-v1",
+  "sources": {
+    "ablation/representations.py": "c08e65322a7519828a9c1c1df5f0d3f60fdb0a495518e9efe22443be417d6f63",
+    "models/demography.py": "d22e9cd6f4627ea15dc6b86afbc6cf00a5a28543d46203aed73136bb40749ea6",
+    "scripts/contracts.py": "4360a07a8560b7fd195f0f9d9d0c28ab543532bb98b8ca5413822bb87a11ec91",
+    "scripts/controls.py": "0117b4fdaa5c81b2cacd5aca4c29475534da9a5cf2770af391cc07d79bedf138",
+    "scripts/empirical.py": "aff15984bea02225f9286af3cac6042bb366aa35fdb342605383af24766583cd",
+    "scripts/external.py": "a5c73675eeb25f46de4425a1f7309c7604d3b0724a9e4b44787c15f660c4899d",
+    "scripts/pipeline.py": "d824edfae7a6aa0c0ffa77db8f2075bcc1bd4f02fc332ce5025a96b492a8e17a",
+    "validation/estimator.py": "30e093cb111cf77fb660f83e1cc0ff0fe287edd5da7d19e49e75e48959e8db07",
+    "validation/worlds.py": "8f2cde11ec5be46dc2fdb08ad57f5b3885f60a80e3e0cc082353d22f9b2a1c1e"
+  },
+  "truth_isolation": "validation/estimator.py does not import worlds; strict ObservationPacket"
+}

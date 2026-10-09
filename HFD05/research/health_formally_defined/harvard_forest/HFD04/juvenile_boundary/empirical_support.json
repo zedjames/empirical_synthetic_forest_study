@@ -1,0 +1,9 @@
+{
+  "J0": 82077,
+  "baseline_BA": 1478.6241322653811,
+  "conditional_profile": "Estimated visible distributions, rescaled to latent second moments; no exact transition commutation claimed",
+  "eligible_pool": "146a84723a7a90c267928ef61344e051684a5b7165e8dcb242b3fcd32ca25cbc",
+  "n": 53611,
+  "never_observed_origin": true,
+  "observed_total_J": 30626
+}

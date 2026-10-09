@@ -1,0 +1,8 @@
+{
+  "id":"HFD05-BOOTSTRAP-NUMERIC-001",
+  "discovery":"MacOS NumPy2.0.2 matrix products emitted divide/overflow/invalid warnings despite bounded finite inputs. Initial seedling bootstrap bounds are finite; adult job remains running. Initial outputs retained and not accepted solely because finite.",
+  "reference":"https://github.com/numpy/numpy/issues/28687 documents related platform warnings; this does not establish harmlessness of this study's outputs",
+  "correction":"Re-evaluate exact same frozen cluster sufficient statistics and original registered multinomial seeds using unoptimized einsum contraction, independently tested against scalar math.fsum. No change in resampling law, records, hazard, model fit, target or number of replicates.",
+  "original_output_policy":"Hash and preserve initial BLAS-derived intervals. Checked interval tables get distinct file names and numerical identity; compare every endpoint with tolerance1e-12. Any larger discrepancy must remain explicit, never smoothed or hidden.",
+  "scope":"Numerical aggregation only, not new biological validation or selective reanalysis"
+}

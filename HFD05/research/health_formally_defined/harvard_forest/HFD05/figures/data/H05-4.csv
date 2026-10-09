@@ -1,0 +1,9 @@
+label,value
+primary_finite_health_and_capacity R1,0.0
+primary_finite_health_and_capacity R2,0.0
+primary_finite_health_and_capacity R3,0.0634765625
+primary_finite_health_and_capacity R4,0.0634765625
+missingness_finite_health_and_capacity R1,0.0
+missingness_finite_health_and_capacity R2,0.0
+missingness_finite_health_and_capacity R3,0.04296875
+missingness_finite_health_and_capacity R4,0.04296875

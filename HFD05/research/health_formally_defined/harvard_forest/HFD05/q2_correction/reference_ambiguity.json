@@ -1,0 +1,17 @@
+{
+  "assignments": 64,
+  "balanced_accuracy_max": 0.5961538461538461,
+  "balanced_accuracy_min": 0.5,
+  "corrected_unresolved": 6,
+  "original_unresolved": 6,
+  "scope": "All binary assignments of uncertified constructed-world truths; descriptive identification bracket",
+  "uncertain_worlds": [
+    "26",
+    "32",
+    "33",
+    "38",
+    "44",
+    "45"
+  ],
+  "uncertainty_is_reference_truth_not_estimator_sampling": true
+}

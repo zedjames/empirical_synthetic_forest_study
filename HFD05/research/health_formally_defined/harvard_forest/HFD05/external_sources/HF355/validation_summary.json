@@ -1,0 +1,13 @@
+{
+  "dated_survival_transitions": 8840,
+  "external_model_fit": false,
+  "first_observation_is_germination": false,
+  "full_Health_validation": false,
+  "graduated_identities": 1,
+  "graduation_time_identified": false,
+  "seedling_specific_hazard_model": "ABSENT",
+  "source_reversal_exclusions": 10,
+  "source_sha256": "86d67d17652022cb0e5bd26640f3e683d719d8656270c80ff2b5de63c07e1e0c",
+  "status": "DESCRIPTIVE_ONLY",
+  "whole_plot_J_bridge": "IDENTIFICATION_OBSTRUCTION"
+}

@@ -1,0 +1,15 @@
+{
+  "id":"HFD05-ORIGINAL-ORACLE-001",
+  "reference":"All 81 original boundary worlds and all three original truth suites; unchanged maximum 65536-path finite references with separately corrected pointwise query certification",
+  "generator":"Original historical growth and observation estimator; freeze attribution before corrected-generator comparison",
+  "conditions":{"E00":"EstimatedState + EstimatedParameters","E10":"OracleState + EstimatedParameters","E01":"EstimatedState + OracleParameters","E11":"OracleState + OracleParameters"},
+  "information":"E00 engine accepts strict observation packet, disclosed B0 context, public E0 anchor and fitted model only. Oracle payloads enter other explicit interfaces only. No oracle stage selection or refitting.",
+  "baseline":{"draws":32,"paths":256,"all_worlds":true,"first_chunk":"Exact old estimate_future(world,draw), E00 counts must equal archived B0 draws"},
+  "convergence":{"draws":8,"prefixes":[256,1024,4096],"chunk":256,"extension_stream":"oracle_future(world,draw,chunk), identical seed across roles but variable-consumption coupling not exact across changed states/params","maximum_fixed_before_run":true},
+  "replicate_panel":{"worlds":[0,12,24,36,48,60,72,80],"replicate_ids":[1,2,3,4,5,6],"axes":{"1,2":"Observation packet only; original inference and future streams held","3,4":"State/parameter inference seeds only; original packet and future streams held","5,6":"Future seed only; original packet and inference streams held"},"draws":8,"paths":1024,"selection":"Fixed spread of roster indices, not selected by error or oracle benefit","observation_stream":"oracle_observation(world,replicate)","estimator_streams":"oracle_state and oracle_params(world,replicate-2,draw)","future_stream":"oracle_future(world,replicate-4,draw,chunk,1)"},
+  "misalignment":"Prediction kernel stays nominal in all four conditions. Hemlock hazard supplement and annual lognormal entry dispersion remain absent even when true state/nominal parameters are supplied; E11 does not remove misspecification or finite MC.",
+  "losses":["mass absolute error","mass signed bias","sensitivity","specificity","balanced_accuracy","Brier","FP","FN","coverage90 descriptive draw interval","MC unresolved","realization classification error","adequacy classification error"],
+  "contrasts":"L00-L10; L00-L01; interaction L11-L10-L01+L00; signed paired contrasts, never forced additive causal shares",
+  "uncertainty":"Pointwise design-conditional Wilson for classifier rates; paired constructed-world bootstrap stratified by world family; fixed future prefixes and separate observation/estimator replicate panel. No ecological population interval.",
+  "selection":"All worlds, suites, queries, conditions and prefixes retained including unfavorable or unresolved cases; no adjusted truth or tuned estimator"
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+<rect width="960" height="600" fill="white"/>
+<text x="60" y="45" font-family="sans-serif" font-size="24">Effective-cap hazard uncertainty</text>
+<path d="M80 80 V500 H900" fill="none" stroke="#333"/>
+<circle cx="80.0" cy="100.0" r="5" fill="#267078" fill-opacity=".7"/>
+<circle cx="168.88888888888889" cy="153.90334572490707" r="5" fill="#267078" fill-opacity=".7"/>
+<circle cx="346.66666666666663" cy="195.16728624535318" r="5" fill="#267078" fill-opacity=".7"/>
+<circle cx="880.0" cy="227.13754646840147" r="5" fill="#267078" fill-opacity=".7"/>
+<text x="80" y="523" text-anchor="middle" font-family="sans-serif" font-size="13">50</text>
+<text x="70" y="505" text-anchor="end" font-family="sans-serif" font-size="13">0</text>
+<text x="280" y="523" text-anchor="middle" font-family="sans-serif" font-size="13">162</text>
+<text x="70" y="405" text-anchor="end" font-family="sans-serif" font-size="13">0.0114</text>
+<text x="480" y="523" text-anchor="middle" font-family="sans-serif" font-size="13">275</text>
+<text x="70" y="305" text-anchor="end" font-family="sans-serif" font-size="13">0.0228</text>
+<text x="680" y="523" text-anchor="middle" font-family="sans-serif" font-size="13">388</text>
+<text x="70" y="205" text-anchor="end" font-family="sans-serif" font-size="13">0.0343</text>
+<text x="880" y="523" text-anchor="middle" font-family="sans-serif" font-size="13">500</text>
+<text x="70" y="105" text-anchor="end" font-family="sans-serif" font-size="13">0.0457</text>
+<text x="470" y="550" text-anchor="middle" font-family="sans-serif">cap</text>
+<text x="85" y="70" font-family="sans-serif">mean_hazard_width90</text>
+<text x="60" y="580" font-family="sans-serif" font-size="12">Exact data/strata and caption: H04-6.csv / H04-6.json</text></svg>
