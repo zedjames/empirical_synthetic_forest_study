@@ -26,6 +26,7 @@ Selected results include identification limits for census-derived recruitment, p
 - [Public-source provenance and licenses](docs/DATA_SOURCES.md)
 - [Scientific evidence index](docs/EVIDENCE_MAP.md)
 - [Release status and disclosure gates](docs/RELEASE_STATUS.md)
+- [GitHub Releases + Zenodo complete-evidence procedure](docs/GITHUB_ZENODO_RELEASE.md)
 - [Manuscript / source correspondence](docs/MANUSCRIPT_MAP.md)
 
 ## Licensing
