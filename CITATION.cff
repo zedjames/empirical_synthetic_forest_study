@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "For the scientific findings cite the Paper V DOI. When a separately frozen computational artifact is available, cite its public commit or release as well."
+message: "Cite the Paper V DOI for scientific findings and cite the public computational release v1.0.0 at commit a365fbffb6138a0c798276fe7b6f4577e9132305 for reproducible code and evidence."
 title: "Prospective Health under Declared Specifications: An Auditable Empirical-Synthetic Forest Measurement Study"
 authors:
   - family-names: James
