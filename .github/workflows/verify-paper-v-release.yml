@@ -1,0 +1,26 @@
+name: Verify published Paper V evidence assets
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Published version tag to check
+        type: string
+        required: true
+        default: v1.0.0
+permissions:
+  contents: read
+jobs:
+  asset-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download immutable published assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+          REPO: ${{ github.repository }}
+        run: |
+          mkdir -p downloaded
+          gh release download "$TAG" --repo "$REPO" --dir downloaded --pattern "PaperV_*.zip" --pattern "SHA256SUMS"
+      - name: Verify archive and scientific member SHA-256
+        run: python3 scripts/verify_release_assets.py downloaded
